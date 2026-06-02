@@ -1,86 +1,576 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Template based on a syllabus by Mitch Keller -->
 
-<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Syllabus</title>
+  <chapter xml:id="syllabus">
+    <title>Syllabus</title>
 
-  <introduction>
-    <p>
-    </p>
-  </introduction>
-  <!-- Include chapters -->
-  <subsection xml:id="sec-course-info">
-    <title>Course Information</title>
+    <!-- Include frontmatter 
+    <xi:include href="./frontmatter.ptx" />
+    -->
 
-    <p>
-      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
-      It is a [n] credit course.
-      <!-- use a description list (dl) for short items -->
-      <dl>
-        <li>
-          <title>Instructor</title>
+    <!-- Include sections -->
+    <section xml:id="sec-course-details">
+      <title>Course Details</title>
 
+      <paragraphs>
+        <title>Course Meetings</title>
+
+        <p>
+          <dl>
+            <li>
+              <title>Time:</title>
+              <p>
+                M/T/W/F, 9:00am -- 9:50am
+              </p>
+            </li>
+            <li>
+              <title>Place:</title>
+              <p>
+                Clark C 363
+              </p>
+            </li>
+          </dl>       
+        </p>
+      </paragraphs>  
+
+      <paragraphs>
+        <title>Course Instructor</title>
+        <p>
+          <dl>
+            <li>
+              <title>Instructor:</title>
+              <p>
+                Dr. Jeff Shriner
+              </p>
+            </li>
+            <li>
+              <title>Email:</title>
+              <p>
+                jeffrey.shriner@colostate.edu
+              </p>
+            </li>
+            <li>
+              <title>Phone:</title>
+              <p>
+                970.491.6695
+              </p>
+            </li>
+            <li>
+              <title>Office:</title>
+              <p>
+                Weber 236
+              </p>
+            </li>
+            <li xml:id="item-office-hour">
+              <title>Office Hours:</title>
+              <p>
+                TBD, or by appointment
+              </p>
+            </li>
+          </dl>       
+        </p>
+      </paragraphs>
+
+      <paragraphs>
+          <title>Course Communication</title>
           <p>
-            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
+          E-mail is the best way to contact me for personal requests. You can expect a response within 24 hours on 
+          weekdays which either answers your question, or to set up a further meeting to discuss your request. 
+          You, in turn, are also expected to check your university email and our Canvas course regularly and respond in a 
+          timely manner.
           </p>
-        </li>
+          
+      </paragraphs>
 
-        <li>
-          <title>Student Hours</title>
-
+      <paragraphs>
+          <title>Course Prerequisites</title>
           <p>
-            TBD
+          Math 155 OR Math 159 OR Math 160
           </p>
-        </li>
+      </paragraphs>
 
-        <li>
-          <title>Class meets</title>
-
+      <paragraphs>
+          <title>Course Materials</title>
+          <dl>
+            <li>
+              <title>Textbook</title>
+              <p>
+              The content of our course will be mostly self-contained. <url href="">In-class note outlines</url> will be posted on our course page, and
+              any additional resources will be posted to Canvas or our course page.
+              </p>
+              <p>
+              Another (optional) resource you may find helpful is <em>Physical Chemistry: A Molecular Approach</em> by 
+              D.A. McQuarrie and J.D. Simon. This text contains several chapters on the mathematics used in Physical Chemistry, 
+              and is also the text that is used in Chem 371 (which is the the course Math 271 is a preparation for).
+              </p>
+            </li>
+            <li>
+              <title>Canvas</title>
+              <p>
+              We will use <url href="https://canvas.colostate.edu/">Canvas</url> to organize grades and resources and to send
+              whole class announcements. Canvas can be accessed using your Colorado State University email, and should be 
+              checked for communications at least once each week day.
+              </p>
+            </li>
+      
+          </dl>
+        
           <p>
-            course times and location.
+              We are invested in making all course materials as accessible as possible, and are committed to
+              the University's <url href="https://www.colostate.edu/accessibility-statement/">
+                  accessibility statement</url>. 
+              If you experience any barriers to access,
+              please communicate with me (email, call, or stop by in person) so that we can make improvements.
           </p>
-        </li>
+          
+      </paragraphs>
 
-        <li>
-          <title>Course Description</title>
-
+      <paragraphs>
+          <title>Course Content and Structure</title>
           <p>
-            course description from catalog
+           Our course covers a wide variety of topics in mathematics, all of which are useful in physical chemistry. Our topics 
+           can be roughly categorized into four sections.
+              <ol>
+                <li>
+                  <p>
+                    Functions. Complex-valued functions, orthogonal families of functions, multi-variable functions, 
+                    series representations of functions, integration of functions
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Multi-variable Calculus. Derivatives, multiple integration (in various coordinate systems)
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Linear Algebra. Vectors, vector spaces, bases, matrices, linear systems, linear transformations, eigenvalues and 
+                    eigenvectors
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Differential Equations. ODEs, PDEs, separation of variables, boundary conditions, series solutions
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              Given the breadth of topics we will cover, our focus will be building intuition and a workable knowledge of the 
+              structures and notation involved. Our goal is that you will have a strong enough foundation in these topics that
+              when you see mathematical notation in a physical chemistry context, you will have some perspective on what that 
+              notation means and why it is being used. We will work to accomplish this through exposure to the content in a 
+              variety of different formats, described in <xref ref="sec-assessment" text="title"/>.
+            </p>
+          
+          
+      </paragraphs>
+
+
+    </section>
+
+    <section xml:id="sec-assessment" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <title>Assignments, Assessments, and Grades</title>
+      <paragraphs>
+        <title>Homework</title>
+        <p>
+          Working exercises and asking questions is an important way to engage in our course content. Homework exercises will be assigned 
+          bi-weekly. They will not be collected for a grade, but they will be very important in preparing for <xref ref="p-quizzes" text="custom">in-class quizzes</xref>. 
+        </p>
+        <p>
+          Making mistakes and correcting them is a vital part of the learning process. The assigned homework exercises are designed
+          to be a low-stakes opportunity for this. Start early, engage with your peers, and ask questions!
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="p-quizzes">
+        <title>Quizzes</title>
+        <p>
+           We will have five in-class quizzes roughly bi-weekly, on Fridays. The quiz questions will be motivated by the 
+           assigned homework exercises, and you can bring your work with you to reference during the quiz. 
+        </p>
+        <p>
+            <em>In general, makeup quizzes will not be considered, unless you have a University excused absence. We will also consider requests from student case management.</em>
           </p>
-        </li>
+      </paragraphs>
 
-        <li>
-          <title>Prerequisite</title>
+      <paragraphs xml:id="p-labs">
+        <title>Labs</title>
+        <p>
+           While lecture will be a part of content delivery, there will also be many opportunities to actively engage with the
+           content. Our time together during most Fridays will be dedicated to active engagement on content that has recently 
+           been covered in class. This will typically involve group tasks.
+        </p>
+        <p>
+          You will receive a grade for your work on labs based on participation/completion. These are great opportunities to make 
+          mistakes and ask questions. Much of the benefit of labs comes from your active engagement with others. 
+          Therefore, in general, makeup labs will not be considered. However, we will drop your lowest three lab grades, 
+          so you can miss up to three labs for any reason without penalty in the gradebook.
+        </p>
+      </paragraphs>
 
-          <p>
-            list of prerequisites
-          </p>
-        </li>
-
-        <li>
-          <title>Textbook and course materials</title>
-
-          <p>
-            <pubtitle>textbook name</pubtitle>
-            by textbook author.
-          </p>
-        </li>
-      </dl>
-    </p>
-
-  <!-- Use paragraphs to break apart subsections -->
-    <paragraphs>
-      <title>Course Overview</title>
-
-      <p>
+      <paragraphs>
+        <title>Midterms</title>
+        <p>
+              We will have two in-class midterms during the semester. The midterms are tentatively scheduled for 
+              <ul>
+                <li>
+                  <p>
+                    Friday, October 2, and
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Friday, November 13.
+                  </p>
+                </li>
+              </ul>
       </p>
-    </paragraphs>
-  </subsection>
+      <p>
+            <em>In general, makeup midterms will be administered during the final exam (see the replacement policy below), 
+              unless you have a University excused absence. We will also consider requests from student case management.</em>
+          </p>
+      
+    
+      </paragraphs>
 
-  <!-- Other subsections for larger dividers -->
-  <subsection xml:id="sec-assessments">
-    <title>Assessments and Grades</title>
+      <paragraphs>
+        <title>Final</title>
+        <p>
+              The final exam is scheduled for Tuesday, December 15 from 7:30am -- 9:30am, in our normal classroom. 
+            </p>
+          <p>
+            The final will be cumulative, split into three sections corresponding to content covered on each of the midterms and content not covered on the midterms. 
+            We know that it can take time to learn new concepts. Therefore, if your percentage score in either of the first two sections exceeds your 
+            score on the corresponding midterm, we will replace the midterm score with your section score from the final.
+          </p>
 
-    <p>
-    </p>
-  </subsection>
-</section>
+            
+      </paragraphs>
+
+      
+      <paragraphs>
+        <title>Grades</title>
+        <p> Overall grade percentages will be calculated based on the following weighting:
+          <ul>
+              <li> Labs (<m>15\%</m>) </li>
+              <li> Quizzes (<m>40\%</m>) </li>
+              <li> Midterms (<m>20\%</m>) </li>
+              <li> Final (<m>25\%</m>) </li>
+          </ul>
+        </p>
+      
+        <p>Letter grades will be assigned according to a scale no stricter than the following:
+          <dl>
+            <li> <title>A </title> <p><m> [90,100]</m> </p></li>
+            <li> <title>B </title> <p><m> [80,90)</m> </p></li>
+            <li> <title>C </title> <p><m> [70,80)</m> </p></li>
+            <li> <title>D </title> <p><m> [60,70)</m> </p></li>
+            <li> <title>F </title> <p><m> [0,60)</m> </p></li>
+          </dl>
+        </p>
+      </paragraphs>
+
+    </section>
+
+    <section xml:id="sec-schedule">
+      <title>Tentative Schedule</title>
+      <p>
+        Below is a tentative schedule for what topics will be covered when.
+        <dl>
+          <li>
+            <title>Week 1</title>
+            <p>
+              Introduction and Expectations, Complex Numbers and Functions
+            </p>
+          </li>
+          <li>
+            <title>Week 2</title>
+            <p>
+              Inner Products, Orthogonal Sets (sine and cosine)
+            </p>
+          </li>
+          <li>
+            <title>Week 3</title>
+            <p>
+              Multi-variable functions, polar and spherical coordinates
+            </p>
+          </li>
+          <li>
+            <title>Week 4</title>
+            <p>
+             Integration
+            </p>
+          </li>
+          <li>
+            <title>Week 5</title>
+            <p>
+             Series Representations, Taylor Series
+            </p>
+          </li>
+          <li>
+            <title>Week 6</title>
+            <p>
+              Partial Derivatives, Derivative Rules
+            </p>
+          </li>
+          <li>
+            <title>Week 7</title>
+            <p>
+              Multiple Integrals
+            </p>
+          </li>
+          <li>
+            <title>Week 8</title>
+            <p>
+             Multiple Integrals
+            </p>
+          </li>
+          <li>
+            <title>Week 9</title>
+            <p>
+              Vectors, Dot and Cross Products
+            </p>
+          </li>
+          <li>
+            <title>Week 10</title>
+            <p>
+             Vector Spaces, Bases
+            </p>
+          </li>
+          <li>
+            <title>Week 11</title>
+            <p>
+              Matrices, Systems of Equations
+            </p>
+          </li>
+          <li>
+            <title>Week 12</title>
+            <p>
+              Linear Transformations
+            </p>
+          </li>
+          <li>
+            <title>Week 13</title>
+            <p>
+              Eignevalues, Eignevectors, Eigenfunctions
+            </p>
+          </li>
+          <li>
+            <title>Fall Recess</title>
+          </li>
+          <li>
+            <title>Week 14</title>
+            <p>
+              ODEs, PDEs, Separation of Variables
+            </p>
+          </li>
+          <li>
+            <title>Week 15</title>
+            <p>
+             Fourier Series
+            </p>
+          </li>
+          <li>
+            <title>Finals Week</title>
+          </li>
+
+        </dl>
+      </p>
+      
+    </section>
+
+    <section xml:id="sec-policies">
+      <title>Course and University Policies</title>
+      <paragraphs>
+        <title>Basic Needs Security</title>
+        <p>
+        Any student who faces challenges securing their food or housing can receive support from the 
+        <url href="https://lsc.colostate.edu/slice/community-engagement/rams-against-hunger/">Rams Against Hunger program</url>. 
+        Services include a food pantry, a meal-swipe program, pocket pantries, and in-person assistance with navigating 
+        federal aid eligibility. The RAH page includes numerous resources as well as county, state and federal programs which 
+        are described and linked. Furthermore, please notify the instructor if you are comfortable in doing so.
+        </p>
+        
+      </paragraphs>
+
+      <paragraphs>
+          <title>Classroom Behavior, Respect for Diversity and Inclusion</title>
+          <p>
+              Students and faculty each have responsibility for maintaining an appropriate learning environment. 
+              Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and 
+              sensitivity are especially important with respect to individuals and topics dealing with differences of race, 
+              color, culture, religion, creed, politics, veteran's status, sexual orientation, gender, gender identity and 
+              gender expression, age, disability, and nationalities. Class rosters are provided to the instructor with the 
+              student's legal name. I will gladly honor your request to address you by an alternate name or gender pronoun. 
+              Please advise me of this preference early in the semester so that I may make appropriate changes to my records. 
+              For more information, see the policies on classroom behavior and the student code at 
+              <url href="https://catalog.colostate.edu/general-catalog/policies/students-responsibilities/">the catalog</url> 
+              and at <url href="https://resolutioncenter.colostate.edu/conduct/">the SRC</url>.
+          </p>
+          <p>
+              We acknowledge that many students have had experiences that have left them feeling excluded from the field of 
+              mathematics. We also acknowledge that students from minority groups have been disproportionately impacted. 
+              We are making this explicit statement because this unfortunate reality is inconsistent with the truth that you 
+              can be successful in mathematics, regardless of your race, ethnicity, gender, or sexual orientation. We are 
+              committed to decolonizing mathematics into a field where every student feels supported in accomplishing the 
+              hard work necessary to become better problem solvers. We learn more by listening to diverse perspectives, 
+              and we hope you will be ready and willing to share yours in this course.
+          </p>
+          <p>
+              Here are several resources that highlight the past and current contributions to the mathematics community from 
+              underrepresented groups:
+          
+              <ol>
+                  <li>
+                      <url href="https://sites.google.com/view/meetamathematician/home">Meet A Mathematician</url>
+                  </li>
+                  <li>
+                      <url href="https://mathematicallygiftedandblack.com/">Mathematically Gifted and Black</url>
+                  </li>
+                  <li>
+                      <url href="https://www.lathisms.org/">Lathisms</url>
+                  </li>
+                  <li>
+                      <url href="https://indigenousmathematicians.org/">Indigenous Mathematicians</url>
+                  </li>
+                  <li>
+                      <url href="https://www.lgbtmath.org/">Spectra</url>
+                  </li>
+                  <li>
+                      <url href="https://awm-math.org/">Association for Women in Mathematics</url>
+                  </li>
+                  <li>
+                      <url href="https://www.mathad.com/home">Mathematicians of the African Diaspora</url>
+                  </li>
+              </ol>
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Accommodation for Disabilities</title>
+          <p>
+              If you are a student who will need accommodations in this class due to a disability or chronic health condition, 
+              I will need an accommodation letter from the Student Disability Center (SDC) before they are implemented. 
+              Please meet with me during my office hours to give me the letter and/or to further discuss your needs.
+          </p>
+          <p>
+              If you do not already have these letters, please contact the SDC as soon as possible to initiate the 
+              accommodation process. The SDC is located in room 121 of the TILT building. Contact them at 970-491-6385 or visit 
+              <url href="https://disabilitycenter.colostate.edu/">the SDC website</url>.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Student Parents/Guardians/Caregivers</title>
+          <p>
+              I realize that student parents/guardians and caregivers face distinctive challenges in succeeding academically, 
+              and I'm committed to supporting those of you who are parents to achieve our course's learning outcomes. If you 
+              encounter challenges in meeting course expectations, please contact me as soon as possible. We'll develop a plan 
+              together so you can be successful in the course.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Student Case Management</title>
+          <p>
+          <url href="https://studentcasemanagement.colostate.edu/">Student case management</url> is available to help students 
+          with extenuating life circumstances and connect them with resources. In some cases, after you and I discuss your 
+          situation, I may request verifiable documentation for class absences from the SCM office if you request considerations 
+          for absences or missed coursework.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Mental Health and Wellness</title>
+          <p>
+          CSU is a community that cares. You are not alone. CSU Health Network Counseling Services has trained professionals 
+          who can help. Your student fees provide access to a wide range of support services. Call Counseling Services at 
+          (970) 491-6053, and they will work together with you to find out which services are right for you. Visit 
+          <url href="https://health.colostate.edu/about-hn-mental-health-services/">counseling services</url> to learn more and 
+          <url href="https://health.colostate.edu/mental-health-resources/">mental health resources</url> for additional 
+          student mental health and well-being resources. If you are concerned about a friend or peer, use Tell Someone by c
+          alling (970) 491-1350 or visiting <url href="https://supportandsafety.colostate.edu/tell-someone/">Tell Someone</url> 
+          to share your concerns with a professional who can discreetly connect the distressed individual with the proper 
+          resources. Rams Take Care of Rams. Reach out and ask for help if you or someone you know is having a difficult time.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Religious Observances and Class Attendance</title>
+          <p>
+          CSU has a legal obligation to accommodate students' absences due to religious observances. For such an accommodation, 
+          it is the student's responsibility to complete the Religious Accommodation Request Form at the beginning of each 
+          semester and submit the request via the Office of the Vice President for Student Affairs website. The Dean of Students 
+          will communicate with the instructor regarding the student's absence and the student is instructed to discuss how 
+          best to ensure an accommodation related to class conflicts. For religious observances that cannot reasonably be 
+          anticipated at the beginning of the semester, students must follow the procedure above as soon as possible after the 
+          course conflict is identified. If a student knows that a particular course or section of the course will have multiple 
+          conflicts with his or her religious obligations, the student is advised to locate another course section or defer 
+          taking the course to a different semester. In the event of a conflict in regards to this policy, individuals may 
+          appeal using established CSU procedures. Instructors are advised to provide reasonable accommodations to ensure 
+          compliance with CSU's obligations. See more details regarding attendance policies at 
+          <url href="https://catalog.colostate.edu/general-catalog/academic-standards/academic-policies/">the catalog</url>.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Discrimination and Harassment</title>
+          <p>
+              CSU is committed to providing an environment that respects the dignity and worth of every member of its community. 
+              CSU strives to create and maintain a work and study environment that is fair, inclusive, and responsible so that 
+              each member of the CSU community is treated with dignity and respect and is rewarded for relevant considerations 
+              such as ability and performance. CSU has adopted a comprehensive policy to define the types of conduct that are 
+              prohibited and to prevent harm arising from discrimination, harassment, sexual harassment, sexual misconduct, 
+              domestic violence, dating violence, stalking, and retaliation. Conduct that is discriminatory or harmful under 
+              the policy inhibits the achievement of the stated goals. All students, faculty, staff, and other persons having 
+              business with CSU are expected to know and follow this policy.
+          </p>
+          <p>
+              Details regarding what is involved in bringing a complaint and the procedures for informal and formal resolution 
+              are available from the Office of Support and Safety Assessment for student-to-student behavior and the Office of 
+              Equal Opportunity for matters involving non-students such as faculty, staff, affiliates, or visitors and matters 
+              involving a student and non-student person. See more details at 
+              <url href="https://catalog.colostate.edu/general-catalog/policies/discrimination-harassment/">the catalog</url>.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Academic Integrity and the Honor Code</title>
+          <p>
+              We learn best together, which is why there is a large amount of collaboration built into our course structure. 
+              However, there is a difference between learning together and using someone else's work. If you are wondering if 
+              you crossed the line, ask yourself "Could I start over and redo this on my own, and would it basically look 
+              like this?" If not, then you are submitting someone else's work (plagiarism). Copying solutions or statements 
+              from the internet wihthout citing your source also constitutes plagiarism. We take academic integrity seriously,
+              so all cases of plagiarized work or cheating will receive a 0 and will be submitted to the SRC.
+          </p>
+          <p>
+              This course will adhere to the CSU Academic Integrity Policy as found in the Colorado State University General 
+              Catalog and the Student Conduct Code. At a minimum, violations will result in a grading penalty in this course 
+              and a report to the Office of Conflict Resolution and Student Conduct Services. See more details at 
+              <url href="https://catalog.colostate.edu/general-catalog/policies/students-responsibilities/#academic-integrity">the catalog</url> 
+              and <url href="https://tilt.colostate.edu/Integrity/Pledge/">TILT</url>.
+          </p>
+          
+      </paragraphs>
+      <paragraphs>
+        <title>Syllabus Disclaimer</title>
+        <p>
+            Please be aware that this syllabus is a guideline and is subject to change. The instructor reserves the 
+            right to make adjustments to the course schedule, assignments, and grading policies as deemed necessary. 
+            Students will be notified of any changes in a timely manner.
+        </p>
+        
+      </paragraphs>
+      
+    </section>
+  </chapter>
