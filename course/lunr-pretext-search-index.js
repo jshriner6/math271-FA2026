@@ -37,58 +37,85 @@ var ptx_lunr_docs = [
   "body": " Course and University Policies   Basic Needs Security  Any student who faces challenges securing their food or housing can receive support from the Rams Against Hunger program . Services include a food pantry, a meal-swipe program, pocket pantries, and in-person assistance with navigating federal aid eligibility. The RAH page includes numerous resources as well as county, state and federal programs which are described and linked. Furthermore, please notify the instructor if you are comfortable in doing so.    Classroom Behavior, Respect for Diversity and Inclusion  Students and faculty each have responsibility for maintaining an appropriate learning environment. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with differences of race, color, culture, religion, creed, politics, veteran's status, sexual orientation, gender, gender identity and gender expression, age, disability, and nationalities. Class rosters are provided to the instructor with the student's legal name. I will gladly honor your request to address you by an alternate name or gender pronoun. Please advise me of this preference early in the semester so that I may make appropriate changes to my records. For more information, see the policies on classroom behavior and the student code at the catalog and at the SRC .  We acknowledge that many students have had experiences that have left them feeling excluded from the field of mathematics. We also acknowledge that students from minority groups have been disproportionately impacted. We are making this explicit statement because this unfortunate reality is inconsistent with the truth that you can be successful in mathematics, regardless of your race, ethnicity, gender, or sexual orientation. We are committed to decolonizing mathematics into a field where every student feels supported in accomplishing the hard work necessary to become better problem solvers. We learn more by listening to diverse perspectives, and we hope you will be ready and willing to share yours in this course.  Here are several resources that highlight the past and current contributions to the mathematics community from underrepresented groups:   Meet A Mathematician    Mathematically Gifted and Black    Lathisms    Indigenous Mathematicians    Spectra    Association for Women in Mathematics    Mathematicians of the African Diaspora       Accommodation for Disabilities  If you are a student who will need accommodations in this class due to a disability or chronic health condition, I will need an accommodation letter from the Student Disability Center (SDC) before they are implemented. Please meet with me during my office hours to give me the letter and\/or to further discuss your needs.  If you do not already have these letters, please contact the SDC as soon as possible to initiate the accommodation process. The SDC is located in room 121 of the TILT building. Contact them at 970-491-6385 or visit the SDC website .    Student Parents\/Guardians\/Caregivers  I realize that student parents\/guardians and caregivers face distinctive challenges in succeeding academically, and I'm committed to supporting those of you who are parents to achieve our course's learning outcomes. If you encounter challenges in meeting course expectations, please contact me as soon as possible. We'll develop a plan together so you can be successful in the course.    Student Case Management   Student case management is available to help students with extenuating life circumstances and connect them with resources. In some cases, after you and I discuss your situation, I may request verifiable documentation for class absences from the SCM office if you request considerations for absences or missed coursework.    Mental Health and Wellness  CSU is a community that cares. You are not alone. CSU Health Network Counseling Services has trained professionals who can help. Your student fees provide access to a wide range of support services. Call Counseling Services at (970) 491-6053, and they will work together with you to find out which services are right for you. Visit counseling services to learn more and mental health resources for additional student mental health and well-being resources. If you are concerned about a friend or peer, use Tell Someone by c alling (970) 491-1350 or visiting Tell Someone to share your concerns with a professional who can discreetly connect the distressed individual with the proper resources. Rams Take Care of Rams. Reach out and ask for help if you or someone you know is having a difficult time.    Religious Observances and Class Attendance  CSU has a legal obligation to accommodate students' absences due to religious observances. For such an accommodation, it is the student's responsibility to complete the Religious Accommodation Request Form at the beginning of each semester and submit the request via the Office of the Vice President for Student Affairs website. The Dean of Students will communicate with the instructor regarding the student's absence and the student is instructed to discuss how best to ensure an accommodation related to class conflicts. For religious observances that cannot reasonably be anticipated at the beginning of the semester, students must follow the procedure above as soon as possible after the course conflict is identified. If a student knows that a particular course or section of the course will have multiple conflicts with his or her religious obligations, the student is advised to locate another course section or defer taking the course to a different semester. In the event of a conflict in regards to this policy, individuals may appeal using established CSU procedures. Instructors are advised to provide reasonable accommodations to ensure compliance with CSU's obligations. See more details regarding attendance policies at the catalog .    Discrimination and Harassment  CSU is committed to providing an environment that respects the dignity and worth of every member of its community. CSU strives to create and maintain a work and study environment that is fair, inclusive, and responsible so that each member of the CSU community is treated with dignity and respect and is rewarded for relevant considerations such as ability and performance. CSU has adopted a comprehensive policy to define the types of conduct that are prohibited and to prevent harm arising from discrimination, harassment, sexual harassment, sexual misconduct, domestic violence, dating violence, stalking, and retaliation. Conduct that is discriminatory or harmful under the policy inhibits the achievement of the stated goals. All students, faculty, staff, and other persons having business with CSU are expected to know and follow this policy.  Details regarding what is involved in bringing a complaint and the procedures for informal and formal resolution are available from the Office of Support and Safety Assessment for student-to-student behavior and the Office of Equal Opportunity for matters involving non-students such as faculty, staff, affiliates, or visitors and matters involving a student and non-student person. See more details at the catalog .    Academic Integrity and the Honor Code  We learn best together, which is why there is a large amount of collaboration built into our course structure. However, there is a difference between learning together and using someone else's work. If you are wondering if you crossed the line, ask yourself \"Could I start over and redo this on my own, and would it basically look like this?\" If not, then you are submitting someone else's work (plagiarism). Copying solutions or statements from the internet wihthout citing your source also constitutes plagiarism. We take academic integrity seriously, so all cases of plagiarized work or cheating will receive a 0 and will be submitted to the SRC.  This course will adhere to the CSU Academic Integrity Policy as found in the Colorado State University General Catalog and the Student Conduct Code. At a minimum, violations will result in a grading penalty in this course and a report to the Office of Conflict Resolution and Student Conduct Services. See more details at the catalog and TILT .    Syllabus Disclaimer  Please be aware that this syllabus is a guideline and is subject to change. The instructor reserves the right to make adjustments to the course schedule, assignments, and grading policies as deemed necessary. Students will be notified of any changes in a timely manner.   "
 },
 {
-  "id": "notes-week-01",
+  "id": "intro",
   "level": "1",
-  "url": "notes-week-01.html",
-  "type": "Section",
-  "number": "",
-  "title": "Week 1",
-  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/22      Wednesday 8\/24      Friday 8\/26     "
-},
-{
-  "id": "notes-week-02",
-  "level": "1",
-  "url": "notes-week-02.html",
-  "type": "Section",
-  "number": "",
-  "title": "Week 2",
-  "body": " Week 2   Monday      Wednesday      Friday     "
-},
-{
-  "id": "activity-01-intro-activity",
-  "level": "1",
-  "url": "activity-01-intro-activity.html",
+  "url": "intro.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Introduction Activity",
-  "body": " Introduction Activity    This is the introduction to the activity.      This is the first exercise.    "
+  "title": "Introduction",
+  "body": " Introduction    Why?   Mathematical structures can seem abstract, but they are often motivated by our desire to describe     How?  Let's note the subtleties to be considered, all of which contribute to the difficulty of PDE's:      Pre-Req Group Activity (Calculus)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.          Trigonometric Functions    Derivative Functions    Partial Derivative Functions    Integrals    Series Representations      Pre-Req Group Activity (ODEs)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.          First-order ODE    Separable ODE    Linear first and second-order ODEs    Integrating Factor    Characteristic polynomial    Homogeneous ODE      "
 },
 {
-  "id": "activity-01-intro-activity-3",
+  "id": "xr-why",
   "level": "2",
-  "url": "activity-01-intro-activity.html#activity-01-intro-activity-3",
+  "url": "intro.html#xr-why",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Why?",
+  "body": " Why?   Mathematical structures can seem abstract, but they are often motivated by our desire to describe   "
+},
+{
+  "id": "xr-how",
+  "level": "2",
+  "url": "intro.html#xr-how",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "How?",
+  "body": " How?  Let's note the subtleties to be considered, all of which contribute to the difficulty of PDE's:  "
+},
+{
+  "id": "xr-set-stage",
+  "level": "2",
+  "url": "intro.html#xr-set-stage",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Pre-Req Group Activity (Calculus).",
+  "body": " Pre-Req Group Activity (Calculus)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.      "
+},
+{
+  "id": "intro-3-3",
+  "level": "2",
+  "url": "intro.html#intro-3-3",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Pre-Req Group Activity (ODEs).",
+  "body": " Pre-Req Group Activity (ODEs)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.      "
+},
+{
+  "id": "lab1",
+  "level": "1",
+  "url": "lab1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 1",
+  "body": " Lab 1    This is the introduction to the activity.      This is the first exercise.    "
+},
+{
+  "id": "lab1-3",
+  "level": "2",
+  "url": "lab1.html#lab1-3",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  This is the first exercise.   "
 },
 {
-  "id": "handouts",
+  "id": "homework-3",
   "level": "1",
-  "url": "handouts.html",
-  "type": "Chapter",
+  "url": "homework-3.html",
+  "type": "Worksheet",
   "number": "",
-  "title": "Handouts",
-  "body": " Handouts    "
+  "title": "Homework 1",
+  "body": " Homework 1    Instructions: Complete all the exercises below and submit your work by the due date.      This is the first homework exercise.     "
 },
 {
-  "id": "homework",
-  "level": "1",
-  "url": "homework.html",
-  "type": "Chapter",
-  "number": "",
-  "title": "Homework",
-  "body": " Homework    "
+  "id": "homework-3-3-1",
+  "level": "2",
+  "url": "homework-3.html#homework-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  This is the first homework exercise.   "
 }
 ]
 
