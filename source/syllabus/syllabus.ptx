@@ -95,7 +95,7 @@
             <li>
               <title>Textbook</title>
               <p>
-              The content of our course will be mostly self-contained. <url href="">In-class note outlines</url> will be posted on our course page, and
+              The content of our course will be mostly self-contained. <xref ref="course-notes" text="custom">In-class note outlines</xref> will be posted on our course page, and
               any additional resources will be posted to Canvas or our course page.
               </p>
               <p>

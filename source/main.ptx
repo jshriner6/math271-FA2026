@@ -21,44 +21,48 @@
 
       <introduction>
         <p>
-          The following notes are intended to remind you what we covered each week.
-          They are not a substitute for attending class and not a substitute for reading the textbook.
+          The following are guided notes used during class meetings.  
+        You are encouraged to print or download them to a device to be used during class.
         </p>
       </introduction>
 
-      <xi:include href="./notes/week01.ptx"/>
-      <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./notes/intro.ptx"/>
       <!-- etc. -->
 
     </chapter>
 
 
-    <chapter xml:id="activities">
-      <title>In-Class Activities</title>
-
+    <chapter xml:id="labs">
+      <title>Labs</title>
+<!--
       <introduction>
         <p>
           These are copies of the in-class activities distributed during the semester.
         </p>
       </introduction>
+-->
 
       <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/01-intro-activity.ptx"/>
+      <xi:include href="./labs/lab1.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
-    <chapter xml:id="handouts">
-      <title>Handouts</title>
-      <!-- Include handouts -->
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
-    </chapter>
 
     <chapter xml:id="homework">
       <title>Homework</title>
-
+      <introduction>
+        <p>
+          Working exercises and asking questions is an important way to engage in our course content. Homework exercises will be assigned 
+          bi-weekly. They will not be collected for a grade, but they will be very important in preparing for <xref ref="p-quizzes" text="custom">in-class quizzes</xref>. 
+        </p>
+        <p>
+          Making mistakes and correcting them is a vital part of the learning process. The assigned homework exercises are designed
+          to be a low-stakes opportunity for this. Start early, engage with your peers, and ask questions!
+        </p>
+      </introduction>
       <!-- Include homework files -->
-      <!--<xi:include href="./homework/homework01.ptx"/>-->
+      <xi:include href="./homework/homework-01.ptx"/>
 
     </chapter>
 
