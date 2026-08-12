@@ -1,1 +1,1 @@
-{"source/main.ptx": ["frontmatter", "course-notes", "labs", "homework"], "source/syllabus/syllabus.ptx": ["syllabus", "sec-course-details", "sec-assessment", "sec-schedule", "sec-policies"], "source/notes/intro.ptx": ["intro"], "source/labs/lab1.ptx": ["lab1"]}
+{"source/frontmatter.ptx": ["frontmatter"], "source/syllabus/syllabus.ptx": ["syllabus", "sec-course-details", "sec-assessment", "sec-schedule", "sec-policies"], "source/main.ptx": ["course-notes", "labs", "homework"], "source/notes/intro.ptx": ["intro"], "source/labs/lab1.ptx": ["lab1"]}
