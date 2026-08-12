@@ -64,7 +64,7 @@
             <li xml:id="item-office-hour">
               <title>Office Hours:</title>
               <p>
-                TBD, or by appointment
+                M/W 10-10.50am, or by appointment
               </p>
             </li>
           </dl>       
@@ -91,11 +91,12 @@
 
       <paragraphs>
           <title>Course Materials</title>
+          <p>
           <dl>
             <li>
               <title>Textbook</title>
               <p>
-              The content of our course will be mostly self-contained. <xref ref="course-notes" text="custom">In-class note outlines</xref> will be posted on our course page, and
+              The content of our course will be self-contained. <xref ref="course-notes" text="custom">In-class note outlines</xref> will be posted on our course page, and
               any additional resources will be posted to Canvas or our course page.
               </p>
               <p>
@@ -115,7 +116,7 @@
       
           </dl>
         
-          <p>
+          
               We are invested in making all course materials as accessible as possible, and are committed to
               the University's <url href="https://www.colostate.edu/accessibility-statement/">
                   accessibility statement</url>. 
@@ -359,6 +360,9 @@
           </li>
           <li>
             <title>Fall Recess</title>
+            <p>
+              
+            </p>
           </li>
           <li>
             <title>Week 14</title>
@@ -374,6 +378,9 @@
           </li>
           <li>
             <title>Finals Week</title>
+            <p>
+              
+            </p>
           </li>
 
         </dl>
