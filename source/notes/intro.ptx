@@ -1,135 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
     <worksheet margin="1in" bottom="1.25cm" xml:id="intro">
-    <title>Introduction</title>
+    <title>Setting the Stage</title>
         <page>
         
-            <exercise workspace="1in" xml:id="xr-why">
-            <title>Why?</title>
+            <exercise workspace="10in" xml:id="xr-why">
+            <title>Why Math 271?</title>
                 <statement>
                     <p>
-                            Mathematical structures can seem abstract, but they are often motivated by our desire to describe
+                        Preparation for Physical Chemistry, which involves describing <em>quantum particles</em>. 
+                        The need for strong preparation in mathematics is apparent by reading the postulates of quantum mechanics 
+                        (from <em>Physical Chemistry: A Molecular Approach</em>, Ch. 4):
+                        <dl>
+                            <li>
+                                <title>Postulate 1</title>
+                                <p>
+                                    The state of a quantum-mechanical system is completely specified by a function <m>\psi(x)</m> 
+                                    that depends upon the coordinate of the particle. All possible information about the system
+                                    can be derived from <m>\psi(x)</m>. This function, called the wave function or the state function,
+                                    has the important property that <m>\overline{\psi(x)}\psi(x)dx</m> is the probability that the particle
+                                    lies in the interval <m>dx</m>, located at the position <m>x</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <title>Postulate 2</title>
+                                <p>
+                                    To every observable in classical mechanics there corresponds a linear, Hermitian operator in quantum 
+                                    mechanics.
+                                </p>
+                            </li>
+                            <li>
+                                <title>Postulate 3</title>
+                                <p>
+                                    In any measurement of the observable associated with the operator <m>\hat{A}</m>, the only values 
+                                    that will every be observed are the eigenvalues <m>a_n</m>, which satisfy the eigenvalue equation
+                                    <md>
+                                        \hat{A}\psi_n = a_n\psi_n
+                                    </md>.
+                                    
+                                </p>
+                            </li>
+                            <li>
+                                <title>Postulate 4</title>
+                                <p>
+                                    If a system is in a state described by a normalized wave function <m>\psi</m>, then the average value
+                                    of the observable corresponding to <m>\hat{A}</m> is given by
+                                    <md>
+                                        \langle a \rangle = \int_{\mathrm{all space}} \overline{\psi}\hat{A}\psi dx
+                                    </md>.
+                                    
+                                </p>
+                            </li>
+                            <li>
+                                <title>Postulate 5</title>
+                                <p>
+                                    The wave function, or state function, of a system evolves in time according to the time-dependent 
+                                    Schrödinger equation
+                                    <md>
+                                        \hat{H}\psi(x,t)= i \overline{h}\frac{\partial \psi}{\partial t}
+                                    </md>.
+                                    There's lots of foundational mathematics baked into this equation:
+                                </p>
+                            </li>
+                        </dl>
                     </p>
                 </statement>
             </exercise>
-
+</page>
+<page>
             <exercise workspace="2in" xml:id="xr-how">
             <title>How?</title>
                 <p>
-                    Let's note the subtleties to be considered, all of which contribute to the difficulty of PDE's: 
+                   We'll explore these important topics (and more!) in four main units:
                 </p>
             </exercise>
-        </page>
-        <page>
+
 
             <exercise workspace="0.25in" xml:id="xr-set-stage">
-            <title>Pre-Req Group Activity (Calculus)</title>
+            <title>Canvas/Syllabus Walk-Through</title>
                 <statement>
                     <p>
-                        For each vocabulary word below, discuss
-                        <ol>
-                            <li>
-                                <p>
-                                    an informal definition of each word, and
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    what you remember about its importance in previous classes.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
                 </statement>
-                </exercise>
-                <p>
-                    <ol marker="1.">
-                        <li>
-                            <p>
-                                Trigonometric Functions
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Derivative Functions
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Partial Derivative Functions
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Integrals
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Series Representations
-                            </p>
-                        </li>
-                        
-                    </ol>
-                </p>
-            
+            </exercise>
+               
 
-            <exercise workspace="0.25in">
-            <title>Pre-Req Group Activity (ODEs)</title>
-                <statement>
-                    <p>
-                        For each vocabulary word below, discuss
-                        <ol>
-                            <li>
-                                <p>
-                                    an informal definition of each word, and
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    what you remember about its importance in previous classes.
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-                </exercise>
-                <p>
-                    <ol marker="1.">
-                        <li>
-                            <p>
-                                First-order ODE
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Separable ODE
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Linear first and second-order ODEs
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Integrating Factor
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Characteristic polynomial
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Homogeneous ODE
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            
-        
             
         </page>
 
