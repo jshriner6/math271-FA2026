@@ -27,6 +27,9 @@
       </introduction>
 
       <xi:include href="./notes/intro.ptx"/>
+      <!-- <xi:include href="./notes/intro_complete.ptx"/> -->
+
+      
       <!-- etc. -->
 
     </chapter>
