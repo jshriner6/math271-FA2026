@@ -42,8 +42,8 @@ var ptx_lunr_docs = [
   "url": "intro.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Introduction",
-  "body": " Introduction    Why?   Mathematical structures can seem abstract, but they are often motivated by our desire to describe     How?  Let's note the subtleties to be considered, all of which contribute to the difficulty of PDE's:      Pre-Req Group Activity (Calculus)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.          Trigonometric Functions    Derivative Functions    Partial Derivative Functions    Integrals    Series Representations      Pre-Req Group Activity (ODEs)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.          First-order ODE    Separable ODE    Linear first and second-order ODEs    Integrating Factor    Characteristic polynomial    Homogeneous ODE      "
+  "title": "Setting the Stage",
+  "body": " Setting the Stage    Why Math 271?   Preparation for Physical Chemistry, which involves describing quantum particles . The need for strong preparation in mathematics is apparent by reading the postulates of quantum mechanics (from Physical Chemistry: A Molecular Approach , Ch. 4):   Postulate 1  The state of a quantum-mechanical system is completely specified by a function that depends upon the coordinate of the particle. All possible information about the system can be derived from . This function, called the wave function or the state function, has the important property that is the probability that the particle lies in the interval , located at the position .    Postulate 2  To every observable in classical mechanics there corresponds a linear, Hermitian operator in quantum mechanics.    Postulate 3  In any measurement of the observable associated with the operator , the only values that will every be observed are the eigenvalues , which satisfy the eigenvalue equation .    Postulate 4  If a system is in a state described by a normalized wave function , then the average value of the observable corresponding to is given by .    Postulate 5  The wave function, or state function, of a system evolves in time according to the time-dependent Schrödinger equation . There's lots of foundational mathematics baked into this equation:          How?  We'll explore these important topics (and more!) in four main units:    Canvas\/Syllabus Walk-Through        "
 },
 {
   "id": "xr-why",
@@ -51,8 +51,8 @@ var ptx_lunr_docs = [
   "url": "intro.html#xr-why",
   "type": "Worksheet Exercise",
   "number": "1",
-  "title": "Why?",
-  "body": " Why?   Mathematical structures can seem abstract, but they are often motivated by our desire to describe   "
+  "title": "Why Math 271?",
+  "body": " Why Math 271?   Preparation for Physical Chemistry, which involves describing quantum particles . The need for strong preparation in mathematics is apparent by reading the postulates of quantum mechanics (from Physical Chemistry: A Molecular Approach , Ch. 4):   Postulate 1  The state of a quantum-mechanical system is completely specified by a function that depends upon the coordinate of the particle. All possible information about the system can be derived from . This function, called the wave function or the state function, has the important property that is the probability that the particle lies in the interval , located at the position .    Postulate 2  To every observable in classical mechanics there corresponds a linear, Hermitian operator in quantum mechanics.    Postulate 3  In any measurement of the observable associated with the operator , the only values that will every be observed are the eigenvalues , which satisfy the eigenvalue equation .    Postulate 4  If a system is in a state described by a normalized wave function , then the average value of the observable corresponding to is given by .    Postulate 5  The wave function, or state function, of a system evolves in time according to the time-dependent Schrödinger equation . There's lots of foundational mathematics baked into this equation:      "
 },
 {
   "id": "xr-how",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "How?",
-  "body": " How?  Let's note the subtleties to be considered, all of which contribute to the difficulty of PDE's:  "
+  "body": " How?  We'll explore these important topics (and more!) in four main units:  "
 },
 {
   "id": "xr-set-stage",
@@ -69,17 +69,8 @@ var ptx_lunr_docs = [
   "url": "intro.html#xr-set-stage",
   "type": "Worksheet Exercise",
   "number": "3",
-  "title": "Pre-Req Group Activity (Calculus).",
-  "body": " Pre-Req Group Activity (Calculus)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.      "
-},
-{
-  "id": "intro-3-3",
-  "level": "2",
-  "url": "intro.html#intro-3-3",
-  "type": "Worksheet Exercise",
-  "number": "4",
-  "title": "Pre-Req Group Activity (ODEs).",
-  "body": " Pre-Req Group Activity (ODEs)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.      "
+  "title": "Canvas\/Syllabus Walk-Through.",
+  "body": " Canvas\/Syllabus Walk-Through      "
 },
 {
   "id": "lab1",
