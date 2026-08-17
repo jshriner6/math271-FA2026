@@ -271,6 +271,10 @@
             <li> <title>F </title> <p><m> [0,60)</m> </p></li>
           </dl>
         </p>
+        <p>
+          Please refer to our <xref ref="academic-integrity" text="custom">Academic Integrity Policy</xref> regarding important expectations for how assignments are 
+          completed.
+        </p>
       </paragraphs>
 
     </section>
@@ -550,15 +554,23 @@
           
       </paragraphs>
 
-      <paragraphs>
+      <paragraphs xml:id="academic-integrity">
           <title>Academic Integrity and the Honor Code</title>
           <p>
               We learn best together, which is why there is a large amount of collaboration built into our course structure. 
-              However, there is a difference between learning together and using someone else's work. If you are wondering if 
-              you crossed the line, ask yourself "Could I start over and redo this on my own, and would it basically look 
-              like this?" If not, then you are submitting someone else's work (plagiarism). Copying solutions or statements 
-              from the internet wihthout citing your source also constitutes plagiarism. We take academic integrity seriously,
+              Artificial intelligence tools can also be extremely useful in learning something new, when used appropriately. 
+              However, there is a difference between learning together (or with AI help) and using work that is not your own. 
+              If you are wondering if you crossed the line, ask yourself "Could I start over and redo this on my own, and would it basically look 
+              like this?" If not, then you are submitting work that is not your own (plagiarism). Copying solutions or statements 
+              from the internet without citing your source constitutes plagiarism. We take academic integrity seriously,
               so all cases of plagiarized work or cheating will receive a 0 and will be submitted to the SRC.
+          </p>
+          <p>
+            This should give you some practical ideas of what it looks like to work with peers and use AI well (e.g., copying/pasting 
+            a homework statement then copying/pasting the response, versus crafting thoughtful prompts to understand a broad concept, and
+            then checking your understanding by completing a problem without any aid at all). We understand that this is a complex 
+            issue, and decisions can often feel grey. Please communicate with me any time you feel unsure about appropriate ways to use 
+            your peers and technology for learning course content.
           </p>
           <p>
               This course will adhere to the CSU Academic Integrity Policy as found in the Colorado State University General 
