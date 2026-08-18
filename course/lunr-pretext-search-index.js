@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Lab 1",
-  "body": " Lab 1    This is the introduction to the activity.      This is the first exercise.    "
+  "body": " Lab 1    This lab is intended to practice the basics of computing with complex numbers and Euler's formula. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.      Let and . Compute each of the following.                                                and        Let .     What is ?      Plot in the complex plane.       Find ( ) if      and .       and .       Write in the form .    "
 },
 {
   "id": "lab1-3",
@@ -187,7 +187,34 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  This is the first exercise.   "
+  "body": "  Let and . Compute each of the following.                                                and     "
+},
+{
+  "id": "lab1-4",
+  "level": "2",
+  "url": "lab1.html#lab1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let .     What is ?      Plot in the complex plane.    "
+},
+{
+  "id": "lab1-5",
+  "level": "2",
+  "url": "lab1.html#lab1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find ( ) if      and .       and .    "
+},
+{
+  "id": "lab1-6",
+  "level": "2",
+  "url": "lab1.html#lab1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Write in the form .   "
 },
 {
   "id": "homework-3",
@@ -195,17 +222,53 @@ var ptx_lunr_docs = [
   "url": "homework-3.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Homework 1",
-  "body": " Homework 1    Instructions: Complete all the exercises below and submit your work by the due date.      This is the first homework exercise.     "
+  "title": "Homework 1 (Week 1)",
+  "body": " Homework 1 (Week 1)     Give and example of a complex number in the form such that and . Be sure you can visualize your answer in the complex plane to justify why it meets the requirements.      Write in the form . Sketch this number in the complex plane, identifying the coordinates and .      Write each below in the form , with . Sketch each number in the complex plane.                    Find all such that .      Use Euler's formula to show that and .     "
 },
 {
-  "id": "homework-3-3-1",
+  "id": "homework-3-2-1",
   "level": "2",
-  "url": "homework-3.html#homework-3-3-1",
+  "url": "homework-3.html#homework-3-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  This is the first homework exercise.   "
+  "body": "  Give and example of a complex number in the form such that and . Be sure you can visualize your answer in the complex plane to justify why it meets the requirements.   "
+},
+{
+  "id": "homework-3-2-2",
+  "level": "2",
+  "url": "homework-3.html#homework-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Write in the form . Sketch this number in the complex plane, identifying the coordinates and .   "
+},
+{
+  "id": "homework-3-2-3",
+  "level": "2",
+  "url": "homework-3.html#homework-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Write each below in the form , with . Sketch each number in the complex plane.                 "
+},
+{
+  "id": "homework-3-2-4",
+  "level": "2",
+  "url": "homework-3.html#homework-3-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find all such that .   "
+},
+{
+  "id": "homework-3-2-5",
+  "level": "2",
+  "url": "homework-3.html#homework-3-2-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Use Euler's formula to show that and .   "
 }
 ]
 
