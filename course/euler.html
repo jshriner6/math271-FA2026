@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Lab 1</title>
+<title>Euler’s Formula</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -119,7 +119,7 @@ eBookConfig.enable_chatcodes =  false;
 <legend>Assistive technologies</legend>
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
-<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="labs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="labs.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="complex-nums.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="course-notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="labs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -142,18 +142,18 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-policies.html" class="internal"><span class="title">Course and University Policies</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="course-notes.html" class="internal"><span class="title">Course Notes</span></a></div>
-<ul id="ptx-toc-group-course-notes" class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-course-notes">
 <li class="toc-item toc-introduction"><div class="toc-title-box"><a href="course-notes-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="intro.html" class="internal"><span class="title">Setting the Stage</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="complex-nums.html" class="internal"><span class="title">Complex Numbers</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="euler.html" class="internal"><span class="title">Euler’s Formula</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="euler.html" class="internal"><span class="title">Euler’s Formula</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter contains-active">
+<li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="labs.html" class="internal"><span class="title">Labs</span></a></div>
-<ul class="structural toc-item-list contains-active" id="ptx-toc-group-labs"><li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="lab1.html" class="internal"><span class="title">Lab 1</span></a></div></li></ul>
+<ul id="ptx-toc-group-labs" class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lab1.html" class="internal"><span class="title">Lab 1</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="homework.html" class="internal"><span class="title">Homework</span></a></div>
@@ -188,23 +188,71 @@ eBookConfig.enable_chatcodes =  false;
 <button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
 </div>
 </div>
-<section class="worksheet" id="lab1" data-margins="0.75in 0.75in 0.75in 0.75in">
+<section class="worksheet" id="euler" data-margins="1in 1in 1.25cm 1in">
 <h1 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Lab 1</span><div class="print-links"><a href="?printpreview=lab1" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Euler’s Formula</span><div class="print-links"><a href="?printpreview=euler" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h1>
-<section class="introduction" id="lab1-2">
-<div class="para" id="lab1-2-1">This is the introduction to the activity.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lab1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section>
-<article class="exercise exercise-like" id="lab1-3"><h2 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
-<div class="para" id="lab1-3-1-1">This is the first exercise.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lab1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="onepage" id="euler-2">
+<article class="exercise exercise-like" id="euler-2-1"><h2 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation.</span>
+</h2>
+<div class="para" id="euler-2-1-2-1"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#euler-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1: Motivation"><a tabindex="-1" href="#euler-2-1" title="Copy heading and permalink for Worksheet Exercise 1: Motivation" aria-label="Copy heading and permalink for Worksheet Exercise 1: Motivation">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="euler-2-2"><h2 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Polar Coordinate Representation.</span>
+</h2>
+<div class="para logical" id="euler-2-2-2-1">
+<div class="para">In standard coordinates, we identify a complex number <span class="process-math">\(z\)</span> uniquely by its real and imaginary parts.</div>
+<div class="displaymath process-math" id="euler-2-2-2-1-2">
+\begin{equation*}
+z= a + bi , \,\,\,\, z = (a,b)
+\end{equation*}
+</div>
+<div class="para">This is not the only way to identify a complex number.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#euler-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="4in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2: Polar Coordinate Representation"><a tabindex="-1" href="#euler-2-2" title="Copy heading and permalink for Worksheet Exercise 2: Polar Coordinate Representation" aria-label="Copy heading and permalink for Worksheet Exercise 2: Polar Coordinate Representation">🔗</a></div>
+</article></section><section class="onepage" id="euler-3">
+<article class="exercise exercise-like" id="euler-3-1"><h2 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example: Polar Coordinate Representation.</span>
+</h2>
+<div class="introduction" id="euler-3-1-2">
+<div class="para" id="euler-3-1-2-1"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#euler-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div>
+<article class="task exercise-like" id="euler-3-1-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="euler-3-1-3-1-1">Let <span class="process-math">\(z=1-i\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#euler-3-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="2in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#lab1-3" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Lab 1"><a tabindex="-1" href="#lab1" title="Copy heading and permalink for Worksheet: Lab 1" aria-label="Copy heading and permalink for Worksheet: Lab 1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#euler-3-1-3" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="euler-3-1-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="euler-3-1-4-1-1">Let <span class="process-math">\(z= - 1+i\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#euler-3-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#euler-3-1-4" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3: Example: Polar Coordinate Representation"><a tabindex="-1" href="#euler-3-1" title="Copy heading and permalink for Worksheet Exercise 3: Example: Polar Coordinate Representation" aria-label="Copy heading and permalink for Worksheet Exercise 3: Example: Polar Coordinate Representation">🔗</a></div>
+</article></section><section class="onepage" id="euler-4">
+<article class="exercise exercise-like" id="euler-4-1"><h2 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Euler’s Formula.</span>
+</h2>
+<div class="para logical" id="euler-4-1-2-1">
+<div class="para">Recall</div>
+<div class="displaymath process-math" id="euler-4-1-2-1-1">
+\begin{equation*}
+a + bi = r \cos(\theta) + ir\sin(\theta) = r(\cos(\theta) + i \sin(\theta) )\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#euler-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 4: Euler’s Formula"><a tabindex="-1" href="#euler-4-1" title="Copy heading and permalink for Worksheet Exercise 4: Euler’s Formula" aria-label="Copy heading and permalink for Worksheet Exercise 4: Euler’s Formula">🔗</a></div>
+</article></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Euler’s Formula"><a tabindex="-1" href="#euler" title="Copy heading and permalink for Worksheet: Euler’s Formula" aria-label="Copy heading and permalink for Worksheet: Euler’s Formula">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="labs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="complex-nums.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="labs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

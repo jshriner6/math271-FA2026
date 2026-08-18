@@ -73,6 +73,105 @@ var ptx_lunr_docs = [
   "body": " Canvas\/Syllabus Walk-Through      "
 },
 {
+  "id": "complex-nums",
+  "level": "1",
+  "url": "complex-nums.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Complex Numbers",
+  "body": " Complex Numbers    Motivation        Standard Representation   A complex number has the form        Complex Arithmetic   Let and .                                   Complex Conjugate   If , then the complex conjugate of is     Modulus   If , then the modulus of is     "
+},
+{
+  "id": "complex-nums-2-1",
+  "level": "2",
+  "url": "complex-nums.html#complex-nums-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "complex-nums-2-2",
+  "level": "2",
+  "url": "complex-nums.html#complex-nums-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Standard Representation.",
+  "body": " Standard Representation   A complex number has the form    "
+},
+{
+  "id": "complex-nums-3-1",
+  "level": "2",
+  "url": "complex-nums.html#complex-nums-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Complex Arithmetic.",
+  "body": " Complex Arithmetic   Let and .                               "
+},
+{
+  "id": "complex-nums-4-1",
+  "level": "2",
+  "url": "complex-nums.html#complex-nums-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Complex Conjugate.",
+  "body": " Complex Conjugate   If , then the complex conjugate of is   "
+},
+{
+  "id": "complex-nums-4-2",
+  "level": "2",
+  "url": "complex-nums.html#complex-nums-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Modulus.",
+  "body": " Modulus   If , then the modulus of is   "
+},
+{
+  "id": "euler",
+  "level": "1",
+  "url": "euler.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Euler’s Formula",
+  "body": " Euler's Formula    Motivation        Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.       Example: Polar Coordinate Representation        Let .      Let .        Euler's Formula   Recall .     "
+},
+{
+  "id": "euler-2-1",
+  "level": "2",
+  "url": "euler.html#euler-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "euler-2-2",
+  "level": "2",
+  "url": "euler.html#euler-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Polar Coordinate Representation.",
+  "body": " Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.   "
+},
+{
+  "id": "euler-3-1",
+  "level": "2",
+  "url": "euler.html#euler-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Polar Coordinate Representation.",
+  "body": " Example: Polar Coordinate Representation        Let .      Let .    "
+},
+{
+  "id": "euler-4-1",
+  "level": "2",
+  "url": "euler.html#euler-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Euler’s Formula.",
+  "body": " Euler's Formula   Recall .   "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
