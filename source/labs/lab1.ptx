@@ -7,17 +7,138 @@
   <!-- Optional introduction -->
   <introduction>
     <p>
-      This is the introduction to the activity.
+      This lab is intended to practice the basics of computing with complex numbers and Euler's formula. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
     </p>
   </introduction>
 
   <!-- Exercises start here. -->
+  <exercise >
+    <introduction>
+      <p>
+        Let <m>z= 2-3i</m> and <m>w= 3+ 2i</m>. Compute each of the following.
+      </p>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\overline{z}+\overline{w}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\overline{z+w}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\overline{z} \cdot \overline{w}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\overline{z \cdot w}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\overline{\left(\frac{z}{w}\right)}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>\frac{\overline{z}}{\overline{w}}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>|z|</m> and <m>|w|</m>
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Let <m>z = e^{2+\pi i}</m>.
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+          What is <m>|z|</m>?
+        </p>
+      </statement>
+    </task>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Plot <m>z</m> in the complex plane.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        Find <m>\theta</m> (<m>-\pi \lt \theta \leq \pi</m>) if 
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+          <m>\sin(\theta) = \frac{\sqrt{3}}{2}</m> and <m>\cos(\theta) = -0.5</m>.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          <m>\sin(\theta) = -\frac{\sqrt{3}}{2}</m> and <m>\cos(\theta) = -0.5</m>.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
   <exercise workspace="2in">
     <statement>
       <p>
-        This is the first exercise.
+        Write 
+        <md>
+          z = \frac{3e^{-2\pi i}}{2e^{\pi/2 i}}
+        </md>
+        in the form <m>a + bi</m>.
+        
       </p>
     </statement>
+    
   </exercise>
-
 </worksheet>
