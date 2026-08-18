@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="complex-nums-complete">
+    <title>Complex Numbers (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Solutions to Schrödinger's equation (and other differential equations) are wave equations, best described
+                        using complex-valued functions. Therefore, it is important to understand basic computations and properties
+                        of complex numbers.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="4in" >
+            <title>Standard Representation</title>
+                <statement>
+                    <p>
+                        A <term>complex number has the form</term>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>z= a + bi</m>, where <m>a,b</m> are real numbers, and <m>i</m> is the imaginary unit satisfying
+                        <m>i^2 = -1</m>. We call <m>a</m> the <term>real part</term> and <m>b</m> the <term>imaginary part</term>
+                        of the complex number, and write <m>\text{Re}(z) = a</m> and <m>\text{Im}(z) = b</m>. 
+                    </p>
+                    <p>
+                        We can visualize complex numbers in this form in two dimensions, using a horizontal axis to plot the 
+                        real part and a vertical axis to plot the imaginary part. Complex numbers are an extension of the real
+                        numbers because complex numbers contain the real numbers (real numbers are complex numbers whose imaginary 
+                        part is zero).
+                    </p>
+                </solution>
+            </exercise>
+        </page>
+
+        <page>
+            <exercise>
+            <title>Complex Arithmetic</title>
+                <introduction>
+                    <p>
+                        Let <m>z= 2-i</m> and <m>w=3+i</m>.
+                    </p>
+                </introduction>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m>z+w</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>
+                                \begin{align*}
+                                    (2-i) + (3+i) \amp= (2+3) + (-1 + 1)i \\
+                                                    \amp= 5 + 0i \\
+                                                    \amp= 5
+                                \end{align*}
+                            </m>
+                            
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m>z-w</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>
+                                \begin{align*}
+                                    (2-i) - (3+i) \amp= (2-3) + (-1 - 1)i \\
+                                                    \amp= -1 -2i
+                                \end{align*}
+                            </m>
+                            
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m>z \cdot w</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>
+                                \begin{align*}
+                                    (2-i) \cdot (3+i) \amp= 6 - 3i + 2i - i^2 \\
+                                                    \amp= 6 -i + 1 \\
+                                                    \amp=  7 -i
+                                \end{align*}
+                            </m>
+                            
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m> \displaystyle \frac{z}{w}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>
+                                \begin{align*}
+                                    \frac{2-i}{3+i} \amp= \frac{2-i}{3+i} \cdot \frac{3-i}{3-i}\\
+                                                    \amp= \frac{5-5i}{10} \\
+                                                    \amp= 0.5 - 0.5i
+                                \end{align*}
+                            </m>
+                            
+                        </p>
+                    </solution>
+                </task>
+            </exercise>
+            
+        </page>
+
+        <page>
+            <exercise workspace="4in">
+            <title>Complex Conjugate</title>
+            <statement>
+                <p>
+                    If <m>z=a+bi</m>, then the <term>complex conjugate</term> of <m>z</m> is
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>\overline{z} = a -bi</m>. It is important to note that 
+                    <ol>
+                        <li>
+                            <p>
+                                <m>\text{Im}(z \cdot \overline{z}) = 0</m>, and 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>p</m> is a polynomial and <m>p(z)=0</m>, then it must also be that
+                                <m>p(\overline{z})=0</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+                
+            </exercise>
+
+            <exercise workspace="4in">
+            <title>Modulus</title>
+            <statement>
+                <p>
+                    If <m>z=a+bi</m>, then the <term>modulus</term> of <m>z</m> is
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>|z| = \sqrt{a^2 + b^2}</m>. This is the extended concept of absolute value for real numbers, and is
+                    derived geometrically by computing the distance from the origin to the point <m>z</m> in the complex plane.
+                </p>
+                <p>
+                    We noted previously that the product of a complex number with its complex conjugate is real; in fact, 
+                    <m>z \cdot \overline{z} = |z|^2</m>.
+                </p>
+            </solution>
+                
+            </exercise>
+
+
+        </page>
+
+    </worksheet>

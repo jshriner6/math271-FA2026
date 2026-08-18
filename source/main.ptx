@@ -27,9 +27,15 @@
       </introduction>
 
       <xi:include href="./notes/intro.ptx"/>
-      <!-- <xi:include href="./notes/intro_complete.ptx"/> -->
+      <!-- <xi:include href="./notes/intro-complete.ptx"/> -->
 
-      
+      <xi:include href="./notes/complex-nums.ptx"/>
+      <!--<xi:include href="./notes/complex-nums-complete.ptx"/> -->
+
+
+      <xi:include href="./notes/euler.ptx"/>
+      <!-- <xi:include href="./notes/euler-complete.ptx"/> -->
+
       <!-- etc. -->
 
     </chapter>

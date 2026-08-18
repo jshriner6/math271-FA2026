@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="complex-nums">
+    <title>Complex Numbers</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="4in" >
+            <title>Standard Representation</title>
+                <statement>
+                    <p>
+                        A <term>complex number has the form</term>
+                    </p>
+                </statement>
+            </exercise>
+        </page>
+
+        <page>
+            <exercise>
+            <title>Complex Arithmetic</title>
+                <introduction>
+                    <p>
+                        Let <m>z= 2-i</m> and <m>w=3+i</m>.
+                    </p>
+                </introduction>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m>z+w</m>
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m>z-w</m>
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m>z \cdot w</m>
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            <m> \displaystyle \frac{z}{w}</m>
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+            
+        </page>
+
+        <page>
+            <exercise workspace="4in">
+            <title>Complex Conjugate</title>
+            <statement>
+                <p>
+                    If <m>z=a+bi</m>, then the <term>complex conjugate</term> of <m>z</m> is
+                </p>
+            </statement>
+            
+                
+            </exercise>
+
+            <exercise workspace="4in">
+            <title>Modulus</title>
+            <statement>
+                <p>
+                    If <m>z=a+bi</m>, then the <term>modulus</term> of <m>z</m> is
+                </p>
+            </statement>
+            
+                
+            </exercise>
+
+
+        </page>
+
+    </worksheet>

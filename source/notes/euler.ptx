@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="euler">
+    <title>Euler's Formula</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="4in" >
+            <title>Polar Coordinate Representation</title>
+                <statement>
+                    <p>
+                        In standard coordinates, we identify a complex number <m>z</m> uniquely by its real and imaginary parts.
+                        <md>
+                            z= a + bi , \,\,\,\, z = (a,b)
+                        </md>
+                        
+                        This is not the only way to identify a complex number.
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Example: Polar Coordinate Representation</title>
+                <introduction>
+                    <p>
+                        
+                    </p>
+                </introduction>
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            Let <m>z=1-i</m>.
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            Let <m>z= - 1+i</m>.
+                        </p>
+                    </statement>
+                </task>
+                
+                
+            </exercise>
+        </page>
+
+        <page>
+            <exercise>
+            <title>Euler's Formula</title>
+                <statement>
+                    <p>
+                        Recall
+                        <md>
+                            a + bi = r \cos(\theta) + ir\sin(\theta) = r(\cos(\theta) + i \sin(\theta) )
+                        </md>.
+                        
+                    </p>
+                </statement>
+
+                
+            </exercise>
+            
+        </page>
+
+    </worksheet>
