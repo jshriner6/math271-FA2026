@@ -287,37 +287,37 @@
           <li>
             <title>Week 1</title>
             <p>
-              Introduction and Expectations, Complex Numbers and Functions
+              Introduction and Expectations, Complex Numbers and Euler's Formula
             </p>
           </li>
           <li>
             <title>Week 2</title>
             <p>
-              Inner Products, Orthogonal Sets (sine and cosine)
+              Sine and Cosine, Hyperbolic Sine and Cosine, Inner Products and Orthogonal Sets of Functions
             </p>
           </li>
           <li>
             <title>Week 3</title>
             <p>
-              Multi-variable functions, polar and spherical coordinates
+              Multi-variable Functions, Polar and Spherical Coordinates
             </p>
           </li>
           <li>
             <title>Week 4</title>
             <p>
-             Integration
+             Improper Integrals, Average/Expectation, Approximating Integrals
             </p>
           </li>
           <li>
             <title>Week 5</title>
             <p>
-             Series Representations, Taylor Series
+             Series Representations, Taylor Series, Applications
             </p>
           </li>
           <li>
             <title>Week 6</title>
             <p>
-              Partial Derivatives, Derivative Rules
+              Partial Derivatives, Directional Derivatives, Total Derivatives, Chain Rule, Review (Midterm 1)
             </p>
           </li>
           <li>
@@ -329,7 +329,7 @@
           <li>
             <title>Week 8</title>
             <p>
-             Multiple Integrals
+             The Jacobian, Integration in Alternate Coordinates
             </p>
           </li>
           <li>
@@ -341,19 +341,19 @@
           <li>
             <title>Week 10</title>
             <p>
-             Vector Spaces, Bases
+             Vector Spaces, Hilbert Spaces, Bases
             </p>
           </li>
           <li>
             <title>Week 11</title>
             <p>
-              Matrices, Systems of Equations
+              Matrices, Linear Systems of Equations, Reduced Row Echelon Form
             </p>
           </li>
           <li>
             <title>Week 12</title>
             <p>
-              Linear Transformations
+              Linear Transformations, Review (Midterm 2)
             </p>
           </li>
           <li>
@@ -371,7 +371,7 @@
           <li>
             <title>Week 14</title>
             <p>
-              ODEs, PDEs, Separation of Variables
+              ODEs, PDEs, Basic Solution Methods
             </p>
           </li>
           <li>
