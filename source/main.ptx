@@ -26,8 +26,8 @@
         </p>
       </introduction>
 
-      <xi:include href="./notes/intro.ptx"/>
-      <!-- <xi:include href="./notes/intro-complete.ptx"/> -->
+      <!-- <xi:include href="./notes/intro.ptx"/> -->
+       <xi:include href="./notes/intro-complete.ptx"/> 
 
       <xi:include href="./notes/complex-nums.ptx"/>
       <!--<xi:include href="./notes/complex-nums-complete.ptx"/> -->
