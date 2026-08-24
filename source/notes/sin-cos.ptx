@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="sin-cos">
+    <title>Properties of Sine and Cosine</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="4in" >
+            <title>Periodicity</title>
+                <statement>
+                    <p>
+                        Sine and cosine are <term>periodic functions</term>:
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Symmetry</title>
+                <introduction>
+                    <p>
+                    Sine and cosine have <term>symmetry</term>:
+                    </p>
+                </introduction>
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            Using symmetry to simplify:
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            Using symmetry to decompose:
+                        </p>
+                    </statement>
+                </task>
+                
+                
+            </exercise>
+        </page>
+
+       
+    </worksheet>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="sinh-cosh">
+    <title>Hyperbolic Sine and Cosine</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="4in" >
+            <title>Analytic</title>
+                <statement>
+                    <p>
+                        Recall, for a function <m>f(x)</m>, 
+                        <md>
+                            f(x) = f_{\text{even}}(x) + f_{\text{odd}}(x)
+                        </md>
+                        
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Geometric</title>
+                <introduction>
+                    <p>
+                    Why <q>hyperbolic</q>?
+                    </p>
+                </introduction>
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            The unit hyperbola: 
+                            <md>
+                                x^2-y^2 =1
+                            </md>
+                            
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            The unit hyperbola and areas:
+                        </p>
+                    </statement>
+                </task>
+                
+                
+            </exercise>
+        </page>
+
+        <page>
+            <exercise workspace="8in">
+            <title>Euler's Formula and Hyperbolic Functions</title>
+            <statement>
+                <p>
+                    Recall Euler's formula:
+                    <md>
+                        e^{ix} = \cos(x) + i \sin(x)
+                    </md>.
+                    
+                </p>
+            </statement>
+                
+            </exercise>
+        </page>
+
+       
+    </worksheet>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="sinh-cosh-complete">
+    <title>Hyperbolic Sine and Cosine (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Hyperbolic trig functions arise in solutions to differential equations. We'll work to understand
+                        what these functions are both analytically and geometrically.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="4in" >
+            <title>Analytic</title>
+                <statement>
+                    <p>
+                        Recall, for a function <m>f(x)</m>, 
+                        <md>
+                            f(x) = f_{\text{even}}(x) + f_{\text{odd}}(x)
+                        </md>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Letting <m>f(x) = e^x</m>, we get 
+                        <md>
+                            <mrow> e^x \amp= \frac{e^x + e^{-x}}{2} + \frac{e^x - e^{-x}}{2}</mrow>
+                            <mrow> \amp:= \cosh(x) + \sinh(x) </mrow>
+                        </md>
+                    We can use the definition of hyperbolic cosine and sine to define other hyperbolic trig functions. 
+                    For example, <m>\tanh(x) := \frac{\sinh(x)}{\cosh(x)} = \frac{e^x-e^{-x}}{e^x+e^{-x}}</m>.
+                    </p>
+                </solution>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Geometric</title>
+                <introduction>
+                    <p>
+                    Why <q>hyperbolic</q>?
+                    </p>
+                </introduction>
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            The unit hyperbola: 
+                            <md>
+                                x^2-y^2 =1
+                            </md>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            You can verify that <m>\cosh^2(x)- \sinh^2(x)= 1</m>, which is analogous to sine and cosine
+                            satisfying the equation of the unit circle: <m>\cos^2(x) + \sin^2(x) = 1</m>.
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            The unit hyperbola and areas:
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            See the <url href="https://www.desmos.com/calculator/eljvt2craz">Hyperbolic Trig Desmos graphs</url> 
+                            to visualize how the values of <m>\cosh</m> and <m>\sinh</m> come from <m>x</m> and <m>y</m> coordinates
+                            of points on the unit hyperbola.
+                        </p>
+                    </solution>
+                </task>
+                
+                
+            </exercise>
+        </page>
+
+        <page>
+            <exercise workspace="8in">
+            <title>Euler's Formula and Hyperbolic Functions</title>
+            <statement>
+                <p>
+                    Recall Euler's formula:
+                    <md>
+                        e^{ix} = \cos(x) + i \sin(x)
+                    </md>.
+                    
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    This should remind us a lot of <m>e^x = \cosh(x) + \sinh(x)</m>. If we substitute the imaginary 
+                    number <m>ix</m>, we get 
+                    <md>
+                        <mrow> e^{ix} \amp= \cosh(ix) +\sinh(ix)</mrow>
+                        <mrow> \amp= \frac{e^{ix}+e^{-ix}}{2} + \frac{e^{ix}- e^{-ix}}{2}</mrow>
+                    </md>,
+                    where the first term is a purely real (why?) and the second term is purely imaginary (why?). Equating 
+                    this with Euler's formula and matching the real parts and imaginary parts, we see that
+                    <md>
+                        <mrow>\cos(x) \amp= \cosh(ix) </mrow>
+                        <mrow> \sin(x) \amp= \frac{\sinh(ix)}{i} </mrow>
+                    </md>,
+                    which provides a connection between <m>\cos/\cosh</m> and <m>\sin/\sinh</m> in complex space.
+                    
+                </p>
+            </solution>
+                
+            </exercise>
+        </page>
+
+       
+    </worksheet>

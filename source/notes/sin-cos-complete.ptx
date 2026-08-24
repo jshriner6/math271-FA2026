@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="sin-cos-complete">
+    <title>Properties of Sine and Cosine (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Wave functions are important in quantum mechanics, so it will also be important to understand basic properties
+                        of wave functions. We'll look at the building blocks of a general wave function (sine and cosine), starting with
+                        some more familiar properties, then moving to some less familiar properties.
+                    </p>
+                    <p>
+                        Look at the <url href="https://www.desmos.com/calculator/491bkvtfer">graphs of sine and cosine</url> and make some observations about their behavior and 
+                        how they relate to each other.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="4in" >
+            <title>Periodicity</title>
+                <statement>
+                    <p>
+                        Sine and cosine are <term>periodic functions</term>:
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        This means that <m>\sin(\omega x)= \sin\left(\omega\left(x+\frac{2\pi}{\omega}\right)\right)</m> and 
+                        <m>\cos(\omega x)= \cos\left(\omega\left(x+\frac{2\pi}{\omega}\right)\right)</m>, which is the algebraic way
+                        to express a horizontal shift of a function.
+                    </p>
+                    <p>
+                        <m>\omega</m> is call the <term>angular frequency</term> of the function, and <m>\frac{2\pi}{\omega}</m> 
+                        is known as the <term>period</term> of the function. Play around with the parameter <m>\omega</m> in the 
+                        <url href="https://www.desmos.com/calculator/ttm0khlkpw">Desmos graphs</url> to become comfortable with how 
+                        this parameter impacts the graph of the corresponding function.
+                    </p>
+                </solution>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Symmetry</title>
+                <introduction>
+                    <p>
+                    Sine and cosine have <term>symmetry</term>:
+                    </p>
+                    <p>
+                        We can describe the symmetry algebraically in terms of reflections:
+                        <ul>
+                            <li>
+                                <p>
+                                    <m>\sin(- \omega x) = -\sin(\omega x)</m> (odd symmetry)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cos(-\omega x) = \cos(\omega x)</m> (even symmetry)
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </introduction>
+               
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            Using symmetry to simplify:
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            For our purposes, it is most often used to simplify integrals:
+                            <ul>
+                                <li>
+                                    <p>
+                                        <m>\int_{-L}^L \sin(\omega x) \quad dx = 0  </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\int_{-L}^L \cos(\omega x) \quad dx = 2\int_{0}^L \cos(\omega x) \quad dx</m>
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="2in">
+                    <statement>
+                        <p>
+                            Using symmetry to decompose:
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            In general, a function <m>f(x)</m> is <term>even</term> if <m>f(-x)= f(x)</m> and <term>odd</term>
+                            if <m>f(-x)=-f(x)</m>.
+                        </p>
+                        <p>
+                            Most function don't have symmetry; however, for any function <m>f(x)</m> we can define
+                            <ul>
+                                <li>
+                                    <p>
+                                        <m>f_{\text{even}}(x) = \frac{f(x) + f(-x)}{2}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f_{\text{odd}}(x) = \frac{f(x) - f(-x)}{2}</m>
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                        <p>
+                            With these definitions, <m>f_{\text{even}}(x)</m> is an even function and 
+                            <m>f_{\text{odd}}(x)</m> is an odd function (you will verify this is lab 2); further,
+                            <md>
+                                <mrow>f(x) \amp = \frac{f(x)+ f(-x) + f(x)-f(-x)}{2}</mrow>
+                                <mrow> \amp = \frac{f(x)+ f(-x)}{2} + \frac{f(x)-f(-x)}{2} </mrow>
+                                <mrow> \amp= f_{\text{even}}(x) + f_{\text{odd}}(x) </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Next, we'll look at this decomposition for a special function, which gives rise to the 
+                            definition of two more important functions in quantum mechanics.
+                        </p>
+                    </solution>
+                </task>
+            
+            </exercise>
+        </page>
+    </worksheet>

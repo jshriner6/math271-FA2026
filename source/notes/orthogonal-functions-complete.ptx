@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="orthogonal-functions-complete">
+    <title>Orthogonal Sets of Functions (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+            <title>Inner Products</title>
+                <introduction>
+                    <p>
+                        An <term>inner product</term> is
+                        
+                    </p>
+                </introduction>
+                <task workspace="3in">
+                <title>Dot Product</title>
+                    <statement>
+                        <p>
+                        For <m>(x_1,y_1), (x_2,y_2) \in \R^2</m>, 
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                <title>Real Functions</title>
+                    <statement>
+                        <p>
+                        For <m>f,g:\R \to \R</m> on <m>[a,b]</m>, 
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Orthogonal Functions</title>
+                <introduction>
+                    <p>
+                    Two <q>vectors</q> are <term>orthogonal</term> with respect to an inner product if
+                    </p>
+                </introduction>
+                <task workspace="2in">
+                <title>Dot Product</title>
+                    <statement>
+                        <p>
+                    
+                            
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="2in">
+                <title>Real Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                </task>
+                
+                
+            </exercise>
+
+            <exercise workspace="2in">
+                <title>Orthogonal Sets</title>
+                <statement>
+                    <p>
+                        A set of non-zero real functions <m>\{f_i\}</m> is an <term>orthogonal set of functions</term> on
+                        <m>[a,b]</m> if
+                    </p>
+                </statement>
+                
+            </exercise>
+        </page>
+
+        <page>
+            <exercise workspace="8in">
+            <title>Important Examples of Orthogonal Sets</title>
+            <statement>
+                <p>
+                   
+                </p>
+            </statement>
+                
+            </exercise>
+        </page>
+
+       
+    </worksheet>
