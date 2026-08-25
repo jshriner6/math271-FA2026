@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab2">
+  <title>Lab 2</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to symmetry, hyperbolic functions, and orthogonal sets of functions. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise >
+    <introduction>
+      <p>
+        Verify that for a function <m>f(x)</m>, 
+      </p>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>f_{\text{even}}(x) = \frac{f(x) + f(-x)}{2}</m> is an even function
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>f_{\text{odd}}(x) = \frac{f(x) - f(-x)}{2}</m> is an odd function
+        </p>
+      </statement>
+    </task>
+
+  </exercise>
+
+  <exercise workspace="4in">
+    <statement>
+      <p>
+        Find an algebraic formula for <m>\tanh^{-1}(x)</m>. What is its domain?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        In class you were told that <m>\{\sin\left( \frac{n\pi}{L} x \right) \}_{n=1}^\infty</m> was an 
+        orthogonal set on <m>[-L,L]</m>.
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+          Why does this set start at <m>n=1</m> and not <m>n=0</m>?
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          Use technology to convince yourself that this is an orthogonal set. You can use a 
+          <url href="https://www.desmos.com/calculator">blank Desmos calculator</url> if you'd like practice setting things 
+          up yourself, or you can use this <url href="https://www.desmos.com/calculator/y9qabsms8o">Desmos template</url>, which is similar
+          to what was used in class.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+</worksheet>

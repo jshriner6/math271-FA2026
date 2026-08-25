@@ -47,7 +47,7 @@
                 <title>Orthogonal Functions</title>
                 <introduction>
                     <p>
-                    Two <q>vectors</q> are <term>orthogonal</term> with respect to an inner product if
+                    Two non-zero <q>vectors</q> are <term>orthogonal</term> with respect to an inner product if
                     </p>
                 </introduction>
                 <task workspace="2in">
@@ -92,6 +92,19 @@
                    
                 </p>
             </statement>
+                
+            </exercise>
+        </page>
+
+        <page>
+            <exercise workspace="4in">
+                <title>Superposition</title>
+                <statement>
+                    <p>
+                        If <m>\psi_1, \psi_2</m> are valid state functions, so is
+                        
+                    </p>
+                </statement>
                 
             </exercise>
         </page>

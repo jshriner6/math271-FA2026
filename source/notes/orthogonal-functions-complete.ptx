@@ -11,6 +11,13 @@
                 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        We've seen some familiar properties of sine and cosine. There is a less familiar property 
+                        that make these functions very useful in describing function behavior, which is what we will
+                        explore today.
+                    </p>
+                </solution>
             </exercise>
 
             <exercise>
@@ -20,6 +27,11 @@
                         An <term>inner product</term> is
                         
                     </p>
+                    <p>
+                        an operation that combines two <q>vectors</q> to produce a <q>scalar</q> (a number) which satisfies 
+                        particular properties. We won't worry about writing down those properties in detail, but we'll see 
+                        some examples to give the idea.
+                    </p>
                 </introduction>
                 <task workspace="3in">
                 <title>Dot Product</title>
@@ -28,6 +40,41 @@
                         For <m>(x_1,y_1), (x_2,y_2) \in \R^2</m>, 
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            the <term>dot product</term> of <m>(x_1,y_1), (x_2,y_2)</m> is an inner product, defined as 
+                            <md>
+                                (x_1,y_1) \cdot (x_2,y_2) = x_1  x_2 +  y_1 y _2
+                            </md>.
+
+                            Labeling <m>\vvec_1 =(x_1,y_1), \vvec_2 = (x_2,y_2)</m>, etc., we can see that this definition of dot
+                            product satisfies
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\vvec_1 \cdot \vvec_2 = \vvec_2 \cdot \vvec_1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>(\vvec_1 + \vvec_2)\cdot \vvec_3 = \vvec_1 \cdot \vvec_3 + \vvec_2 \cdot \vvec_3</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>c\vvec_1 \cdot \vvec_2 = c (\vvec_1 \cdot \vvec_2)</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\vvec_1 \cdot \vvec_1 \geq 0 </m>, and <m>\vvec_1 \cdot \vvec_1 = 0 </m> exactly
+                                        when <m>\vvec_1 = (0,0)</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                            
+                        </p>
+                    </solution>
                 </task>
 
                 <task workspace="3in">
@@ -37,6 +84,38 @@
                         For <m>f,g:\R \to \R</m> on <m>[a,b]</m>, 
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            we can define an inner product of <m>f,g</m> as 
+                            <md>
+                                \langle f , g \rangle = \int_a^b f(x) g(x) \quad dx
+                            </md>.
+                            We can verify that this inner product satisfies
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\langle f , g \rangle = \langle g , f \rangle</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\langle f + h , g \rangle = \langle f , g \rangle + \langle h, g \rangle</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\langle cf , g \rangle = c\langle f , g \rangle</m>, <m>c \in \R</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\langle f , f \rangle \geq 0</m>, and <m>\langle f , f \rangle = 0</m> exactly
+                                        when <m>f(x)=0</m> (almost) everywhere on <m>[a,b]</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
                 </task>
             </exercise>
     
@@ -47,7 +126,10 @@
                 <title>Orthogonal Functions</title>
                 <introduction>
                     <p>
-                    Two <q>vectors</q> are <term>orthogonal</term> with respect to an inner product if
+                    Two non-zero <q>vectors</q> are <term>orthogonal</term> with respect to an inner product if
+                    </p>
+                    <p>
+                        their inner product is zero.
                     </p>
                 </introduction>
                 <task workspace="2in">
@@ -58,6 +140,13 @@
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            Orthogonality with respect to the dot product tells us when two vectors are perpendicular 
+                            geometrically. As an example, sketch the vectors <m>(1,0)</m> and <m>(0,1)</m> in <m>\R^2</m>
+                            and compute their dot product.
+                        </p>
+                    </solution>
                 </task>
 
                 <task workspace="2in">
@@ -67,6 +156,15 @@
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            Non-zero real functions <m>f,g</m> are orthogonal on <m>[a,b]</m> if 
+                            <md>
+                                \int_a^b f(x) g(x) \quad dx = 0
+                            </md>.
+                            
+                        </p>
+                    </solution>
                 </task>
                 
                 
@@ -80,6 +178,18 @@
                         <m>[a,b]</m> if
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>f_i,f_j</m> are orthogonal whenever <m>i \neq j</m>. That is 
+                        <md>
+                            \int_a^b f_i(x) f_j(x) \quad dx = 
+                            \begin{cases}
+                            0 \amp \text{if } i \neq j \\
+                            c_i \gt 0 \amp \text{if } i =j
+                            \end{cases}
+                        </md>
+                    </p>
+                </solution>
                 
             </exercise>
         </page>
@@ -92,6 +202,103 @@
                    
                 </p>
             </statement>
+            <solution>
+                <p>
+                    The following are examples of orthogonal sets of functions discussed in class:
+                    <ol>
+                        <li>
+                            <p>
+                                <m>\{\cos\left( \frac{n\pi}{L} x \right) \}_{n=0}^\infty</m> on <m>[-L,L]</m>, since
+                                <md>
+                                    \int_{-L}^L \cos\left( \frac{n\pi}{L} x \right) \cos\left( \frac{m\pi}{L} x \right) \quad dx =
+                                    \begin{cases}
+                                    0 \amp \text{if } n \neq m \\
+                                    2L \amp \text{if } i =j =0 \\
+                                    L \amp \text{if } i = j \neq 0
+                                    \end{cases}
+                                </md>
+                                
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>\{\cos\left( \frac{n\pi}{L} x \right) \}_{n=0}^\infty</m> on <m>[0,L]</m>, since
+                                <md>
+                                    \int_{0}^L \cos\left( \frac{n\pi}{L} x \right) \cos\left( \frac{m\pi}{L} x \right) \quad dx =
+                                    \begin{cases}
+                                    0 \amp \text{if } n \neq m \\
+                                    L \amp \text{if } i =j =0 \\
+                                    L/2 \amp \text{if } i = j \neq 0
+                                    \end{cases}
+                                </md>
+                                
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>\{\sin\left( \frac{n\pi}{L} x \right) \}_{n=1}^\infty</m> on <m>[-L,L]</m>, since
+                                <md>
+                                    \int_{-L}^L \sin\left( \frac{n\pi}{L} x \right) \sin\left( \frac{m\pi}{L} x \right) \quad dx =
+                                    \begin{cases}
+                                    0 \amp \text{if } n \neq m \\
+                                    L \amp \text{if } i =j 
+                                    \end{cases}
+                                </md>
+                                
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>\{\sin\left( \frac{n\pi}{L} x \right) \}_{n=1}^\infty</m> on <m>[0,L]</m>, since
+                                <md>
+                                    \int_{0}^L \sin\left( \frac{n\pi}{L} x \right) \sin\left( \frac{m\pi}{L} x \right) \quad dx =
+                                    \begin{cases}
+                                    0 \amp \text{if } n \neq m \\
+                                    L/2 \amp \text{if } i =j 
+                                    \end{cases}
+                                </md>
+                                
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>\{\sin\left( \frac{n\pi}{L} x \right) \}_{n=1}^\infty \cup \{\cos\left( \frac{n\pi}{L} x \right) \}_{n=0}^\infty</m> on <m>[-L,L]</m>,
+                                but is <em>not</em> an orthogonal set on <m>[0,L]</m>.
+                                
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+                
+            </exercise>
+        </page>
+
+         <page>
+            <exercise workspace="4in">
+                <title>Superposition</title>
+                <statement>
+                    <p>
+                        If <m>\psi_1, \psi_2</m> are valid state functions, so is
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\psi = c_1 \psi_1 + c_2 \psi_2</m> (a <term>linear combination</term>).
+                        We also technically need to <term>normalize</term> <m>\psi</m> for it to be valid, which we
+                        will discuss more shortly.
+                    </p>
+                    <p>
+                      If <m>\psi_1, \psi_2</m> are also orthogonal on <m>[-L,L]</m>, we have a method for determining the coefficients which would 
+                      give us <m>\psi</m>. We'll use this idea on an infinite set of orthogonal functions when we discuss Fourier series at 
+                      the end of the semester.
+                    </p>
+                </solution>
                 
             </exercise>
         </page>

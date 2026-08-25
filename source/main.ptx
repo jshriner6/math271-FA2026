@@ -29,21 +29,21 @@
       <!-- <xi:include href="./notes/intro.ptx"/> -->
        <xi:include href="./notes/intro-complete.ptx"/> 
 
-      <xi:include href="./notes/complex-nums.ptx"/>
-      <!--<xi:include href="./notes/complex-nums-complete.ptx"/> -->
+      <!--<xi:include href="./notes/complex-nums.ptx"/>-->
+      <xi:include href="./notes/complex-nums-complete.ptx"/> 
 
 
       <xi:include href="./notes/euler.ptx"/>
       <!-- <xi:include href="./notes/euler-complete.ptx"/> -->
 
       <xi:include href="./notes/sin-cos.ptx"/>
-      <xi:include href="./notes/sin-cos-complete.ptx"/> 
+      <!--<xi:include href="./notes/sin-cos-complete.ptx"/> -->
 
       <xi:include href="./notes/sinh-cosh.ptx"/>
-      <xi:include href="./notes/sinh-cosh-complete.ptx"/> 
+      <!-- <xi:include href="./notes/sinh-cosh-complete.ptx"/> -->
 
       <xi:include href="./notes/orthogonal-functions.ptx"/>
-      <xi:include href="./notes/orthogonal-functions-complete.ptx"/>
+     <!-- <xi:include href="./notes/orthogonal-functions-complete.ptx"/> -->
 
       <!-- etc. -->
 
@@ -62,6 +62,8 @@
 
       <!-- Remove the example and replace with your own activities -->
       <xi:include href="./labs/lab1.ptx"/>
+
+      <xi:include href="./labs/lab2.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
