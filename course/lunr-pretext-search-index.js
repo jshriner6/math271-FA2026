@@ -73,58 +73,58 @@ var ptx_lunr_docs = [
   "body": " Canvas\/Syllabus Walk-Through       Please make sure you are comfortable with our Canvas course, resources, and syllabus, and reach out as soon as possible with questions.   "
 },
 {
-  "id": "complex-nums",
+  "id": "complex-nums-complete",
   "level": "1",
-  "url": "complex-nums.html",
+  "url": "complex-nums-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Complex Numbers",
-  "body": " Complex Numbers    Motivation        Standard Representation   A complex number has the form        Complex Arithmetic   Let and .                                   Complex Conjugate   If , then the complex conjugate of is     Modulus   If , then the modulus of is     "
+  "title": "Complex Numbers (Complete)",
+  "body": " Complex Numbers (Complete)    Motivation       Solutions to Schrödinger's equation (and other differential equations) are wave equations, best described using complex-valued functions. Therefore, it is important to understand basic computations and properties of complex numbers.     Standard Representation   A complex number has the form      , where are real numbers, and is the imaginary unit satisfying . We call the real part and the imaginary part of the complex number, and write and .  We can visualize complex numbers in this form in two dimensions, using a horizontal axis to plot the real part and a vertical axis to plot the imaginary part. Complex numbers are an extension of the real numbers because complex numbers contain the real numbers (real numbers are complex numbers whose imaginary part is zero).       Complex Arithmetic   Let and .                                                       Complex Conjugate   If , then the complex conjugate of is     . It is important to note that    , and    If is a polynomial and , then it must also be that .        Modulus   If , then the modulus of is     . This is the extended concept of absolute value for real numbers, and is derived geometrically by computing the distance from the origin to the point in the complex plane.  We noted previously that the product of a complex number with its complex conjugate is real; in fact, .     "
 },
 {
-  "id": "complex-nums-2-1",
+  "id": "complex-nums-complete-2-1",
   "level": "2",
-  "url": "complex-nums.html#complex-nums-2-1",
+  "url": "complex-nums-complete.html#complex-nums-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Solutions to Schrödinger's equation (and other differential equations) are wave equations, best described using complex-valued functions. Therefore, it is important to understand basic computations and properties of complex numbers.   "
 },
 {
-  "id": "complex-nums-2-2",
+  "id": "complex-nums-complete-2-2",
   "level": "2",
-  "url": "complex-nums.html#complex-nums-2-2",
+  "url": "complex-nums-complete.html#complex-nums-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Standard Representation.",
-  "body": " Standard Representation   A complex number has the form    "
+  "body": " Standard Representation   A complex number has the form      , where are real numbers, and is the imaginary unit satisfying . We call the real part and the imaginary part of the complex number, and write and .  We can visualize complex numbers in this form in two dimensions, using a horizontal axis to plot the real part and a vertical axis to plot the imaginary part. Complex numbers are an extension of the real numbers because complex numbers contain the real numbers (real numbers are complex numbers whose imaginary part is zero).   "
 },
 {
-  "id": "complex-nums-3-1",
+  "id": "complex-nums-complete-3-1",
   "level": "2",
-  "url": "complex-nums.html#complex-nums-3-1",
+  "url": "complex-nums-complete.html#complex-nums-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Complex Arithmetic.",
-  "body": " Complex Arithmetic   Let and .                               "
+  "body": " Complex Arithmetic   Let and .                                                   "
 },
 {
-  "id": "complex-nums-4-1",
+  "id": "complex-nums-complete-4-1",
   "level": "2",
-  "url": "complex-nums.html#complex-nums-4-1",
+  "url": "complex-nums-complete.html#complex-nums-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Complex Conjugate.",
-  "body": " Complex Conjugate   If , then the complex conjugate of is   "
+  "body": " Complex Conjugate   If , then the complex conjugate of is     . It is important to note that    , and    If is a polynomial and , then it must also be that .      "
 },
 {
-  "id": "complex-nums-4-2",
+  "id": "complex-nums-complete-4-2",
   "level": "2",
-  "url": "complex-nums.html#complex-nums-4-2",
+  "url": "complex-nums-complete.html#complex-nums-complete-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Modulus.",
-  "body": " Modulus   If , then the modulus of is   "
+  "body": " Modulus   If , then the modulus of is     . This is the extended concept of absolute value for real numbers, and is derived geometrically by computing the distance from the origin to the point in the complex plane.  We noted previously that the product of a complex number with its complex conjugate is real; in fact, .   "
 },
 {
   "id": "euler",
@@ -172,6 +172,150 @@ var ptx_lunr_docs = [
   "body": " Euler's Formula   Recall .   "
 },
 {
+  "id": "sin-cos",
+  "level": "1",
+  "url": "sin-cos.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Properties of Sine and Cosine",
+  "body": " Properties of Sine and Cosine    Motivation        Periodicity   Sine and cosine are periodic functions :       Symmetry   Sine and cosine have symmetry :     Using symmetry to simplify:      Using symmetry to decompose:      "
+},
+{
+  "id": "sin-cos-2-1",
+  "level": "2",
+  "url": "sin-cos.html#sin-cos-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "sin-cos-2-2",
+  "level": "2",
+  "url": "sin-cos.html#sin-cos-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Periodicity.",
+  "body": " Periodicity   Sine and cosine are periodic functions :   "
+},
+{
+  "id": "sin-cos-3-1",
+  "level": "2",
+  "url": "sin-cos.html#sin-cos-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Symmetry.",
+  "body": " Symmetry   Sine and cosine have symmetry :     Using symmetry to simplify:      Using symmetry to decompose:    "
+},
+{
+  "id": "sinh-cosh",
+  "level": "1",
+  "url": "sinh-cosh.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Hyperbolic Sine and Cosine",
+  "body": " Hyperbolic Sine and Cosine    Motivation        Analytic   Recall, for a function ,        Geometric   Why hyperbolic ?     The unit hyperbola:       The unit hyperbola and areas:        Euler's Formula and Hyperbolic Functions   Recall Euler's formula: .     "
+},
+{
+  "id": "sinh-cosh-2-1",
+  "level": "2",
+  "url": "sinh-cosh.html#sinh-cosh-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "sinh-cosh-2-2",
+  "level": "2",
+  "url": "sinh-cosh.html#sinh-cosh-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Analytic.",
+  "body": " Analytic   Recall, for a function ,    "
+},
+{
+  "id": "sinh-cosh-3-1",
+  "level": "2",
+  "url": "sinh-cosh.html#sinh-cosh-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Geometric.",
+  "body": " Geometric   Why hyperbolic ?     The unit hyperbola:       The unit hyperbola and areas:    "
+},
+{
+  "id": "sinh-cosh-4-1",
+  "level": "2",
+  "url": "sinh-cosh.html#sinh-cosh-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Euler’s Formula and Hyperbolic Functions.",
+  "body": " Euler's Formula and Hyperbolic Functions   Recall Euler's formula: .   "
+},
+{
+  "id": "orthogonal-functions",
+  "level": "1",
+  "url": "orthogonal-functions.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Orthogonal Sets of Functions",
+  "body": " Orthogonal Sets of Functions    Motivation        Inner Products   An inner product is    Dot Product   For ,     Real Functions   For on ,        Orthogonal Functions   Two non-zero vectors are orthogonal with respect to an inner product if    Dot Product        Real Functions         Orthogonal Sets   A set of non-zero real functions is an orthogonal set of functions on if       Important Examples of Orthogonal Sets          Superposition   If are valid state functions, so is     "
+},
+{
+  "id": "orthogonal-functions-2-1",
+  "level": "2",
+  "url": "orthogonal-functions.html#orthogonal-functions-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "orthogonal-functions-2-2",
+  "level": "2",
+  "url": "orthogonal-functions.html#orthogonal-functions-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Inner Products.",
+  "body": " Inner Products   An inner product is    Dot Product   For ,     Real Functions   For on ,    "
+},
+{
+  "id": "orthogonal-functions-3-1",
+  "level": "2",
+  "url": "orthogonal-functions.html#orthogonal-functions-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Orthogonal Functions.",
+  "body": " Orthogonal Functions   Two non-zero vectors are orthogonal with respect to an inner product if    Dot Product        Real Functions       "
+},
+{
+  "id": "orthogonal-functions-3-2",
+  "level": "2",
+  "url": "orthogonal-functions.html#orthogonal-functions-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Orthogonal Sets.",
+  "body": " Orthogonal Sets   A set of non-zero real functions is an orthogonal set of functions on if   "
+},
+{
+  "id": "orthogonal-functions-4-1",
+  "level": "2",
+  "url": "orthogonal-functions.html#orthogonal-functions-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Important Examples of Orthogonal Sets.",
+  "body": " Important Examples of Orthogonal Sets      "
+},
+{
+  "id": "orthogonal-functions-5-1",
+  "level": "2",
+  "url": "orthogonal-functions.html#orthogonal-functions-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Superposition.",
+  "body": " Superposition   If are valid state functions, so is   "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
@@ -215,6 +359,42 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Write in the form .   "
+},
+{
+  "id": "lab2",
+  "level": "1",
+  "url": "lab2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 2",
+  "body": " Lab 2    This lab is intended to practice ideas related to symmetry, hyperbolic functions, and orthogonal sets of functions. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.      Verify that for a function ,      is an even function       is an odd function       Find an algebraic formula for . What is its domain?      In class you were told that was an orthogonal set on .     Why does this set start at and not ?      Use technology to convince yourself that this is an orthogonal set. You can use a blank Desmos calculator if you'd like practice setting things up yourself, or you can use this Desmos template , which is similar to what was used in class.     "
+},
+{
+  "id": "lab2-3",
+  "level": "2",
+  "url": "lab2.html#lab2-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Verify that for a function ,      is an even function       is an odd function    "
+},
+{
+  "id": "lab2-4",
+  "level": "2",
+  "url": "lab2.html#lab2-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find an algebraic formula for . What is its domain?   "
+},
+{
+  "id": "lab2-5",
+  "level": "2",
+  "url": "lab2.html#lab2-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  In class you were told that was an orthogonal set on .     Why does this set start at and not ?      Use technology to convince yourself that this is an orthogonal set. You can use a blank Desmos calculator if you'd like practice setting things up yourself, or you can use this Desmos template , which is similar to what was used in class.    "
 },
 {
   "id": "homework-3",
