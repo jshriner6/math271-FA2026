@@ -114,51 +114,39 @@
             <title>Euler's Formula</title>
                 <statement>
                     <p>
-                        Recall
-                        <md>
-                            a + bi = r \cos(\theta) + ir\sin(\theta) = r(\cos(\theta) + i \sin(\theta) )
-                        </md>.
-                        
+                        Let <m>f(\theta) = e^{-i\theta}(\cos(\theta) + i\sin(\theta))</m>.
                     </p>
                 </statement>
                 <solution>
                     <p>
-                        Define <m>f(\theta) = \cos(\theta) + i \sin(\theta)</m>. Then using derivative rules from calculus 1, we
-                        can compute
+                        Then using derivative rules from calculus 1, we can compute
                     </p>
                     <p>
                         <m>
                             \begin{align*}
-                            f'(\theta) \amp= -\sin(\theta) +i \cos(\theta) \\
-                                        \amp= i^2\sin(\theta) + i \cos(\theta) \\
-                                        \amp= i(\cos(\theta)+ i\sin(\theta)) \\
-                                        \amp= if(\theta)
+                            f'(\theta) \amp= -ie^{-i\theta}(\cos(\theta) + i\sin(\theta))+ e^{-i\theta}(-\sin(\theta)+i\cos(\theta)) \\
+                                        \amp= e^{-i\theta}(-i\cos(\theta) + \sin(\theta)) + e^{-i\theta}(-\sin(\theta)+i\cos(\theta))\\
+                                        \amp= 0
                             \end{align*}
                         </m>
                     </p>
                     <p>
-
-                        This is a differential equation, but one that we can solve if we think about what it is saying. If
-                        we ignored the constant <m>i</m>, we'd be looking for a function whose derivative is the function itself. 
-                        This is why the number <m>e</m> is so important in calculus! The exponential function with base <m>e</m>
-                        is its own derivative; in symbols,
+                        Functions whose derivatives are zero are constant functions. That is, <m>f(\theta)=C</m> for some 
+                        constant <m>C</m>. To determine what this constant must be, let's pick a nice value for <m>\theta</m> that 
+                        we actually know how to evaluate, <m>\theta=0</m>:
                         <md>
-                            \frac{d}{dx}(e^x) = e^x
+                            f(0)= e^0(\cos(0)+ \sin(0)) = 1
                         </md>.
-                        Now if we remember the chain rule, we can adjust for the constant <m>i</m> to see that 
+                       So
                         <md>
-                            f(\theta) = Ce^{i\theta}
-                        </md>
-                        satisfies
-                        <md>
-                            f'(\theta) = if(\theta)
-                        </md>.
-                        Further, our original definition of <m>f</m> satisfies <m>f(0) = 1</m>, so this means <m>C=1</m>, or 
-                        <m>f(\theta)= e^{i\theta}</m>. Equating our original definition of <m>f</m> with this solution to 
-                        the differential equation yields <term>Euler's Formula</term>:
+                            1 = e^{-i\theta}(\cos(\theta) + i\sin(\theta))
+                        </md>,
+                        or equivalently
+                        
                         <md>
                             e^{i\theta}= \cos(\theta) + i\sin(\theta)
                         </md>.
+                        This is known as <term>Euler's Formula</term>.
                         Euler's formula gives us an exponential form for complex numbers, and is a very useful form for 
                         efficient representation and computation:
                         </p>

@@ -62,11 +62,7 @@
             <title>Euler's Formula</title>
                 <statement>
                     <p>
-                        Recall
-                        <md>
-                            a + bi = r \cos(\theta) + ir\sin(\theta) = r(\cos(\theta) + i \sin(\theta) )
-                        </md>.
-                        
+                        Let <m>f(\theta) = e^{-i\theta}(\cos(\theta) + i\sin(\theta))</m>.
                     </p>
                 </statement>
 
