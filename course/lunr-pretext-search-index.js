@@ -127,49 +127,49 @@ var ptx_lunr_docs = [
   "body": " Modulus   If , then the modulus of is     . This is the extended concept of absolute value for real numbers, and is derived geometrically by computing the distance from the origin to the point in the complex plane.  We noted previously that the product of a complex number with its complex conjugate is real; in fact, .   "
 },
 {
-  "id": "euler",
+  "id": "euler-complete",
   "level": "1",
-  "url": "euler.html",
+  "url": "euler-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Euler’s Formula",
-  "body": " Euler's Formula    Motivation        Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.       Example: Polar Coordinate Representation        Let .      Let .        Euler's Formula   Let .     "
+  "title": "Euler’s Formula (Complete)",
+  "body": " Euler's Formula (Complete)    Motivation       The standard form of a complex number can be difficult to compute with (pick your favorite complex number with non-zero real and imaginary parts and try computing !). It is also not clear in this form why complex numbers are ideal for representing waves. We'll see another representation for complex numbers, and an important connection between this representation and wave functions.     Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.    We can also identify a complex number by specifying its modulus and the angle (in radians) formed from the positive real axis. This in general would not be unique, so it is common convention to require that   Using trigonometry, we can make the connection between standard form and polar form: .       Example: Polar Coordinate Representation        Let .    The modulus would be computed as . We can use the relationships between the real and imaginary parts to the angle to determine that . An intuitive first attempt would be to solve . In this example that is the correct answer, but in general we must be aware of how the arctangent function is defined. It is the inverse function of tangent on the restricted domain , which means the range of the arctangent function is (see the Desmos graph presented in class for a visual). If our angle should ever be outside of this range, we'll need to adjust it accordingly by adding or subtracting .      Let .    The modulus is computed in the same way as the previous example. However, plotting the complex number shows this should be in the second quadrant, but arctangent would give an angle in the fourth quadrant. We can get the correct angle by computing .        Euler's Formula   Let .    Then using derivative rules from calculus 1, we can compute     Functions whose derivatives are zero are constant functions. That is, for some constant . To determine what this constant must be, let's pick a nice value for that we actually know how to evaluate, : . So , or equivalently . This is known as Euler's Formula . Euler's formula gives us an exponential form for complex numbers, and is a very useful form for efficient representation and computation:        "
 },
 {
-  "id": "euler-2-1",
+  "id": "euler-complete-2-1",
   "level": "2",
-  "url": "euler.html#euler-2-1",
+  "url": "euler-complete.html#euler-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       The standard form of a complex number can be difficult to compute with (pick your favorite complex number with non-zero real and imaginary parts and try computing !). It is also not clear in this form why complex numbers are ideal for representing waves. We'll see another representation for complex numbers, and an important connection between this representation and wave functions.   "
 },
 {
-  "id": "euler-2-2",
+  "id": "euler-complete-2-2",
   "level": "2",
-  "url": "euler.html#euler-2-2",
+  "url": "euler-complete.html#euler-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Polar Coordinate Representation.",
-  "body": " Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.   "
+  "body": " Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.    We can also identify a complex number by specifying its modulus and the angle (in radians) formed from the positive real axis. This in general would not be unique, so it is common convention to require that   Using trigonometry, we can make the connection between standard form and polar form: .   "
 },
 {
-  "id": "euler-3-1",
+  "id": "euler-complete-3-1",
   "level": "2",
-  "url": "euler.html#euler-3-1",
+  "url": "euler-complete.html#euler-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Polar Coordinate Representation.",
-  "body": " Example: Polar Coordinate Representation        Let .      Let .    "
+  "body": " Example: Polar Coordinate Representation        Let .    The modulus would be computed as . We can use the relationships between the real and imaginary parts to the angle to determine that . An intuitive first attempt would be to solve . In this example that is the correct answer, but in general we must be aware of how the arctangent function is defined. It is the inverse function of tangent on the restricted domain , which means the range of the arctangent function is (see the Desmos graph presented in class for a visual). If our angle should ever be outside of this range, we'll need to adjust it accordingly by adding or subtracting .      Let .    The modulus is computed in the same way as the previous example. However, plotting the complex number shows this should be in the second quadrant, but arctangent would give an angle in the fourth quadrant. We can get the correct angle by computing .    "
 },
 {
-  "id": "euler-4-1",
+  "id": "euler-complete-4-1",
   "level": "2",
-  "url": "euler.html#euler-4-1",
+  "url": "euler-complete.html#euler-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Euler’s Formula.",
-  "body": " Euler's Formula   Let .   "
+  "body": " Euler's Formula   Let .    Then using derivative rules from calculus 1, we can compute     Functions whose derivatives are zero are constant functions. That is, for some constant . To determine what this constant must be, let's pick a nice value for that we actually know how to evaluate, : . So , or equivalently . This is known as Euler's Formula . Euler's formula gives us an exponential form for complex numbers, and is a very useful form for efficient representation and computation:      "
 },
 {
   "id": "sin-cos",
