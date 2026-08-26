@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Euler’s Formula",
-  "body": " Euler's Formula    Motivation        Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.       Example: Polar Coordinate Representation        Let .      Let .        Euler's Formula   Recall .     "
+  "body": " Euler's Formula    Motivation        Polar Coordinate Representation   In standard coordinates, we identify a complex number uniquely by its real and imaginary parts. This is not the only way to identify a complex number.       Example: Polar Coordinate Representation        Let .      Let .        Euler's Formula   Let .     "
 },
 {
   "id": "euler-2-1",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Euler’s Formula.",
-  "body": " Euler's Formula   Recall .   "
+  "body": " Euler's Formula   Let .   "
 },
 {
   "id": "sin-cos",
