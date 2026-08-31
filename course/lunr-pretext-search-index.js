@@ -316,6 +316,87 @@ var ptx_lunr_docs = [
   "body": " Superposition   If are valid state functions, so is   "
 },
 {
+  "id": "multi-var-functions",
+  "level": "1",
+  "url": "multi-var-functions.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Multivariable Functions",
+  "body": " Multivariable Functions    Motivation        Single vs. Multi variables   Consider the ideal gas law .       Types of multivariable functions   There are two main categories of multivariable functions that we should be familiar with:    Scalar Functions        Vector Functions           Visualizing multivariable functions   Let's think about some different ways we could visualize multivariable functions:    Scalar Functions        Vector Functions         "
+},
+{
+  "id": "multi-var-functions-2-1",
+  "level": "2",
+  "url": "multi-var-functions.html#multi-var-functions-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "multi-var-functions-2-2",
+  "level": "2",
+  "url": "multi-var-functions.html#multi-var-functions-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Single vs. Multi variables.",
+  "body": " Single vs. Multi variables   Consider the ideal gas law .   "
+},
+{
+  "id": "multi-var-functions-3-1",
+  "level": "2",
+  "url": "multi-var-functions.html#multi-var-functions-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Types of multivariable functions.",
+  "body": " Types of multivariable functions   There are two main categories of multivariable functions that we should be familiar with:    Scalar Functions        Vector Functions       "
+},
+{
+  "id": "multi-var-functions-4-1",
+  "level": "2",
+  "url": "multi-var-functions.html#multi-var-functions-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Visualizing multivariable functions.",
+  "body": " Visualizing multivariable functions   Let's think about some different ways we could visualize multivariable functions:    Scalar Functions        Vector Functions       "
+},
+{
+  "id": "alt-coords",
+  "level": "1",
+  "url": "alt-coords.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Alternate Coordinate Systems",
+  "body": " Alternate Coordinate Systems    Motivation        Cylindrical Coordinates          Spherical Coordinates        "
+},
+{
+  "id": "alt-coords-2-1",
+  "level": "2",
+  "url": "alt-coords.html#alt-coords-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "alt-coords-2-2",
+  "level": "2",
+  "url": "alt-coords.html#alt-coords-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Cylindrical Coordinates.",
+  "body": " Cylindrical Coordinates      "
+},
+{
+  "id": "alt-coords-3-1",
+  "level": "2",
+  "url": "alt-coords.html#alt-coords-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Spherical Coordinates.",
+  "body": " Spherical Coordinates      "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
