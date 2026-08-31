@@ -26,6 +26,7 @@
         </p>
       </introduction>
 
+      <!-- WEEK 1 -->
       <!-- <xi:include href="./notes/intro.ptx"/> -->
        <xi:include href="./notes/intro-complete.ptx"/> 
 
@@ -36,14 +37,17 @@
       <!--<xi:include href="./notes/euler.ptx"/> -->
        <xi:include href="./notes/euler-complete.ptx"/> 
 
-      <xi:include href="./notes/sin-cos.ptx"/>
-      <!--<xi:include href="./notes/sin-cos-complete.ptx"/> -->
+       <!-- WEEK 2 -->
+      <!--<xi:include href="./notes/sin-cos.ptx"/> -->
+      <xi:include href="./notes/sin-cos-complete.ptx"/>
 
       <xi:include href="./notes/sinh-cosh.ptx"/>
       <!-- <xi:include href="./notes/sinh-cosh-complete.ptx"/> -->
 
       <xi:include href="./notes/orthogonal-functions.ptx"/>
      <!-- <xi:include href="./notes/orthogonal-functions-complete.ptx"/> -->
+
+     <!-- WEEK 3 -->
 
       <!-- etc. -->
 
