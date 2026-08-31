@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 2 (Weeks 2 and 3)</title>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          How do you know that <m>\sinh(x)</m> is an invertible function? Find an algebraic formula for <m>\mathrm{arcsinh}(x)</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Consider the set of functions
+          <md>
+            \left\{ \cos\left(\frac{n\pi}{\ln(2)} \cdot \ln|x| \right) \right\}_{n=0}^\infty
+          </md>
+          Use technology to answer the following:
+          
+        </p>
+      </introduction>
+      <task>
+        <statement>
+            <p>
+                Is this an orthogonal set on the interval <m>(1,2)</m> with respect to the inner product on functions defined
+                in class?
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+                Is this an orthogonal set on the interval <m>(1,2)</m> with respect to the inner product defined by
+                <md>
+                    \langle f, g \rangle := \int_1^2 f \cdot g \cdot \frac{1}{x} \quad dx
+                </md>?
+                
+            </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Sketch level curves for the following surfaces, and use them to sketch the 3D surface. Use Desmos to verify your 
+          sketch is accurate.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>2x-3y + z^2 = 1</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>y^2 = 2x^2 +z</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          State whether each equation is given in cylindrical or spherical coordinates. 
+          Then convert each equation from cylindrical or spherical coordinates to Cartesian coordinates.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+            <p>
+                <m>zr^3\cos(\theta) = 4r +8</m>
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+                <m>\tan(\theta) + 2z = 1 - r^2 </m>
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+                <m>\rho - \cos(\varphi) = 2 + \cos^2(\varphi)</m>
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+                <m>\tan(\varphi) (\cos(\theta) - \sin(\theta)) = 4</m>
+            </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+</worksheet>

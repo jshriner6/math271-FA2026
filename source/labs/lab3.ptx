@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab3">
+  <title>Lab 3</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to multivariable functions and cylindrical/spherical coordinates. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise >
+    <introduction>
+      <p>
+        For each function below, sketch at least four level curves, and use them to sketch a graph of the surface.
+        You can use <url href="https://www.desmos.com/calculator">(2D) Desmos</url> to help with level curves, and <url href="https://www.desmos.com/3d">(3D) Desmos</url> to verify your surfaces.
+      </p>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>f(x,y) = 100- x^2 - y^2</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          <m>g(x,y) = y-x^2</m>
+        </p>
+      </statement>
+    </task>
+
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        For each equation in cylindrical coordinates, first convert it to an equation in Cartesian coordinates. Then use
+        level curves to describe the surface. Finally, plot the surface in (3D) Desmos.
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+         <m>z = -4r</m>, <m>z \leq 0</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          <m>r^2 - 4r\cos(\theta) = 14</m>
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        For each equation in spherical coordinates, first convert it to an equation in Cartesian coordinates. Then use
+        level curves to describe the surface. Finally, plot the surface in (3D) Desmos.
+      </p>
+    </introduction>
+    <task workspace="2in">
+      <statement>
+        <p>
+         <m>\rho = -2\sin(\varphi)\cos(\theta)</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          <m>\sin(\varphi)\cos(\theta) + \sin(\varphi)\sin(\theta) + \cos(\varphi) = \frac{1}{\rho}</m>
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+</worksheet>
