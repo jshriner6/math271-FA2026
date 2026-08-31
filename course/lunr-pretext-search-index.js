@@ -172,40 +172,40 @@ var ptx_lunr_docs = [
   "body": " Euler's Formula   Let .    Then using derivative rules from calculus 1, we can compute     Functions whose derivatives are zero are constant functions. That is, for some constant . To determine what this constant must be, let's pick a nice value for that we actually know how to evaluate, : . So , or equivalently . This is known as Euler's Formula . Euler's formula gives us an exponential form for complex numbers, and is a very useful form for efficient representation and computation:      "
 },
 {
-  "id": "sin-cos",
+  "id": "sin-cos-complete",
   "level": "1",
-  "url": "sin-cos.html",
+  "url": "sin-cos-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Properties of Sine and Cosine",
-  "body": " Properties of Sine and Cosine    Motivation        Periodicity   Sine and cosine are periodic functions :       Symmetry   Sine and cosine have symmetry :     Using symmetry to simplify:      Using symmetry to decompose:      "
+  "title": "Properties of Sine and Cosine (Complete)",
+  "body": " Properties of Sine and Cosine (Complete)    Motivation       Wave functions are important in quantum mechanics, so it will also be important to understand basic properties of wave functions. We'll look at the building blocks of a general wave function (sine and cosine), starting with some more familiar properties, then moving to some less familiar properties.  Look at the graphs of sine and cosine and make some observations about their behavior and how they relate to each other.     Periodicity   Sine and cosine are periodic functions :    This means that and , which is the algebraic way to express a horizontal shift of a function.   is call the angular frequency of the function, and is known as the period of the function. Play around with the parameter in the Desmos graphs to become comfortable with how this parameter impacts the graph of the corresponding function.       Symmetry   Sine and cosine have symmetry :  We can describe the symmetry algebraically in terms of reflections:    (odd symmetry)     (even symmetry)        Using symmetry to simplify:    For our purposes, it is most often used to simplify integrals:                  Using symmetry to decompose:    In general, a function is even if and odd if .  Most function don't have symmetry; however, for any function we can define              With these definitions, is an even function and is an odd function (you will verify this is lab 2); further,   Next, we'll look at this decomposition for a special function, which gives rise to the definition of two more important functions in quantum mechanics.      "
 },
 {
-  "id": "sin-cos-2-1",
+  "id": "sin-cos-complete-2-1",
   "level": "2",
-  "url": "sin-cos.html#sin-cos-2-1",
+  "url": "sin-cos-complete.html#sin-cos-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Wave functions are important in quantum mechanics, so it will also be important to understand basic properties of wave functions. We'll look at the building blocks of a general wave function (sine and cosine), starting with some more familiar properties, then moving to some less familiar properties.  Look at the graphs of sine and cosine and make some observations about their behavior and how they relate to each other.   "
 },
 {
-  "id": "sin-cos-2-2",
+  "id": "sin-cos-complete-2-2",
   "level": "2",
-  "url": "sin-cos.html#sin-cos-2-2",
+  "url": "sin-cos-complete.html#sin-cos-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Periodicity.",
-  "body": " Periodicity   Sine and cosine are periodic functions :   "
+  "body": " Periodicity   Sine and cosine are periodic functions :    This means that and , which is the algebraic way to express a horizontal shift of a function.   is call the angular frequency of the function, and is known as the period of the function. Play around with the parameter in the Desmos graphs to become comfortable with how this parameter impacts the graph of the corresponding function.   "
 },
 {
-  "id": "sin-cos-3-1",
+  "id": "sin-cos-complete-3-1",
   "level": "2",
-  "url": "sin-cos.html#sin-cos-3-1",
+  "url": "sin-cos-complete.html#sin-cos-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Symmetry.",
-  "body": " Symmetry   Sine and cosine have symmetry :     Using symmetry to simplify:      Using symmetry to decompose:    "
+  "body": " Symmetry   Sine and cosine have symmetry :  We can describe the symmetry algebraically in terms of reflections:    (odd symmetry)     (even symmetry)        Using symmetry to simplify:    For our purposes, it is most often used to simplify integrals:                  Using symmetry to decompose:    In general, a function is even if and odd if .  Most function don't have symmetry; however, for any function we can define              With these definitions, is an even function and is an odd function (you will verify this is lab 2); further,   Next, we'll look at this decomposition for a special function, which gives rise to the definition of two more important functions in quantum mechanics.    "
 },
 {
   "id": "sinh-cosh",
