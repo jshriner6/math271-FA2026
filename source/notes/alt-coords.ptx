@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="alt-coords">
+    <title>Alternate Coordinate Systems</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Cylindrical Coordinates</title>
+                <statement>
+                    <p>
+                         
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Spherical Coordinates</title>
+                <statement>
+                    <p>
+                    
+                    </p>
+                </statement>
+                
+              
+                
+            </exercise>
+
+    </page>
+
+       
+    </worksheet>

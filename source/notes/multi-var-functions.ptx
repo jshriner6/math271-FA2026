@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="multi-var-functions">
+    <title>Multivariable Functions</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="4in">
+            <title>Single vs. Multi variables</title>
+                <statement>
+                    <p>
+                       Consider the ideal gas law
+                       <md>
+                        VP = nRT
+                       </md>.     
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Types of multivariable functions</title>
+                <introduction>
+                    <p>
+                    There are two main categories of multivariable functions that we should be familiar with:
+                    </p>
+                </introduction>
+                <task workspace="4in">
+                <title>Scalar Functions</title>
+                    <statement>
+                        <p>
+                    
+                            
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="4in">
+                <title>Vector Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                </task>
+                
+                
+            </exercise>
+        </page>
+        <page>
+
+            <exercise>
+                <title>Visualizing multivariable functions</title>
+                <introduction>
+                    <p>
+                    Let's think about some different ways we could visualize multivariable functions:
+                    </p>
+                </introduction>
+                <task workspace="4in">
+                <title>Scalar Functions</title>
+                    <statement>
+                        <p>
+                    
+                            
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="4in">
+                <title>Vector Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                </task>
+                
+                
+            </exercise>
+        </page>
+
+       
+    </worksheet>

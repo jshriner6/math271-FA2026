@@ -48,6 +48,13 @@
      <!-- <xi:include href="./notes/orthogonal-functions-complete.ptx"/> -->
 
      <!-- WEEK 3 -->
+     <xi:include href="./notes/multi-var-functions.ptx"/>
+     <!--<xi:include href="./notes/multi-var-functions-complete.ptx"/> -->
+
+     <xi:include href="./notes/alt-coords.ptx"/>
+     <!--<xi:include href="./notes/alt-coords-complete.ptx"/> -->
+
+     <!-- WEEK 3 -->
 
       <!-- etc. -->
 

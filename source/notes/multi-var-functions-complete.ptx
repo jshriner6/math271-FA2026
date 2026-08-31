@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="multi-var-functions-complete">
+    <title>Multivariable Functions (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Functions are an essential tool for describing relationships we care about. In calculus 1, we 
+                        typically deal with functions of a single variable. However, many real-world functions are functions
+                        of multiple variables. We'll work to understand the basics of representing and visualizing such
+                        functions.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="4in">
+            <title>Single vs. Multi variables</title>
+                <statement>
+                    <p>
+                       Consider the ideal gas law
+                       <md>
+                        VP = nRT
+                       </md>.     
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        In calculus 1, we might view this law as describing the volume as a function of temperature:
+                        <md>
+                            V(T) = \frac{nRT}{P}
+                        </md>.
+                        Here, <m>T</m> is allowed to take different values, but <m>n,R,T</m> represent parameters (fixed 
+                        constants).
+                        
+                    </p>
+                    <p>
+                        We may want to allow multiple quantities to take different values and see how the volume is impacted.
+                        For example,
+                        <md>
+                            V(n,P,T) = \frac{nRT}{P}
+                        </md>
+                        is a function of three variables.
+                    </p>
+                </solution>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Types of multivariable functions</title>
+                <introduction>
+                    <p>
+                    There are two main categories of multivariable functions that we should be familiar with:
+                    </p>
+                </introduction>
+                <task workspace="4in">
+                <title>Scalar Functions</title>
+                    <statement>
+                        <p>
+                    
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <term>Scalar functions</term> are functions that output a single number (real or complex). They can 
+                            generally be represented as 
+                            <md>
+                                f: \R^n \to \R
+                            </md>
+                            or
+                            <md>
+                                f: \R^n \to \mathbb{C}
+                            </md>,
+                            where <m>\R^n</m> indicates that the function takes in <m>n</m> independent variables.
+                            
+                        </p>
+                        <p>
+                            Examples would include
+                            <md>
+                                f: \R^2 \to \R, \quad f(x,y) = x^2 - y^2
+                            </md>
+                            and
+                            <md>
+                                V: \R^3 \to \R, \quad V(n,P,T) = \frac{0.08nT}{P}
+                            </md>.
+                            
+                            Note that the order of your inputs matters. For example, using <m>f</m> above, 
+                            <m>f(0,1) = -1</m> but <m>f(1,0) = 1</m>.
+                            
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="4in">
+                <title>Vector Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <term>Vector functions</term> (or vector-valued functions) are functions that output multiple 
+                            scalars. They can 
+                            generally be represented as 
+                            <md>
+                                \fvec: \R^n \to \R^m
+                            </md>
+                            or
+                            <md>
+                                \fvec: \R^n \to \mathbb{C}^m
+                            </md>,
+                            where the <m>n</m> indicates that the function takes in <m>n</m> independent variables, and the <m>m</m>
+                            indicates that the functions returns <m>m</m> dependent variables.
+                        </p>
+                        <p>
+                            Examples would be 
+                            <md>
+                                \fvec: \R^2 \to \R^2, \quad \fvec(x,y) = (1,x-y)
+                            </md>
+                            and
+                            <md>
+                                \rvec: \R \to \R^2, \quad \rvec(t) = (t,t^2)
+                            </md>.
+                            The latter example is known as a <term>parametric curve</term>.
+                            
+                            
+                        </p>
+                        <p>
+                            Some sample function values using the previous definitions are <m>\fvec(4,2) = (1,2)</m> and 
+                            <m>\rvec(3) = (3,9)</m>.
+                        </p>
+                    </solution>
+                </task>
+                
+                
+            </exercise>
+        </page>
+        <page>
+
+            <exercise>
+                <title>Visualizing multivariable functions</title>
+                <introduction>
+                    <p>
+                    Let's think about some different ways we could visualize multivariable functions:
+                    </p>
+                </introduction>
+                <task workspace="4in">
+                <title>Scalar Functions</title>
+                    <statement>
+                        <p>
+                    
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can look at graphs in the Cartesian plane for <url href="https://www.desmos.com/calculator/f5bnoc7fct">functions whose domain is <m>\R</m></url>
+                            or <url href="https://www.desmos.com/3d/0p41jc49ir">functions whose domain is <m>\R^2</m></url>.
+                        </p>
+                        <p>
+                            For functions whose domain is <m>\R^2</m> and <m>\R^3</m>, it can be useful to consider 
+                            <term>level curves</term> (points satisfying <m>f(x,y)=c</m> for some constant <m>c</m>) and
+                            <term>level surfaces</term> (points satisfying <m>f(x,y,z)=c</m> for some constant <m>c</m>), respectively.
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="4in">
+                <title>Vector Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            It is possible to visualize 
+                            <url href="https://www.desmos.com/calculator/pdpyvukhz9">vector functions</url> and
+                            <url href="https://www.desmos.com/calculator/hgvdrippan"> parametric curves</url>; however, the main focus of our course
+                            will be scalar functions.
+                        </p>
+                    </solution>
+                </task>
+                
+                
+            </exercise>
+        </page>
+
+       
+    </worksheet>

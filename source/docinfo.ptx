@@ -17,6 +17,8 @@
     \newcommand{\R}{\mathbb R}
     \newcommand{\vvec}{\mathbf{v}}
     \newcommand{\wvec}{\mathbf{w}}
+    \newcommand{\fvec}{\mathbf{f}}
+    \newcommand{\rvec}{\mathbf{r}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->

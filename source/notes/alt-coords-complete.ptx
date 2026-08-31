@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="alt-coords-complete">
+    <title>Alternate Coordinate Systems (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        The coordinate system we've been using (Cartesian coordinates) is just one way we can communicate
+                        points in space. Depending on what function(s) we are working with, there may be more natural 
+                        coordinate systems to use. 
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Cylindrical Coordinates</title>
+                <statement>
+                    <p>
+                         
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <term>Cylindrical coordinates</term> are the natural extension of 2D polar coordinate to 3D. In Cartesian 
+                        coordinates we represent a point in space as <m>(x,y,z)</m>. In cylindrical coordinates, we represent a point
+                        in space as <m>(r,\theta,z)</m>. The coordinates <m>r</m> and <m>\theta</m> mean exactly what they did when
+                        we looked at polar coordinate representations of complex numbers, so the relationships between Cartesian and 
+                        cylindrical coordinates are
+                        <md>
+                            <mrow>x \amp=r \cos(\theta) </mrow>
+                            <mrow>y \amp=r \sin(\theta) </mrow>
+                            <mrow>z \amp= z </mrow>
+                        </md>
+                        
+                    </p>
+                    <p>
+                        We can use Desmos to 
+                        <url href="https://www.desmos.com/3d/2lnaphb1q4">visualize several equations in cylindrical coordinates</url>, which can greatly simplify 
+                        the expressions we use for certain solids.
+                    </p>
+                </solution>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise>
+                <title>Spherical Coordinates</title>
+                <statement>
+                    <p>
+                    
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Spherical coordinates define points using coordinates <m>(\rho, \theta, \varphi)</m>, where
+                        <ul>
+                            <li>
+                                <p>
+                                    <m>\rho</m> is the 3D distance from the origin to the point (which is non-negative),
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta</m> is the angle in the <m>x,y</m> plane used in polar coordinates (the 
+                                    azimuthal angle), and 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\varphi</m> is the angle measured from the positive <m>z</m> axis (between zero 
+                                    and <m>\pi</m>).
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        The relationships between spherical and cylindrical coordinates are
+                        <md>
+                            <mrow> r \amp= \rho\sin(\varphi) </mrow>
+                            <mrow> \theta \amp= \theta </mrow>
+                            <mrow> z \amp= \rho \cos(\varphi)</mrow>
+                        </md>,
+                        which we can use to produce relationships between spherical and Cartesian coordinates:
+                        <md>
+                            <mrow> x  \amp= \rho\sin(\varphi)\cos(\theta)  </mrow>
+                            <mrow> y  \amp= \rho\sin(\varphi)\sin(\theta)  </mrow>
+                            <mrow> z  \amp= \rho\cos(\varphi)  </mrow>
+                        </md>.
+                        
+                        
+                    </p>
+                    <p>
+                        We can use Desmos to 
+                        <url href="https://www.desmos.com/3d/a52pvbjkex">visualize several equations in spherical coordinates</url>, which can greatly simplify 
+                        the expressions we use for certain solids.
+                    </p>
+                </solution>
+              
+                
+            </exercise>
+
+    </page>
+
+       
+    </worksheet>
