@@ -41,8 +41,8 @@
       <!--<xi:include href="./notes/sin-cos.ptx"/> -->
       <xi:include href="./notes/sin-cos-complete.ptx"/>
 
-      <xi:include href="./notes/sinh-cosh.ptx"/>
-      <!-- <xi:include href="./notes/sinh-cosh-complete.ptx"/> -->
+      <!--<xi:include href="./notes/sinh-cosh.ptx"/>-->
+       <xi:include href="./notes/sinh-cosh-complete.ptx"/> 
 
       <xi:include href="./notes/orthogonal-functions.ptx"/>
      <!-- <xi:include href="./notes/orthogonal-functions-complete.ptx"/> -->

@@ -114,7 +114,7 @@
                     this with Euler's formula and matching the real parts and imaginary parts, we see that
                     <md>
                         <mrow>\cos(x) \amp= \cosh(ix) </mrow>
-                        <mrow> \sin(x) \amp= \frac{\sinh(ix)}{i} </mrow>
+                        <mrow> \sin(x) \amp= \frac{\sinh(ix)}{i} = -i\sinh(ix) </mrow>
                     </md>,
                     which provides a connection between <m>\cos/\cosh</m> and <m>\sin/\sinh</m> in complex space.
                     
