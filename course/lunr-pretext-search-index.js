@@ -208,49 +208,49 @@ var ptx_lunr_docs = [
   "body": " Symmetry   Sine and cosine have symmetry :  We can describe the symmetry algebraically in terms of reflections:    (odd symmetry)     (even symmetry)        Using symmetry to simplify:    For our purposes, it is most often used to simplify integrals:                  Using symmetry to decompose:    In general, a function is even if and odd if .  Most function don't have symmetry; however, for any function we can define              With these definitions, is an even function and is an odd function (you will verify this is lab 2); further,   Next, we'll look at this decomposition for a special function, which gives rise to the definition of two more important functions in quantum mechanics.    "
 },
 {
-  "id": "sinh-cosh",
+  "id": "sinh-cosh-complete",
   "level": "1",
-  "url": "sinh-cosh.html",
+  "url": "sinh-cosh-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Hyperbolic Sine and Cosine",
-  "body": " Hyperbolic Sine and Cosine    Motivation        Analytic   Recall, for a function ,        Geometric   Why hyperbolic ?     The unit hyperbola:       The unit hyperbola and areas:        Euler's Formula and Hyperbolic Functions   Recall Euler's formula: .     "
+  "title": "Hyperbolic Sine and Cosine (Complete)",
+  "body": " Hyperbolic Sine and Cosine (Complete)    Motivation       Hyperbolic trig functions arise in solutions to differential equations. We'll work to understand what these functions are both analytically and geometrically.     Analytic   Recall, for a function ,     Letting , we get We can use the definition of hyperbolic cosine and sine to define other hyperbolic trig functions. For example, .       Geometric   Why hyperbolic ?     The unit hyperbola:     You can verify that , which is analogous to sine and cosine satisfying the equation of the unit circle: .      The unit hyperbola and areas:    See the Hyperbolic Trig Desmos graphs to visualize how the values of and come from and coordinates of points on the unit hyperbola.        Euler's Formula and Hyperbolic Functions   Recall Euler's formula: .    This should remind us a lot of . If we substitute the imaginary number , we get , where the first term is a purely real (why?) and the second term is purely imaginary (why?). Equating this with Euler's formula and matching the real parts and imaginary parts, we see that , which provides a connection between and in complex space.     "
 },
 {
-  "id": "sinh-cosh-2-1",
+  "id": "sinh-cosh-complete-2-1",
   "level": "2",
-  "url": "sinh-cosh.html#sinh-cosh-2-1",
+  "url": "sinh-cosh-complete.html#sinh-cosh-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Hyperbolic trig functions arise in solutions to differential equations. We'll work to understand what these functions are both analytically and geometrically.   "
 },
 {
-  "id": "sinh-cosh-2-2",
+  "id": "sinh-cosh-complete-2-2",
   "level": "2",
-  "url": "sinh-cosh.html#sinh-cosh-2-2",
+  "url": "sinh-cosh-complete.html#sinh-cosh-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Analytic.",
-  "body": " Analytic   Recall, for a function ,    "
+  "body": " Analytic   Recall, for a function ,     Letting , we get We can use the definition of hyperbolic cosine and sine to define other hyperbolic trig functions. For example, .   "
 },
 {
-  "id": "sinh-cosh-3-1",
+  "id": "sinh-cosh-complete-3-1",
   "level": "2",
-  "url": "sinh-cosh.html#sinh-cosh-3-1",
+  "url": "sinh-cosh-complete.html#sinh-cosh-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Geometric.",
-  "body": " Geometric   Why hyperbolic ?     The unit hyperbola:       The unit hyperbola and areas:    "
+  "body": " Geometric   Why hyperbolic ?     The unit hyperbola:     You can verify that , which is analogous to sine and cosine satisfying the equation of the unit circle: .      The unit hyperbola and areas:    See the Hyperbolic Trig Desmos graphs to visualize how the values of and come from and coordinates of points on the unit hyperbola.    "
 },
 {
-  "id": "sinh-cosh-4-1",
+  "id": "sinh-cosh-complete-4-1",
   "level": "2",
-  "url": "sinh-cosh.html#sinh-cosh-4-1",
+  "url": "sinh-cosh-complete.html#sinh-cosh-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Euler’s Formula and Hyperbolic Functions.",
-  "body": " Euler's Formula and Hyperbolic Functions   Recall Euler's formula: .   "
+  "body": " Euler's Formula and Hyperbolic Functions   Recall Euler's formula: .    This should remind us a lot of . If we substitute the imaginary number , we get , where the first term is a purely real (why?) and the second term is purely imaginary (why?). Equating this with Euler's formula and matching the real parts and imaginary parts, we see that , which provides a connection between and in complex space.   "
 },
 {
   "id": "orthogonal-functions",
@@ -478,6 +478,42 @@ var ptx_lunr_docs = [
   "body": "  In class you were told that was an orthogonal set on .     Why does this set start at and not ?      Use technology to convince yourself that this is an orthogonal set. You can use a blank Desmos calculator if you'd like practice setting things up yourself, or you can use this Desmos template , which is similar to what was used in class.    "
 },
 {
+  "id": "lab3",
+  "level": "1",
+  "url": "lab3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 3",
+  "body": " Lab 3    This lab is intended to practice ideas related to multivariable functions and cylindrical\/spherical coordinates. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.      For each function below, sketch at least four level curves, and use them to sketch a graph of the surface. You can use (2D) Desmos to help with level curves, and (3D) Desmos to verify your surfaces.                    For each equation in cylindrical coordinates, first convert it to an equation in Cartesian coordinates. Then use level curves to describe the surface. Finally, plot the surface in (3D) Desmos.      ,               For each equation in spherical coordinates, first convert it to an equation in Cartesian coordinates. Then use level curves to describe the surface. Finally, plot the surface in (3D) Desmos.                  "
+},
+{
+  "id": "lab3-3",
+  "level": "2",
+  "url": "lab3.html#lab3-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each function below, sketch at least four level curves, and use them to sketch a graph of the surface. You can use (2D) Desmos to help with level curves, and (3D) Desmos to verify your surfaces.                 "
+},
+{
+  "id": "lab3-4",
+  "level": "2",
+  "url": "lab3.html#lab3-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  For each equation in cylindrical coordinates, first convert it to an equation in Cartesian coordinates. Then use level curves to describe the surface. Finally, plot the surface in (3D) Desmos.      ,            "
+},
+{
+  "id": "lab3-5",
+  "level": "2",
+  "url": "lab3.html#lab3-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  For each equation in spherical coordinates, first convert it to an equation in Cartesian coordinates. Then use level curves to describe the surface. Finally, plot the surface in (3D) Desmos.                 "
+},
+{
   "id": "homework-3",
   "level": "1",
   "url": "homework-3.html",
@@ -530,6 +566,51 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "  Use Euler's formula to show that and .   "
+},
+{
+  "id": "homework-4",
+  "level": "1",
+  "url": "homework-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 2 (Weeks 2 and 3)",
+  "body": " Homework 2 (Weeks 2 and 3)     How do you know that is an invertible function? Find an algebraic formula for .      Consider the set of functions Use technology to answer the following:     Is this an orthogonal set on the interval with respect to the inner product on functions defined in class?      Is this an orthogonal set on the interval with respect to the inner product defined by ?       Sketch level curves for the following surfaces, and use them to sketch the 3D surface. Use Desmos to verify your sketch is accurate.                    State whether each equation is given in cylindrical or spherical coordinates. Then convert each equation from cylindrical or spherical coordinates to Cartesian coordinates.                                 "
+},
+{
+  "id": "homework-4-2-1",
+  "level": "2",
+  "url": "homework-4.html#homework-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  How do you know that is an invertible function? Find an algebraic formula for .   "
+},
+{
+  "id": "homework-4-2-2",
+  "level": "2",
+  "url": "homework-4.html#homework-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the set of functions Use technology to answer the following:     Is this an orthogonal set on the interval with respect to the inner product on functions defined in class?      Is this an orthogonal set on the interval with respect to the inner product defined by ?    "
+},
+{
+  "id": "homework-4-2-3",
+  "level": "2",
+  "url": "homework-4.html#homework-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Sketch level curves for the following surfaces, and use them to sketch the 3D surface. Use Desmos to verify your sketch is accurate.                 "
+},
+{
+  "id": "homework-4-2-4",
+  "level": "2",
+  "url": "homework-4.html#homework-4-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  State whether each equation is given in cylindrical or spherical coordinates. Then convert each equation from cylindrical or spherical coordinates to Cartesian coordinates.                               "
 }
 ]
 
