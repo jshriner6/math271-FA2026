@@ -253,67 +253,67 @@ var ptx_lunr_docs = [
   "body": " Euler's Formula and Hyperbolic Functions   Recall Euler's formula: .    This should remind us a lot of . If we substitute the imaginary number , we get , where the first term is a purely real (why?) and the second term is purely imaginary (why?). Equating this with Euler's formula and matching the real parts and imaginary parts, we see that , which provides a connection between and in complex space.   "
 },
 {
-  "id": "orthogonal-functions",
+  "id": "orthogonal-functions-complete",
   "level": "1",
-  "url": "orthogonal-functions.html",
+  "url": "orthogonal-functions-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Orthogonal Sets of Functions",
-  "body": " Orthogonal Sets of Functions    Motivation        Inner Products   An inner product is    Dot Product   For ,     Real Functions   For on ,        Orthogonal Functions   Two non-zero vectors are orthogonal with respect to an inner product if    Dot Product        Real Functions         Orthogonal Sets   A set of non-zero real functions is an orthogonal set of functions on if       Important Examples of Orthogonal Sets          Superposition   If are valid state functions, so is     "
+  "title": "Orthogonal Sets of Functions (Complete)",
+  "body": " Orthogonal Sets of Functions (Complete)    Motivation       We've seen some familiar properties of sine and cosine. There is a less familiar property that make these functions very useful in describing function behavior, which is what we will explore today.     Inner Products   An inner product is  an operation that combines two vectors to produce a scalar (a number) which satisfies particular properties. We won't worry about writing down those properties in detail, but we'll see some examples to give the idea.    Dot Product   For ,    the dot product of is an inner product, defined as . Labeling , etc., we can see that this definition of dot product satisfies                   , and exactly when .        Real Functions   For on ,    we can define an inner product of as . We can verify that this inner product satisfies              ,      , and exactly when (almost) everywhere on            Orthogonal Functions   Two non-zero vectors are orthogonal with respect to an inner product if  their inner product is zero.    Dot Product       Orthogonality with respect to the dot product tells us when two vectors are perpendicular geometrically. As an example, sketch the vectors and in and compute their dot product.     Real Functions       Non-zero real functions are orthogonal on if .      Orthogonal Sets   A set of non-zero real functions is an orthogonal set of functions on if     are orthogonal whenever . That is        Important Examples of Orthogonal Sets       The following are examples of orthogonal sets of functions discussed in class:    on , since   You can use the Desmos activity from class to verify and visualize these computations.     on , since      on , since      on , since      on , but is not an orthogonal set on . Use the same Desmos activity from above to verify this.          Superposition   If are valid state functions, so is     (a linear combination ). We also technically need to normalize  for it to be valid, which we will discuss more shortly.  If are also orthogonal on , we have a method for determining the coefficients which would give us . We'll use this idea on an infinite set of orthogonal functions when we discuss Fourier series at the end of the semester.     "
 },
 {
-  "id": "orthogonal-functions-2-1",
+  "id": "orthogonal-functions-complete-2-1",
   "level": "2",
-  "url": "orthogonal-functions.html#orthogonal-functions-2-1",
+  "url": "orthogonal-functions-complete.html#orthogonal-functions-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen some familiar properties of sine and cosine. There is a less familiar property that make these functions very useful in describing function behavior, which is what we will explore today.   "
 },
 {
-  "id": "orthogonal-functions-2-2",
+  "id": "orthogonal-functions-complete-2-2",
   "level": "2",
-  "url": "orthogonal-functions.html#orthogonal-functions-2-2",
+  "url": "orthogonal-functions-complete.html#orthogonal-functions-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Inner Products.",
-  "body": " Inner Products   An inner product is    Dot Product   For ,     Real Functions   For on ,    "
+  "body": " Inner Products   An inner product is  an operation that combines two vectors to produce a scalar (a number) which satisfies particular properties. We won't worry about writing down those properties in detail, but we'll see some examples to give the idea.    Dot Product   For ,    the dot product of is an inner product, defined as . Labeling , etc., we can see that this definition of dot product satisfies                   , and exactly when .        Real Functions   For on ,    we can define an inner product of as . We can verify that this inner product satisfies              ,      , and exactly when (almost) everywhere on        "
 },
 {
-  "id": "orthogonal-functions-3-1",
+  "id": "orthogonal-functions-complete-3-1",
   "level": "2",
-  "url": "orthogonal-functions.html#orthogonal-functions-3-1",
+  "url": "orthogonal-functions-complete.html#orthogonal-functions-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Orthogonal Functions.",
-  "body": " Orthogonal Functions   Two non-zero vectors are orthogonal with respect to an inner product if    Dot Product        Real Functions       "
+  "body": " Orthogonal Functions   Two non-zero vectors are orthogonal with respect to an inner product if  their inner product is zero.    Dot Product       Orthogonality with respect to the dot product tells us when two vectors are perpendicular geometrically. As an example, sketch the vectors and in and compute their dot product.     Real Functions       Non-zero real functions are orthogonal on if .    "
 },
 {
-  "id": "orthogonal-functions-3-2",
+  "id": "orthogonal-functions-complete-3-2",
   "level": "2",
-  "url": "orthogonal-functions.html#orthogonal-functions-3-2",
+  "url": "orthogonal-functions-complete.html#orthogonal-functions-complete-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Orthogonal Sets.",
-  "body": " Orthogonal Sets   A set of non-zero real functions is an orthogonal set of functions on if   "
+  "body": " Orthogonal Sets   A set of non-zero real functions is an orthogonal set of functions on if     are orthogonal whenever . That is    "
 },
 {
-  "id": "orthogonal-functions-4-1",
+  "id": "orthogonal-functions-complete-4-1",
   "level": "2",
-  "url": "orthogonal-functions.html#orthogonal-functions-4-1",
+  "url": "orthogonal-functions-complete.html#orthogonal-functions-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Important Examples of Orthogonal Sets.",
-  "body": " Important Examples of Orthogonal Sets      "
+  "body": " Important Examples of Orthogonal Sets       The following are examples of orthogonal sets of functions discussed in class:    on , since   You can use the Desmos activity from class to verify and visualize these computations.     on , since      on , since      on , since      on , but is not an orthogonal set on . Use the same Desmos activity from above to verify this.      "
 },
 {
-  "id": "orthogonal-functions-5-1",
+  "id": "orthogonal-functions-complete-5-1",
   "level": "2",
-  "url": "orthogonal-functions.html#orthogonal-functions-5-1",
+  "url": "orthogonal-functions-complete.html#orthogonal-functions-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Superposition.",
-  "body": " Superposition   If are valid state functions, so is   "
+  "body": " Superposition   If are valid state functions, so is     (a linear combination ). We also technically need to normalize  for it to be valid, which we will discuss more shortly.  If are also orthogonal on , we have a method for determining the coefficients which would give us . We'll use this idea on an infinite set of orthogonal functions when we discuss Fourier series at the end of the semester.   "
 },
 {
   "id": "multi-var-functions",
