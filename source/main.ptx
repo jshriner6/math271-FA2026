@@ -44,8 +44,8 @@
       <!--<xi:include href="./notes/sinh-cosh.ptx"/>-->
        <xi:include href="./notes/sinh-cosh-complete.ptx"/> 
 
-      <xi:include href="./notes/orthogonal-functions.ptx"/>
-     <!-- <xi:include href="./notes/orthogonal-functions-complete.ptx"/> -->
+      <!--<xi:include href="./notes/orthogonal-functions.ptx"/>-->
+      <xi:include href="./notes/orthogonal-functions-complete.ptx"/> 
 
      <!-- WEEK 3 -->
      <xi:include href="./notes/multi-var-functions.ptx"/>

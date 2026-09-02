@@ -219,6 +219,10 @@
                                 </md>
                                 
                             </p>
+                            <p>
+                                You can use the <url href="https://www.desmos.com/calculator/pwjxnf6n5h">Desmos activity from class</url>
+                                to verify and visualize these computations.
+                            </p>
                         </li>
 
                         <li>
@@ -267,7 +271,7 @@
                         <li>
                             <p>
                                 <m>\{\sin\left( \frac{n\pi}{L} x \right) \}_{n=1}^\infty \cup \{\cos\left( \frac{n\pi}{L} x \right) \}_{n=0}^\infty</m> on <m>[-L,L]</m>,
-                                but is <em>not</em> an orthogonal set on <m>[0,L]</m>.
+                                but is <em>not</em> an orthogonal set on <m>[0,L]</m>. Use the same Desmos activity from above to verify this.
                                 
                             </p>
                         </li>
