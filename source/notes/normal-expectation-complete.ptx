@@ -11,6 +11,12 @@
                 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        We've seen the Born interpretation leads to probability distribution functions <m>|\psi|^2 = \overline{\psi} \cdot \psi</m>.
+                        Now we'll see two common ways these functions are utilized in conjunction with improper integrals.
+                    </p>
+                </solution>
             </exercise>
 
             <exercise workspace="3in">
@@ -25,6 +31,13 @@
                          
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>1</m>. That is, the probability that the particle is found in all of space is <m>100\%</m>. This condition
+                        is often used to us determine values of parameters within a function <m>f(x)</m> to make it a valid 
+                        probability distribution function (called <term>normalizing</term> <m>f(x)</m>).
+                    </p>
+                </solution>
             </exercise>
 
             <exercise>
@@ -42,6 +55,21 @@
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <m>\int_{-\infty}^\infty f(x) \quad dx = 1</m> implies that <m>\int_1^{10} c \quad dx = 1</m>. Using the
+                            FTC, this implies that <m>10c - c = 1</m>, so that <m>c = 1/9</m>.
+                        </p>
+                        <p>
+                            The function <m>f(x)</m> here is called a <term>uniform distribution</term>. In general, uniform distributions take the form
+                            <md>
+                                f(x) = \begin{cases}
+                                    \frac{1}{b-a} \amp \text{if } a \leq x \leq b, \\
+                                    0  \amp \text{otherwise}.
+                                    \end{cases}
+                            </md>
+                        </p>
+                    </solution>
                 </task>
 
                 <task workspace="3in">
@@ -51,6 +79,12 @@
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            Note that <m>\int_{-\infty}^\infty g(x) \quad dx = c\int_{-\infty}^\infty e^{-x^2} \quad dx = c \sqrt{\pi}</m>.
+                            Therefore, normalizing <m>g(x)</m> would require setting <m>c = \frac{1}{\sqrt{\pi}}</m>.
+                        </p>
+                    </solution>
                 </task>
                 
             </exercise>
@@ -96,7 +130,23 @@
                 </p>
 
                 </statement>
-                
+                <solution>
+                    <p>
+                        We could use a weighted average:
+                        <md>
+                            1(0.1) + 2(0.6) + 3(0.2) + 4(0.1) = 2.3
+                        </md>.
+                        Note that this is not a measure of the value we'd see most often (<m>2.3</m> is not even a valid position 
+                        for the particle in this example), but a measure of the central tendency (average) of multiple observations.
+                    </p>
+                    <p>
+                        For a continuous probability distribution function <m>f(x)</m>, this leads to the definition
+                        <md>
+                            \text{Expectation (Average Value)} = \int_{-\infty}^\infty xf(x) \quad dx
+                        </md>.
+                        
+                    </p>
+                </solution>
               
                 
             </exercise>
@@ -119,6 +169,16 @@
                     
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <md>
+                            <mrow> \int_{-\infty}^\infty xf(x) \quad dx \amp= \int_a^b x \frac{1}{b-a} \quad dx </mrow>
+                            <mrow> \amp= \frac{1}{2(b-a)}(b^2 - a^2) </mrow>
+                            <mrow> \amp= \frac{1}{2}(b+a) </mrow>
+                        </md>.
+                        Note that in the case of the uniform distrbution, this is just the average of <m>a</m> and <m>b</m>.
+                    </p>
+                </solution>
             </task>
 
             <task workspace="4in">
@@ -129,6 +189,13 @@
                     
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        First, verify that the expression to be integrated, <m>xg(x)</m>, is an odd function. Next, use technology
+                        to confirm the integral converges. Finally, 
+                        using symmetry we can determine that <m>\int_{-\infty}^{\infty} xg(x) \quad dx = 0</m>.
+                    </p>
+                </solution>
             </task>
             
         </exercise>

@@ -11,6 +11,18 @@
                 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Evaluating definite integrals can get hard fast! In practice, it is useful to have methods for 
+                        approximating values of integrals. Typically, this takes the form 
+                        <md>
+                            \int_a^b f(x) \quad dx \approx \sum_{i=1}^n w_i f(x_i)
+                        </md>.
+                        How we determine the weights (<m>w_i</m>) and the nodes (<m>x_i</m>) used in the approximation
+                        is what varies between methods. We'll look at some common methods used in quantum mechanics.
+                        
+                    </p>
+                </solution>
             </exercise>
 
             <exercise workspace="6in">
@@ -21,6 +33,16 @@
                          
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        See the <url href="https://www.desmos.com/calculator/avbulpbcco">Trapezoid rule Desmos interactive </url>
+                        for the visual used to determine the Trapezoid rule for approximation:
+                        <md>
+                            \int_a^b f(x) \quad dx  \approx \frac{\Delta x}{2}(f(x_1)+ 2 f(x_2) + \dots + 2f(x_{n-1}) + f(x_n))
+                        </md>.
+                        
+                    </p>
+                </solution>
             </exercise>
 
             <exercise workspace="2in">
@@ -30,7 +52,17 @@
                         <m>\displaystyle \int_{-1}^1 e^{-x^2} \quad dx</m>
                     </p>
                 </statement>
-                
+                <solution>
+                    <p>
+                        Using <m>n=4</m> makes <m>\Delta x = 0.5</m>. Then using the trapezoid rule gives 
+                        <md>
+                            <mrow>\int_{-1}^1 e^{-x^2} \quad dx \amp\approx \frac{1}{4}(f(-1) + 2f(-0.5) + 2f(0) + 2f(0.5) + f(1) ) </mrow>
+                            <mrow> \amp\approx 1.463 </mrow>
+                        </md>.
+                        Compare this to the true value using technology of approximately <m>1.494</m>.
+                        
+                    </p>
+                </solution>
                 
             </exercise>
     
@@ -45,7 +77,15 @@
                     
                     </p>
                 </statement>
-                
+                <solution>
+                    <p>
+                        See the <url href="https://www.desmos.com/calculator/hqsw8hmrbf">Simpson's rule Desmos interactive </url>
+                        for the visual used to determine Simpson's rule for approximation: For <m>n</m> even,
+                        <md>
+                            \int_a^b f(x) \quad dx  \approx \frac{\Delta x}{3}(f(x_0)+ \sum_{i \text{ odd}}^{n-1} 4f(x_i) + \sum_{i \text{ even}}^{n-2} 2f(x_i) + f(x_n) )
+                        </md>.
+                    </p>
+                </solution>
               
                 
             </exercise>
@@ -57,6 +97,16 @@
                      <m>\displaystyle \int_{-1}^1 e^{-x^2} \quad dx</m>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Using <m>n=4</m> makes <m>\Delta x = 0.5</m>. Then using the Simpson's rule gives 
+                        <md>
+                            <mrow>\int_{-1}^1 e^{-x^2} \quad dx \amp\approx \frac{1}{6}(f(-1) + 4f(-0.5) + 2f(0) + 4f(0.5) + f(1) ) </mrow>
+                            <mrow> \amp\approx 1.494 </mrow>
+                        </md>
+                        which is even closer to the true value than when using the Trapezoid rule.
+                    </p>
+                </solution>
                 
             </exercise>
 
@@ -74,7 +124,15 @@
                     <shortdescription>Table of nodes and weights for Gaussian-Hermite quadrature.</shortdescription>
                 </image>
             </statement>
-            
+            <solution>
+                <p>
+                    This method is best for improper integrals of a particular form, and actually gives <em>equality</em> when <m>f</m> is a polynomial of degree <m>2n-1</m> or less.
+                </p>
+                <p>
+                    In lab we'll discover a bit more about where the table of weights and nodes comes from, but for now 
+                    we should understand how to use them.
+                </p>
+            </solution>
             
         </exercise>
     </page>
@@ -88,6 +146,16 @@
                         <m>\displaystyle \int_{-\infty}^\infty e^{-x^2} \quad dx</m>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                       <md>
+                        <mrow>\sum_{i=1}^2 w_i f(x_i) \amp= 0.886f(-0.707) + 0.886f(0.707) </mrow>
+                        <mrow> \amp=2(.886) </mrow>
+                        <mrow> \amp=1.772 (\approx \sqrt{\pi}) </mrow>
+                       </md>
+                       
+                    </p>
+                </solution>
             </task>
 
             <task workspace="4in">
@@ -96,6 +164,22 @@
                         <m>\displaystyle \int_{-\infty}^\infty ae^{-\frac{(x-b)^2}{2c^2}} \quad dx</m>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Use the substitution <m>u = \frac{1}{\sqrt{2}c}(x-b)</m>, <m>du = \frac{1}{\sqrt{2}c} dx</m> to transform
+                        the integral to 
+                        <md>
+                            \int_{-\infty}^\infty \sqrt{2}c ae^{-u^2} \quad du
+                        </md>.
+                        Then using the result from the previous example, we can see that 
+                        <md>
+                            <mrow>  \int_{-\infty}^\infty \sqrt{2}c ue^{-u^2} \quad du \amp= \sqrt{2}c a \sqrt{\pi}</mrow>
+                            <mrow> \amp= ac\sqrt{2\pi} </mrow>
+                        </md>.
+                        This result allows us to normalize a general Gaussian function!
+                        
+                    </p>
+                </solution>
             </task>
             
         </exercise>

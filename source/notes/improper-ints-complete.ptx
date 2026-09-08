@@ -11,6 +11,13 @@
                 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Solutions to Schrödinger equations are used to determine probabilities. In order to extract useful
+                        information, we need to know how to integrate over <q>all of space</q> (for example, in one-dimensional 
+                        space, this means integrating over <m>(-\infty, \infty)</m>).
+                    </p>
+                </solution>
             </exercise>
 
             <exercise workspace="6in">
@@ -25,6 +32,27 @@
                          
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>|\psi(x,t)|^2 = \overline{\psi} \cdot \psi</m> (which is <em>real</em> -- look back to properties of
+                        complex multiplication with conjugates!) is a <term>probability density function</term> (this is the 
+                        <term>Born interpretation</term> of wave functions).
+                    </p>
+                    <p>
+                        Practically, this means that the probability a particle has position between <m>x=a</m> and <m>x=b</m> at 
+                        time <m>t</m> is 
+                        <md>
+                            \int_a^b |\psi|^2 \quad dx
+                        </md>.
+                        Since a particle can technically be anywhere in (one-dimensional) space, we must make sense of integrals 
+                        of the form
+                        <md>
+                            \int_{-\infty}^\infty f(x) \quad dx
+                        </md>.
+                        Integrals with infinite bounds are known as <term>improper integrals</term>.
+                        
+                    </p>
+                </solution>
             </exercise>
     
     </page>
@@ -45,7 +73,20 @@
                     
                     </p>
                 </statement>
-                
+                <solution>
+                    <p>
+                        Here is the <url href="https://www.desmos.com/calculator/fkenbkd9gf">Improper Integral Desmos interactive</url>
+                        used to illustrate the intuition behind the definitions of improper integrals:
+                        <md>
+                        <mrow> \int_c^\infty f(x) \quad dx \amp= \lim_{t \to \infty}  \int_c^t f(x)\quad dx </mrow>
+
+                        <mrow> \int_{-\infty}^c f(x) \quad dx \amp= \lim_{t \to -\infty}\int_{t}^c f(x) \quad dx</mrow>
+
+                        <mrow> \int_{-\infty}^\infty f(x) \quad dx \amp= \int_{-\infty}^c f(x) \quad dx + \int_c^\infty f(x) \quad dx </mrow>
+                        </md>,
+                        assuming both limits exist. In this case, we say the integral <m>\int_{-\infty}^\infty f(x) \quad dx</m> <term>converges</term>.
+                    </p>
+                </solution>
               
                 
             </exercise>
@@ -66,6 +107,17 @@
                          <m> \displaystyle     \int_1^{\infty} \frac{1}{x} \quad dx </m>  
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <md>
+                                <mrow> \lim_{t \to \infty} \int_1^t \frac{1}{x} \quad dx \amp= \lim_{t\to \infty} (\ln|t| - \ln(1) ) </mrow>
+                                <mrow> \amp= \lim_{t \to \infty} \ln(t) </mrow>
+                                <mrow> \amp= \infty </mrow>
+                            </md>.
+                            This integral is not convergent (it <term>diverges</term>).
+                            
+                        </p>
+                    </solution>
                 </task>
                 
                 <task workspace="5in">
@@ -77,6 +129,31 @@
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <md>
+                                <mrow> \lim_{t \to \infty} \displaystyle \int_{0}^{t} \frac{1}{1+x^2} \quad dx \amp= \lim_{t \to \infty}(\arctan(t)-\arctan(0)) </mrow>
+                                <mrow> \amp= \lim_{t \to \infty} \arctan(t) </mrow>
+                                <mrow> \amp= \frac{\pi}{2} </mrow>
+                            </md>
+                            
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \lim_{t \to -\infty} \displaystyle \int_{t}^{0} \frac{1}{1+x^2} \quad dx \amp= \lim_{t \to \infty}(\arctan(0)-\arctan(t)) </mrow>
+                                <mrow> \amp= \lim_{t \to \infty} -\arctan(t) </mrow>
+                                <mrow> \amp= \frac{\pi}{2} </mrow>
+                            </md>
+                            
+                        </p>
+                        <p>
+                            So this integral converges, and 
+                            <m>
+                               \displaystyle \int_{-\infty}^{\infty} \frac{1}{1+x^2} \quad dx = \frac{\pi}{2} + \frac{\pi}{2} = \pi
+                            </m>.
+                            
+                        </p>
+                    </solution>
                 </task>
 
                 <task workspace="1in">
@@ -88,6 +165,15 @@
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            For now, just note that 
+                             <m>
+                               \displaystyle \int_{-\infty}^{\infty} e^{-x^2} \quad dx = \sqrt{\pi}
+                            </m>. You can use the Desmos interactive above to verify this is reasonable.
+                            We'll see ways to justify this later once we have more tools.
+                        </p>
+                    </solution>
                 </task>
             </exercise>
 
