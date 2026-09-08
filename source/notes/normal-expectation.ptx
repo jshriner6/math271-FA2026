@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="normal-expectation">
+    <title>Normalization and Expectation</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="3in">
+            <title>Normalization</title>
+                <statement>
+                    <p>
+                        If <m>f(x)</m> represents a valid probability distribution, it must satisfy
+                        <md>
+                            \int_{-\infty}^\infty f(x) = 
+                        </md>
+                        
+                         
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+                <title>Examples: Normalizing Functions</title>
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Let 
+                            <md>
+                                f(x) = \begin{cases}
+                                    c \amp \text{if } 1 \leq x \leq 10, \\
+                                    0  \amp \text{otherwise}.
+                                    \end{cases}
+                            </md>
+                            
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Let <m>g(x) = ce^{-x^2}</m>.
+                            
+                        </p>
+                    </statement>
+                </task>
+                
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="1in">
+                <title>Expectation</title>
+                <statement>
+                    <p>
+                        Consider a particle which can be at any one of four positions at a given time with the listed 
+                        probabilities:
+                    
+                    </p>
+           
+  
+                            <tabular top="major" bottom="minor">
+                                <row header="yes" bottom="major">
+                                <cell><m>x</m></cell>
+                                <cell><m>p(x)</m></cell>
+                                </row>
+                                <row>
+                                <cell><m>1</m></cell>
+                                <cell><m>0.1</m></cell>
+                                </row>
+                                <row>
+                                <cell><m>2</m></cell>
+                                <cell><m>0.6</m></cell>
+                                </row>
+                                <row>
+                                <cell><m>3</m></cell>
+                                <cell><m>0.2</m></cell>
+                                </row>
+                                <row>
+                                <cell><m>4</m></cell>
+                                <cell><m>0.1</m></cell>
+                                </row>
+                            </tabular>
+                <p>
+                    If we could observe this experiment for several trials, how could we describe the expected position 
+                    of the particle? 
+                </p>
+
+                </statement>
+                
+              
+                
+            </exercise>
+
+            
+    </page>
+    <page>
+        <exercise>
+            <title>Examples: Expectation</title>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                    What is the expectation for the uniform distribution
+                    <md>
+                        f(x) = \begin{cases}
+                                    \frac{1}{b-a} \amp \text{if } a \leq x \leq b, \\
+                                    0  \amp \text{otherwise}
+                                    \end{cases}
+                    </md>?
+                    
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="4in">
+                <statement>
+                    <p>
+                    What is the expectation for the distribution <m>g(x) = \frac{1}{\sqrt{\pi}}e^{-x^2}</m>?
+                
+                    
+                    </p>
+                </statement>
+            </task>
+            
+        </exercise>
+    </page>
+
+       
+    </worksheet>

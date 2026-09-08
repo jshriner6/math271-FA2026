@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="improper-ints">
+    <title>Improper Integrals</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Probability Densities</title>
+                <statement>
+                    <p>
+                         If <m>\psi(x,t) : \R^2 \to \C</m> is a solution to a Schrödinger equation, then
+                         <md>
+                            |\psi(x,t)|^2 = 
+                         </md>
+                         is a 
+                         
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="1in">
+                <title>Improper Integrals</title>
+                <statement>
+                    <p>
+                    Define
+                    <md>
+                        <mrow> \int_c^\infty f(x) \quad dx \amp= </mrow>
+
+                        <mrow> \int_{-\infty}^c f(x) \quad dx \amp= </mrow>
+
+                        <mrow> \int_{-\infty}^\infty f(x) \quad dx \amp= </mrow>
+                    </md>
+                    
+                    </p>
+                </statement>
+                
+              
+                
+            </exercise>
+
+        </page>
+        <page>
+
+            <exercise>
+                <title>Examples: Improper Integrals</title>
+                <introduction>
+                    <p>
+                        We'll compute a couple of examples by hand to add experience to our intuition, and focus on 
+                        important applications of improper integrals next time.
+                    </p>
+                </introduction>
+                <task workspace="5in">
+                    <statement>
+                        <p>
+                         <m> \displaystyle     \int_1^{\infty} \frac{1}{x} \quad dx </m>  
+                        </p>
+                    </statement>
+                </task>
+                
+                <task workspace="5in">
+                    <statement>
+                        <p>
+                            <m>
+                               \displaystyle \int_{-\infty}^{\infty} \frac{1}{1+x^2} \quad dx
+                            </m>
+                            
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>
+                               \displaystyle \int_{-\infty}^{\infty} e^{-x^2} \quad dx
+                            </m>
+                            
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+
+    </page>
+
+       
+    </worksheet>
