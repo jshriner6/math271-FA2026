@@ -316,49 +316,49 @@ var ptx_lunr_docs = [
   "body": " Superposition   If are valid state functions, so is     (a linear combination ). We also technically need to normalize  for it to be valid, which we will discuss more shortly.  If are also orthogonal on , we have a method for determining the coefficients which would give us . We'll use this idea on an infinite set of orthogonal functions when we discuss Fourier series at the end of the semester.   "
 },
 {
-  "id": "multi-var-functions",
+  "id": "multi-var-functions-complete",
   "level": "1",
-  "url": "multi-var-functions.html",
+  "url": "multi-var-functions-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Multivariable Functions",
-  "body": " Multivariable Functions    Motivation        Single vs. Multi variables   Consider the ideal gas law .       Types of multivariable functions   There are two main categories of multivariable functions that we should be familiar with:    Scalar Functions        Vector Functions           Visualizing multivariable functions   Let's think about some different ways we could visualize multivariable functions:    Scalar Functions        Vector Functions         "
+  "title": "Multivariable Functions (Complete)",
+  "body": " Multivariable Functions (Complete)    Motivation       Functions are an essential tool for describing relationships we care about. In calculus 1, we typically deal with functions of a single variable. However, many real-world functions are functions of multiple variables. We'll work to understand the basics of representing and visualizing such functions.     Single vs. Multi variables   Consider the ideal gas law .    In calculus 1, we might view this law as describing the volume as a function of temperature: . Here, is allowed to take different values, but represent parameters (fixed constants).  We may want to allow multiple quantities to take different values and see how the volume is impacted. For example, is a function of three variables.       Types of multivariable functions   There are two main categories of multivariable functions that we should be familiar with:    Scalar Functions        Scalar functions are functions that output a single number (real or complex). They can generally be represented as or , where indicates that the function takes in independent variables.  Examples would include and . Note that the order of your inputs matters. For example, using above, but .     Vector Functions        Vector functions (or vector-valued functions) are functions that output multiple scalars. They can generally be represented as or , where the indicates that the function takes in independent variables, and the indicates that the functions returns dependent variables.  Examples would be and . The latter example is known as a parametric curve .  Some sample function values using the previous definitions are and .        Visualizing multivariable functions   Let's think about some different ways we could visualize multivariable functions:    Scalar Functions       We can look at graphs in the Cartesian plane for functions whose domain is or functions whose domain is .  For functions whose domain is and , it can be useful to consider level curves (points satisfying for some constant ) and level surfaces (points satisfying for some constant ), respectively.     Vector Functions       It is possible to visualize vector functions and parametric curves ; however, the main focus of our course will be scalar functions.      "
 },
 {
-  "id": "multi-var-functions-2-1",
+  "id": "multi-var-functions-complete-2-1",
   "level": "2",
-  "url": "multi-var-functions.html#multi-var-functions-2-1",
+  "url": "multi-var-functions-complete.html#multi-var-functions-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Functions are an essential tool for describing relationships we care about. In calculus 1, we typically deal with functions of a single variable. However, many real-world functions are functions of multiple variables. We'll work to understand the basics of representing and visualizing such functions.   "
 },
 {
-  "id": "multi-var-functions-2-2",
+  "id": "multi-var-functions-complete-2-2",
   "level": "2",
-  "url": "multi-var-functions.html#multi-var-functions-2-2",
+  "url": "multi-var-functions-complete.html#multi-var-functions-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Single vs. Multi variables.",
-  "body": " Single vs. Multi variables   Consider the ideal gas law .   "
+  "body": " Single vs. Multi variables   Consider the ideal gas law .    In calculus 1, we might view this law as describing the volume as a function of temperature: . Here, is allowed to take different values, but represent parameters (fixed constants).  We may want to allow multiple quantities to take different values and see how the volume is impacted. For example, is a function of three variables.   "
 },
 {
-  "id": "multi-var-functions-3-1",
+  "id": "multi-var-functions-complete-3-1",
   "level": "2",
-  "url": "multi-var-functions.html#multi-var-functions-3-1",
+  "url": "multi-var-functions-complete.html#multi-var-functions-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Types of multivariable functions.",
-  "body": " Types of multivariable functions   There are two main categories of multivariable functions that we should be familiar with:    Scalar Functions        Vector Functions       "
+  "body": " Types of multivariable functions   There are two main categories of multivariable functions that we should be familiar with:    Scalar Functions        Scalar functions are functions that output a single number (real or complex). They can generally be represented as or , where indicates that the function takes in independent variables.  Examples would include and . Note that the order of your inputs matters. For example, using above, but .     Vector Functions        Vector functions (or vector-valued functions) are functions that output multiple scalars. They can generally be represented as or , where the indicates that the function takes in independent variables, and the indicates that the functions returns dependent variables.  Examples would be and . The latter example is known as a parametric curve .  Some sample function values using the previous definitions are and .    "
 },
 {
-  "id": "multi-var-functions-4-1",
+  "id": "multi-var-functions-complete-4-1",
   "level": "2",
-  "url": "multi-var-functions.html#multi-var-functions-4-1",
+  "url": "multi-var-functions-complete.html#multi-var-functions-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Visualizing multivariable functions.",
-  "body": " Visualizing multivariable functions   Let's think about some different ways we could visualize multivariable functions:    Scalar Functions        Vector Functions       "
+  "body": " Visualizing multivariable functions   Let's think about some different ways we could visualize multivariable functions:    Scalar Functions       We can look at graphs in the Cartesian plane for functions whose domain is or functions whose domain is .  For functions whose domain is and , it can be useful to consider level curves (points satisfying for some constant ) and level surfaces (points satisfying for some constant ), respectively.     Vector Functions       It is possible to visualize vector functions and parametric curves ; however, the main focus of our course will be scalar functions.    "
 },
 {
   "id": "alt-coords",
