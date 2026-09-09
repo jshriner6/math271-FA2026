@@ -101,7 +101,11 @@
                     <p>
                         We can use Desmos to 
                         <url href="https://www.desmos.com/3d/a52pvbjkex">visualize several equations in spherical coordinates</url>, which can greatly simplify 
-                        the expressions we use for certain solids.
+                        the expressions we use for certain surfaces.
+                    </p>
+                    <p>
+                        In particular, you can view <url href="https://www.desmos.com/calculator/ohof1hbtig">examples of electron orbitals</url>
+                        which are generated using solutions to Schrödinger's equation, best described in spherical coordinates.
                     </p>
                 </solution>
               

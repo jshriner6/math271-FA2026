@@ -51,18 +51,18 @@
      <!--<xi:include href="./notes/multi-var-functions.ptx"/>-->
      <xi:include href="./notes/multi-var-functions-complete.ptx"/> 
 
-     <xi:include href="./notes/alt-coords.ptx"/>
-     <!--<xi:include href="./notes/alt-coords-complete.ptx"/> -->
+     <!--<xi:include href="./notes/alt-coords.ptx"/>-->
+     <xi:include href="./notes/alt-coords-complete.ptx"/> 
 
      <!-- WEEK 4 -->
     <xi:include href="./notes/improper-ints.ptx"/>
-    <xi:include href="./notes/improper-ints-complete.ptx"/>
+    <!-- <xi:include href="./notes/improper-ints-complete.ptx"/> -->
 
     <xi:include href="./notes/normal-expectation.ptx"/>
-    <xi:include href="./notes/normal-expectation-complete.ptx"/> 
+    <!--<xi:include href="./notes/normal-expectation-complete.ptx"/> -->
 
     <xi:include href="./notes/approx-ints.ptx"/>
-    <xi:include href="./notes/approx-ints-complete.ptx"/> 
+   <!-- <xi:include href="./notes/approx-ints-complete.ptx"/> -->
 
 
     <!-- WEEK 5 -->
