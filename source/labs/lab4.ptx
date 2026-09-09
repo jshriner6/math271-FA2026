@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab4">
+  <title>Lab 4</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to integral approximation. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise >
+    <introduction>
+      <p>
+        Consider the integral 
+        <md>
+            \int_{-2}^2 e^{-3x^2} \quad dx
+        </md>.
+        
+      </p>
+    </introduction>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+          Use the trapezoid rule to estimate the integral. You may choose the number of trapezoids to use, but you should 
+          use at least four.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+          Use the Simpson's rule to estimate the integral. You may choose the number of parabolas to use, but you should 
+          use at least three.
+        </p>
+      </statement>
+    </task>
+
+  </exercise>
+</page>
+<page>
+<exercise >
+    <introduction>
+      <p>
+        Use the Gauss-Hermite method to compute each integral.
+      </p>
+    </introduction>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+          <m>\displaystyle \int_{-\infty}^\infty xe^{-x^2} \quad dx</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+          <m>\displaystyle \int_{-\infty}^\infty x^2e^{-x^2} \quad dx</m> 
+        </p>
+        <p>
+            <em>Note:</em> This is a computation for the <term>second moment</term> of a 
+            Gaussian probability distribution.
+        </p>
+      </statement>
+    </task>
+
+  </exercise>
+
+ </page>
+
+ <page>
+    <exercise>
+        <introduction>
+            <p>
+                The following exercise is <em>optional</em>. It gives more insight into where the table of weights and
+                nodes comes from for the Gauss-Hermite method.
+            </p>
+            <p>
+                The table is derived from <term>Hermite polynomials</term>. These exercises will introduce some of the basic
+                properties of these polynomials.
+            </p>
+        </introduction>
+        <task workspace="3in">
+            <statement>
+                <p>
+                    The Hermite polynomial of degree <m>n</m> is defined by 
+                    <md>
+                        H_n(x)= (-1)^ne^{x^2}\frac{d^n}{dx^n}\left(e^{-x^2}\right)
+                    </md>. Compute the first three (<m>n=0,1,2</m>) polynomials.
+                    
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Graph <m>H_2(x)</m> using technology. How do you think the Hermite polynomials are used to obtain 
+                    the nodes in the table?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Hermite polynomials are also used to obtain the weights in the table, but it's more complicated. One property
+                    that makes these polynomials special is the value of integrals of the form
+                    <md>
+                        \int_{-\infty}^\infty H_n(x)H_m(x)e^{-x^2} \quad dx
+                    </md>.
+                    Compute values of this integral using the polynomials you obtained in the first part. What do you notice?
+                    WHat would you call the set of functions <m>\{H_n(x)\}_{n=0}^\infty</m>?
+                    
+                </p>
+            </statement>
+        </task>
+    </exercise>
+ </page>
+
+</worksheet>

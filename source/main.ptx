@@ -90,6 +90,8 @@
 
       <xi:include href="./labs/lab3.ptx"/>
 
+      <xi:include href="./labs/lab4.ptx"/>
+
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
