@@ -685,6 +685,42 @@ var ptx_lunr_docs = [
   "body": "  For each equation in spherical coordinates, first convert it to an equation in Cartesian coordinates. Then use level curves to describe the surface. Finally, plot the surface in (3D) Desmos.                 "
 },
 {
+  "id": "lab4",
+  "level": "1",
+  "url": "lab4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 4",
+  "body": " Lab 4    This lab is intended to practice ideas related to integral approximation. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Consider the integral .     Use the trapezoid rule to estimate the integral. You may choose the number of trapezoids to use, but you should use at least four.      Use the Simpson's rule to estimate the integral. You may choose the number of parabolas to use, but you should use at least three.         Use the Gauss-Hermite method to compute each integral.                Note: This is a computation for the second moment of a Gaussian probability distribution.         The following exercise is optional . It gives more insight into where the table of weights and nodes comes from for the Gauss-Hermite method.  The table is derived from Hermite polynomials . These exercises will introduce some of the basic properties of these polynomials.     The Hermite polynomial of degree is defined by . Compute the first three ( ) polynomials.      Graph using technology. How do you think the Hermite polynomials are used to obtain the nodes in the table?      Hermite polynomials are also used to obtain the weights in the table, but it's more complicated. One property that makes these polynomials special is the value of integrals of the form . Compute values of this integral using the polynomials you obtained in the first part. What do you notice? WHat would you call the set of functions ?      "
+},
+{
+  "id": "lab4-3-1",
+  "level": "2",
+  "url": "lab4.html#lab4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the integral .     Use the trapezoid rule to estimate the integral. You may choose the number of trapezoids to use, but you should use at least four.      Use the Simpson's rule to estimate the integral. You may choose the number of parabolas to use, but you should use at least three.    "
+},
+{
+  "id": "lab4-4-1",
+  "level": "2",
+  "url": "lab4.html#lab4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use the Gauss-Hermite method to compute each integral.                Note: This is a computation for the second moment of a Gaussian probability distribution.    "
+},
+{
+  "id": "lab4-5-1",
+  "level": "2",
+  "url": "lab4.html#lab4-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The following exercise is optional . It gives more insight into where the table of weights and nodes comes from for the Gauss-Hermite method.  The table is derived from Hermite polynomials . These exercises will introduce some of the basic properties of these polynomials.     The Hermite polynomial of degree is defined by . Compute the first three ( ) polynomials.      Graph using technology. How do you think the Hermite polynomials are used to obtain the nodes in the table?      Hermite polynomials are also used to obtain the weights in the table, but it's more complicated. One property that makes these polynomials special is the value of integrals of the form . Compute values of this integral using the polynomials you obtained in the first part. What do you notice? WHat would you call the set of functions ?    "
+},
+{
   "id": "homework-3",
   "level": "1",
   "url": "homework-3.html",
