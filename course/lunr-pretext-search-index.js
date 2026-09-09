@@ -361,40 +361,211 @@ var ptx_lunr_docs = [
   "body": " Visualizing multivariable functions   Let's think about some different ways we could visualize multivariable functions:    Scalar Functions       We can look at graphs in the Cartesian plane for functions whose domain is or functions whose domain is .  For functions whose domain is and , it can be useful to consider level curves (points satisfying for some constant ) and level surfaces (points satisfying for some constant ), respectively.     Vector Functions       It is possible to visualize vector functions and parametric curves ; however, the main focus of our course will be scalar functions.    "
 },
 {
-  "id": "alt-coords",
+  "id": "alt-coords-complete",
   "level": "1",
-  "url": "alt-coords.html",
+  "url": "alt-coords-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Alternate Coordinate Systems",
-  "body": " Alternate Coordinate Systems    Motivation        Cylindrical Coordinates          Spherical Coordinates        "
+  "title": "Alternate Coordinate Systems (Complete)",
+  "body": " Alternate Coordinate Systems (Complete)    Motivation       The coordinate system we've been using (Cartesian coordinates) is just one way we can communicate points in space. Depending on what function(s) we are working with, there may be more natural coordinate systems to use.     Cylindrical Coordinates        Cylindrical coordinates are the natural extension of 2D polar coordinate to 3D. In Cartesian coordinates we represent a point in space as . In cylindrical coordinates, we represent a point in space as . The coordinates and mean exactly what they did when we looked at polar coordinate representations of complex numbers, so the relationships between Cartesian and cylindrical coordinates are   We can use Desmos to visualize several equations in cylindrical coordinates , which can greatly simplify the expressions we use for certain solids.       Spherical Coordinates       Spherical coordinates define points using coordinates , where    is the 3D distance from the origin to the point (which is non-negative),     is the angle in the plane used in polar coordinates (the azimuthal angle), and     is the angle measured from the positive axis (between zero and ).     The relationships between spherical and cylindrical coordinates are , which we can use to produce relationships between spherical and Cartesian coordinates: .  We can use Desmos to visualize several equations in spherical coordinates , which can greatly simplify the expressions we use for certain surfaces.  In particular, you can view examples of electron orbitals which are generated using solutions to Schrödinger's equation, best described in spherical coordinates.     "
 },
 {
-  "id": "alt-coords-2-1",
+  "id": "alt-coords-complete-2-1",
   "level": "2",
-  "url": "alt-coords.html#alt-coords-2-1",
+  "url": "alt-coords-complete.html#alt-coords-complete-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation       The coordinate system we've been using (Cartesian coordinates) is just one way we can communicate points in space. Depending on what function(s) we are working with, there may be more natural coordinate systems to use.   "
+},
+{
+  "id": "alt-coords-complete-2-2",
+  "level": "2",
+  "url": "alt-coords-complete.html#alt-coords-complete-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Cylindrical Coordinates.",
+  "body": " Cylindrical Coordinates        Cylindrical coordinates are the natural extension of 2D polar coordinate to 3D. In Cartesian coordinates we represent a point in space as . In cylindrical coordinates, we represent a point in space as . The coordinates and mean exactly what they did when we looked at polar coordinate representations of complex numbers, so the relationships between Cartesian and cylindrical coordinates are   We can use Desmos to visualize several equations in cylindrical coordinates , which can greatly simplify the expressions we use for certain solids.   "
+},
+{
+  "id": "alt-coords-complete-3-1",
+  "level": "2",
+  "url": "alt-coords-complete.html#alt-coords-complete-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Spherical Coordinates.",
+  "body": " Spherical Coordinates       Spherical coordinates define points using coordinates , where    is the 3D distance from the origin to the point (which is non-negative),     is the angle in the plane used in polar coordinates (the azimuthal angle), and     is the angle measured from the positive axis (between zero and ).     The relationships between spherical and cylindrical coordinates are , which we can use to produce relationships between spherical and Cartesian coordinates: .  We can use Desmos to visualize several equations in spherical coordinates , which can greatly simplify the expressions we use for certain surfaces.  In particular, you can view examples of electron orbitals which are generated using solutions to Schrödinger's equation, best described in spherical coordinates.   "
+},
+{
+  "id": "improper-ints",
+  "level": "1",
+  "url": "improper-ints.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Improper Integrals",
+  "body": " Improper Integrals    Motivation        Probability Densities   If is a solution to a Schrödinger equation, then is a       Improper Integrals   Define        Examples: Improper Integrals   We'll compute a couple of examples by hand to add experience to our intuition, and focus on important applications of improper integrals next time.                          "
+},
+{
+  "id": "improper-ints-2-1",
+  "level": "2",
+  "url": "improper-ints.html#improper-ints-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
   "body": " Motivation      "
 },
 {
-  "id": "alt-coords-2-2",
+  "id": "improper-ints-2-2",
   "level": "2",
-  "url": "alt-coords.html#alt-coords-2-2",
+  "url": "improper-ints.html#improper-ints-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
-  "title": "Cylindrical Coordinates.",
-  "body": " Cylindrical Coordinates      "
+  "title": "Probability Densities.",
+  "body": " Probability Densities   If is a solution to a Schrödinger equation, then is a   "
 },
 {
-  "id": "alt-coords-3-1",
+  "id": "improper-ints-3-1",
   "level": "2",
-  "url": "alt-coords.html#alt-coords-3-1",
+  "url": "improper-ints.html#improper-ints-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
-  "title": "Spherical Coordinates.",
-  "body": " Spherical Coordinates      "
+  "title": "Improper Integrals.",
+  "body": " Improper Integrals   Define    "
+},
+{
+  "id": "improper-ints-4-1",
+  "level": "2",
+  "url": "improper-ints.html#improper-ints-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Examples: Improper Integrals.",
+  "body": " Examples: Improper Integrals   We'll compute a couple of examples by hand to add experience to our intuition, and focus on important applications of improper integrals next time.                        "
+},
+{
+  "id": "normal-expectation",
+  "level": "1",
+  "url": "normal-expectation.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Normalization and Expectation",
+  "body": " Normalization and Expectation    Motivation        Normalization   If represents a valid probability distribution, it must satisfy      Examples: Normalizing Functions    Let       Let .        Expectation   Consider a particle which can be at any one of four positions at a given time with the listed probabilities:                        If we could observe this experiment for several trials, how could we describe the expected position of the particle?       Examples: Expectation    What is the expectation for the uniform distribution ?      What is the expectation for the distribution ?      "
+},
+{
+  "id": "normal-expectation-2-1",
+  "level": "2",
+  "url": "normal-expectation.html#normal-expectation-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "normal-expectation-2-2",
+  "level": "2",
+  "url": "normal-expectation.html#normal-expectation-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Normalization.",
+  "body": " Normalization   If represents a valid probability distribution, it must satisfy    "
+},
+{
+  "id": "normal-expectation-2-3",
+  "level": "2",
+  "url": "normal-expectation.html#normal-expectation-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Normalizing Functions.",
+  "body": " Examples: Normalizing Functions    Let       Let .    "
+},
+{
+  "id": "normal-expectation-3-1",
+  "level": "2",
+  "url": "normal-expectation.html#normal-expectation-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Expectation.",
+  "body": " Expectation   Consider a particle which can be at any one of four positions at a given time with the listed probabilities:                        If we could observe this experiment for several trials, how could we describe the expected position of the particle?   "
+},
+{
+  "id": "normal-expectation-4-1",
+  "level": "2",
+  "url": "normal-expectation.html#normal-expectation-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Examples: Expectation.",
+  "body": " Examples: Expectation    What is the expectation for the uniform distribution ?      What is the expectation for the distribution ?    "
+},
+{
+  "id": "approx-ints",
+  "level": "1",
+  "url": "approx-ints.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Approximating Integrals",
+  "body": " Approximating Integrals    Motivation        The Trapezoid Rule        Example: Trapezoid Rule           Simpson's Rule        Example: Simpson's Rule           Gaussian-Hermite Quadrature    , where   Table of nodes and weights for Gaussian-Hermite quadrature.        Examples: Gaussian-Hermite Quadrature                  "
+},
+{
+  "id": "approx-ints-2-1",
+  "level": "2",
+  "url": "approx-ints.html#approx-ints-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "approx-ints-2-2",
+  "level": "2",
+  "url": "approx-ints.html#approx-ints-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Trapezoid Rule.",
+  "body": " The Trapezoid Rule      "
+},
+{
+  "id": "approx-ints-2-3",
+  "level": "2",
+  "url": "approx-ints.html#approx-ints-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Trapezoid Rule.",
+  "body": " Example: Trapezoid Rule       "
+},
+{
+  "id": "approx-ints-3-1",
+  "level": "2",
+  "url": "approx-ints.html#approx-ints-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Simpson’s Rule.",
+  "body": " Simpson's Rule      "
+},
+{
+  "id": "approx-ints-3-2",
+  "level": "2",
+  "url": "approx-ints.html#approx-ints-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Simpson’s Rule.",
+  "body": " Example: Simpson's Rule       "
+},
+{
+  "id": "approx-ints-4-1",
+  "level": "2",
+  "url": "approx-ints.html#approx-ints-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Gaussian-Hermite Quadrature.",
+  "body": " Gaussian-Hermite Quadrature    , where   Table of nodes and weights for Gaussian-Hermite quadrature.    "
+},
+{
+  "id": "approx-ints-5-1",
+  "level": "2",
+  "url": "approx-ints.html#approx-ints-5-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Examples: Gaussian-Hermite Quadrature.",
+  "body": " Examples: Gaussian-Hermite Quadrature                "
 },
 {
   "id": "lab1",
