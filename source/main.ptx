@@ -100,6 +100,8 @@
 
       <xi:include href="./labs/lab4.ptx"/>
 
+      <xi:include href="./labs/lab5.ptx"/>
+
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
@@ -120,6 +122,8 @@
       <xi:include href="./homework/homework-01.ptx"/>
 
       <xi:include href="./homework/homework-02.ptx"/>
+
+      <xi:include href="./homework/homework-03.ptx"/>
 
     </chapter>
 

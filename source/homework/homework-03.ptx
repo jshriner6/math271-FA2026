@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 3 (Weeks 4 and 5)</title>
+
+  <page>
+    <exercise>
+      <introduction>
+        <p>
+          Consider the equation
+          <md>
+            \int_{-100}^{100} c e^{-10x^2} \quad dx = 1
+          </md>.
+         
+          
+        </p>
+      </introduction>
+      <task>
+        <statement>
+            <p>
+                Use the trapezoid rule to estimate the constant <m>c</m> that satisfies this equation. You may choose the
+                number of trapezoids to use, but be clear about your choice.
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+                Use the Simpson's rule to estimate the constant <m>c</m> that satisfies this equation. You may choose the
+                number of parabolas to use, but be clear about your choice.
+            </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Use the Gauss-Hermite method to compute 
+                <md>
+                    \int_{-\infty}^\infty x^5e^{-x^2} \quad dx
+                </md>.
+                
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <introduction>
+            <p>
+                Write the Maclaurin series for each function below. Use Desmos to verify your series.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>f(x) = ce^{-ax^2}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>g(x) = xe^{-ax^2}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>h(x) = x^2e^{-ax^2}</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Suppose 
+                <md>
+                    f(x) = \sum_{n=0}^\infty \frac{n^3}{(n-1)!}x^n
+                </md>. 
+                Find the Maclaurin series for 
+                
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>f'(x)</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\int f(x) \quad dx</m>
+                </p>
+            </statement>
+        </task>
+        <p>
+            Graph the first several terms of all three series and explain how you can tell visually that your series' seem
+            correct.
+        </p>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Use Maclaurin series to approximate <m>c</m> for which
+                <md>
+                    \int_{-100}^{100} c e^{-10x^2} \quad dx = 1
+                </md>.
+                
+            </p>
+        </statement>
+    </exercise>
+
+    </page>
+    <page>
+        <p>
+            The following is optional. It continues work with Hermite polynomials from the optional exercises in Lab 4.
+        </p>
+        <exercise>
+      <statement>
+        <p>
+            Compute <m>H_3(x)</m> (the third degree Hermite polynomial). Use technology to verify the zeros of your polynomial 
+            are what you expect from the table provided in class.
+        </p>
+      </statement>
+    </exercise>
+    </page>
+
+
+</worksheet>

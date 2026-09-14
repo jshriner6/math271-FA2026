@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab5">
+  <title>Lab 5</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to Taylor series. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise workspace="3in">
+    <statement>
+      <p>
+        Find the Taylor series for <m>f(x)=e^x</m> <em>centered at <m>x=1</m></em>. Use Desmos to verify you have the right
+        series. What appears to be the radius of convergence?
+        
+      </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <introduction>
+        <p>
+            Use the Maclaurin series for functions you know to compute new Maclaurin series for the following functions. Use
+            Desmos to verify your series.
+        </p>
+    </introduction>
+    <task workspace="3in">
+      <statement>
+        <p>
+          <m>g(x)=2x^3e^{4x}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+           <m>h(x)=\frac{1}{1+x^2}</m>
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+           <m>k(x)=\arctan(x)</m> (Recall: <m>\frac{d}{dx}(\arctan(x)) = \frac{1}{1+x^2}</m>)
+        </p>
+      </statement>
+    </task>
+
+  </exercise>
+</page>
+<page>
+<exercise workspace="5in">
+
+      <statement>
+        <p>
+          Use Taylor series to show that 
+          <md>
+            e^{ix} = \cos(x) + i\sin(x)
+          </md>.
+          
+        </p>
+      </statement>
+
+  </exercise>
+
+    <exercise workspace="5in">
+            <statement>
+                <p>
+                  Use Taylor series to approximate the value of 
+                  <md>
+                    \int_{-2}^2 2e^{-3x^2} \quad dx
+                  </md>.
+                  Use Desmos to verify your approximation is reasonable.
+                </p>
+            </statement>
+    </exercise>
+ </page>
+
+</worksheet>
