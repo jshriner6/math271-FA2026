@@ -397,49 +397,49 @@ var ptx_lunr_docs = [
   "body": " Spherical Coordinates       Spherical coordinates define points using coordinates , where    is the 3D distance from the origin to the point (which is non-negative),     is the angle in the plane used in polar coordinates (the azimuthal angle), and     is the angle measured from the positive axis (between zero and ).     The relationships between spherical and cylindrical coordinates are , which we can use to produce relationships between spherical and Cartesian coordinates: .  We can use Desmos to visualize several equations in spherical coordinates , which can greatly simplify the expressions we use for certain surfaces.  In particular, you can view examples of electron orbitals which are generated using solutions to Schrödinger's equation, best described in spherical coordinates.   "
 },
 {
-  "id": "improper-ints",
+  "id": "improper-ints-complete",
   "level": "1",
-  "url": "improper-ints.html",
+  "url": "improper-ints-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Improper Integrals",
-  "body": " Improper Integrals    Motivation        Probability Densities   If is a solution to a Schrödinger equation, then is a       Improper Integrals   Define        Examples: Improper Integrals   We'll compute a couple of examples by hand to add experience to our intuition, and focus on important applications of improper integrals next time.                          "
+  "title": "Improper Integrals (Complete)",
+  "body": " Improper Integrals (Complete)    Motivation       Solutions to Schrödinger equations are used to determine probabilities. In order to extract useful information, we need to know how to integrate over all of space (for example, in one-dimensional space, this means integrating over ).     Probability Densities   If is a solution to a Schrödinger equation, then is a     (which is real -- look back to properties of complex multiplication with conjugates!) is a probability density function (this is the Born interpretation of wave functions).  Practically, this means that the probability a particle has position between and at time is . Since a particle can technically be anywhere in (one-dimensional) space, we must make sense of integrals of the form . Integrals with infinite bounds are known as improper integrals .       Improper Integrals   Define     Here is the Improper Integral Desmos interactive used to illustrate the intuition behind the definitions of improper integrals: , assuming both limits exist. In this case, we say the integral  converges .       Examples: Improper Integrals   We'll compute a couple of examples by hand to add experience to our intuition, and focus on important applications of improper integrals next time.           . This integral is not convergent (it diverges ).                 So this integral converges, and .           For now, just note that . You can use the Desmos interactive above to verify this is reasonable. We'll see ways to justify this later once we have more tools.      "
 },
 {
-  "id": "improper-ints-2-1",
+  "id": "improper-ints-complete-2-1",
   "level": "2",
-  "url": "improper-ints.html#improper-ints-2-1",
+  "url": "improper-ints-complete.html#improper-ints-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Solutions to Schrödinger equations are used to determine probabilities. In order to extract useful information, we need to know how to integrate over all of space (for example, in one-dimensional space, this means integrating over ).   "
 },
 {
-  "id": "improper-ints-2-2",
+  "id": "improper-ints-complete-2-2",
   "level": "2",
-  "url": "improper-ints.html#improper-ints-2-2",
+  "url": "improper-ints-complete.html#improper-ints-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Probability Densities.",
-  "body": " Probability Densities   If is a solution to a Schrödinger equation, then is a   "
+  "body": " Probability Densities   If is a solution to a Schrödinger equation, then is a     (which is real -- look back to properties of complex multiplication with conjugates!) is a probability density function (this is the Born interpretation of wave functions).  Practically, this means that the probability a particle has position between and at time is . Since a particle can technically be anywhere in (one-dimensional) space, we must make sense of integrals of the form . Integrals with infinite bounds are known as improper integrals .   "
 },
 {
-  "id": "improper-ints-3-1",
+  "id": "improper-ints-complete-3-1",
   "level": "2",
-  "url": "improper-ints.html#improper-ints-3-1",
+  "url": "improper-ints-complete.html#improper-ints-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Improper Integrals.",
-  "body": " Improper Integrals   Define    "
+  "body": " Improper Integrals   Define     Here is the Improper Integral Desmos interactive used to illustrate the intuition behind the definitions of improper integrals: , assuming both limits exist. In this case, we say the integral  converges .   "
 },
 {
-  "id": "improper-ints-4-1",
+  "id": "improper-ints-complete-4-1",
   "level": "2",
-  "url": "improper-ints.html#improper-ints-4-1",
+  "url": "improper-ints-complete.html#improper-ints-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Examples: Improper Integrals.",
-  "body": " Examples: Improper Integrals   We'll compute a couple of examples by hand to add experience to our intuition, and focus on important applications of improper integrals next time.                        "
+  "body": " Examples: Improper Integrals   We'll compute a couple of examples by hand to add experience to our intuition, and focus on important applications of improper integrals next time.           . This integral is not convergent (it diverges ).                 So this integral converges, and .           For now, just note that . You can use the Desmos interactive above to verify this is reasonable. We'll see ways to justify this later once we have more tools.    "
 },
 {
   "id": "normal-expectation",
