@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="taylor-series">
+    <title>Taylor Series</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Power Series</title>
+                <statement>
+                    <p>
+                        A <term>power series centered at <m>a</m></term> has the form
+                         
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="2in">
+                <title>Radius of Convergence</title>
+                <statement>
+                    <p>
+                        For any power series <m>\displaystyle f(x) = \sum_{n=0}^\infty c_n(x-a)^n</m>, one of the following holds:
+                    </p>
+                </statement>
+                
+                
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="4in">
+                <title>Taylor Series</title>
+                <statement>
+                    <p>
+                        If a function <m>f(x)</m> can be represented by a power series, it must be of a particular form. For
+                        a function <m>f(x)</m>, the power series 
+                        <md>
+                            \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!}(x-a)^n = 
+                        </md>
+                    </p>
+                </statement>
+                
+              
+                
+            </exercise>
+</page>
+<page>
+
+            <exercise>
+                <title>Taylor Series: Common Functions</title>
+                <introduction>
+                    <p>
+                     Let's consider the Maclaurin series (Taylor series centered at <m>0</m>) for each function below.
+                    </p>
+                </introduction>
+                <task workspace="4in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle f(x) = e^x</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="4in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle g(x) = \sin(x)</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="4in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle h(x) = \frac{1}{1-x}</m>
+                        </p>
+                    </statement>
+                </task>
+                
+            </exercise>
+
+            
+    </page>
+
+    <page>
+        <exercise>
+            <title>New Series from Old: Substitution</title>
+            <introduction>
+                <p>
+                    We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series 
+                    (and not computing from scratch).
+                </p>
+               
+            </introduction>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = e^{-x}</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        <m>\displaystyle g(x) =\frac{1}{1+x}</m>
+                    </p>
+                </statement>
+            </task>
+            
+        </exercise>
+    </page>
+
+   
+
+       
+    </worksheet>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="taylor-apps">
+    <title>Applications of Taylor Series</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Differentiation and Integration</title>
+                <statement>
+                    <p>
+                        If 
+                        <md>
+                            f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!}(x-a)^n
+                        </md>
+                        with radius of convergence <m>R</m>, then
+                         
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="5in">
+                <title>Examples: Differentiation and Integration</title>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\cos(x)</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\ln(1+x)</m>
+                        </p>
+                    </statement>
+                </task>
+                
+                
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="6in">
+                <title>Approximating Integrals</title>
+                <introduction>
+                    <p>
+                        We've seen that computing integrals can be a challenge, and we've already seen some numerical 
+                        techniques for approximating integrals. Series representations give us yet another approach:
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Compute <m>\displaystyle \int e^{-x^2} \quad dx</m>.
+                        </p>
+                    </statement>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            Estimate <m>\displaystyle \int_{-2}^2 e^{-x^2} \quad dx</m>.
+                        </p>
+                    </statement>
+                </task>
+              
+                
+            </exercise>
+</page>
+
+   
+
+       
+    </worksheet>

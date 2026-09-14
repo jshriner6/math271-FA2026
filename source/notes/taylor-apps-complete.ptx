@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="taylor-apps-complete">
+    <title>Applications of Taylor Series (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We've seen examples of series representations of functions. We'll continue to see how new 
+                        representations can be obtained from old, as well as some examples where series representations 
+                        are useful in application and computation.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Differentiation and Integration</title>
+                <statement>
+                    <p>
+                        If 
+                        <md>
+                            f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!}(x-a)^n
+                        </md>
+                        with radius of convergence <m>R</m>, then
+                         
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        we can compute <m>f'(x)</m> and <m>\int f(x) \quad dx</m> by differentiating and integrating 
+                        the series term-by-term. The resulting series' inherit the same radius of convergence <m>R</m> as the
+                        original series.
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="5in">
+                <title>Examples: Differentiation and Integration</title>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\cos(x)</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Cosine is the derivative of sine. Therefore,
+                            <md>
+                                <mrow>\cos(x) \amp=\frac{d}{dx}\left(\sin(x)\right) </mrow>
+                                <mrow> \amp= \frac{d}{dx}\left(\sum_{n=0}^\infty (-1)^n \frac{x^{2n+1}}{(2n+1)!}\right) </mrow>
+                                <mrow> \amp= \sum_{n=0}^\infty (-1)^n \frac{x^{2n}}{(2n)!}  </mrow>
+                            </md>,
+                            and <m>R=\infty</m>.
+                            
+                        </p>
+                    </solution>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\ln(1+x)</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is an antiderivative of <m>\frac{1}{1+x}</m>, therefore
+                            <md>
+                                <mrow>\ln(1+x) \amp= \int \frac{1}{1+x} \quad dx </mrow>
+                                <mrow> \amp= \int \sum_{n=0}^\infty (-1)^n x^n \quad dx </mrow>
+                                <mrow> \amp= \sum_{n=0}^\infty \frac{(-1)^n}{n+1} x^{n+1}  + C </mrow>
+                            </md>
+                            Since <m>\ln(1+0) = 0</m>, we must have that <m>C=0</m>. Also, <m>R = 1</m>.
+                        </p>
+                    </solution>
+                </task>
+                
+                
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="6in">
+                <title>Approximating Integrals</title>
+                <introduction>
+                    <p>
+                        We've seen that computing integrals can be a challenge, and we've already seen some numerical 
+                        techniques for approximating integrals. Series representations give us yet another approach:
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Compute <m>\displaystyle \int e^{-x^2} \quad dx</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <md>
+                                <mrow>\displaystyle \int e^{-x^2} \quad dx \amp= \int \sum_{n=0}^\infty \frac{(-x^2)^n}{n!} \quad dx </mrow>
+                                <mrow> \amp= \sum_{n=0}^\infty \frac{(-1)^nx^{2n+1}}{(2n+1)n!} +C</mrow>
+                            </md>
+                            We can <url href="https://www.desmos.com/calculator/5pwvsnhpzr">visualize the first several terms of this function</url> with technology such as Desmos.
+                        </p>
+                    </solution>
+                </task>
+
+                <task>
+                    <statement>
+                        <p>
+                            Estimate <m>\displaystyle \int_{-2}^2 e^{-x^2} \quad dx</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Let <m>F(x)</m> be the antiderivative of <m>e^{-x^2}</m> (with <m>C=0</m>) in series form found above. Then
+                            <md>
+                                <mrow> \int_{-2}^2 e^{-x^2} \quad dx \amp= F(2) - F(-2) </mrow>
+                                <mrow> \amp= \sum_{n=0}^\infty \frac{(-1)^n(2)^{2n+1}}{(2n+1)n!} - \sum_{n=0}^\infty \frac{(-1)^n(-2)^{2n+1}}{(2n+1)n!}  </mrow>
+                                <mrow> \amp\approx \sum_{n=0}^{100} \frac{(-1)^n(2)^{2n+1}}{(2n+1)n!} - \sum_{n=0}^{100} \frac{(-1)^n(-2)^{2n+1}}{(2n+1)n!}</mrow>
+                                <mrow> \amp\approx 1.764 </mrow>
+                            </md>.
+                            
+                        </p>
+                    </solution>
+                </task>
+              
+                
+            </exercise>
+</page>
+
+   
+
+       
+    </worksheet>

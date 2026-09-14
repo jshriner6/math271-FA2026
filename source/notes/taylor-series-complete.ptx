@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="taylor-series-complete">
+    <title>Taylor Series (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Representing functions in alternate ways is a powerful tool in computing and solving differential
+                        equations. In general, a series representation for a function <m>f(x)</m> has the form 
+                        <md>
+                            f(x) = \sum_{n=0}^\infty c_ng_n(x)
+                        </md>,
+                        where you can think of the functions <m>g_n(x)</m> as a set of simpler functions with nice properties.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Power Series</title>
+                <statement>
+                    <p>
+                        A <term>power series centered at <m>a</m></term> has the form
+                         
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\displaystyle \sum_{n=0}^\infty c_n (x-a)^n</m>.
+                    </p>
+                    <p>
+                        Note that
+                        <ol>
+                            <li>
+                                <p>
+                                    These are functions of <m>x</m>:
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <m>f(a) =  \sum_{n=0}^\infty c_n (a-a)^n = c_0</m> (convention is that <m>0^0 =1</m> in this context)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <m>f(3) =  \sum_{n=0}^\infty c_n (3-a)^n </m>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    We are summing infinitely many terms, so we must be aware of convergence/divergence (similar
+                                    to improper integrals).
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="2in">
+                <title>Radius of Convergence</title>
+                <statement>
+                    <p>
+                        For any power series <m>\displaystyle f(x) = \sum_{n=0}^\infty c_n(x-a)^n</m>, one of the following holds:
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>f(a)</m> converges, but <m>f(x)</m> diverges for all <m>x \neq a</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is <m>R \gt 0</m> such that <m>f(x)</m> converges if <m>|x-a| \lt R</m>,
+                                    and diverges if <m>|x-a| \gt R</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> converges for every <m>x</m>.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        The value of <m>R</m> in the statement above is called the <term>radius of convergence</term>.
+                    </p>
+                </solution>
+                
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="4in">
+                <title>Taylor Series</title>
+                <statement>
+                    <p>
+                        If a function <m>f(x)</m> can be represented by a power series, it must be of a particular form. For
+                        a function <m>f(x)</m>, the power series 
+                        <md>
+                            \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!}(x-a)^n = 
+                        </md>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        is called the <term>Taylor series</term> of <m>f(x)</m> centered at <m>a</m>. If <m>a=0</m>, this series 
+                        is also called the <term>Maclaurin series</term> of <m>f(x)</m>.
+                    </p>
+                    <p>
+                        This is an important series because it shares all higher order derivative values at the center with 
+                        the function <m>f(x)</m>. The result is that, for many important functions, the Taylor series for the
+                        function converges to the function. See our <url href="https://www.desmos.com/calculator/pxosck166e">Taylor series examples in Desmos</url>.
+                    </p>
+                </solution>
+              
+                
+            </exercise>
+</page>
+<page>
+
+            <exercise>
+                <title>Taylor Series: Common Functions</title>
+                <introduction>
+                    <p>
+                     Let's consider the Maclaurin series (Taylor series centered at <m>0</m>) for each function below.
+                    </p>
+                </introduction>
+                <task workspace="4in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle f(x) = e^x</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\displaystyle e^x = \sum_{n=0}^\infty \frac{x^n}{n!}</m>, <m>R = \infty</m>
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="4in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle g(x) = \sin(x)</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\displaystyle \sin(x) = \sum_{n=0}^\infty (-1)^n \frac{x^{2n+1}}{(2n+1)!}</m>, <m>R = \infty</m>
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="4in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle h(x) = \frac{1}{1-x}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\displaystyle \frac{1}{1-x} = \sum_{n=0}^\infty x^n</m>, <m>R = 1</m>
+                        </p>
+                    </solution>
+                </task>
+                
+            </exercise>
+
+            
+    </page>
+
+    <page>
+        <exercise>
+            <title>New Series from Old: Substitution</title>
+            <introduction>
+                <p>
+                    We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series 
+                    (and not computing from scratch).
+                </p>
+               
+            </introduction>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = e^{-x}</m>
+                    </p>
+                </statement>
+                <solution>
+                        <p>
+                            <m>\displaystyle e^{-x} = \sum_{n=0}^\infty \frac{(-x)^n}{n!}= \sum_{n=0}^\infty \frac{(-1)^nx^n}{n!}</m>, <m>R = \infty</m>
+                        </p>
+                    </solution>
+            </task>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        <m>\displaystyle g(x) =\frac{1}{1+x}</m>
+                    </p>
+                </statement>
+                <solution>
+                        <p>
+                            <m>\displaystyle \frac{1}{1+x} = \sum_{n=0}^\infty (-x)^n = \sum_{n=0}^\infty (-1)^nx^n</m>, <m>R = 1</m>
+                        </p>
+                    </solution>
+            </task>
+            
+        </exercise>
+    </page>
+
+   
+
+       
+    </worksheet>
