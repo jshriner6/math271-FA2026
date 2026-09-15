@@ -18,16 +18,33 @@
       <task>
         <statement>
             <p>
+                Use the <url href="https://www.desmos.com/calculator/avbulpbcco">Trapezoid rule Desmos interactive </url> to 
+                answer the following question.
+            </p>
+            <p>
                 Use the trapezoid rule to estimate the constant <m>c</m> that satisfies this equation. You may choose the
                 number of trapezoids to use, but be clear about your choice.
+            </p>
+            <p>
+                Comment on how accurate you think your estimate is and why.
             </p>
         </statement>
       </task>
       <task>
         <statement>
             <p>
+               Use the <url href="https://www.desmos.com/calculator/hqsw8hmrbf">Simpson's rule Desmos interactive </url> 
+               to 
+                answer the following question.
+            </p>
+            <p>
                 Use the Simpson's rule to estimate the constant <m>c</m> that satisfies this equation. You may choose the
                 number of parabolas to use, but be clear about your choice.
+            </p>
+            <p>
+
+                Comment on how accurate you think your estimate is and why.
+          
             </p>
         </statement>
       </task>
@@ -41,6 +58,10 @@
                     \int_{-\infty}^\infty x^5e^{-x^2} \quad dx
                 </md>.
                 
+            </p>
+            <p>
+                Think about the symmetry of the function you are integrating. Does the answer you obtain using the 
+                Gauss-Hermite method make sense? Why?
             </p>
         </statement>
     </exercise>
@@ -78,9 +99,12 @@
             <p>
                 Suppose 
                 <md>
-                    f(x) = \sum_{n=0}^\infty \frac{n^3}{(n-1)!}x^n
+                    f(x) = \sum_{n=1}^\infty \frac{n^3}{(n-1)!}x^n
                 </md>. 
-                Find the Maclaurin series for 
+                Find the Maclaurin series for the following. 
+            Then graph the first several terms of all three series and explain how you can tell visually that your series' seem
+            correct.
+        
                 
             </p>
         </introduction>
@@ -98,17 +122,14 @@
                 </p>
             </statement>
         </task>
-        <p>
-            Graph the first several terms of all three series and explain how you can tell visually that your series' seem
-            correct.
-        </p>
+        
     </exercise>
     <exercise>
         <statement>
             <p>
                 Use Maclaurin series to approximate <m>c</m> for which
                 <md>
-                    \int_{-100}^{100} c e^{-10x^2} \quad dx = 1
+                    \int_{-1}^{1} c e^{-10x^2} \quad dx = 1
                 </md>.
                 
             </p>
