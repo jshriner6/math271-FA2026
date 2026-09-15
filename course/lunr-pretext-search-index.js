@@ -442,58 +442,58 @@ var ptx_lunr_docs = [
   "body": " Examples: Improper Integrals   We'll compute a couple of examples by hand to add experience to our intuition, and focus on important applications of improper integrals next time.           . This integral is not convergent (it diverges ).                 So this integral converges, and .           For now, just note that . You can use the Desmos interactive above to verify this is reasonable. We'll see ways to justify this later once we have more tools.    "
 },
 {
-  "id": "normal-expectation",
+  "id": "normal-expectation-complete",
   "level": "1",
-  "url": "normal-expectation.html",
+  "url": "normal-expectation-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Normalization and Expectation",
-  "body": " Normalization and Expectation    Motivation        Normalization   If represents a valid probability distribution, it must satisfy      Examples: Normalizing Functions    Let       Let .        Expectation   Consider a particle which can be at any one of four positions at a given time with the listed probabilities:                        If we could observe this experiment for several trials, how could we describe the expected position of the particle?       Examples: Expectation    What is the expectation for the uniform distribution ?      What is the expectation for the distribution ?      "
+  "title": "Normalization and Expectation (Complete)",
+  "body": " Normalization and Expectation (Complete)    Motivation       We've seen the Born interpretation leads to probability distribution functions . Now we'll see two common ways these functions are utilized in conjunction with improper integrals.     Normalization   If represents a valid probability distribution, it must satisfy      . That is, the probability that the particle is found in all of space is . This condition is often used to us determine values of parameters within a function to make it a valid probability distribution function (called normalizing  ).     Examples: Normalizing Functions    Let      implies that . Using the FTC, this implies that , so that .  The function here is called a uniform distribution . In general, uniform distributions take the form       Let .    Note that . Therefore, normalizing would require setting .        Expectation   Consider a particle which can be at any one of four positions at a given time with the listed probabilities:                        If we could observe this experiment for several trials, how could we describe the expected position of the particle?    We could use a weighted average: . Note that this is not a measure of the value we'd see most often ( is not even a valid position for the particle in this example), but a measure of the central tendency (average) of multiple observations.  For a continuous probability distribution function , this leads to the definition .       Examples: Expectation    What is the expectation for the uniform distribution ?     . Note that in the case of the uniform distrbution, this is just the average of and .      What is the expectation for the distribution ?    First, verify that the expression to be integrated, , is an odd function. Next, use technology to confirm the integral converges. Finally, using symmetry we can determine that .      "
 },
 {
-  "id": "normal-expectation-2-1",
+  "id": "normal-expectation-complete-2-1",
   "level": "2",
-  "url": "normal-expectation.html#normal-expectation-2-1",
+  "url": "normal-expectation-complete.html#normal-expectation-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen the Born interpretation leads to probability distribution functions . Now we'll see two common ways these functions are utilized in conjunction with improper integrals.   "
 },
 {
-  "id": "normal-expectation-2-2",
+  "id": "normal-expectation-complete-2-2",
   "level": "2",
-  "url": "normal-expectation.html#normal-expectation-2-2",
+  "url": "normal-expectation-complete.html#normal-expectation-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Normalization.",
-  "body": " Normalization   If represents a valid probability distribution, it must satisfy    "
+  "body": " Normalization   If represents a valid probability distribution, it must satisfy      . That is, the probability that the particle is found in all of space is . This condition is often used to us determine values of parameters within a function to make it a valid probability distribution function (called normalizing  ).   "
 },
 {
-  "id": "normal-expectation-2-3",
+  "id": "normal-expectation-complete-2-3",
   "level": "2",
-  "url": "normal-expectation.html#normal-expectation-2-3",
+  "url": "normal-expectation-complete.html#normal-expectation-complete-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Normalizing Functions.",
-  "body": " Examples: Normalizing Functions    Let       Let .    "
+  "body": " Examples: Normalizing Functions    Let      implies that . Using the FTC, this implies that , so that .  The function here is called a uniform distribution . In general, uniform distributions take the form       Let .    Note that . Therefore, normalizing would require setting .    "
 },
 {
-  "id": "normal-expectation-3-1",
+  "id": "normal-expectation-complete-3-1",
   "level": "2",
-  "url": "normal-expectation.html#normal-expectation-3-1",
+  "url": "normal-expectation-complete.html#normal-expectation-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Expectation.",
-  "body": " Expectation   Consider a particle which can be at any one of four positions at a given time with the listed probabilities:                        If we could observe this experiment for several trials, how could we describe the expected position of the particle?   "
+  "body": " Expectation   Consider a particle which can be at any one of four positions at a given time with the listed probabilities:                        If we could observe this experiment for several trials, how could we describe the expected position of the particle?    We could use a weighted average: . Note that this is not a measure of the value we'd see most often ( is not even a valid position for the particle in this example), but a measure of the central tendency (average) of multiple observations.  For a continuous probability distribution function , this leads to the definition .   "
 },
 {
-  "id": "normal-expectation-4-1",
+  "id": "normal-expectation-complete-4-1",
   "level": "2",
-  "url": "normal-expectation.html#normal-expectation-4-1",
+  "url": "normal-expectation-complete.html#normal-expectation-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Examples: Expectation.",
-  "body": " Examples: Expectation    What is the expectation for the uniform distribution ?      What is the expectation for the distribution ?    "
+  "body": " Examples: Expectation    What is the expectation for the uniform distribution ?     . Note that in the case of the uniform distrbution, this is just the average of and .      What is the expectation for the distribution ?    First, verify that the expression to be integrated, , is an odd function. Next, use technology to confirm the integral converges. Finally, using symmetry we can determine that .    "
 },
 {
   "id": "approx-ints",
@@ -566,6 +566,114 @@ var ptx_lunr_docs = [
   "number": "7",
   "title": "Examples: Gaussian-Hermite Quadrature.",
   "body": " Examples: Gaussian-Hermite Quadrature                "
+},
+{
+  "id": "taylor-series",
+  "level": "1",
+  "url": "taylor-series.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Taylor Series",
+  "body": " Taylor Series    Motivation        Power Series   A power series centered at has the form     Radius of Convergence   For any power series , one of the following holds:       Taylor Series   If a function can be represented by a power series, it must be of a particular form. For a function , the power series        Taylor Series: Common Functions   Let's consider the Maclaurin series (Taylor series centered at ) for each function below.                            New Series from Old: Substitution   We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series (and not computing from scratch).                   "
+},
+{
+  "id": "taylor-series-2-1",
+  "level": "2",
+  "url": "taylor-series.html#taylor-series-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "taylor-series-2-2",
+  "level": "2",
+  "url": "taylor-series.html#taylor-series-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Power Series.",
+  "body": " Power Series   A power series centered at has the form   "
+},
+{
+  "id": "taylor-series-2-3",
+  "level": "2",
+  "url": "taylor-series.html#taylor-series-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Radius of Convergence.",
+  "body": " Radius of Convergence   For any power series , one of the following holds:   "
+},
+{
+  "id": "taylor-series-3-1",
+  "level": "2",
+  "url": "taylor-series.html#taylor-series-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Taylor Series.",
+  "body": " Taylor Series   If a function can be represented by a power series, it must be of a particular form. For a function , the power series    "
+},
+{
+  "id": "taylor-series-4-1",
+  "level": "2",
+  "url": "taylor-series.html#taylor-series-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Taylor Series: Common Functions.",
+  "body": " Taylor Series: Common Functions   Let's consider the Maclaurin series (Taylor series centered at ) for each function below.                        "
+},
+{
+  "id": "taylor-series-5-1",
+  "level": "2",
+  "url": "taylor-series.html#taylor-series-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "New Series from Old: Substitution.",
+  "body": " New Series from Old: Substitution   We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series (and not computing from scratch).                 "
+},
+{
+  "id": "taylor-apps",
+  "level": "1",
+  "url": "taylor-apps.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Applications of Taylor Series",
+  "body": " Applications of Taylor Series    Motivation        Differentiation and Integration   If with radius of convergence , then       Examples: Differentiation and Integration                    Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .      Estimate .      "
+},
+{
+  "id": "taylor-apps-2-1",
+  "level": "2",
+  "url": "taylor-apps.html#taylor-apps-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "taylor-apps-2-2",
+  "level": "2",
+  "url": "taylor-apps.html#taylor-apps-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Differentiation and Integration.",
+  "body": " Differentiation and Integration   If with radius of convergence , then   "
+},
+{
+  "id": "taylor-apps-3-1",
+  "level": "2",
+  "url": "taylor-apps.html#taylor-apps-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Differentiation and Integration.",
+  "body": " Examples: Differentiation and Integration                "
+},
+{
+  "id": "taylor-apps-4-1",
+  "level": "2",
+  "url": "taylor-apps.html#taylor-apps-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Approximating Integrals.",
+  "body": " Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .      Estimate .    "
 },
 {
   "id": "lab1",
@@ -721,6 +829,51 @@ var ptx_lunr_docs = [
   "body": "  The following exercise is optional . It gives more insight into where the table of weights and nodes comes from for the Gauss-Hermite method.  The table is derived from Hermite polynomials . These exercises will introduce some of the basic properties of these polynomials.     The Hermite polynomial of degree is defined by . Compute the first three ( ) polynomials.      Graph using technology. How do you think the Hermite polynomials are used to obtain the nodes in the table?      Hermite polynomials are also used to obtain the weights in the table, but it's more complicated. One property that makes these polynomials special is the value of integrals of the form . Compute values of this integral using the polynomials you obtained in the first part. What do you notice? WHat would you call the set of functions ?    "
 },
 {
+  "id": "lab5",
+  "level": "1",
+  "url": "lab5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 5",
+  "body": " Lab 5    This lab is intended to practice ideas related to Taylor series. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Find the Taylor series for  centered at . Use Desmos to verify you have the right series. What appears to be the radius of convergence?      Use the Maclaurin series for functions you know to compute new Maclaurin series for the following functions. Use Desmos to verify your series.                    (Recall: )         Use Taylor series to show that .      Use Taylor series to approximate the value of . Use Desmos to verify your approximation is reasonable.     "
+},
+{
+  "id": "lab5-3-1",
+  "level": "2",
+  "url": "lab5.html#lab5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the Taylor series for  centered at . Use Desmos to verify you have the right series. What appears to be the radius of convergence?   "
+},
+{
+  "id": "lab5-3-2",
+  "level": "2",
+  "url": "lab5.html#lab5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use the Maclaurin series for functions you know to compute new Maclaurin series for the following functions. Use Desmos to verify your series.                    (Recall: )    "
+},
+{
+  "id": "lab5-4-1",
+  "level": "2",
+  "url": "lab5.html#lab5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use Taylor series to show that .   "
+},
+{
+  "id": "lab5-4-2",
+  "level": "2",
+  "url": "lab5.html#lab5-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Use Taylor series to approximate the value of . Use Desmos to verify your approximation is reasonable.   "
+},
+{
   "id": "homework-3",
   "level": "1",
   "url": "homework-3.html",
@@ -818,6 +971,69 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  State whether each equation is given in cylindrical or spherical coordinates. Then convert each equation from cylindrical or spherical coordinates to Cartesian coordinates.                               "
+},
+{
+  "id": "homework-5",
+  "level": "1",
+  "url": "homework-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 3 (Weeks 4 and 5)",
+  "body": " Homework 3 (Weeks 4 and 5)     Consider the equation .     Use the trapezoid rule to estimate the constant that satisfies this equation. You may choose the number of trapezoids to use, but be clear about your choice.      Use the Simpson's rule to estimate the constant that satisfies this equation. You may choose the number of parabolas to use, but be clear about your choice.       Use the Gauss-Hermite method to compute .      Write the Maclaurin series for each function below. Use Desmos to verify your series.                           Suppose . Find the Maclaurin series for                 Graph the first several terms of all three series and explain how you can tell visually that your series' seem correct.     Use Maclaurin series to approximate for which .      The following is optional. It continues work with Hermite polynomials from the optional exercises in Lab 4.    Compute (the third degree Hermite polynomial). Use technology to verify the zeros of your polynomial are what you expect from the table provided in class.     "
+},
+{
+  "id": "homework-5-2-1",
+  "level": "2",
+  "url": "homework-5.html#homework-5-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the equation .     Use the trapezoid rule to estimate the constant that satisfies this equation. You may choose the number of trapezoids to use, but be clear about your choice.      Use the Simpson's rule to estimate the constant that satisfies this equation. You may choose the number of parabolas to use, but be clear about your choice.    "
+},
+{
+  "id": "homework-5-2-2",
+  "level": "2",
+  "url": "homework-5.html#homework-5-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use the Gauss-Hermite method to compute .   "
+},
+{
+  "id": "homework-5-2-3",
+  "level": "2",
+  "url": "homework-5.html#homework-5-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Write the Maclaurin series for each function below. Use Desmos to verify your series.                        "
+},
+{
+  "id": "homework-5-2-4",
+  "level": "2",
+  "url": "homework-5.html#homework-5-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suppose . Find the Maclaurin series for                 Graph the first several terms of all three series and explain how you can tell visually that your series' seem correct.  "
+},
+{
+  "id": "homework-5-2-5",
+  "level": "2",
+  "url": "homework-5.html#homework-5-2-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Use Maclaurin series to approximate for which .   "
+},
+{
+  "id": "homework-5-3-2",
+  "level": "2",
+  "url": "homework-5.html#homework-5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Compute (the third degree Hermite polynomial). Use technology to verify the zeros of your polynomial are what you expect from the table provided in class.   "
 }
 ]
 
