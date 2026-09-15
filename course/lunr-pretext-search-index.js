@@ -979,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework 3 (Weeks 4 and 5)",
-  "body": " Homework 3 (Weeks 4 and 5)     Consider the equation .     Use the trapezoid rule to estimate the constant that satisfies this equation. You may choose the number of trapezoids to use, but be clear about your choice.      Use the Simpson's rule to estimate the constant that satisfies this equation. You may choose the number of parabolas to use, but be clear about your choice.       Use the Gauss-Hermite method to compute .      Write the Maclaurin series for each function below. Use Desmos to verify your series.                           Suppose . Find the Maclaurin series for                 Graph the first several terms of all three series and explain how you can tell visually that your series' seem correct.     Use Maclaurin series to approximate for which .      The following is optional. It continues work with Hermite polynomials from the optional exercises in Lab 4.    Compute (the third degree Hermite polynomial). Use technology to verify the zeros of your polynomial are what you expect from the table provided in class.     "
+  "body": " Homework 3 (Weeks 4 and 5)     Consider the equation .     Use the Trapezoid rule Desmos interactive to answer the following question.  Use the trapezoid rule to estimate the constant that satisfies this equation. You may choose the number of trapezoids to use, but be clear about your choice.  Comment on how accurate you think your estimate is and why.      Use the Simpson's rule Desmos interactive to answer the following question.  Use the Simpson's rule to estimate the constant that satisfies this equation. You may choose the number of parabolas to use, but be clear about your choice.  Comment on how accurate you think your estimate is and why.       Use the Gauss-Hermite method to compute .  Think about the symmetry of the function you are integrating. Does the answer you obtain using the Gauss-Hermite method make sense? Why?      Write the Maclaurin series for each function below. Use Desmos to verify your series.                           Suppose . Find the Maclaurin series for the following. Then graph the first several terms of all three series and explain how you can tell visually that your series' seem correct.                    Use Maclaurin series to approximate for which .      The following is optional. It continues work with Hermite polynomials from the optional exercises in Lab 4.    Compute (the third degree Hermite polynomial). Use technology to verify the zeros of your polynomial are what you expect from the table provided in class.     "
 },
 {
   "id": "homework-5-2-1",
@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Consider the equation .     Use the trapezoid rule to estimate the constant that satisfies this equation. You may choose the number of trapezoids to use, but be clear about your choice.      Use the Simpson's rule to estimate the constant that satisfies this equation. You may choose the number of parabolas to use, but be clear about your choice.    "
+  "body": "  Consider the equation .     Use the Trapezoid rule Desmos interactive to answer the following question.  Use the trapezoid rule to estimate the constant that satisfies this equation. You may choose the number of trapezoids to use, but be clear about your choice.  Comment on how accurate you think your estimate is and why.      Use the Simpson's rule Desmos interactive to answer the following question.  Use the Simpson's rule to estimate the constant that satisfies this equation. You may choose the number of parabolas to use, but be clear about your choice.  Comment on how accurate you think your estimate is and why.    "
 },
 {
   "id": "homework-5-2-2",
@@ -997,7 +997,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Use the Gauss-Hermite method to compute .   "
+  "body": "  Use the Gauss-Hermite method to compute .  Think about the symmetry of the function you are integrating. Does the answer you obtain using the Gauss-Hermite method make sense? Why?   "
 },
 {
   "id": "homework-5-2-3",
@@ -1015,7 +1015,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Suppose . Find the Maclaurin series for                 Graph the first several terms of all three series and explain how you can tell visually that your series' seem correct.  "
+  "body": "  Suppose . Find the Maclaurin series for the following. Then graph the first several terms of all three series and explain how you can tell visually that your series' seem correct.                 "
 },
 {
   "id": "homework-5-2-5",
