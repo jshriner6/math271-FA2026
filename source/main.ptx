@@ -58,8 +58,8 @@
     <!--<xi:include href="./notes/improper-ints.ptx"/>-->
      <xi:include href="./notes/improper-ints-complete.ptx"/> 
 
-    <xi:include href="./notes/normal-expectation.ptx"/>
-    <!--<xi:include href="./notes/normal-expectation-complete.ptx"/> -->
+    <!--<xi:include href="./notes/normal-expectation.ptx"/> -->
+    <xi:include href="./notes/normal-expectation-complete.ptx"/> 
 
     <xi:include href="./notes/approx-ints.ptx"/>
    <!-- <xi:include href="./notes/approx-ints-complete.ptx"/> -->
