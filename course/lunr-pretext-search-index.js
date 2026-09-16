@@ -496,76 +496,76 @@ var ptx_lunr_docs = [
   "body": " Examples: Expectation    What is the expectation for the uniform distribution ?     . Note that in the case of the uniform distrbution, this is just the average of and .      What is the expectation for the distribution ?    First, verify that the expression to be integrated, , is an odd function. Next, use technology to confirm the integral converges. Finally, using symmetry we can determine that .    "
 },
 {
-  "id": "approx-ints",
+  "id": "approx-ints-complete",
   "level": "1",
-  "url": "approx-ints.html",
+  "url": "approx-ints-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Approximating Integrals",
-  "body": " Approximating Integrals    Motivation        The Trapezoid Rule        Example: Trapezoid Rule           Simpson's Rule        Example: Simpson's Rule           Gaussian-Hermite Quadrature    , where   Table of nodes and weights for Gaussian-Hermite quadrature.        Examples: Gaussian-Hermite Quadrature                  "
+  "title": "Approximating Integrals (Complete)",
+  "body": " Approximating Integrals (Complete)    Motivation       Evaluating definite integrals can get hard fast! In practice, it is useful to have methods for approximating values of integrals. Typically, this takes the form . How we determine the weights ( ) and the nodes ( ) used in the approximation is what varies between methods. We'll look at some common methods used in quantum mechanics.     The Trapezoid Rule       See the Trapezoid rule Desmos interactive for the visual used to determine the Trapezoid rule for approximation: .     Example: Trapezoid Rule        Using makes . Then using the trapezoid rule gives . Compare this to the true value using technology of approximately .       Simpson's Rule       See the Simpson's rule Desmos interactive for the visual used to determine Simpson's rule for approximation: For even, .     Example: Simpson's Rule        Using makes . Then using the Simpson's rule gives which is even closer to the true value than when using the Trapezoid rule.       Gaussian-Hermite Quadrature    , where   Table of nodes and weights for Gaussian-Hermite quadrature.     This method is best for improper integrals of a particular form, and actually gives equality when is a polynomial of degree or less.  In lab we'll discover a bit more about where the table of weights and nodes comes from, but for now we should understand how to use them.       Examples: Gaussian-Hermite Quadrature                     Use the substitution , to transform the integral to . Then using the result from the previous example, we can see that . This result allows us to normalize a general Gaussian function!      "
 },
 {
-  "id": "approx-ints-2-1",
+  "id": "approx-ints-complete-2-1",
   "level": "2",
-  "url": "approx-ints.html#approx-ints-2-1",
+  "url": "approx-ints-complete.html#approx-ints-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Evaluating definite integrals can get hard fast! In practice, it is useful to have methods for approximating values of integrals. Typically, this takes the form . How we determine the weights ( ) and the nodes ( ) used in the approximation is what varies between methods. We'll look at some common methods used in quantum mechanics.   "
 },
 {
-  "id": "approx-ints-2-2",
+  "id": "approx-ints-complete-2-2",
   "level": "2",
-  "url": "approx-ints.html#approx-ints-2-2",
+  "url": "approx-ints-complete.html#approx-ints-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "The Trapezoid Rule.",
-  "body": " The Trapezoid Rule      "
+  "body": " The Trapezoid Rule       See the Trapezoid rule Desmos interactive for the visual used to determine the Trapezoid rule for approximation: .   "
 },
 {
-  "id": "approx-ints-2-3",
+  "id": "approx-ints-complete-2-3",
   "level": "2",
-  "url": "approx-ints.html#approx-ints-2-3",
+  "url": "approx-ints-complete.html#approx-ints-complete-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Trapezoid Rule.",
-  "body": " Example: Trapezoid Rule       "
+  "body": " Example: Trapezoid Rule        Using makes . Then using the trapezoid rule gives . Compare this to the true value using technology of approximately .   "
 },
 {
-  "id": "approx-ints-3-1",
+  "id": "approx-ints-complete-3-1",
   "level": "2",
-  "url": "approx-ints.html#approx-ints-3-1",
+  "url": "approx-ints-complete.html#approx-ints-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Simpson’s Rule.",
-  "body": " Simpson's Rule      "
+  "body": " Simpson's Rule       See the Simpson's rule Desmos interactive for the visual used to determine Simpson's rule for approximation: For even, .   "
 },
 {
-  "id": "approx-ints-3-2",
+  "id": "approx-ints-complete-3-2",
   "level": "2",
-  "url": "approx-ints.html#approx-ints-3-2",
+  "url": "approx-ints-complete.html#approx-ints-complete-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Simpson’s Rule.",
-  "body": " Example: Simpson's Rule       "
+  "body": " Example: Simpson's Rule        Using makes . Then using the Simpson's rule gives which is even closer to the true value than when using the Trapezoid rule.   "
 },
 {
-  "id": "approx-ints-4-1",
+  "id": "approx-ints-complete-4-1",
   "level": "2",
-  "url": "approx-ints.html#approx-ints-4-1",
+  "url": "approx-ints-complete.html#approx-ints-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Gaussian-Hermite Quadrature.",
-  "body": " Gaussian-Hermite Quadrature    , where   Table of nodes and weights for Gaussian-Hermite quadrature.    "
+  "body": " Gaussian-Hermite Quadrature    , where   Table of nodes and weights for Gaussian-Hermite quadrature.     This method is best for improper integrals of a particular form, and actually gives equality when is a polynomial of degree or less.  In lab we'll discover a bit more about where the table of weights and nodes comes from, but for now we should understand how to use them.   "
 },
 {
-  "id": "approx-ints-5-1",
+  "id": "approx-ints-complete-5-1",
   "level": "2",
-  "url": "approx-ints.html#approx-ints-5-1",
+  "url": "approx-ints-complete.html#approx-ints-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Examples: Gaussian-Hermite Quadrature.",
-  "body": " Examples: Gaussian-Hermite Quadrature                "
+  "body": " Examples: Gaussian-Hermite Quadrature                     Use the substitution , to transform the integral to . Then using the result from the previous example, we can see that . This result allows us to normalize a general Gaussian function!    "
 },
 {
   "id": "taylor-series",
