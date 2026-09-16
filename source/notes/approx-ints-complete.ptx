@@ -16,7 +16,7 @@
                         Evaluating definite integrals can get hard fast! In practice, it is useful to have methods for 
                         approximating values of integrals. Typically, this takes the form 
                         <md>
-                            \int_a^b f(x) \quad dx \approx \sum_{i=1}^n w_i f(x_i)
+                            \int_a^b f(x) \quad dx \approx \sum_{i=0}^n w_i f(x_i)
                         </md>.
                         How we determine the weights (<m>w_i</m>) and the nodes (<m>x_i</m>) used in the approximation
                         is what varies between methods. We'll look at some common methods used in quantum mechanics.
@@ -38,7 +38,7 @@
                         See the <url href="https://www.desmos.com/calculator/avbulpbcco">Trapezoid rule Desmos interactive </url>
                         for the visual used to determine the Trapezoid rule for approximation:
                         <md>
-                            \int_a^b f(x) \quad dx  \approx \frac{\Delta x}{2}(f(x_1)+ 2 f(x_2) + \dots + 2f(x_{n-1}) + f(x_n))
+                            \int_a^b f(x) \quad dx  \approx \frac{\Delta x}{2}(f(x_0)+ 2 f(x_1) + \dots + 2f(x_{n-1}) + f(x_n))
                         </md>.
                         
                     </p>
