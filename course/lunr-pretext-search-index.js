@@ -676,6 +676,150 @@ var ptx_lunr_docs = [
   "body": " Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .      Estimate .    "
 },
 {
+  "id": "partial-derivatives",
+  "level": "1",
+  "url": "partial-derivatives.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Partial Derivatives",
+  "body": " Partial Derivatives    Motivation        Partial Derivatives   Recall for , . One natural way to extend this to is to repeat this definition twice (once for each variable):                   Examples: Partial Differentiation                         (Higher Order Partials)         Visualizing Partial Derivatives   Recall for , can tell us if is     Example: Increasing\/Decreasing   Consider near the point .       Tangent Planes   Recall that for , can help us identify the tangent line at a point . Given , the tangent plane to a surface at is     Example: Tangent Plane   Consider near .     "
+},
+{
+  "id": "partial-derivatives-2-1",
+  "level": "2",
+  "url": "partial-derivatives.html#partial-derivatives-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "partial-derivatives-2-2",
+  "level": "2",
+  "url": "partial-derivatives.html#partial-derivatives-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Partial Derivatives.",
+  "body": " Partial Derivatives   Recall for , . One natural way to extend this to is to repeat this definition twice (once for each variable):               "
+},
+{
+  "id": "partial-derivatives-3-1",
+  "level": "2",
+  "url": "partial-derivatives.html#partial-derivatives-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Partial Differentiation.",
+  "body": " Examples: Partial Differentiation                         (Higher Order Partials)     "
+},
+{
+  "id": "partial-derivatives-4-1",
+  "level": "2",
+  "url": "partial-derivatives.html#partial-derivatives-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Visualizing Partial Derivatives.",
+  "body": " Visualizing Partial Derivatives   Recall for , can tell us if is   "
+},
+{
+  "id": "partial-derivatives-4-2",
+  "level": "2",
+  "url": "partial-derivatives.html#partial-derivatives-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Increasing\/Decreasing.",
+  "body": " Example: Increasing\/Decreasing   Consider near the point .   "
+},
+{
+  "id": "partial-derivatives-5-1",
+  "level": "2",
+  "url": "partial-derivatives.html#partial-derivatives-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Tangent Planes.",
+  "body": " Tangent Planes   Recall that for , can help us identify the tangent line at a point . Given , the tangent plane to a surface at is   "
+},
+{
+  "id": "partial-derivatives-5-2",
+  "level": "2",
+  "url": "partial-derivatives.html#partial-derivatives-5-2",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Example: Tangent Plane.",
+  "body": " Example: Tangent Plane   Consider near .   "
+},
+{
+  "id": "chain-rule",
+  "level": "1",
+  "url": "chain-rule.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Directional Derivative, Total Derivative, and the Chain Rule",
+  "body": " Directional Derivative, Total Derivative, and the Chain Rule    Motivation        Directional Derivatives   For , and helped us describe the rate of change of in the and directions, respectively. But in the plane, there are lots more directions!       Example: Directional Derivative   Consider near the point .       Total Differential   Partial derivatives let one variable change, and hold all others constant, which is not always desirable in practice (we'd like multiple variables to change at the same time). Directional derivatives are one tool, as they allow us to walk in any direction and see how a function changes.  Another tool is the total derivative , which makes use of a surface's tangent plane:  Suppose gives the pressure of a gas at temperature and volume . How does change as both and change?     Total Derivative   It is common that variables in our function change with respect to a single common variable (like time):   In this case, becomes       Example: Total Differential and Total Derivative   Let .       The Chain Rule   The total derivative is an example of the multivariable chain rule . In general, tree diagrams can be very helpful for keeping track of this rule in more complicated variables.                          "
+},
+{
+  "id": "chain-rule-2-1",
+  "level": "2",
+  "url": "chain-rule.html#chain-rule-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "chain-rule-2-2",
+  "level": "2",
+  "url": "chain-rule.html#chain-rule-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Directional Derivatives.",
+  "body": " Directional Derivatives   For , and helped us describe the rate of change of in the and directions, respectively. But in the plane, there are lots more directions!   "
+},
+{
+  "id": "chain-rule-3-1",
+  "level": "2",
+  "url": "chain-rule.html#chain-rule-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Directional Derivative.",
+  "body": " Example: Directional Derivative   Consider near the point .   "
+},
+{
+  "id": "chain-rule-4-1",
+  "level": "2",
+  "url": "chain-rule.html#chain-rule-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Total Differential.",
+  "body": " Total Differential   Partial derivatives let one variable change, and hold all others constant, which is not always desirable in practice (we'd like multiple variables to change at the same time). Directional derivatives are one tool, as they allow us to walk in any direction and see how a function changes.  Another tool is the total derivative , which makes use of a surface's tangent plane:  Suppose gives the pressure of a gas at temperature and volume . How does change as both and change?   "
+},
+{
+  "id": "chain-rule-4-2",
+  "level": "2",
+  "url": "chain-rule.html#chain-rule-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Total Derivative.",
+  "body": " Total Derivative   It is common that variables in our function change with respect to a single common variable (like time):   In this case, becomes   "
+},
+{
+  "id": "chain-rule-5-1",
+  "level": "2",
+  "url": "chain-rule.html#chain-rule-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Total Differential and Total Derivative.",
+  "body": " Example: Total Differential and Total Derivative   Let .   "
+},
+{
+  "id": "chain-rule-6-1",
+  "level": "2",
+  "url": "chain-rule.html#chain-rule-6-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "The Chain Rule.",
+  "body": " The Chain Rule   The total derivative is an example of the multivariable chain rule . In general, tree diagrams can be very helpful for keeping track of this rule in more complicated variables.                        "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
