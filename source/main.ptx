@@ -80,6 +80,8 @@
    <xi:include href="./notes/chain-rule.ptx"/>
    <!-- <xi:include href="./notes/chain-rule-complete.ptx"/> -->
 
+   <xi:include href="./notes/mid1-review.ptx"/>
+
 
    <!-- WEEK 7 -->
 
