@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="partial-derivatives-complete">
+    <title>Partial Derivatives (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Derivatives are a very important concept from calculus 1 describing a single variable function 
+                        <m>f(x)</m> near a point. How can we extend this idea to multiple variable functions, such as 
+                        <m>f(x,y)</m>?
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Partial Derivatives</title>
+                <statement>
+                    <p>
+                        Recall for <m>f(x)</m>,
+                        <md>
+                            \frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x+h)- f(x)}{h}
+                        </md>.
+                       One natural way to extend this to <m>f(x,y)</m> is to repeat this definition twice (once for each variable):
+                       <ol>
+                        <li>
+                            <p>
+                                <m>\displaystyle \frac{\partial f}{\partial x} = f_x = </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\displaystyle \frac{\partial f}{\partial y} = f_y = </m>
+                            </p>
+                        </li>
+                       </ol>
+                         
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol>
+                        <li>
+                            <p>
+                                <m>\displaystyle \frac{\partial f}{\partial x} = f_x = \lim_{h \to 0} \frac{f(x+h,y)- f(x,y)}{h}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\displaystyle \frac{\partial f}{\partial y} = f_y = \lim_{h \to 0} \frac{f(x,y+h)- f(x,y)}{h}</m>
+                            </p>
+                        </li>
+                       </ol>
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="1in">
+                <title>Examples: Partial Differentiation</title>
+                <task>
+                    <statement>
+                        <p>
+                            <m>f(x,y) = x^2 - 3y</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f_x = 2x</m> and <m>f_y = -3</m>
+                        </p>
+                    </solution>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>f(x,y) = x^2 + 3xy + y- 1</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f_x = 2x + 3y</m> and <m>f_y = 3x + 1</m>
+                        </p>
+                    </solution>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>g(x,y) = y\sin(xy)</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>g_x =y^2\cos(xy)</m> and <m>g_y = \sin(xy) +xy\cos(xy)</m>
+                        </p>
+                    </solution>
+                </task>
+                 <task>
+                    <statement>
+                        <p>
+                          (Higher Order Partials)  <m>f(x,y) = x^2 + 3xy + y- 1</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f_{xx} = 2</m>, <m>f_{xy} = 3</m>, <m>f_{yy} = 0</m>, and <m>f_{yx} = 3</m>. Note that <m>f_{xy} = f_{yx}</m>
+                            is generally true for nice enough functions <m>f</m>.
+                        </p>
+                    </solution>
+                </task>
+                
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="1in">
+                <title>Visualizing Partial Derivatives</title>
+                <statement>
+                    <p>
+                        Recall for <m>f(x)</m>, <m>f'(x)</m> can tell us if <m>f</m> is
+                    </p>
+                </statement>
+              <solution>
+                <p>
+                    increasing or decreasing near a given point.
+                </p>
+              </solution>
+                
+            </exercise>
+
+            <exercise workspace="5in">
+                <title>Example: Increasing/Decreasing</title>
+                <statement>
+                    <p>
+                        Consider <m>f(x,y) = x^2 - y^2</m> near the point <m>(1,2)</m>.
+                    </p>
+                </statement>
+              <solution>
+                <p>
+                    We can compute <m>f_x = 2x</m> and <m>f_y = -2y</m>, so <m>f_x(1,2) = 2 \gt 0</m> and <m>f_y(1,2)=-4 \lt 0</m>.
+                    That is <m>f</m> is increasing near <m>(1,2)</m> in the <m>x</m> direction and decreasing near <m>(1,2)</m> in the <m>y</m>
+                    direction.
+                </p>
+                <p>
+                    We can <url href="https://www.desmos.com/3d/zprovltqit">plot the surface with Desmos</url> to help visualize this behavior.
+                </p>
+              </solution>
+                
+            </exercise>
+</page>
+
+<page>
+            <exercise workspace="5in">
+            <title>Tangent Planes</title>
+            <statement>
+                <p>
+                    Recall that for <m>f(x)</m>, <m>f'(x)</m> can help us identify the <term>tangent line</term> 
+                    at a point <m>(x,f(x))</m>. Given <m>f(x,y)</m>, the <term>tangent plane</term> to a surface at 
+                    <m>(x_0,y_0)</m> is
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        L(x,y) = f(x_0,y_0) + f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)
+                    </md>.
+                    Note that <m>L(x_0,y_0) = f(x_0,y_0)</m>, <m>L_x(x_0,y_0) = f_x(x_0,y_0)</m>, and 
+                    <m>L_y(x_0,y_0) = f_y(x_0,y_0)</m>, all of which help explain why the plane <m>L</m> looks like it 
+                    does with respect to the surface at the point <m>(x_0,y_0)</m>. 
+                </p>
+                <p>
+                    See the Desmos interactive from the previous example for a picture. 
+                </p>
+            </solution>
+                
+            </exercise>
+
+            <exercise workspace="5in">
+            <title>Example: Tangent Plane</title>
+            <statement>
+                <p>
+                   Consider <m>f(x,y) = 3 + \frac{x^2}{16} + \frac{y^2}{9}</m> near <m>(-4,3)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The partials are <m>f_x = \frac{x}{8}</m> and <m>f_y = \frac{2y}{9}</m>, so the tangent plane at 
+                    <m>(-4,3)</m> is 
+                    <md>
+                        L(x,y) = 5 - \frac{1}{2}(x+4) + \frac{2}{3}(y-3)
+                    </md>.
+                    
+                </p>
+            </solution>
+                
+            </exercise>
+</page>
+
+   
+
+       
+    </worksheet>

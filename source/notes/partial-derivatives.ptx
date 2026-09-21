@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="partial-derivatives">
+    <title>Partial Derivatives</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Partial Derivatives</title>
+                <statement>
+                    <p>
+                        Recall for <m>f(x)</m>,
+                        <md>
+                            \frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x+h)- f(x)}{h}
+                        </md>.
+                       One natural way to extend this to <m>f(x,y)</m> is to repeat this definition twice (once for each variable):
+                       <ol>
+                        <li>
+                            <p>
+                                <m>\displaystyle \frac{\partial f}{\partial x} = f_x = </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\displaystyle \frac{\partial f}{\partial y} = f_y = </m>
+                            </p>
+                        </li>
+                       </ol>
+                         
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="1in">
+                <title>Examples: Partial Differentiation</title>
+                <task>
+                    <statement>
+                        <p>
+                            <m>f(x,y) = x^2 - 3y</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>f(x,y) = x^2 + 3xy + y- 1</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>g(x,y) = y\sin(xy)</m>
+                        </p>
+                    </statement>
+                </task>
+                 <task>
+                    <statement>
+                        <p>
+                          (Higher Order Partials)  <m>f(x,y) = x^2 + 3xy + y- 1</m>
+                        </p>
+                    </statement>
+                </task>
+                
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="1in">
+                <title>Visualizing Partial Derivatives</title>
+                <statement>
+                    <p>
+                        Recall for <m>f(x)</m>, <m>f'(x)</m> can tell us if <m>f</m> is
+                    </p>
+                </statement>
+              
+                
+            </exercise>
+
+            <exercise workspace="5in">
+                <title>Example: Increasing/Decreasing</title>
+                <statement>
+                    <p>
+                        Consider <m>f(x,y) = x^2 - y^2</m> near the point <m>(1,2)</m>.
+                    </p>
+                </statement>
+              
+                
+            </exercise>
+</page>
+
+<page>
+            <exercise workspace="5in">
+            <title>Tangent Planes</title>
+            <statement>
+                <p>
+                    Recall that for <m>f(x)</m>, <m>f'(x)</m> can help us identify the <term>tangent line</term> 
+                    at a point <m>(x,f(x))</m>. Given <m>f(x,y)</m>, the <term>tangent plane</term> to a surface at 
+                    <m>(x_0,y_0)</m> is
+                </p>
+            </statement>
+            
+                
+            </exercise>
+
+            <exercise workspace="5in">
+            <title>Example: Tangent Plane</title>
+            <statement>
+                <p>
+                   Consider <m>f(x,y) = 3 + \frac{x^2}{16} + \frac{y^2}{9}</m> near <m>(-4,3)</m>.
+                </p>
+            </statement>
+            
+                
+            </exercise>
+</page>
+
+   
+
+       
+    </worksheet>

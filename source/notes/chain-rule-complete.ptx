@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="chain-rule-complete">
+    <title>Directional Derivative, Total Derivative, and the Chain Rule (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We've seen how we can use the calculus 1 derivative to define partial derivatives for multivariable
+                        functions. We'll see how we can use partial derivatives to establish more tools, all with the 
+                        purpose of of understanding the rate of change of a multivariable function.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Directional Derivatives</title>
+                <statement>
+                    <p>
+                       For <m>f(x,y)</m>, <m>f_x</m> and <m>f_y</m> helped us describe the rate of change of <m>f</m>
+                       in the <m>x</m> and <m>y</m> directions, respectively. But in the <m>x-y</m> plane, there are lots more
+                       directions!
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        To specify a direction, we can use a vector of magnitude <m>1</m>, called a <term>unit vector</term>.
+                    </p>
+                    <p>
+                        For a unit vector <m>\uvec = \langle a, b\rangle </m>, the rate of change of <m>f(x,y)</m> in the direction
+                        <m>\uvec</m> at the point <m>(x_0,y_0)</m> is given by 
+                        <md>
+                            <mrow>D_{\uvec}f(x_0,y_0) \amp= \langle f_x(x_0,y_0), f_y(x_0,y_0) \rangle \cdot  \langle a, b\rangle</mrow>
+                            <mrow> \amp= af_x + bf_y </mrow>
+                        </md>
+                        
+                    </p>
+                    <p>
+                        The vector <m>\langle f_x(x_0,y_0), f_y(x_0,y_0) \rangle</m> is called the <term>gradient</term> of <m>f</m>
+                        at <m>(x_0,y_0)</m>, and is commonly denoted as <m>\nabla f</m>. This vector points in the direction
+                        of steepest ascent of <m>f</m> at <m>(x_0,y_0)</m>.
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="2in">
+                <title>Example: Directional Derivative</title>
+                <statement>
+                    <p>
+                        Consider <m>f(x,y) = x^2 - y^2</m> near the point <m>(1,2)</m>.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We can compute <m>\nabla f(x,y) = \langle 2x, -2y \rangle</m>, so that <m>\nabla f(1,2) = \langle 2,-4 \rangle</m>.
+                    </p>
+                    <p>
+                        If we'd like to know how <m>f</m> changes in the direction <m>\langle -1, 1 \rangle </m>, we first need the 
+                        associated unit vector, <m>\uvec = \langle \frac{-1}{\sqrt{2}}, \frac{1}{\sqrt{2}}</m>. Then we compute
+                        <md>
+                            <mrow>D_{\uvec}f  \amp= \nabla f \cdot \uvec </mrow>
+                            <mrow> \amp= \frac{-2}{\sqrt{2}} - \frac{4}{\sqrt{2}} </mrow>
+                        </md>
+                        Since this is less than zero, we know the function decreases in the direction <m>\uvec</m>.
+                        
+                    </p>
+                    <p>
+                        We could also compute in which direction(s) <m>\vvec = \langle v_1, v_2 \rangle</m> the function stays constant. This is solving <m>D_{\vvec}f = 0</m>, which 
+                        is equivalent to <m>2v_1 - 4v_2 = 0</m>, which means <m>v_1 = 2v_2</m>. If we require that <m>\vvec</m> is a unit vector,
+                        then we obtain <m>v_1 = \pm \frac{2}{\sqrt{5}}</m> and <m>v_2 = \pm \frac{1}{\sqrt{5}}</m>.
+                    </p>
+                    <p>
+                        See <url href="https://www.desmos.com/3d/cp4zwda5ob"> the directional derivative Desmos interactive</url> to visualize
+                        all of these computations.
+                    </p>
+                </solution>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Total Differential</title>
+                <statement>
+                    <p>
+                        Partial derivatives let one variable change, and hold all others constant, which is not always 
+                        desirable in practice (we'd like multiple variables to change at the same time). Directional derivatives
+                        are one tool, as they allow us to <q>walk</q> in any direction and see how a function changes. 
+                    </p>
+                    <p>
+                        Another tool is the <term>total derivative</term>, which makes use of a surface's tangent plane:
+                    </p>
+                    <p>
+                        Suppose <m>P(T,V)</m> gives the pressure of a gas at temperature <m>T</m> and volume <m>V</m>. How 
+                        does <m>P</m> change as both <m>T</m> and <m>V</m> change?
+                    </p>
+                </statement>
+              <solution>
+                <p>
+                    Using the equation of a tangent plane, we can write that for a temperature/volume pair <m>(T,V)</m> close 
+                    to the initial temperature/volume pair <m>(T_0, V_0)</m>, 
+                    <md>
+                        P(T,V) \approx P(T_0,V_0) + \frac{\partial P}{\partial T} (T-T_0) +  \frac{\partial P}{\partial V} (V-V_0)
+                    </md>,
+                    
+                    which means 
+                    <md>
+                        \Delta P \approx \frac{\partial P}{\partial T} \Delta T +  \frac{\partial P}{\partial V} \Delta V
+                    </md>.
+
+                    The <term>total differential</term> is the approximate value we get from using the tangent plane on the right hand side, written
+                    <md>
+                        dP =\frac{\partial P}{\partial T} dT +  \frac{\partial P}{\partial V} dV
+                    </md>.
+
+                    When <m>\Delta T</m> and <m>\Delta V</m> are small, the true change in <m>P</m> is very close to the total differential; that is,
+                    <md>
+                        \Delta P \approx dP
+                    </md>.
+                    
+                    
+                    
+                    
+                </p>
+              </solution>
+                
+            </exercise>
+
+            <exercise workspace="2in">
+                <title>Total Derivative</title>
+                <statement>
+                    <p>
+                        It is common that variables in our function change with respect to a single common variable (like time):
+                        <md>
+                            P(T,V) = P(T(t), V(t))
+                        </md>,
+                        which is a composition of functions.
+                        
+                    </p>
+                    <p>
+                        In this case, <m>dP = \frac{\partial P}{\partial T} dT + \frac{\partial P}{\partial V} dV</m> becomes
+                    </p>
+                </statement>
+              <solution>
+                <p>
+                    <md>
+                        \frac{dP}{dt} = \frac{\partial P}{\partial T} \frac{dT}{dt} + \frac{\partial P}{\partial V} \frac{dV}{dt}
+                    </md>,
+                    which is called the <term>total derivative</term>. This gives the approximate change in <m>P</m> for a small change 
+                    in <m>t</m> at a fixed temperature and volume.
+                    
+                </p>
+              </solution>
+                
+            </exercise>
+</page>
+
+<page>
+            <exercise workspace="5in">
+            <title>Example: Total Differential and Total Derivative</title>
+            <statement>
+                <p>
+                   Let <m>P(T,V) = \frac{T}{V}</m>.
+                </p>
+            </statement>
+            
+                <solution>
+                    <p>
+                        The total differential of <m>P</m> is
+                        <md>
+                            dP = \frac{1}{V}dT - \frac{T}{V^2}dV
+                        </md>.
+
+                        If <m>V=10</m> L and <m>T=273</m> K, let's compute the approximate change in pressure if the volume 
+                        decreases to <m>9</m> L and temperature increases to <m>274</m> K. Using the total differential, we compute
+                        <md>
+                            <mrow>dP \amp= \frac{1}{10} \cdot 1 - \frac{273}{100} \cdot (-1) </mrow>
+                            <mrow> \amp= 0.1  + 2.73 </mrow>
+                            <mrow> \amp= 2.83 </mrow>
+                        </md>
+                        Note this is an approximation of <m>\Delta P</m>, which in this example we can compute exactly as 
+                        <m>\Delta P = \frac{274}{9} - \frac{273}{10} \approx 3.14</m>.
+                        
+                        
+                    </p>
+                    <p>
+                        Now suppose <m>T(t) = \sin(t)</m> and <m>V(t) = t^2</m>. Then we can compute the total derivative as 
+                        <md>
+                             <mrow>\frac{dP}{dt} \amp= \frac{1}{V}\cos(t) - \frac{T}{V^2}(2t) </mrow>
+                             <mrow> \amp= \frac{\cos(t)}{t^2} - \frac{2t\sin(t)}{t^4} </mrow>
+                        </md>
+                        We could verify this derivative directly by writing <m>P(T,V)</m> as a function of the single variable 
+                        <m>t</m>, and using derivative rules from calculus 1.
+                        
+                    </p>
+                </solution>
+            </exercise>
+
+           
+</page>
+
+<page>
+     <exercise workspace="3in">
+            <title>The Chain Rule</title>
+            <introduction>
+                <p>
+                   The total derivative is an example of the <term>multivariable chain rule</term>. In general, tree diagrams
+                   can be very helpful for keeping track of this rule in more complicated variables. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x(t),y(t))</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        See notes from class for a tree diagram. It should give the formula
+                        <md>
+                            \frac{df}{dt} = \frac{\partial f}{\partial x} \frac{\partial x}{\partial t} + \frac{\partial f}{\partial y} \frac{\partial y}{\partial t}
+                        </md>
+                        
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x(t),y(t), z(t))</m>
+                    </p>
+                </statement>
+                 <solution>
+                    <p>
+                        See notes from class for a tree diagram. It should give the formula
+                        <md>
+                            \frac{df}{dt} = \frac{\partial f}{\partial x} \frac{\partial x}{\partial t} + \frac{\partial f}{\partial y} \frac{\partial y}{\partial t} + \frac{\partial f}{\partial z} \frac{\partial z}{\partial t}
+                        </md>
+                        
+                    </p>
+                </solution>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x(s,t),y(s,t))</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        See notes from class for a tree diagram. It should give the formulas
+                        <md>
+                            \frac{\partial f}{\partial s} = \frac{\partial f}{\partial x} \frac{\partial x}{\partial s} + \frac{\partial f}{\partial y} \frac{\partial y}{\partial s} 
+                        </md>
+                        and
+                        <md>
+                            \frac{\partial f}{\partial t} = \frac{\partial f}{\partial x} \frac{\partial x}{\partial t} + \frac{\partial f}{\partial y} \frac{\partial y}{\partial t} 
+                        </md>
+                        
+                    </p>
+                </solution>
+            </task>
+                
+            </exercise>
+</page>
+
+   
+
+       
+    </worksheet>

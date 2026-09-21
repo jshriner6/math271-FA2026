@@ -17,6 +17,7 @@
     \newcommand{\R}{\mathbb R}
     \newcommand{\C}{\mathbb C}
     \newcommand{\vvec}{\mathbf{v}}
+    \newcommand{\uvec}{\mathbf{u}}
     \newcommand{\wvec}{\mathbf{w}}
     \newcommand{\fvec}{\mathbf{f}}
     \newcommand{\rvec}{\mathbf{r}}
