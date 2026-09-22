@@ -568,67 +568,67 @@ var ptx_lunr_docs = [
   "body": " Examples: Gaussian-Hermite Quadrature                     Use the substitution , to transform the integral to . Then using the result from the previous example, we can see that . This result allows us to normalize a general Gaussian function!    "
 },
 {
-  "id": "taylor-series",
+  "id": "taylor-series-complete",
   "level": "1",
-  "url": "taylor-series.html",
+  "url": "taylor-series-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Taylor Series",
-  "body": " Taylor Series    Motivation        Power Series   A power series centered at has the form     Radius of Convergence   For any power series , one of the following holds:       Taylor Series   If a function can be represented by a power series, it must be of a particular form. For a function , the power series        Taylor Series: Common Functions   Let's consider the Maclaurin series (Taylor series centered at ) for each function below.                            New Series from Old: Substitution   We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series (and not computing from scratch).                   "
+  "title": "Taylor Series (Complete)",
+  "body": " Taylor Series (Complete)    Motivation       Representing functions in alternate ways is a powerful tool in computing and solving differential equations. In general, a series representation for a function has the form , where you can think of the functions as a set of simpler functions with nice properties.     Power Series   A power series centered at has the form     .  Note that   These are functions of :    (convention is that in this context)            We are summing infinitely many terms, so we must be aware of convergence\/divergence (similar to improper integrals).        Radius of Convergence   For any power series , one of the following holds:        converges, but diverges for all .    There is such that converges if , and diverges if .     converges for every .     The value of in the statement above is called the radius of convergence .       Taylor Series   If a function can be represented by a power series, it must be of a particular form. For a function , the power series     is called the Taylor series of centered at . If , this series is also called the Maclaurin series of .  This is an important series because it shares all higher order derivative values at the center with the function . The result is that, for many important functions, the Taylor series for the function converges to the function. See our Taylor series examples in Desmos .       Taylor Series: Common Functions   Let's consider the Maclaurin series (Taylor series centered at ) for each function below.           ,             ,             ,         New Series from Old: Substitution   We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series (and not computing from scratch).           ,             ,       "
 },
 {
-  "id": "taylor-series-2-1",
+  "id": "taylor-series-complete-2-1",
   "level": "2",
-  "url": "taylor-series.html#taylor-series-2-1",
+  "url": "taylor-series-complete.html#taylor-series-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Representing functions in alternate ways is a powerful tool in computing and solving differential equations. In general, a series representation for a function has the form , where you can think of the functions as a set of simpler functions with nice properties.   "
 },
 {
-  "id": "taylor-series-2-2",
+  "id": "taylor-series-complete-2-2",
   "level": "2",
-  "url": "taylor-series.html#taylor-series-2-2",
+  "url": "taylor-series-complete.html#taylor-series-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Power Series.",
-  "body": " Power Series   A power series centered at has the form   "
+  "body": " Power Series   A power series centered at has the form     .  Note that   These are functions of :    (convention is that in this context)            We are summing infinitely many terms, so we must be aware of convergence\/divergence (similar to improper integrals).      "
 },
 {
-  "id": "taylor-series-2-3",
+  "id": "taylor-series-complete-2-3",
   "level": "2",
-  "url": "taylor-series.html#taylor-series-2-3",
+  "url": "taylor-series-complete.html#taylor-series-complete-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Radius of Convergence.",
-  "body": " Radius of Convergence   For any power series , one of the following holds:   "
+  "body": " Radius of Convergence   For any power series , one of the following holds:        converges, but diverges for all .    There is such that converges if , and diverges if .     converges for every .     The value of in the statement above is called the radius of convergence .   "
 },
 {
-  "id": "taylor-series-3-1",
+  "id": "taylor-series-complete-3-1",
   "level": "2",
-  "url": "taylor-series.html#taylor-series-3-1",
+  "url": "taylor-series-complete.html#taylor-series-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Taylor Series.",
-  "body": " Taylor Series   If a function can be represented by a power series, it must be of a particular form. For a function , the power series    "
+  "body": " Taylor Series   If a function can be represented by a power series, it must be of a particular form. For a function , the power series     is called the Taylor series of centered at . If , this series is also called the Maclaurin series of .  This is an important series because it shares all higher order derivative values at the center with the function . The result is that, for many important functions, the Taylor series for the function converges to the function. See our Taylor series examples in Desmos .   "
 },
 {
-  "id": "taylor-series-4-1",
+  "id": "taylor-series-complete-4-1",
   "level": "2",
-  "url": "taylor-series.html#taylor-series-4-1",
+  "url": "taylor-series-complete.html#taylor-series-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Taylor Series: Common Functions.",
-  "body": " Taylor Series: Common Functions   Let's consider the Maclaurin series (Taylor series centered at ) for each function below.                        "
+  "body": " Taylor Series: Common Functions   Let's consider the Maclaurin series (Taylor series centered at ) for each function below.           ,             ,             ,     "
 },
 {
-  "id": "taylor-series-5-1",
+  "id": "taylor-series-complete-5-1",
   "level": "2",
-  "url": "taylor-series.html#taylor-series-5-1",
+  "url": "taylor-series-complete.html#taylor-series-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "New Series from Old: Substitution.",
-  "body": " New Series from Old: Substitution   We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series (and not computing from scratch).                 "
+  "body": " New Series from Old: Substitution   We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series (and not computing from scratch).           ,             ,     "
 },
 {
   "id": "taylor-apps",
