@@ -1,7 +1,7 @@
 
         <worksheet xml:id="sec-mid1-rev">
         <title>Midterm 1 Concept Check: Functions</title>
-        <exercise workspace="8in">
+        <exercise workspace="10in">
             <title>Midterm Review</title>
             <statement>
                 <p>
@@ -12,47 +12,78 @@
                     <ol>
                         <li>
                             <p>
-                               
+                               What is a complex number? What are different ways that we can represent them, and how do
+                               we convert between these representations?
                             </p>
                         </li>
                         <li>
                             <p>
-                                
+                            What is a complex conjugate? What do we know about the quantity <m>z \cdot \overline{z}</m> for 
+                            every complex number <m>z</m>?
                             </p>
                         </li>
                         <li>
                             <p>
-                               
+                               What is Euler's formula? How do we visualize the number <m>re^{i\theta}</m> in the complex 
+                               plane?
                             </p>
                         </li>
                         <li>
                             <p>
-                               
+                              What does it mean that sine and cosine are periodic? How can we determine the period of one 
+                              of these functions? What does it mean that sine and cosine have symmetry? How is this useful in
+                              computation?
                             </p>
                         </li>
                         <li>
                             <p>
-                               
+                            What are hyperbolic trig functions?
                             </p>
                         </li>
                         <li>
                             <p>
-                              
+                            What is a common definition for an inner product between two functions? What does it
+                            mean for a set of functions to be orthogonal? What are some common examples of sets of 
+                            orthogonal functions?
                             </p>
                         </li>
                         <li>
                             <p>
-                                
+                              What types of multivariable functions are there? What are level curves, and how are they useful 
+                              for visualizing multivariable functions in three-dimensional space?
                             </p>
                         </li>
                         <li>
                             <p>
-                                
+                                What are Cartesian coordinates, polar coordinates, cylindrical coordinates, and spherical coordinates? 
+                                What are reasons one might choose to use one coordinate system over another?
                             </p>
                         </li>
                         <li>
                             <p>
-                                
+                                What are improper integrals, and what does it mean for an improper integral to converge?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Why are improper integrals used in quantum mechanics? What does it mean to normalize a 
+                                function? How do we compute the expected value of a probability distribution?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What are examples of ways that we can approximate integral values?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is a Taylor series representation for a function? What does it mean for a Taylor series
+                                to converge to a function with radius of convergence <m>R</m>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                               In what ways can we use Taylor series representations for functions in computation? 
                             </p>
                         </li>
                     </ol>
