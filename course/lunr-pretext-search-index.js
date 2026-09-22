@@ -820,6 +820,24 @@ var ptx_lunr_docs = [
   "body": " The Chain Rule   The total derivative is an example of the multivariable chain rule . In general, tree diagrams can be very helpful for keeping track of this rule in more complicated variables.                        "
 },
 {
+  "id": "sec-mid1-rev",
+  "level": "1",
+  "url": "sec-mid1-rev.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Midterm 1 Concept Check: Functions",
+  "body": " Midterm 1 Concept Check: Functions   Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 1. You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so that a calculator is not needed.   What is a complex number? What are different ways that we can represent them, and how do we convert between these representations?    What is a complex conjugate? What do we know about the quantity for every complex number ?    What is Euler's formula? How do we visualize the number in the complex plane?    What does it mean that sine and cosine are periodic? How can we determine the period of one of these functions? What does it mean that sine and cosine have symmetry? How is this useful in computation?    What are hyperbolic trig functions?    What is a common definition for an inner product between two functions? What does it mean for a set of functions to be orthogonal? What are some common examples of sets of orthogonal functions?    What types of multivariable functions are there? What are level curves, and how are they useful for visualizing multivariable functions in three-dimensional space?    What are Cartesian coordinates, polar coordinates, cylindrical coordinates, and spherical coordinates? What are reasons one might choose to use one coordinate system over another?    What are improper integrals, and what does it mean for an improper integral to converge?    Why are improper integrals used in quantum mechanics? What does it mean to normalize a function? How do we compute the expected value of a probability distribution?    What are examples of ways that we can approximate integral values?    What is a Taylor series representation for a function? What does it mean for a Taylor series to converge to a function with radius of convergence ?    In what ways can we use Taylor series representations for functions in computation?       "
+},
+{
+  "id": "sec-mid1-rev-2",
+  "level": "2",
+  "url": "sec-mid1-rev.html#sec-mid1-rev-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Midterm Review.",
+  "body": " Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 1. You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so that a calculator is not needed.   What is a complex number? What are different ways that we can represent them, and how do we convert between these representations?    What is a complex conjugate? What do we know about the quantity for every complex number ?    What is Euler's formula? How do we visualize the number in the complex plane?    What does it mean that sine and cosine are periodic? How can we determine the period of one of these functions? What does it mean that sine and cosine have symmetry? How is this useful in computation?    What are hyperbolic trig functions?    What is a common definition for an inner product between two functions? What does it mean for a set of functions to be orthogonal? What are some common examples of sets of orthogonal functions?    What types of multivariable functions are there? What are level curves, and how are they useful for visualizing multivariable functions in three-dimensional space?    What are Cartesian coordinates, polar coordinates, cylindrical coordinates, and spherical coordinates? What are reasons one might choose to use one coordinate system over another?    What are improper integrals, and what does it mean for an improper integral to converge?    Why are improper integrals used in quantum mechanics? What does it mean to normalize a function? How do we compute the expected value of a probability distribution?    What are examples of ways that we can approximate integral values?    What is a Taylor series representation for a function? What does it mean for a Taylor series to converge to a function with radius of convergence ?    In what ways can we use Taylor series representations for functions in computation?      "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
