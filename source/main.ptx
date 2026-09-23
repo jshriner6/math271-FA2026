@@ -69,8 +69,8 @@
    <!-- <xi:include href="./notes/taylor-series.ptx"/> -->
    <xi:include href="./notes/taylor-series-complete.ptx"/>
 
-   <xi:include href="./notes/taylor-apps.ptx"/>
-   <!-- <xi:include href="./notes/taylor-apps-complete.ptx"/> -->
+   <!--<xi:include href="./notes/taylor-apps.ptx"/> -->
+    <xi:include href="./notes/taylor-apps-complete.ptx"/> 
 
 
    <!-- WEEK 6 -->
