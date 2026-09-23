@@ -631,49 +631,49 @@ var ptx_lunr_docs = [
   "body": " New Series from Old: Substitution   We'll extend this more next time, but you can generate many new Taylor series by using existing Taylor series (and not computing from scratch).           ,             ,     "
 },
 {
-  "id": "taylor-apps",
+  "id": "taylor-apps-complete",
   "level": "1",
-  "url": "taylor-apps.html",
+  "url": "taylor-apps-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Applications of Taylor Series",
-  "body": " Applications of Taylor Series    Motivation        Differentiation and Integration   If with radius of convergence , then       Examples: Differentiation and Integration                    Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .      Estimate .      "
+  "title": "Applications of Taylor Series (Complete)",
+  "body": " Applications of Taylor Series (Complete)    Motivation       We've seen examples of series representations of functions. We'll continue to see how new representations can be obtained from old, as well as some examples where series representations are useful in application and computation.     Differentiation and Integration   If with radius of convergence , then    we can compute and by differentiating and integrating the series term-by-term. The resulting series' inherit the same radius of convergence as the original series.       Examples: Differentiation and Integration         Cosine is the derivative of sine. Therefore, , and .           This is an antiderivative of , therefore Since , we must have that . Also, .        Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .     We can visualize the first several terms of this function with technology such as Desmos.      Estimate .    Let be the antiderivative of (with ) in series form found above. Then .      "
 },
 {
-  "id": "taylor-apps-2-1",
+  "id": "taylor-apps-complete-2-1",
   "level": "2",
-  "url": "taylor-apps.html#taylor-apps-2-1",
+  "url": "taylor-apps-complete.html#taylor-apps-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen examples of series representations of functions. We'll continue to see how new representations can be obtained from old, as well as some examples where series representations are useful in application and computation.   "
 },
 {
-  "id": "taylor-apps-2-2",
+  "id": "taylor-apps-complete-2-2",
   "level": "2",
-  "url": "taylor-apps.html#taylor-apps-2-2",
+  "url": "taylor-apps-complete.html#taylor-apps-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Differentiation and Integration.",
-  "body": " Differentiation and Integration   If with radius of convergence , then   "
+  "body": " Differentiation and Integration   If with radius of convergence , then    we can compute and by differentiating and integrating the series term-by-term. The resulting series' inherit the same radius of convergence as the original series.   "
 },
 {
-  "id": "taylor-apps-3-1",
+  "id": "taylor-apps-complete-3-1",
   "level": "2",
-  "url": "taylor-apps.html#taylor-apps-3-1",
+  "url": "taylor-apps-complete.html#taylor-apps-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Differentiation and Integration.",
-  "body": " Examples: Differentiation and Integration                "
+  "body": " Examples: Differentiation and Integration         Cosine is the derivative of sine. Therefore, , and .           This is an antiderivative of , therefore Since , we must have that . Also, .    "
 },
 {
-  "id": "taylor-apps-4-1",
+  "id": "taylor-apps-complete-4-1",
   "level": "2",
-  "url": "taylor-apps.html#taylor-apps-4-1",
+  "url": "taylor-apps-complete.html#taylor-apps-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Approximating Integrals.",
-  "body": " Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .      Estimate .    "
+  "body": " Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .     We can visualize the first several terms of this function with technology such as Desmos.      Estimate .    Let be the antiderivative of (with ) in series form found above. Then .    "
 },
 {
   "id": "partial-derivatives",
