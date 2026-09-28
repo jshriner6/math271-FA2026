@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="cartesian-general-regions">
+    <title>Integration Over General Regions</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>General Approach</title>
+                <statement>
+                    <p>
+                      Look at your region in the <m>x-y</m> plane and determine if you can view it as a section between 
+                      two functions of <m>x</m> or two functions of <m>y</m>:
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="2in">
+                <title>Example: General Regions</title>
+                <statement>
+                    <p>
+                        Let <m>D</m> be the region below <m>y=1</m> and above <m>y=x</m> for positive <m>x</m>. We could integrate 
+                        over this region in either order:
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Practice</title>
+                <statement>
+                    <p>
+                        Compute <m>\displaystyle \iint_D 1 + 2xy \quad dA</m> in both orders, where <m>D</m> is the region
+                        below <m>y=x</m> and above <m>y=x^2</m>.
+                        
+                    </p>
+                </statement>
+              
+                
+            </exercise>
+
+    </page>
+
+   
+
+       
+    </worksheet>

@@ -84,7 +84,11 @@
 
 
    <!-- WEEK 7 -->
+  <xi:include href="./notes/multi-var-integrals.ptx"/> 
+ <!-- <xi:include href="./notes/multi-var-integrals-complete.ptx"/> -->
 
+  <xi:include href="./notes/cartesian-general-regions.ptx"/> 
+ <!--  <xi:include href="./notes/cartesian-general-regions-complete.ptx"/> -->
 
       <!-- etc. -->
 
@@ -112,6 +116,8 @@
 
       <xi:include href="./labs/lab5.ptx"/>
 
+      <xi:include href="./labs/lab7.ptx"/>
+
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
@@ -134,6 +140,8 @@
       <xi:include href="./homework/homework-02.ptx"/>
 
       <xi:include href="./homework/homework-03.ptx"/>
+
+      <xi:include href="./homework/homework-04.ptx"/>
 
     </chapter>
 

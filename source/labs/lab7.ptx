@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab7">
+  <title>Lab 7</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to partial derivatives and multiple integration. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise>
+    <introduction>
+      <p>
+        Let <m>P(T,V) = \frac{RT}{V-b}</m>. These are examples of Van der Waals equations which is a modification of the ideal
+        gas law. Compute each of the following.
+      </p>
+    </introduction>
+    <task workspace="2in">
+        <statement>
+            <p>
+                <m>\frac{\partial P}{\partial T}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+                <m>\frac{\partial P}{\partial V}</m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+            All four second-order partial derivatives.
+            </p>
+        </statement>
+    </task>
+</exercise>
+</page>
+<page>
+
+<exercise>
+    <introduction>
+        <p>
+             Let <m>P(T,V) = \frac{RT}{V-b}</m>.
+        </p>
+    </introduction>
+    <task workspace="3in">
+      <statement>
+        <p>
+         Compute the total differential of <m>P</m>.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="3in">
+      <statement>
+        <p>
+          Use the total differential to approximate <m>\Delta P</m> if volume and temperature are initially <m>V=7</m> and <m>T=200</m>, 
+          respectively, and change to <m>V=7.1</m> and <m>T=199.5</m>.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+</page>
+<page>
+<exercise>
+
+      <introduction>
+        <p>
+         Use the multivariable chain rule to compute <m>\frac{df}{dt}</m> for each function below.
+          
+        </p>
+      </introduction>
+      <task workspace="2in">
+        <statement>
+            <p>
+                <m>f(x,y)=\cos(x^2y)</m>, where <m>x(t) = t^4 - 2t</m> and <m>y(t)= 1-t^6</m>.
+            </p>
+        </statement>
+      </task>
+      <task workspace="2in">
+        <statement>
+            <p>
+                <m>f(t,y)=t^2y^4 - 2y</m>, where <m>y(t) = \sin(t^2)</m>.
+            </p>
+        </statement>
+      </task>
+
+  </exercise>
+
+  <exercise>
+
+      <introduction>
+        <p>
+        Compute each double integral below. Use Desmos to graph the functions you are integrating and verify 
+        geometrically that your answer is reasonable.
+          
+        </p>
+      </introduction>
+      <task workspace="4in">
+        <statement>
+            <p>
+                <m>\iint_D x^2y^2 + \cos(\pi x) + \sin(\pi y) \quad dA</m>, where <m>D</m> is the rectangular region
+                <m>-2 \leq x \leq -1</m>, <m>0 \leq y \leq 1</m>.
+            </p>
+        </statement>
+      </task>
+      <task workspace="4in">
+        <statement>
+            <p>
+                <m>\iint_D xe^{xy} \quad dA</m>, where <m>D</m> is the rectangular region 
+                <m>-1 \leq x \leq 2</m>, <m>0 \leq y \leq 1</m>.
+            </p>
+        </statement>
+      </task>
+
+  </exercise>
+  </page>
+  <page>
+
+  <exercise>
+
+      <introduction>
+        <p>
+        Compute each double integral below over the given non-rectangular region. Use Desmos to help visualize the region
+        of integration.
+          
+        </p>
+      </introduction>
+      <task workspace="4in">
+        <statement>
+            <p>
+                <m>\iint_D xy^3 \quad dA</m>, where <m>D</m> is the region bounded by <m>y=\frac{1}{x}</m>, <m>y=\frac{3}{x}</m>,
+                <m>y=6</m>, and <m>y=2</m>.
+            </p>
+        </statement>
+      </task>
+      <task workspace="4in">
+        <statement>
+            <p>
+                <m>\iint_D 4xy-y^3</m>, where <m>D</m> is the region bounded by <m>y=\sqrt{x}</m> and <m>y=x^3</m>.
+            </p>
+        </statement>
+      </task>
+
+  </exercise>
+
+
+    
+ </page>
+
+</worksheet>

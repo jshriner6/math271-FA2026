@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="multi-var-integrals-complete">
+    <title>Integrals of Multivariable Functions (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Integrating <m>f(x)</m> is another important concept from calculus I. How can we extend
+                        integration to multivariable functions?
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Double Integrals</title>
+                <statement>
+                    <p>
+                      Consider a function <m>f(x,y)</m>. A natural approach to integrating such a function is to repeat our
+                      approach for partial derivatives: 
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We can make sense of integrating <m>f(x,y)</m> with respect to a single variable by holding one
+                        variable constant. For example, if <m>f(x,y) = xy^2</m>, then
+                        <md>
+                            \int_0^1 xy^2 \quad dx = y^2 \int_0^1 x \quad dx = \left. \frac{1}{2}x^2y^2 \right|_0^1 = \frac{1}{2}y^2
+                        </md>
+                        and
+                        <md>
+                            \int_0^2 xy^2 \quad dy = x \int_0^2 y^2 \quad dy = \left. \frac{1}{3}y^3x \right|_0^2 = \frac{8}{3}x
+                        </md>
+                        Note that integration with respect to <m>x</m> (respectively <m>y</m>) results in a function <m>y</m> ( respectively <m>x</m>). 
+                        Therefore, these are expressions we could integrate again:
+                        <md>
+                           \int_0^2 \int_0^1 xy^2 \quad dx dy = \int_0^2 \frac{1}{2}y^2 \quad dy = \left. \frac{1}{6}y^3 \right|_0^2 = \frac{8}{6} 
+                        </md>
+                        and
+                        <md>
+                            \int_0^1\int_0^2 xy^2 \quad dy dx = \int_0^1 \frac{8}{3}x \quad dx = \left. \frac{8}{6}x^2 \right|_0^1 = \frac{8}{6} 
+                        </md>
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="2in">
+                <title>Notes and Notation: Double Integrals</title>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                    <ol>
+                        <li>
+                            <p>
+                                A general notation for a double integral is 
+                                <md>
+                                    \iint_D f(x,y) \quad dA
+                                </md>
+                                When all bounds are constants (such as in our example), we call <m>D</m> a <term>rectangular region</term>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>f(x,y)</m> is nice on <m>D</m>, then
+                                <md>
+                                    \iint_D f(x,y) \quad dxdy = \iint_D f(x,y) \quad dydx
+                                </md>
+                                In some cases, one order is much easier than the other!
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Geometrically, <m>\iint_D f(x,y) \quad dA</m> represents the (signed) volume between
+                                <m>f(x,y)</m> and the <m>x-y</m> plane over the region <m>D</m>. Some integrals can be recognized 
+                                geometrically and avoid computation. For example, what is the value of <m>\int_1^5 \int_0^3 1 \quad dx dy</m> without
+                                making any computation?
+                            </p>
+                        </li>
+                    </ol>
+                    </p>
+                </solution>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Separable Integrals</title>
+                <statement>
+                    <p>
+                        If <m>f(x,y) = g(x) \cdot h(y)</m>, then
+                    </p>
+                    <p>
+                        <m>
+                        \displaystyle
+                         \int_c^d \int_a^b f(x,y) \quad dx dy = 
+                        </m>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <md>
+                            <mrow> \amp=\int_c^d \int_a^b g(x) h(y) \quad dx dy </mrow>
+                            <mrow> \amp= \int_c^d h(y) \left(\int_a^b g(x) \quad dx\right) \quad dy </mrow>
+                            <mrow> \amp= \left(\int_a^b g(x) \quad dx \right) \cdot \left(\int_c^d h(y) \quad dy\right) </mrow>
+                        </md>
+                        
+                    </p>
+                </solution>
+                
+            </exercise>
+
+            <exercise>
+                <title>Practice: Double Integrals</title>
+                <introduction>
+                    <p>
+                    Compute the following double integrals.
+                    </p>
+                </introduction>
+              <task workspace="4in">
+                <statement>
+                    <p>
+                    <m>\displaystyle \int_1^2 \int_2^4 6xy^2 \quad dxdy</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        You can separate this integral, or compute as with the first example. Either method should give an answer of
+                        <m>84</m>.
+                    </p>
+                </solution>
+              </task>
+
+              <task workspace="4in">
+                <statement>
+                    <p>
+                    <m>\displaystyle \int_{-5}^4 \int_0^3 2x - 4y^3 \quad dydx</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        You cannot separate this integral, but you could compute as either <m>dydx</m> or <m>dxdy</m>. Either computation
+                        should give <m>-756</m>.
+                    </p>
+                </solution>
+              </task>
+                
+            </exercise>
+</page>
+
+<page>
+        <exercise workspace="6in">
+        <title>Triple Integrals</title>
+        
+        
+        <statement>
+            <p>
+                We can extend double integrals of <m>f(x,y)</m> naturally to triple integrals of <m>f(x,y,z)</m>. Let's
+                make some analogous observations:
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The general notation for triple integrals is
+                            <md>
+                                \iiint_D f(x,y,z) \quad dV
+                            </md>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            For nice functions <m>f(x,y,z)</m> on <m>D</m>, we can still choose our order of integration.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            In general, <m> \iiint_D f(x,y,z) \quad dV</m> is difficult to visualize, but
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m> \iiint_D 1 \quad dV</m> is just a way to represent the volume of the 
+                                        region <m>D</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The typically compute important properties of three-dimensional objects
+                                        (like mass, electromagnitism, etc.).
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+            
+        </exercise>
+</page>
+
+<page>
+        <exercise workspace="6in">
+        <title>Example: Triple Integrals</title>
+        
+        
+        <statement>
+            <p>
+                Compute <m>\displaystyle \iiint_D 8xyz \quad dV</m>, where <m>D</m> is the region given by
+                <md>
+                    <mrow> 2 \leq \amp x \leq 3 </mrow>
+                    <mrow> 1 \leq \amp y \leq 2 </mrow>
+                    <mrow> 0 \leq \amp z \leq 1 </mrow>
+                </md>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                You can compute this integral in any order, all of which should give an answer of <m>15</m>.
+            </p>
+        </solution>
+            
+        </exercise>
+</page>
+
+
+
+   
+
+       
+    </worksheet>

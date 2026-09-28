@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 4 (Weeks 6 and 7)</title>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+            For <m>g(x,y) = x^2y + \sin(xy)</m>, compute <m>g_{xy}</m> and <m>g_{yx}</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+            Let <m>P(T,V) = \frac{RT}{V-b} - \frac{a}{V^2}</m>. Compute
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\frac{\partial P}{\partial T}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                   <m>\frac{\partial P}{\partial V}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    All four second-order partial derivatives.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The total differential of <m>P</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Using the total differential, compute the approximate value of <m>\Delta P</m> if the 
+                    volume and temperature are initially <m>V=10</m> and <m>T=273.15</m>, respectively, and change to 
+                    <m>V=9.9</m> and <m>T=274</m>. For this computation, use the parameter values 
+                    <m>a=b=1</m> and <m>R= 8.314</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+        
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    If <m>f(x,y) = e^{x^2-y}</m>, <m>x(t) = \sin(4t)</m>, and <m>y(t) = t^3-9</m>, compute 
+                    <m>\frac{df}{dt}</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    If <m>f(x,y) = x\sin(y^2 -x)</m>, <m>x(s,t) = 3s - t^2</m>, and <m>y(s,t) = s^6</m>, compute both
+                    <m>\frac{\partial f}{\partial s}</m> and <m>\frac{\partial f}{\partial t}</m>.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                If <m>\psi(x,y) = \frac{2}{\sqrt{ab}} \sin\left( \frac{\pi x}{a}\right)\sin\left( \frac{\pi y}{b}\right)</m>, compute
+                <md>
+                    \iint_D (\psi(x,y))^2 \quad dA
+                </md>
+                where <m>D</m> is the region <m>0 \leq x \leq a</m> and <m>0 \leq y \leq b</m>. 
+                
+                
+            </p>
+            <p>
+                <em>Note:</em> Functions of the form <m>\psi</m> are examples of wave functions, and so the integrand 
+                <m>\psi^2</m> represents a probability distribution.
+            </p>
+        </statement>
+    </exercise>
+
+   
+        <exercise>
+      <statement>
+        <p>
+            Set up (but do not solve) the integral
+            <md>
+                \iint_D 6x^2 - 40y \quad dA
+            </md>
+            where <m>D</m> is the triangle with vertices <m>(0,3)</m>, <m>(1,1)</m>, and <m>(5,3)</m>. Set up your integral
+            in an order that requires only a single double integral.
+            
+        </p>
+      </statement>
+    </exercise>
+    </page>
+
+
+</worksheet>

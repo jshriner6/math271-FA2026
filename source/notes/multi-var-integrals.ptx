@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="multi-var-integrals">
+    <title>Integrals of Multivariable Functions</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Double Integrals</title>
+                <statement>
+                    <p>
+                      Consider a function <m>f(x,y)</m>. A natural approach to integrating such a function is to repeat our
+                      approach for partial derivatives: 
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="2in">
+                <title>Notes and Notation: Double Integrals</title>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Separable Integrals</title>
+                <statement>
+                    <p>
+                        If <m>f(x,y) = g(x) \cdot h(y)</m>, then
+                    </p>
+                    <p>
+                        <m>
+                        \displaystyle
+                         \int_c^d \int_a^b f(x,y) \quad dx dy = 
+                        </m>
+                        
+                    </p>
+                </statement>
+              
+                
+            </exercise>
+
+            <exercise>
+                <title>Practice: Double Integrals</title>
+                <introduction>
+                    <p>
+                    Compute the following double integrals.
+                    </p>
+                </introduction>
+              <task workspace="4in">
+                <statement>
+                    <p>
+                    <m>\displaystyle \int_1^2 \int_2^4 6xy^2 \quad dxdy</m>
+                    </p>
+                </statement>
+              </task>
+
+              <task workspace="4in">
+                <statement>
+                    <p>
+                    <m>\displaystyle \int_{-5}^4 \int_0^3 2x - 4y^3 \quad dydx</m>
+                    </p>
+                </statement>
+              </task>
+                
+            </exercise>
+</page>
+
+<page>
+        <exercise workspace="6in">
+        <title>Triple Integrals</title>
+        
+        
+        <statement>
+            <p>
+                We can extend double integrals of <m>f(x,y)</m> naturally to triple integrals of <m>f(x,y,z)</m>. Let's
+                make some analogous observations:
+            </p>
+        </statement>
+            
+        </exercise>
+</page>
+
+<page>
+        <exercise workspace="6in">
+        <title>Example: Triple Integrals</title>
+        
+        
+        <statement>
+            <p>
+                Compute <m>\displaystyle \iiint_D 8xyz \quad dV</m>, where <m>D</m> is the region given by
+                <md>
+                    <mrow> 2 \leq \amp x \leq 3 </mrow>
+                    <mrow> 1 \leq \amp y \leq 2 </mrow>
+                    <mrow> 0 \leq \amp z \leq 1 </mrow>
+                </md>
+                
+            </p>
+        </statement>
+            
+        </exercise>
+</page>
+
+
+
+   
+
+       
+    </worksheet>

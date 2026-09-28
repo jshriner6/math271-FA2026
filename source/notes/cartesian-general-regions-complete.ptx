@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="cartesian-general-regions-complete">
+    <title>Integration Over General Regions (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We've developed multiple integrals over rectangular regions. We'll see how to establish bounds
+                        that represent more general regions (non-rectangular).
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>General Approach</title>
+                <statement>
+                    <p>
+                      Look at your region in the <m>x-y</m> plane and determine if you can view it as a section between 
+                      two functions of <m>x</m> or two functions of <m>y</m>:
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Refer to class notes for a picture of the two situations. If you region is between two functions
+                        of <m>x</m>, <m>f_1(x)</m> and <m>f_2(x)</m> for <m>x</m> in <m>(a,b)</m>, the general form of 
+                        your integral will be
+                        <md>
+                            \int_D \quad dA = \int_a^b \int_{f_1(x)}^{f_2(x)} \quad dydx
+                        </md>.
+                        If you region is between two functions
+                        of <m>y</m>, <m>g_1(y)</m> and <m>g_2(y)</m> for <m>y</m> in <m>(c,d)</m>, the general form of 
+                        your integral will be
+                        <md>
+                            \int_D \quad dA = \int_c^d \int_{g_1(y)}^{g_2(y)} \quad dxdy
+                        </md>.
+                        
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="2in">
+                <title>Example: General Regions</title>
+                <statement>
+                    <p>
+                        Let <m>D</m> be the region below <m>y=1</m> and above <m>y=x</m> for positive <m>x</m>. We could integrate 
+                        over this region in either order:
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <md>
+                            <mrow>\iint_D f(x,y) \quad dA \amp= \int_0^1 \int_x^1 f(x,y) \quad dydx </mrow>
+                            <mrow> \amp= \int_0^1 \int_0^y f(x,y) \quad dxdy </mrow>
+                        </md>
+                        
+                    </p>
+                    <p>
+                        If <m>f(x,y) = e^{y^2}</m>, only one of these orders is possible: <m>dxdy</m>. Integrating in this 
+                        order gives a result of <m>\frac{1}{2}(e-1)</m>.
+                    </p>
+                </solution>
+            </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Practice</title>
+                <statement>
+                    <p>
+                        Compute <m>\displaystyle \iint_D 1 + 2xy \quad dA</m> in both orders, where <m>D</m> is the region
+                        below <m>y=x</m> and above <m>y=x^2</m>.
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We could compute this integral as 
+                        <md>
+                            \int_0^1 \int_{x^2}^x 1 + 2xy \quad dy dx
+                        </md>
+                        or
+                        <md>
+                            \int_0^1 \int_{y}^{\sqrt{y}} 1 + 2xy \quad dx dy
+                        </md>.
+                        Either order should give a result of <m>\frac{1}{4}</m>.
+                        
+                    </p>
+                </solution>
+                
+            </exercise>
+
+    </page>
+
+   
+
+       
+    </worksheet>
