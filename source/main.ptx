@@ -74,8 +74,8 @@
 
 
    <!-- WEEK 6 -->
-    <xi:include href="./notes/partial-derivatives.ptx"/>
-   <!-- <xi:include href="./notes/partial-derivatives-complete.ptx"/> -->
+    <!-- <xi:include href="./notes/partial-derivatives.ptx"/> -->
+   <xi:include href="./notes/partial-derivatives-complete.ptx"/>
 
    <xi:include href="./notes/chain-rule.ptx"/>
    <!-- <xi:include href="./notes/chain-rule-complete.ptx"/> -->
