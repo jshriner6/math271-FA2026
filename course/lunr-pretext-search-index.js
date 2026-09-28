@@ -676,76 +676,76 @@ var ptx_lunr_docs = [
   "body": " Approximating Integrals   We've seen that computing integrals can be a challenge, and we've already seen some numerical techniques for approximating integrals. Series representations give us yet another approach:     Compute .     We can visualize the first several terms of this function with technology such as Desmos.      Estimate .    Let be the antiderivative of (with ) in series form found above. Then .    "
 },
 {
-  "id": "partial-derivatives",
+  "id": "partial-derivatives-complete",
   "level": "1",
-  "url": "partial-derivatives.html",
+  "url": "partial-derivatives-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Partial Derivatives",
-  "body": " Partial Derivatives    Motivation        Partial Derivatives   Recall for , . One natural way to extend this to is to repeat this definition twice (once for each variable):                   Examples: Partial Differentiation                         (Higher Order Partials)         Visualizing Partial Derivatives   Recall for , can tell us if is     Example: Increasing\/Decreasing   Consider near the point .       Tangent Planes   Recall that for , can help us identify the tangent line at a point . Given , the tangent plane to a surface at is     Example: Tangent Plane   Consider near .     "
+  "title": "Partial Derivatives (Complete)",
+  "body": " Partial Derivatives (Complete)    Motivation       Derivatives are a very important concept from calculus 1 describing a single variable function near a point. How can we extend this idea to multiple variable functions, such as ?     Partial Derivatives   Recall for , . One natural way to extend this to is to repeat this definition twice (once for each variable):                                   Examples: Partial Differentiation          and             and             and       (Higher Order Partials)      , , , and . Note that is generally true for nice enough functions .        Visualizing Partial Derivatives   Recall for , can tell us if is    increasing or decreasing near a given point.     Example: Increasing\/Decreasing   Consider near the point .    We can compute and , so and . That is is increasing near in the direction and decreasing near in the direction.  We can plot the surface with Desmos to help visualize this behavior.       Tangent Planes   Recall that for , can help us identify the tangent line at a point . Given , the tangent plane to a surface at is     . Note that , , and , all of which help explain why the plane looks like it does with respect to the surface at the point .  See the Desmos interactive from the previous example for a picture.     Example: Tangent Plane   Consider near .    The partials are and , so the tangent plane at is .     "
 },
 {
-  "id": "partial-derivatives-2-1",
+  "id": "partial-derivatives-complete-2-1",
   "level": "2",
-  "url": "partial-derivatives.html#partial-derivatives-2-1",
+  "url": "partial-derivatives-complete.html#partial-derivatives-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Derivatives are a very important concept from calculus 1 describing a single variable function near a point. How can we extend this idea to multiple variable functions, such as ?   "
 },
 {
-  "id": "partial-derivatives-2-2",
+  "id": "partial-derivatives-complete-2-2",
   "level": "2",
-  "url": "partial-derivatives.html#partial-derivatives-2-2",
+  "url": "partial-derivatives-complete.html#partial-derivatives-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Partial Derivatives.",
-  "body": " Partial Derivatives   Recall for , . One natural way to extend this to is to repeat this definition twice (once for each variable):               "
+  "body": " Partial Derivatives   Recall for , . One natural way to extend this to is to repeat this definition twice (once for each variable):                               "
 },
 {
-  "id": "partial-derivatives-3-1",
+  "id": "partial-derivatives-complete-3-1",
   "level": "2",
-  "url": "partial-derivatives.html#partial-derivatives-3-1",
+  "url": "partial-derivatives-complete.html#partial-derivatives-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Partial Differentiation.",
-  "body": " Examples: Partial Differentiation                         (Higher Order Partials)     "
+  "body": " Examples: Partial Differentiation          and             and             and       (Higher Order Partials)      , , , and . Note that is generally true for nice enough functions .    "
 },
 {
-  "id": "partial-derivatives-4-1",
+  "id": "partial-derivatives-complete-4-1",
   "level": "2",
-  "url": "partial-derivatives.html#partial-derivatives-4-1",
+  "url": "partial-derivatives-complete.html#partial-derivatives-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Visualizing Partial Derivatives.",
-  "body": " Visualizing Partial Derivatives   Recall for , can tell us if is   "
+  "body": " Visualizing Partial Derivatives   Recall for , can tell us if is    increasing or decreasing near a given point.   "
 },
 {
-  "id": "partial-derivatives-4-2",
+  "id": "partial-derivatives-complete-4-2",
   "level": "2",
-  "url": "partial-derivatives.html#partial-derivatives-4-2",
+  "url": "partial-derivatives-complete.html#partial-derivatives-complete-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Increasing\/Decreasing.",
-  "body": " Example: Increasing\/Decreasing   Consider near the point .   "
+  "body": " Example: Increasing\/Decreasing   Consider near the point .    We can compute and , so and . That is is increasing near in the direction and decreasing near in the direction.  We can plot the surface with Desmos to help visualize this behavior.   "
 },
 {
-  "id": "partial-derivatives-5-1",
+  "id": "partial-derivatives-complete-5-1",
   "level": "2",
-  "url": "partial-derivatives.html#partial-derivatives-5-1",
+  "url": "partial-derivatives-complete.html#partial-derivatives-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Tangent Planes.",
-  "body": " Tangent Planes   Recall that for , can help us identify the tangent line at a point . Given , the tangent plane to a surface at is   "
+  "body": " Tangent Planes   Recall that for , can help us identify the tangent line at a point . Given , the tangent plane to a surface at is     . Note that , , and , all of which help explain why the plane looks like it does with respect to the surface at the point .  See the Desmos interactive from the previous example for a picture.   "
 },
 {
-  "id": "partial-derivatives-5-2",
+  "id": "partial-derivatives-complete-5-2",
   "level": "2",
-  "url": "partial-derivatives.html#partial-derivatives-5-2",
+  "url": "partial-derivatives-complete.html#partial-derivatives-complete-5-2",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Example: Tangent Plane.",
-  "body": " Example: Tangent Plane   Consider near .   "
+  "body": " Example: Tangent Plane   Consider near .    The partials are and , so the tangent plane at is .   "
 },
 {
   "id": "chain-rule",
