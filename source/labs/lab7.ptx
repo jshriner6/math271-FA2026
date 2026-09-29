@@ -70,7 +70,7 @@
       <statement>
         <p>
           Use the total differential to approximate <m>\Delta P</m> if volume and temperature are initially <m>V=7</m> and <m>T=200</m>, 
-          respectively, and change to <m>V=7.1</m> and <m>T=199.5</m>.
+          respectively, and change to <m>V=7.1</m> and <m>T=199.5</m>. Use parameter values <m>b=1, R=8.314</m>.
         </p>
       </statement>
     </task>
@@ -152,7 +152,7 @@
       <task workspace="4in">
         <statement>
             <p>
-                <m>\iint_D 4xy-y^3</m>, where <m>D</m> is the region bounded by <m>y=\sqrt{x}</m> and <m>y=x^3</m>.
+                <m>\iint_D 4xy-y^3 \quad dA</m>, where <m>D</m> is the region bounded by <m>y=\sqrt{x}</m> and <m>y=x^3</m>.
             </p>
         </statement>
       </task>

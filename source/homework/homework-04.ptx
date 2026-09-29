@@ -89,7 +89,11 @@
                 <md>
                     \iint_D (\psi(x,y))^2 \quad dA
                 </md>
-                where <m>D</m> is the region <m>0 \leq x \leq a</m> and <m>0 \leq y \leq b</m>. 
+                where <m>D</m> is the region <m>0 \leq x \leq a</m> and <m>0 \leq y \leq b</m>. You will need the fact that
+                <md>
+                    \int \sin^2\left(\frac{\pi x}{a}\right) \quad dx = \frac{x}{2} - \frac{a}{4\pi}\sin\left(\frac{2\pi x}{a}\right) + C
+                </md>.
+                
                 
                 
             </p>
