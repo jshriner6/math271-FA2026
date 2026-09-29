@@ -838,6 +838,123 @@ var ptx_lunr_docs = [
   "body": " Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 1 (up to and including Applications of Taylor Series ). You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so that a calculator is not needed.   What is a complex number? What are different ways that we can represent them, and how do we convert between these representations?    What is a complex conjugate? What do we know about the quantity for every complex number ?    What is Euler's formula? How do we visualize the number in the complex plane?    What does it mean that sine and cosine are periodic? How can we determine the period of one of these functions? What does it mean that sine and cosine have symmetry? How is this useful in computation?    What are hyperbolic trig functions?    What is a common definition for an inner product between two functions? What does it mean for a set of functions to be orthogonal? What are some common examples of sets of orthogonal functions?    What types of multivariable functions are there? What are level curves, and how are they useful for visualizing multivariable functions in three-dimensional space?    What are Cartesian coordinates, polar coordinates, cylindrical coordinates, and spherical coordinates? What are reasons one might choose to use one coordinate system over another?    What are improper integrals, and what does it mean for an improper integral to converge?    Why are improper integrals used in quantum mechanics? What does it mean to normalize a function? How do we compute the expected value of a probability distribution?    What are examples of ways that we can approximate integral values?    What is a Taylor series representation for a function? What does it mean for a Taylor series to converge to a function with radius of convergence ?    In what ways can we use Taylor series representations for functions in computation?      "
 },
 {
+  "id": "multi-var-integrals",
+  "level": "1",
+  "url": "multi-var-integrals.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Integrals of Multivariable Functions",
+  "body": " Integrals of Multivariable Functions    Motivation        Double Integrals   Consider a function . A natural approach to integrating such a function is to repeat our approach for partial derivatives:       Notes and Notation: Double Integrals          Separable Integrals   If , then        Practice: Double Integrals   Compute the following double integrals.                     Triple Integrals   We can extend double integrals of naturally to triple integrals of . Let's make some analogous observations:       Example: Triple Integrals   Compute , where is the region given by      "
+},
+{
+  "id": "multi-var-integrals-2-1",
+  "level": "2",
+  "url": "multi-var-integrals.html#multi-var-integrals-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "multi-var-integrals-2-2",
+  "level": "2",
+  "url": "multi-var-integrals.html#multi-var-integrals-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Double Integrals.",
+  "body": " Double Integrals   Consider a function . A natural approach to integrating such a function is to repeat our approach for partial derivatives:   "
+},
+{
+  "id": "multi-var-integrals-3-1",
+  "level": "2",
+  "url": "multi-var-integrals.html#multi-var-integrals-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Notes and Notation: Double Integrals.",
+  "body": " Notes and Notation: Double Integrals      "
+},
+{
+  "id": "multi-var-integrals-4-1",
+  "level": "2",
+  "url": "multi-var-integrals.html#multi-var-integrals-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Separable Integrals.",
+  "body": " Separable Integrals   If , then      "
+},
+{
+  "id": "multi-var-integrals-4-2",
+  "level": "2",
+  "url": "multi-var-integrals.html#multi-var-integrals-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Double Integrals.",
+  "body": " Practice: Double Integrals   Compute the following double integrals.                 "
+},
+{
+  "id": "multi-var-integrals-5-1",
+  "level": "2",
+  "url": "multi-var-integrals.html#multi-var-integrals-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Triple Integrals.",
+  "body": " Triple Integrals   We can extend double integrals of naturally to triple integrals of . Let's make some analogous observations:   "
+},
+{
+  "id": "multi-var-integrals-6-1",
+  "level": "2",
+  "url": "multi-var-integrals.html#multi-var-integrals-6-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Example: Triple Integrals.",
+  "body": " Example: Triple Integrals   Compute , where is the region given by    "
+},
+{
+  "id": "cartesian-general-regions",
+  "level": "1",
+  "url": "cartesian-general-regions.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Integration Over General Regions",
+  "body": " Integration Over General Regions    Motivation        General Approach   Look at your region in the plane and determine if you can view it as a section between two functions of or two functions of :       Example: General Regions   Let be the region below and above for positive . We could integrate over this region in either order:       Practice   Compute in both orders, where is the region below and above .     "
+},
+{
+  "id": "cartesian-general-regions-2-1",
+  "level": "2",
+  "url": "cartesian-general-regions.html#cartesian-general-regions-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "cartesian-general-regions-2-2",
+  "level": "2",
+  "url": "cartesian-general-regions.html#cartesian-general-regions-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "General Approach.",
+  "body": " General Approach   Look at your region in the plane and determine if you can view it as a section between two functions of or two functions of :   "
+},
+{
+  "id": "cartesian-general-regions-3-1",
+  "level": "2",
+  "url": "cartesian-general-regions.html#cartesian-general-regions-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: General Regions.",
+  "body": " Example: General Regions   Let be the region below and above for positive . We could integrate over this region in either order:   "
+},
+{
+  "id": "cartesian-general-regions-4-1",
+  "level": "2",
+  "url": "cartesian-general-regions.html#cartesian-general-regions-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice.",
+  "body": " Practice   Compute in both orders, where is the region below and above .   "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
@@ -1036,6 +1153,60 @@ var ptx_lunr_docs = [
   "body": "  Use Taylor series to approximate the value of . Use Desmos to verify your approximation is reasonable.   "
 },
 {
+  "id": "lab7",
+  "level": "1",
+  "url": "lab7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 7",
+  "body": " Lab 7    This lab is intended to practice ideas related to partial derivatives and multiple integration. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Let . These are examples of Van der Waals equations which is a modification of the ideal gas law. Compute each of the following.                   All four second-order partial derivatives.         Let .     Compute the total differential of .      Use the total differential to approximate if volume and temperature are initially and , respectively, and change to and . Use parameter values .         Use the multivariable chain rule to compute for each function below.      , where and .       , where .       Compute each double integral below. Use Desmos to graph the functions you are integrating and verify geometrically that your answer is reasonable.      , where is the rectangular region , .       , where is the rectangular region , .         Compute each double integral below over the given non-rectangular region. Use Desmos to help visualize the region of integration.      , where is the region bounded by , , , and .       , where is the region bounded by and .      "
+},
+{
+  "id": "lab7-3-1",
+  "level": "2",
+  "url": "lab7.html#lab7-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let . These are examples of Van der Waals equations which is a modification of the ideal gas law. Compute each of the following.                   All four second-order partial derivatives.    "
+},
+{
+  "id": "lab7-4-1",
+  "level": "2",
+  "url": "lab7.html#lab7-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let .     Compute the total differential of .      Use the total differential to approximate if volume and temperature are initially and , respectively, and change to and . Use parameter values .    "
+},
+{
+  "id": "lab7-5-1",
+  "level": "2",
+  "url": "lab7.html#lab7-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use the multivariable chain rule to compute for each function below.      , where and .       , where .    "
+},
+{
+  "id": "lab7-5-2",
+  "level": "2",
+  "url": "lab7.html#lab7-5-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Compute each double integral below. Use Desmos to graph the functions you are integrating and verify geometrically that your answer is reasonable.      , where is the rectangular region , .       , where is the rectangular region , .    "
+},
+{
+  "id": "lab7-6-1",
+  "level": "2",
+  "url": "lab7.html#lab7-6-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Compute each double integral below over the given non-rectangular region. Use Desmos to help visualize the region of integration.      , where is the region bounded by , , , and .       , where is the region bounded by and .    "
+},
+{
   "id": "homework-3",
   "level": "1",
   "url": "homework-3.html",
@@ -1196,6 +1367,60 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  Compute (the third degree Hermite polynomial). Use technology to verify the zeros of your polynomial are what you expect from the table provided in class.   "
+},
+{
+  "id": "homework-6",
+  "level": "1",
+  "url": "homework-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 4 (Weeks 6 and 7)",
+  "body": " Homework 4 (Weeks 6 and 7)     For , compute and .      Let . Compute                   All four second-order partial derivatives.      The total differential of .      Using the total differential, compute the approximate value of if the volume and temperature are initially and , respectively, and change to and . For this computation, use the parameter values and .            If , , and , compute .      If , , and , compute both and .       If , compute where is the region and . You will need the fact that .   Note: Functions of the form are examples of wave functions, and so the integrand represents a probability distribution.      Set up (but do not solve) the integral where is the triangle with vertices , , and . Set up your integral in an order that requires only a single double integral.     "
+},
+{
+  "id": "homework-6-2-1",
+  "level": "2",
+  "url": "homework-6.html#homework-6-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For , compute and .   "
+},
+{
+  "id": "homework-6-2-2",
+  "level": "2",
+  "url": "homework-6.html#homework-6-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let . Compute                   All four second-order partial derivatives.      The total differential of .      Using the total differential, compute the approximate value of if the volume and temperature are initially and , respectively, and change to and . For this computation, use the parameter values and .    "
+},
+{
+  "id": "homework-6-2-3",
+  "level": "2",
+  "url": "homework-6.html#homework-6-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "       If , , and , compute .      If , , and , compute both and .    "
+},
+{
+  "id": "homework-6-2-4",
+  "level": "2",
+  "url": "homework-6.html#homework-6-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  If , compute where is the region and . You will need the fact that .   Note: Functions of the form are examples of wave functions, and so the integrand represents a probability distribution.   "
+},
+{
+  "id": "homework-6-2-5",
+  "level": "2",
+  "url": "homework-6.html#homework-6-2-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Set up (but do not solve) the integral where is the triangle with vertices , , and . Set up your integral in an order that requires only a single double integral.   "
 }
 ]
 
