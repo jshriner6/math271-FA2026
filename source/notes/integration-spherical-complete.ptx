@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="integration-spherical-complete">
+    <title>Integration in Spherical Coordinates (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Spherical coordinates are important in describing relationships in quantum mechanics (eg., orbitals). 
+                        We'll use what we've learned about the Jacobian to practice integrating in spherical coordinates towards
+                        some applications we've seen previously (eg., normalizing the square of wave functions).
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Jacobian for Spherical Coordinates</title>
+                <statement>
+                    <p>
+                Recall spherical coordinates result from the transformation <m>x=\rho \sin(\varphi)\cos(\theta)</m>, <m>y= \rho \sin(\varphi)\sin(\theta)</m>, <m>z=\rho \cos(\varphi)</m>.
+                So the Jacobian for this transformation is
+            </p>
+            <p>
+              <m>\displaystyle J = x_{\rho}(y_{\theta} z_{\varphi} - y_{\varphi} z_{\theta}) - x_{\theta}(y_{\rho} z_{\varphi} - y_{\varphi} z_{\rho}) + x_{\varphi}(y_{\rho} z_{\theta} -y_{\theta}z_{\rho}) </m>
+            </p>
+                </statement>
+                <solution>
+                    <p>
+                        which simplifies to <m>-\rho^2 \sin(\varphi)</m>. So <m>dV = |-\rho^2 \sin(\varphi)| = \rho^2\sin(\varphi) dV' </m>, 
+                        as long as <m> 0 \leq \varphi \leq \pi</m>.
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Examples: Jacobian for Spherical Coordinates</title>
+             
+                    <statement>
+                        <p>
+                            Evaluate <m>\displaystyle \iiint_S zx \quad dV</m>, where <m>S</m> is the
+                            surface inside <m>x^2 + y^2 + z^2 =4</m> and <m>z= \sqrt{x^2 + y^2}</m>.
+            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Use the <url href="https://www.desmos.com/3d/qcgjhaukgw">integration in spherical coordinates Desmos visual</url> to 
+                            visualize the surface.
+                        </p>
+                        <p>
+                            We have the bounds <m>0 \leq \rho \leq 2</m>, <m>0 \leq \theta \leq 2\pi</m>, and 
+                            <m>0 \leq \varphi \leq \pi/4</m>. The upper bound of <m>\varphi</m> comes from transforming 
+                            <m>z = \sqrt{x^2 + y^2}</m> to <m>\rho \cos(\varphi) = \rho \sin(\varphi)</m>, which implies
+                            <m>\tan(\varphi) = 1</m>, which implies <m>\varphi = \pi/4</m>.
+                        </p>
+                        <p>
+                            With these bounds, the integral becomes 
+                            <md>
+                                \int_0^{\pi/4} \int_0^{2\pi} \int_0^2 \rho \cos(\varphi) \rho\sin(\varphi)\cos(\theta) \rho^2\sin(\varphi) \quad d\rho d\theta d\varphi
+                            </md>.
+                            
+                        </p>
+                    </solution>
+
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="3in">
+        <title>Normalization</title>
+        <statement>
+            <p>
+              Suppose <m>F(\rho, \theta, \varphi)</m> is the square of a wave function that needs to be normalized. What is 
+              the relevant triple integral?
+            </p>
+           
+        </statement>
+        <solution>
+            <p>
+                 <md>
+                     \int_0^{\pi} \int_0^{2\pi} \int_0^\infty F(\rho, \theta, \varphi)\rho^2\sin(\varphi) \quad d\rho d\theta d\varphi
+                </md>
+            </p>
+        </solution>
+            
+        </exercise>
+
+        <exercise workspace="5in">
+        <title>Integrals Over the Surface of a Sphere</title>
+        <statement>
+            <p>
+                There will be applications when it is desired to integrate just over the <em>surface</em> of a sphere. 
+                This can be accomplished by holding <m>\rho</m> constant:
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <md>
+                    \int_0^{\pi} \int_0^{2\pi} f(\theta, \varphi) \sin(\varphi) \quad d\theta d\varphi
+                </md>
+                integrates <m>f(\theta, \varphi)</m> over the surface of the unit sphere (<m>\rho = 1 </m>).
+            </p>
+        </solution>
+            
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

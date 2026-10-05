@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="integration-cylindrical-complete">
+    <title>Integration in Polar/Cylindrical Coordinates (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We've seen how integrating in different coordinates requires consideration of the Jacobian of the
+                        transformation. We'll look at this in the specific coordinate systems we've introduce so far in 
+                        this course.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Jacobian for Polar Coordinates</title>
+                <statement>
+                    <p>
+                     We analyzed areas in polar coordinates to see that <m>dA = r dr d\theta</m>. Let's verify this expression
+                     using the Jacobian.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Using <m>x=r\cos(\theta)</m>, <m>y=r\sin(\theta)</m> compute the expression
+                        <md>
+                            x_r y_{\theta} - x_{\theta} y_r = r\cos^2(\theta) + r\sin^2(\theta) = r
+                        </md>.
+
+                        
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise>
+                <title>Examples: Jacobian for Polar Coordinates</title>
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle \iint_R x + y \quad dA</m>, where <m>R</m> is the circle of radius <m>2</m> centered at the origin.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\displaystyle \int_0^{2\pi} \int_0^2 (r \cos(\theta) + r\sin(\theta)) r \quad dr d\theta</m>
+                        </p>
+                         <p>
+                            See the <url href="https://www.desmos.com/calculator/n5yqu1wq3k">integration in Polar coordinates Desmos visual</url> for
+                            how to compute these integrals using Desmos.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="6in">
+                    <statement>
+                        <p>
+                           Verify <m>\displaystyle \int_{-\infty}^\infty e^{-x^2} \quad dx = \sqrt{\pi}</m>.
+                        </p>
+                       
+                    </statement>
+                    <solution>
+                        <p>
+                            Assuming we know this integral converges, we can write
+                            <md>
+                                \int_{-\infty}^\infty e^{-x^2} \quad dx = I
+                            </md>.
+                            Then 
+                            <md>
+                                \int_{-\infty}^\infty e^{-x^2} \quad dx \cdot \int_{-\infty}^\infty e^{-y^2} \quad dy =  I^2 
+                            </md>, and
+                            <md>
+                                <mrow>  \int_{-\infty}^\infty e^{-x^2} \quad dx \cdot \int_{-\infty}^\infty e^{-y^2} \quad dy \amp=  \int_{-\infty}^\infty  \int_{-\infty}^\infty e^{-x^2} \cdot e^{-y^2} \quad dxdy </mrow>
+                                <mrow> \amp=\int_{-\infty}^\infty  \int_{-\infty}^\infty e^{-x^2 - y^2}  \quad dxdy </mrow>
+                                <mrow> \amp= \int_0^{2\pi} \int_0^\infty e^{-r^2} r \quad dr d\theta </mrow>
+                                <mrow> \amp= \pi </mrow>
+                            </md>,
+                            where the last equality is obtained using the substitution <m>u=r^2</m>, <m>du = 2r dr</m>. 
+
+                            
+                            
+                            
+                        </p>
+                        <p>
+                            Thus <m>I^2 = \pi</m>, so <m>I = \sqrt{\pi}</m>.
+                        </p>
+                    </solution>
+                </task>
+            </exercise>
+</page>
+<page>
+        <exercise workspace="3in">
+        <title>Jacobian for Cylindrical Coordinates</title>
+        <statement>
+            <p>
+                Recall cylindrical coordinates result from the transformation <m>x=r\cos(\theta)</m>, <m>y= r\sin(\theta)</m>, <m>z=z</m>.
+                So the Jacobian for this transformation is
+            </p>
+            <p>
+              <m>\displaystyle J = x_r(y_{\theta} z_z - y_z z_{\theta}) - x_{\theta}(y_r z_z - y_z z_r) + x_z(y_r z_{\theta} -y_{\theta}z_r) </m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                which simplifies to <m>r</m>. So <m>dV = r dV'</m>.
+            </p>
+        </solution>
+            
+        </exercise>
+
+        <exercise workspace="5in">
+        <title>Integrals Over Surfaces</title>
+        <statement>
+            <p>
+                We'll practice setting up integrals over surfaces of the form
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <m>S = \{(x,y,z): (x,y) \in D, f(x,y) \leq z \leq g(x,y) \}</m>. The basic form for these integrals is then
+                <md>
+                    \int \int \int_f^g F(r,\theta,z) r \quad dz dr d\theta
+                </md>.
+                
+            </p>
+        </solution>
+            
+        </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Example: Integrals Over Surfaces</title>
+                <statement>
+                    <p>
+                        Compute <m>\iiint_S 1 \quad dV</m>, where <m>S</m> is the surface below 
+                        <m>z=6-x</m>, above <m>z = -\sqrt{4x^2 +4y^2}</m>, and inside <m>x^2 + y^2=3</m> with <m>x \leq 0</m>.
+                        
+                    </p>
+                </statement>
+              <solution>
+                <p>
+                The condition <m>z = 6-x</m> becomes <m>z = 6-r\cos(\theta)</m>, and <m>z = -\sqrt{4x^2 +4y^2}</m> becomes 
+                <m>z = -2r</m>. Thus we can compute 
+                <md>
+                    \int_{\pi/2}^{3\pi/2} \int_0^{\sqrt{3}} \int_{-2r}^{6-r\cos(\theta)} r \quad dz dr d\theta \approx 42.62
+                </md>.
+                Geometrically, this is the volume of the surface <m>S</m>. See the 
+                <url href="https://www.desmos.com/3d/ctrtofnlzb">integration in Cylindrical coordinates Desmos visual</url>.
+                
+                </p>
+              </solution>
+                
+            </exercise>
+
+    </page>
+
+   
+
+       
+    </worksheet>

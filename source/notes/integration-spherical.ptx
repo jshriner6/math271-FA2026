@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="integration-spherical">
+    <title>Integration in Spherical Coordinates</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Jacobian for Spherical Coordinates</title>
+                <statement>
+                    <p>
+                Recall spherical coordinates result from the transformation <m>x=\rho \sin(\varphi)\cos(\theta)</m>, <m>y= \rho \sin(\varphi)\sin(\theta)</m>, <m>z=\rho \cos(\varphi)</m>.
+                So the Jacobian for this transformation is
+            </p>
+            <p>
+              <m>\displaystyle J = x_{\rho}(y_{\theta} z_{\varphi} - y_{\varphi} z_{\theta}) - x_{\theta}(y_{\rho} z_{\varphi} - y_{\varphi} z_{\rho}) + x_{\varphi}(y_{\rho} z_{\theta} -y_{\theta}z_{\rho}) </m>
+            </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Examples: Jacobian for Spherical Coordinates</title>
+             
+                    <statement>
+                        <p>
+                            Evaluate <m>\displaystyle \iiint_S zx \quad dV</m>, where <m>S</m> is the
+                            surface inside <m>x^2 + y^2 + z^2 =4</m> and <m>z= \sqrt{x^2 + y^2}</m>.
+            
+                        </p>
+                    </statement>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="3in">
+        <title>Normalization</title>
+        <statement>
+            <p>
+              Suppose <m>F(\rho, \theta, \varphi)</m> is the square of a wave function that needs to be normalized. What is 
+              the relevant triple integral?
+            </p>
+           
+        </statement>
+        
+            
+        </exercise>
+
+        <exercise workspace="5in">
+        <title>Integrals Over the Surface of a Sphere</title>
+        <statement>
+            <p>
+                There will be applications when it is desired to integrate just over the <em>surface</em> of a sphere. 
+                This can be accomplished by holding <m>\rho</m> constant:
+            </p>
+        </statement>
+        
+            
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

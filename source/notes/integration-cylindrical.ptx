@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="integration-cylindrical">
+    <title>Integration in Polar/Cylindrical Coordinates</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Jacobian for Polar Coordinates</title>
+                <statement>
+                    <p>
+                     We analyzed areas in polar coordinates to see that <m>dA = r dr d\theta</m>. Let's verify this expression
+                     using the Jacobian.
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise>
+                <title>Examples: Jacobian for Polar Coordinates</title>
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            <m>\displaystyle \iint_R x + y \quad dA</m>, where <m>R</m> is the circle of radius <m>2</m> centered at the origin.
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="6in">
+                    <statement>
+                        <p>
+                           Verify <m>\displaystyle \int_{-\infty}^\infty e^{-x^2} \quad dx = \sqrt{\pi}</m>.
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+</page>
+<page>
+        <exercise workspace="3in">
+        <title>Jacobian for Cylindrical Coordinates</title>
+        <statement>
+            <p>
+                Recall cylindrical coordinates result from the transformation <m>x=r\cos(\theta)</m>, <m>y= r\sin(\theta)</m>, <m>z=z</m>.
+                So the Jacobian for this transformation is
+            </p>
+            <p>
+              <m>\displaystyle J = x_r(y_{\theta} z_z - y_z z_{\theta}) - x_{\theta}(y_r z_z - y_z z_r) + x_z(y_r z_{\theta} -y_{\theta}z_r) </m>
+            </p>
+        </statement>
+        
+            
+        </exercise>
+
+        <exercise workspace="5in">
+        <title>Integrals Over Surfaces</title>
+        <statement>
+            <p>
+                We'll practice setting up integrals over surfaces of the form
+            </p>
+        </statement>
+        
+            
+        </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Example: Integrals Over Surfaces</title>
+                <statement>
+                    <p>
+                        Compute <m>\iiint_S 1 \quad dV</m>, where <m>S</m> is the surface below 
+                        <m>z=6-x</m>, above <m>z = -\sqrt{4x^2 +4y^2}</m>, and inside <m>x^2 + y^2=3</m> with <m>x \leq 0</m>.
+                        
+                    </p>
+                </statement>
+              
+                
+            </exercise>
+
+    </page>
+
+   
+
+       
+    </worksheet>

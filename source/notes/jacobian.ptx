@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="jacobian">
+    <title>The Jacobian</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Areas</title>
+                <statement>
+                    <p>
+                     How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian
+                     versus polar coordinates:
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>The Jacobian</title>
+                <statement>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    For a transformation <m>x=g(u,v)</m> and <m>y=h(u,v)</m>, the <term>Jacobian</term> 
+                                    is the expression
+                                    
+                                </p>
+                                <p>
+                                    <m>\displaystyle J = </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For a transformation <m>x=g(u,v,w)</m>, <m>y=h(u,v,w)</m>, and <m>z=k(u,v,w)</m> the <term>Jacobian</term> 
+                                    is the expression
+                                    
+                                </p>
+                                <p>
+                                    <m>\displaystyle J = x_u(y_vz_w - y_wz_v) - x_v(y_uz_w - y_wz_u) + x_w(y_uz_v -y_vz_u) </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+
+        <exercise workspace="3in">
+        <title>Integration Under General Coordinate Transformation</title>
+        <statement>
+            <p>
+                Under the transformation <m>x=g(u,v)</m> and <m>y=h(u,v)</m>, we have that 
+                <md>
+                    \iint_R f(x,y) \quad dA = 
+                </md>
+                
+            </p>
+        </statement>
+        
+            
+        </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Example: Using the Jacobian</title>
+                <statement>
+                    <p>
+                        Compute <m>\iint_R x^2 + y^2 \quad dA</m>, where <m>R</m> is the triangle formed by 
+                        <m>y=x+1</m>, <m>y = -x +4</m>, and <m>y= x/3 -4/3</m>.
+                        
+                    </p>
+                </statement>
+              
+                
+            </exercise>
+
+    </page>
+
+   
+
+       
+    </worksheet>

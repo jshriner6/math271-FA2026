@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="jacobian-complete">
+    <title>The Jacobian (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We have seen that it is possible to describe surfaces in different coordinates. When we do this,
+                        we must be careful to consider the impacts on computation.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Areas</title>
+                <statement>
+                    <p>
+                     How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian
+                     versus polar coordinates:
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        In rectangular coordinates we have that <m>\Delta A = \Delta x \Delta y</m> (so <m>dA</m> in a double integral 
+                        is some ordering of <m>dxdy</m>). However, in polar coordinates, <m>\Delta A  = r \Delta r \Delta \theta </m> 
+                        (so <m>dA</m> in a double integral is <m>r dr d\theta</m>).
+                    </p>
+                    <p>
+                        We could analyze every change in coordinates like this, but luckily there is a general tool which describes 
+                        how areas scale under coordinate transformation (the <term>Jacobian</term>).
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>The Jacobian</title>
+                <statement>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    For a transformation <m>x=g(u,v)</m> and <m>y=h(u,v)</m>, the <term>Jacobian</term> 
+                                    is the expression
+                                    
+                                </p>
+                                <p>
+                                    <m>\displaystyle J = </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For a transformation <m>x=g(u,v,w)</m>, <m>y=h(u,v,w)</m>, and <m>z=k(u,v,w)</m> the <term>Jacobian</term> 
+                                    is the expression
+                                    
+                                </p>
+                                <p>
+                                    <m>\displaystyle J = x_u(y_vz_w - y_wz_v) - x_v(y_uz_w - y_wz_u) + x_w(y_uz_v -y_vz_u) </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        In 2D, the Jacobian is <m>x_u y_v - x_v y_u</m>. In general, Jacobians are the result of computing a 
+                        <term>determinant</term>, which are a tool used in Linear Algebra to describe how areas scale under linear 
+                        transformations (more later).
+                    </p>
+                </solution>
+            </exercise>
+
+        <exercise workspace="3in">
+        <title>Integration Under General Coordinate Transformation</title>
+        <statement>
+            <p>
+                Under the transformation <m>x=g(u,v)</m> and <m>y=h(u,v)</m>, we have that 
+                <md>
+                    \iint_R f(x,y) \quad dA = 
+                </md>
+                
+            </p>
+        </statement>
+            <solution>
+                <p>
+                    <m>\iint_{R'} f(g(uv),h(u,v)) |J| dA'</m>. The expression is analogous for triple integrals.
+                </p>
+            </solution>
+            
+        </exercise>
+    
+    </page>
+    <page>
+
+            <exercise workspace="2in">
+                <title>Example: Using the Jacobian</title>
+                <statement>
+                    <p>
+                        Compute <m>\iint_R x^2 + y^2 \quad dA</m>, where <m>R</m> is the triangle formed by 
+                        <m>y=x+1</m>, <m>y = -x +4</m>, and <m>y= x/3 -4/3</m>.
+                        
+                    </p>
+                </statement>
+              <solution>
+                <p>
+                    See <url href="https://www.desmos.com/calculator/dye52pnq77">the Desmos visual for Jacobians</url> to 
+                    visualize the original region and transformed region.
+                </p>
+                <p>
+                    In <m>x,y</m>, this requires two integrals. However, we can use the transformation <m>x=0.5(u+v)</m>, <m>y = 0.5(u-v)</m> to 
+                    make the region nicer.
+                </p>
+                <p>
+                    See <url href="https://www.desmos.com/calculator/dye52pnq77">the Desmos visual for Jacobians</url> to 
+                    visualize the original region and transformed region.
+                </p>
+                <p>
+                    So
+                    <md>
+                        <mrow> \iint_R x^2 + y^2 \quad dA \amp= \iint_{R'} (\frac{1}{4}(u+v)^2 + \frac{1}{4}(u-v)^2)|J| \quad dA' </mrow>
+                    </md>, 
+                    where <m>J = x_uy_v -x_vy_u = -0.5 </m> (note the Jacobian is not always a constant, it just happens to be here).
+                    Thus we can compute the integral as 
+                    <md>
+                        \int_{-6}^4 \int_{-1}^{0.5u+2} (\frac{1}{4}(u+v)^2 + \frac{1}{4}(u-v)^2)\cdot 0.5 \quad dv du
+                    </md>.
+                    
+                    
+                </p>
+              </solution>
+                
+            </exercise>
+
+    </page>
+
+   
+
+       
+    </worksheet>

@@ -90,6 +90,20 @@
   <xi:include href="./notes/cartesian-general-regions.ptx"/> 
  <!--  <xi:include href="./notes/cartesian-general-regions-complete.ptx"/> -->
 
+
+ <!-- WEEK 8 -->
+
+ <xi:include href="./notes/jacobian.ptx"/> 
+ <!--<xi:include href="./notes/jacobian-complete.ptx"/> -->
+
+<xi:include href="./notes/integration-cylindrical.ptx"/> 
+<!-- <xi:include href="./notes/integration-cylindrical-complete.ptx"/> -->
+
+ <xi:include href="./notes/integration-spherical.ptx"/> 
+ <!--<xi:include href="./notes/integration-spherical-complete.ptx"/> -->
+
+
+
       <!-- etc. -->
 
     </chapter>
