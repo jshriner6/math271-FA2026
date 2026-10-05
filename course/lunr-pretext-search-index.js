@@ -955,6 +955,177 @@ var ptx_lunr_docs = [
   "body": " Practice   Compute in both orders, where is the region below and above .   "
 },
 {
+  "id": "jacobian",
+  "level": "1",
+  "url": "jacobian.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "The Jacobian",
+  "body": " The Jacobian    Motivation        Areas   How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian versus polar coordinates:       The Jacobian      For a transformation and , the Jacobian is the expression       For a transformation , , and the Jacobian is the expression           Integration Under General Coordinate Transformation   Under the transformation and , we have that        Example: Using the Jacobian   Compute , where is the triangle formed by , , and .     "
+},
+{
+  "id": "jacobian-2-1",
+  "level": "2",
+  "url": "jacobian.html#jacobian-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "jacobian-2-2",
+  "level": "2",
+  "url": "jacobian.html#jacobian-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Areas.",
+  "body": " Areas   How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian versus polar coordinates:   "
+},
+{
+  "id": "jacobian-3-1",
+  "level": "2",
+  "url": "jacobian.html#jacobian-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "The Jacobian.",
+  "body": " The Jacobian      For a transformation and , the Jacobian is the expression       For a transformation , , and the Jacobian is the expression         "
+},
+{
+  "id": "jacobian-3-2",
+  "level": "2",
+  "url": "jacobian.html#jacobian-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Integration Under General Coordinate Transformation.",
+  "body": " Integration Under General Coordinate Transformation   Under the transformation and , we have that    "
+},
+{
+  "id": "jacobian-4-1",
+  "level": "2",
+  "url": "jacobian.html#jacobian-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Using the Jacobian.",
+  "body": " Example: Using the Jacobian   Compute , where is the triangle formed by , , and .   "
+},
+{
+  "id": "integration-cylindrical",
+  "level": "1",
+  "url": "integration-cylindrical.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Integration in Polar\/Cylindrical Coordinates",
+  "body": " Integration in Polar\/Cylindrical Coordinates    Motivation        Jacobian for Polar Coordinates   We analyzed areas in polar coordinates to see that . Let's verify this expression using the Jacobian.       Examples: Jacobian for Polar Coordinates     , where is the circle of radius centered at the origin.      Verify .        Jacobian for Cylindrical Coordinates   Recall cylindrical coordinates result from the transformation , , . So the Jacobian for this transformation is        Integrals Over Surfaces   We'll practice setting up integrals over surfaces of the form       Example: Integrals Over Surfaces   Compute , where is the surface below , above , and inside with .     "
+},
+{
+  "id": "integration-cylindrical-2-1",
+  "level": "2",
+  "url": "integration-cylindrical.html#integration-cylindrical-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "integration-cylindrical-2-2",
+  "level": "2",
+  "url": "integration-cylindrical.html#integration-cylindrical-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Jacobian for Polar Coordinates.",
+  "body": " Jacobian for Polar Coordinates   We analyzed areas in polar coordinates to see that . Let's verify this expression using the Jacobian.   "
+},
+{
+  "id": "integration-cylindrical-3-1",
+  "level": "2",
+  "url": "integration-cylindrical.html#integration-cylindrical-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Jacobian for Polar Coordinates.",
+  "body": " Examples: Jacobian for Polar Coordinates     , where is the circle of radius centered at the origin.      Verify .    "
+},
+{
+  "id": "integration-cylindrical-4-1",
+  "level": "2",
+  "url": "integration-cylindrical.html#integration-cylindrical-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Jacobian for Cylindrical Coordinates.",
+  "body": " Jacobian for Cylindrical Coordinates   Recall cylindrical coordinates result from the transformation , , . So the Jacobian for this transformation is      "
+},
+{
+  "id": "integration-cylindrical-4-2",
+  "level": "2",
+  "url": "integration-cylindrical.html#integration-cylindrical-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Integrals Over Surfaces.",
+  "body": " Integrals Over Surfaces   We'll practice setting up integrals over surfaces of the form   "
+},
+{
+  "id": "integration-cylindrical-5-1",
+  "level": "2",
+  "url": "integration-cylindrical.html#integration-cylindrical-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Integrals Over Surfaces.",
+  "body": " Example: Integrals Over Surfaces   Compute , where is the surface below , above , and inside with .   "
+},
+{
+  "id": "integration-spherical",
+  "level": "1",
+  "url": "integration-spherical.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Integration in Spherical Coordinates",
+  "body": " Integration in Spherical Coordinates    Motivation        Jacobian for Spherical Coordinates   Recall spherical coordinates result from the transformation , , . So the Jacobian for this transformation is          Examples: Jacobian for Spherical Coordinates   Evaluate , where is the surface inside and .       Normalization   Suppose is the square of a wave function that needs to be normalized. What is the relevant triple integral?     Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:     "
+},
+{
+  "id": "integration-spherical-2-1",
+  "level": "2",
+  "url": "integration-spherical.html#integration-spherical-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "integration-spherical-2-2",
+  "level": "2",
+  "url": "integration-spherical.html#integration-spherical-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Jacobian for Spherical Coordinates.",
+  "body": " Jacobian for Spherical Coordinates   Recall spherical coordinates result from the transformation , , . So the Jacobian for this transformation is      "
+},
+{
+  "id": "integration-spherical-3-1",
+  "level": "2",
+  "url": "integration-spherical.html#integration-spherical-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Jacobian for Spherical Coordinates.",
+  "body": " Examples: Jacobian for Spherical Coordinates   Evaluate , where is the surface inside and .   "
+},
+{
+  "id": "integration-spherical-4-1",
+  "level": "2",
+  "url": "integration-spherical.html#integration-spherical-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Normalization.",
+  "body": " Normalization   Suppose is the square of a wave function that needs to be normalized. What is the relevant triple integral?   "
+},
+{
+  "id": "integration-spherical-4-2",
+  "level": "2",
+  "url": "integration-spherical.html#integration-spherical-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Integrals Over the Surface of a Sphere.",
+  "body": " Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:   "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
