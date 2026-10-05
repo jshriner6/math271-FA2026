@@ -77,8 +77,8 @@
     <!-- <xi:include href="./notes/partial-derivatives.ptx"/> -->
    <xi:include href="./notes/partial-derivatives-complete.ptx"/>
 
-   <xi:include href="./notes/chain-rule.ptx"/>
-   <!-- <xi:include href="./notes/chain-rule-complete.ptx"/> -->
+   <!-- <xi:include href="./notes/chain-rule.ptx"/>-->
+   <xi:include href="./notes/chain-rule-complete.ptx"/> 
 
    <xi:include href="./notes/mid1-review.ptx"/> 
 
