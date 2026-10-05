@@ -748,76 +748,76 @@ var ptx_lunr_docs = [
   "body": " Example: Tangent Plane   Consider near .    The partials are and , so the tangent plane at is .   "
 },
 {
-  "id": "chain-rule",
+  "id": "chain-rule-complete",
   "level": "1",
-  "url": "chain-rule.html",
+  "url": "chain-rule-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Directional Derivative, Total Derivative, and the Chain Rule",
-  "body": " Directional Derivative, Total Derivative, and the Chain Rule    Motivation        Directional Derivatives   For , and helped us describe the rate of change of in the and directions, respectively. But in the plane, there are lots more directions!       Example: Directional Derivative   Consider near the point .       Total Differential   Partial derivatives let one variable change, and hold all others constant, which is not always desirable in practice (we'd like multiple variables to change at the same time). Directional derivatives are one tool, as they allow us to walk in any direction and see how a function changes.  Another tool is the total derivative , which makes use of a surface's tangent plane:  Suppose gives the pressure of a gas at temperature and volume . How does change as both and change?     Total Derivative   It is common that variables in our function change with respect to a single common variable (like time):   In this case, becomes       Example: Total Differential and Total Derivative   Let .       The Chain Rule   The total derivative is an example of the multivariable chain rule . In general, tree diagrams can be very helpful for keeping track of this rule in more complicated variables.                          "
+  "title": "Directional Derivative, Total Derivative, and the Chain Rule (Complete)",
+  "body": " Directional Derivative, Total Derivative, and the Chain Rule (Complete)    Motivation       We've seen how we can use the calculus 1 derivative to define partial derivatives for multivariable functions. We'll see how we can use partial derivatives to establish more tools, all with the purpose of of understanding the rate of change of a multivariable function.     Directional Derivatives   For , and helped us describe the rate of change of in the and directions, respectively. But in the plane, there are lots more directions!    To specify a direction, we can use a vector of magnitude , called a unit vector .  For a unit vector , the rate of change of in the direction at the point is given by   The vector is called the gradient of at , and is commonly denoted as . This vector points in the direction of steepest ascent of at .       Example: Directional Derivative   Consider near the point .    We can compute , so that .  If we'd like to know how changes in the direction , we first need the associated unit vector, . Then we compute Since this is less than zero, we know the function decreases in the direction .  We could also compute in which direction(s) the function stays constant. This is solving , which is equivalent to , which means . If we require that is a unit vector, then we obtain and .  See the directional derivative Desmos interactive to visualize all of these computations.       Total Differential   Partial derivatives let one variable change, and hold all others constant, which is not always desirable in practice (we'd like multiple variables to change at the same time). Directional derivatives are one tool, as they allow us to walk in any direction and see how a function changes.  Another tool is the total derivative , which makes use of a surface's tangent plane:  Suppose gives the pressure of a gas at temperature and volume . How does change as both and change?    Using the equation of a tangent plane, we can write that for a temperature\/volume pair close to the initial temperature\/volume pair , , which means . The total differential is the approximate value we get from using the tangent plane on the right hand side, written . When and are small, the true change in is very close to the total differential; that is, .     Total Derivative   It is common that variables in our function change with respect to a single common variable (like time): , which is a composition of functions.  In this case, becomes     , which is called the total derivative . This gives the approximate change in for a small change in at a fixed temperature and volume.       Example: Total Differential and Total Derivative   Let .    The total differential of is . If L and K, let's compute the approximate change in pressure if the volume decreases to L and temperature increases to K. Using the total differential, we compute Note this is an approximation of , which in this example we can compute exactly as .  Now suppose and . Then we can compute the total derivative as We could verify this derivative directly by writing as a function of the single variable , and using derivative rules from calculus 1.       The Chain Rule   The total derivative is an example of the multivariable chain rule . In general, tree diagrams can be very helpful for keeping track of this rule in more complicated variables.          See notes from class for a tree diagram. It should give the formula            See notes from class for a tree diagram. It should give the formula            See notes from class for a tree diagram. It should give the formulas and       "
 },
 {
-  "id": "chain-rule-2-1",
+  "id": "chain-rule-complete-2-1",
   "level": "2",
-  "url": "chain-rule.html#chain-rule-2-1",
+  "url": "chain-rule-complete.html#chain-rule-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen how we can use the calculus 1 derivative to define partial derivatives for multivariable functions. We'll see how we can use partial derivatives to establish more tools, all with the purpose of of understanding the rate of change of a multivariable function.   "
 },
 {
-  "id": "chain-rule-2-2",
+  "id": "chain-rule-complete-2-2",
   "level": "2",
-  "url": "chain-rule.html#chain-rule-2-2",
+  "url": "chain-rule-complete.html#chain-rule-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Directional Derivatives.",
-  "body": " Directional Derivatives   For , and helped us describe the rate of change of in the and directions, respectively. But in the plane, there are lots more directions!   "
+  "body": " Directional Derivatives   For , and helped us describe the rate of change of in the and directions, respectively. But in the plane, there are lots more directions!    To specify a direction, we can use a vector of magnitude , called a unit vector .  For a unit vector , the rate of change of in the direction at the point is given by   The vector is called the gradient of at , and is commonly denoted as . This vector points in the direction of steepest ascent of at .   "
 },
 {
-  "id": "chain-rule-3-1",
+  "id": "chain-rule-complete-3-1",
   "level": "2",
-  "url": "chain-rule.html#chain-rule-3-1",
+  "url": "chain-rule-complete.html#chain-rule-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Directional Derivative.",
-  "body": " Example: Directional Derivative   Consider near the point .   "
+  "body": " Example: Directional Derivative   Consider near the point .    We can compute , so that .  If we'd like to know how changes in the direction , we first need the associated unit vector, . Then we compute Since this is less than zero, we know the function decreases in the direction .  We could also compute in which direction(s) the function stays constant. This is solving , which is equivalent to , which means . If we require that is a unit vector, then we obtain and .  See the directional derivative Desmos interactive to visualize all of these computations.   "
 },
 {
-  "id": "chain-rule-4-1",
+  "id": "chain-rule-complete-4-1",
   "level": "2",
-  "url": "chain-rule.html#chain-rule-4-1",
+  "url": "chain-rule-complete.html#chain-rule-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Total Differential.",
-  "body": " Total Differential   Partial derivatives let one variable change, and hold all others constant, which is not always desirable in practice (we'd like multiple variables to change at the same time). Directional derivatives are one tool, as they allow us to walk in any direction and see how a function changes.  Another tool is the total derivative , which makes use of a surface's tangent plane:  Suppose gives the pressure of a gas at temperature and volume . How does change as both and change?   "
+  "body": " Total Differential   Partial derivatives let one variable change, and hold all others constant, which is not always desirable in practice (we'd like multiple variables to change at the same time). Directional derivatives are one tool, as they allow us to walk in any direction and see how a function changes.  Another tool is the total derivative , which makes use of a surface's tangent plane:  Suppose gives the pressure of a gas at temperature and volume . How does change as both and change?    Using the equation of a tangent plane, we can write that for a temperature\/volume pair close to the initial temperature\/volume pair , , which means . The total differential is the approximate value we get from using the tangent plane on the right hand side, written . When and are small, the true change in is very close to the total differential; that is, .   "
 },
 {
-  "id": "chain-rule-4-2",
+  "id": "chain-rule-complete-4-2",
   "level": "2",
-  "url": "chain-rule.html#chain-rule-4-2",
+  "url": "chain-rule-complete.html#chain-rule-complete-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Total Derivative.",
-  "body": " Total Derivative   It is common that variables in our function change with respect to a single common variable (like time):   In this case, becomes   "
+  "body": " Total Derivative   It is common that variables in our function change with respect to a single common variable (like time): , which is a composition of functions.  In this case, becomes     , which is called the total derivative . This gives the approximate change in for a small change in at a fixed temperature and volume.   "
 },
 {
-  "id": "chain-rule-5-1",
+  "id": "chain-rule-complete-5-1",
   "level": "2",
-  "url": "chain-rule.html#chain-rule-5-1",
+  "url": "chain-rule-complete.html#chain-rule-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Example: Total Differential and Total Derivative.",
-  "body": " Example: Total Differential and Total Derivative   Let .   "
+  "body": " Example: Total Differential and Total Derivative   Let .    The total differential of is . If L and K, let's compute the approximate change in pressure if the volume decreases to L and temperature increases to K. Using the total differential, we compute Note this is an approximation of , which in this example we can compute exactly as .  Now suppose and . Then we can compute the total derivative as We could verify this derivative directly by writing as a function of the single variable , and using derivative rules from calculus 1.   "
 },
 {
-  "id": "chain-rule-6-1",
+  "id": "chain-rule-complete-6-1",
   "level": "2",
-  "url": "chain-rule.html#chain-rule-6-1",
+  "url": "chain-rule-complete.html#chain-rule-complete-6-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "The Chain Rule.",
-  "body": " The Chain Rule   The total derivative is an example of the multivariable chain rule . In general, tree diagrams can be very helpful for keeping track of this rule in more complicated variables.                        "
+  "body": " The Chain Rule   The total derivative is an example of the multivariable chain rule . In general, tree diagrams can be very helpful for keeping track of this rule in more complicated variables.          See notes from class for a tree diagram. It should give the formula            See notes from class for a tree diagram. It should give the formula            See notes from class for a tree diagram. It should give the formulas and     "
 },
 {
   "id": "sec-mid1-rev",
