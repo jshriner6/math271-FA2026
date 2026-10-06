@@ -1378,6 +1378,24 @@ var ptx_lunr_docs = [
   "body": "  Compute each double integral below over the given non-rectangular region. Use Desmos to help visualize the region of integration.      , where is the region bounded by , , , and .       , where is the region bounded by and .    "
 },
 {
+  "id": "lab8",
+  "level": "1",
+  "url": "lab8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 8",
+  "body": " Lab 8    This lab is intended to practice ideas related to integration in alternate coordinate systems. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Set up (but do not solve) each integral over the region described in the specified coordinate system. Use technology to help you visualize the region of integration.     Set up in polar coordinates: where is the bottom half of .      Set up in cylindrical coordinates: where is the region between the planes and , and inside the cylinder .      Set up in spherical coordinates: where is the upper half of .      "
+},
+{
+  "id": "lab8-3-1",
+  "level": "2",
+  "url": "lab8.html#lab8-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Set up (but do not solve) each integral over the region described in the specified coordinate system. Use technology to help you visualize the region of integration.     Set up in polar coordinates: where is the bottom half of .      Set up in cylindrical coordinates: where is the region between the planes and , and inside the cylinder .      Set up in spherical coordinates: where is the upper half of .    "
+},
+{
   "id": "homework-3",
   "level": "1",
   "url": "homework-3.html",
