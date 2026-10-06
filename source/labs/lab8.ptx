@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab8">
+  <title>Lab 8</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to integration in alternate coordinate systems. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise>
+    <introduction>
+      <p>
+       Set up (but do not solve) each integral over the region described in the specified coordinate system. Use technology 
+       to help you visualize the region of integration.
+      </p>
+    </introduction>
+    <task workspace="3in">
+        <statement>
+            <p>
+                Set up in polar coordinates: <m>\displaystyle \iint_D \sqrt{1+4x^2+4y^2} \quad dA</m> where <m>D</m> is
+                the bottom half of <m>x^2+y^2 = 16</m>.
+            </p>
+        </statement>
+    </task>
+    <task workspace="3in">
+        <statement>
+            <p>
+                Set up in cylindrical coordinates: <m>\displaystyle \iiint_S z \quad dV</m> where <m>S</m> is
+                the region between the planes <m>x+y+z=2</m> and <m>z=0</m>, and inside the cylinder <m>x^2+y^2=1</m>.
+            </p>
+        </statement>
+    </task>
+    <task workspace="3in">
+        <statement>
+            <p>
+                Set up in spherical coordinates: <m>\displaystyle \iiint_S 16z \quad dV</m> where <m>S</m> is
+                the upper half of <m>x^2+y^2 + z^2 = 1</m>.
+            </p>
+        </statement>
+    </task>
+</exercise>
+</page>
+
+
+</worksheet>

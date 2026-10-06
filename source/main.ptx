@@ -132,6 +132,8 @@
 
       <xi:include href="./labs/lab7.ptx"/>
 
+      <xi:include href="./labs/lab8.ptx"/>
+
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
