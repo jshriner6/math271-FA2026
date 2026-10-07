@@ -838,121 +838,121 @@ var ptx_lunr_docs = [
   "body": " Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 1 (up to and including Applications of Taylor Series ). You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so that a calculator is not needed.   What is a complex number? What are different ways that we can represent them, and how do we convert between these representations?    What is a complex conjugate? What do we know about the quantity for every complex number ?    What is Euler's formula? How do we visualize the number in the complex plane?    What does it mean that sine and cosine are periodic? How can we determine the period of one of these functions? What does it mean that sine and cosine have symmetry? How is this useful in computation?    What are hyperbolic trig functions?    What is a common definition for an inner product between two functions? What does it mean for a set of functions to be orthogonal? What are some common examples of sets of orthogonal functions?    What types of multivariable functions are there? What are level curves, and how are they useful for visualizing multivariable functions in three-dimensional space?    What are Cartesian coordinates, polar coordinates, cylindrical coordinates, and spherical coordinates? What are reasons one might choose to use one coordinate system over another?    What are improper integrals, and what does it mean for an improper integral to converge?    Why are improper integrals used in quantum mechanics? What does it mean to normalize a function? How do we compute the expected value of a probability distribution?    What are examples of ways that we can approximate integral values?    What is a Taylor series representation for a function? What does it mean for a Taylor series to converge to a function with radius of convergence ?    In what ways can we use Taylor series representations for functions in computation?      "
 },
 {
-  "id": "multi-var-integrals",
+  "id": "multi-var-integrals-complete",
   "level": "1",
-  "url": "multi-var-integrals.html",
+  "url": "multi-var-integrals-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Integrals of Multivariable Functions",
-  "body": " Integrals of Multivariable Functions    Motivation        Double Integrals   Consider a function . A natural approach to integrating such a function is to repeat our approach for partial derivatives:       Notes and Notation: Double Integrals          Separable Integrals   If , then        Practice: Double Integrals   Compute the following double integrals.                     Triple Integrals   We can extend double integrals of naturally to triple integrals of . Let's make some analogous observations:       Example: Triple Integrals   Compute , where is the region given by      "
+  "title": "Integrals of Multivariable Functions (Complete)",
+  "body": " Integrals of Multivariable Functions (Complete)    Motivation       Integrating is another important concept from calculus I. How can we extend integration to multivariable functions?     Double Integrals   Consider a function . A natural approach to integrating such a function is to repeat our approach for partial derivatives:    We can make sense of integrating with respect to a single variable by holding one variable constant. For example, if , then and Note that integration with respect to (respectively ) results in a function ( respectively ). Therefore, these are expressions we could integrate again: and        Notes and Notation: Double Integrals          A general notation for a double integral is When all bounds are constants (such as in our example), we call a rectangular region .    If is nice on , then In some cases, one order is much easier than the other!    Geometrically, represents the (signed) volume between and the plane over the region . Some integrals can be recognized geometrically and avoid computation. For example, what is the value of without making any computation?          Separable Integrals   If , then             Practice: Double Integrals   Compute the following double integrals.          You can separate this integral, or compute as with the first example. Either method should give an answer of .           You cannot separate this integral, but you could compute as either or . Either computation should give .        Triple Integrals   We can extend double integrals of naturally to triple integrals of . Let's make some analogous observations:       The general notation for triple integrals is     For nice functions on , we can still choose our order of integration.    In general, is difficult to visualize, but    is just a way to represent the volume of the region .    The typically compute important properties of three-dimensional objects (like mass, electromagnitism, etc.).             Example: Triple Integrals   Compute , where is the region given by     You can compute this integral in any order, all of which should give an answer of .     "
 },
 {
-  "id": "multi-var-integrals-2-1",
+  "id": "multi-var-integrals-complete-2-1",
   "level": "2",
-  "url": "multi-var-integrals.html#multi-var-integrals-2-1",
+  "url": "multi-var-integrals-complete.html#multi-var-integrals-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Integrating is another important concept from calculus I. How can we extend integration to multivariable functions?   "
 },
 {
-  "id": "multi-var-integrals-2-2",
+  "id": "multi-var-integrals-complete-2-2",
   "level": "2",
-  "url": "multi-var-integrals.html#multi-var-integrals-2-2",
+  "url": "multi-var-integrals-complete.html#multi-var-integrals-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Double Integrals.",
-  "body": " Double Integrals   Consider a function . A natural approach to integrating such a function is to repeat our approach for partial derivatives:   "
+  "body": " Double Integrals   Consider a function . A natural approach to integrating such a function is to repeat our approach for partial derivatives:    We can make sense of integrating with respect to a single variable by holding one variable constant. For example, if , then and Note that integration with respect to (respectively ) results in a function ( respectively ). Therefore, these are expressions we could integrate again: and    "
 },
 {
-  "id": "multi-var-integrals-3-1",
+  "id": "multi-var-integrals-complete-3-1",
   "level": "2",
-  "url": "multi-var-integrals.html#multi-var-integrals-3-1",
+  "url": "multi-var-integrals-complete.html#multi-var-integrals-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Notes and Notation: Double Integrals.",
-  "body": " Notes and Notation: Double Integrals      "
+  "body": " Notes and Notation: Double Integrals          A general notation for a double integral is When all bounds are constants (such as in our example), we call a rectangular region .    If is nice on , then In some cases, one order is much easier than the other!    Geometrically, represents the (signed) volume between and the plane over the region . Some integrals can be recognized geometrically and avoid computation. For example, what is the value of without making any computation?      "
 },
 {
-  "id": "multi-var-integrals-4-1",
+  "id": "multi-var-integrals-complete-4-1",
   "level": "2",
-  "url": "multi-var-integrals.html#multi-var-integrals-4-1",
+  "url": "multi-var-integrals-complete.html#multi-var-integrals-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Separable Integrals.",
-  "body": " Separable Integrals   If , then      "
+  "body": " Separable Integrals   If , then           "
 },
 {
-  "id": "multi-var-integrals-4-2",
+  "id": "multi-var-integrals-complete-4-2",
   "level": "2",
-  "url": "multi-var-integrals.html#multi-var-integrals-4-2",
+  "url": "multi-var-integrals-complete.html#multi-var-integrals-complete-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Double Integrals.",
-  "body": " Practice: Double Integrals   Compute the following double integrals.                 "
+  "body": " Practice: Double Integrals   Compute the following double integrals.          You can separate this integral, or compute as with the first example. Either method should give an answer of .           You cannot separate this integral, but you could compute as either or . Either computation should give .    "
 },
 {
-  "id": "multi-var-integrals-5-1",
+  "id": "multi-var-integrals-complete-5-1",
   "level": "2",
-  "url": "multi-var-integrals.html#multi-var-integrals-5-1",
+  "url": "multi-var-integrals-complete.html#multi-var-integrals-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Triple Integrals.",
-  "body": " Triple Integrals   We can extend double integrals of naturally to triple integrals of . Let's make some analogous observations:   "
+  "body": " Triple Integrals   We can extend double integrals of naturally to triple integrals of . Let's make some analogous observations:       The general notation for triple integrals is     For nice functions on , we can still choose our order of integration.    In general, is difficult to visualize, but    is just a way to represent the volume of the region .    The typically compute important properties of three-dimensional objects (like mass, electromagnitism, etc.).         "
 },
 {
-  "id": "multi-var-integrals-6-1",
+  "id": "multi-var-integrals-complete-6-1",
   "level": "2",
-  "url": "multi-var-integrals.html#multi-var-integrals-6-1",
+  "url": "multi-var-integrals-complete.html#multi-var-integrals-complete-6-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Example: Triple Integrals.",
-  "body": " Example: Triple Integrals   Compute , where is the region given by    "
+  "body": " Example: Triple Integrals   Compute , where is the region given by     You can compute this integral in any order, all of which should give an answer of .   "
 },
 {
-  "id": "cartesian-general-regions",
+  "id": "cartesian-general-regions-complete",
   "level": "1",
-  "url": "cartesian-general-regions.html",
+  "url": "cartesian-general-regions-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Integration Over General Regions",
-  "body": " Integration Over General Regions    Motivation        General Approach   Look at your region in the plane and determine if you can view it as a section between two functions of or two functions of :       Example: General Regions   Let be the region below and above for positive . We could integrate over this region in either order:       Practice   Compute in both orders, where is the region below and above .     "
+  "title": "Integration Over General Regions (Complete)",
+  "body": " Integration Over General Regions (Complete)    Motivation       We've developed multiple integrals over rectangular regions. We'll see how to establish bounds that represent more general regions (non-rectangular).     General Approach   Look at your region in the plane and determine if you can view it as a section between two functions of or two functions of :    Refer to class notes for a picture of the two situations. If you region is between two functions of , and for in , the general form of your integral will be . If you region is between two functions of , and for in , the general form of your integral will be .       Example: General Regions   Let be the region below and above for positive . We could integrate over this region in either order:       If , only one of these orders is possible: . Integrating in this order gives a result of .       Practice   Compute in both orders, where is the region below and above .    We could compute this integral as or . Either order should give a result of .     "
 },
 {
-  "id": "cartesian-general-regions-2-1",
+  "id": "cartesian-general-regions-complete-2-1",
   "level": "2",
-  "url": "cartesian-general-regions.html#cartesian-general-regions-2-1",
+  "url": "cartesian-general-regions-complete.html#cartesian-general-regions-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've developed multiple integrals over rectangular regions. We'll see how to establish bounds that represent more general regions (non-rectangular).   "
 },
 {
-  "id": "cartesian-general-regions-2-2",
+  "id": "cartesian-general-regions-complete-2-2",
   "level": "2",
-  "url": "cartesian-general-regions.html#cartesian-general-regions-2-2",
+  "url": "cartesian-general-regions-complete.html#cartesian-general-regions-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "General Approach.",
-  "body": " General Approach   Look at your region in the plane and determine if you can view it as a section between two functions of or two functions of :   "
+  "body": " General Approach   Look at your region in the plane and determine if you can view it as a section between two functions of or two functions of :    Refer to class notes for a picture of the two situations. If you region is between two functions of , and for in , the general form of your integral will be . If you region is between two functions of , and for in , the general form of your integral will be .   "
 },
 {
-  "id": "cartesian-general-regions-3-1",
+  "id": "cartesian-general-regions-complete-3-1",
   "level": "2",
-  "url": "cartesian-general-regions.html#cartesian-general-regions-3-1",
+  "url": "cartesian-general-regions-complete.html#cartesian-general-regions-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: General Regions.",
-  "body": " Example: General Regions   Let be the region below and above for positive . We could integrate over this region in either order:   "
+  "body": " Example: General Regions   Let be the region below and above for positive . We could integrate over this region in either order:       If , only one of these orders is possible: . Integrating in this order gives a result of .   "
 },
 {
-  "id": "cartesian-general-regions-4-1",
+  "id": "cartesian-general-regions-complete-4-1",
   "level": "2",
-  "url": "cartesian-general-regions.html#cartesian-general-regions-4-1",
+  "url": "cartesian-general-regions-complete.html#cartesian-general-regions-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice.",
-  "body": " Practice   Compute in both orders, where is the region below and above .   "
+  "body": " Practice   Compute in both orders, where is the region below and above .    We could compute this integral as or . Either order should give a result of .   "
 },
 {
   "id": "jacobian",
