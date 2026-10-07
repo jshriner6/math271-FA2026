@@ -84,11 +84,11 @@
 
 
    <!-- WEEK 7 -->
-  <xi:include href="./notes/multi-var-integrals.ptx"/> 
- <!-- <xi:include href="./notes/multi-var-integrals-complete.ptx"/> -->
+ <!--  <xi:include href="./notes/multi-var-integrals.ptx"/> -->
+ <xi:include href="./notes/multi-var-integrals-complete.ptx"/> 
 
-  <xi:include href="./notes/cartesian-general-regions.ptx"/> 
- <!--  <xi:include href="./notes/cartesian-general-regions-complete.ptx"/> -->
+ <!--   <xi:include href="./notes/cartesian-general-regions.ptx"/> -->
+ <xi:include href="./notes/cartesian-general-regions-complete.ptx"/> 
 
 
  <!-- WEEK 8 -->
