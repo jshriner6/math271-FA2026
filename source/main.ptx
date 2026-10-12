@@ -93,8 +93,8 @@
 
  <!-- WEEK 8 -->
 
- <xi:include href="./notes/jacobian.ptx"/> 
- <!--<xi:include href="./notes/jacobian-complete.ptx"/> -->
+ <!--<xi:include href="./notes/jacobian.ptx"/> -->
+ <xi:include href="./notes/jacobian-complete.ptx"/> 
 
 <xi:include href="./notes/integration-cylindrical.ptx"/> 
 <!-- <xi:include href="./notes/integration-cylindrical-complete.ptx"/> -->
