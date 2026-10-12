@@ -955,58 +955,58 @@ var ptx_lunr_docs = [
   "body": " Practice   Compute in both orders, where is the region below and above .    We could compute this integral as or . Either order should give a result of .   "
 },
 {
-  "id": "jacobian",
+  "id": "jacobian-complete",
   "level": "1",
-  "url": "jacobian.html",
+  "url": "jacobian-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "The Jacobian",
-  "body": " The Jacobian    Motivation        Areas   How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian versus polar coordinates:       The Jacobian      For a transformation and , the Jacobian is the expression       For a transformation , , and the Jacobian is the expression           Integration Under General Coordinate Transformation   Under the transformation and , we have that        Example: Using the Jacobian   Compute , where is the triangle formed by , , and .     "
+  "title": "The Jacobian (Complete)",
+  "body": " The Jacobian (Complete)    Motivation       We have seen that it is possible to describe surfaces in different coordinates. When we do this, we must be careful to consider the impacts on computation.     Areas   How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian versus polar coordinates:    In rectangular coordinates we have that (so in a double integral is some ordering of ). However, in polar coordinates, (so in a double integral is ).  We could analyze every change in coordinates like this, but luckily there is a general tool which describes how areas scale under coordinate transformation (the Jacobian ).       The Jacobian      For a transformation and , the Jacobian is the expression       For a transformation , , and the Jacobian is the expression          In 2D, the Jacobian is . In general, Jacobians are the result of computing a determinant , which are a tool used in Linear Algebra to describe how areas scale under linear transformations (more later).     Integration Under General Coordinate Transformation   Under the transformation and , we have that      . The expression is analogous for triple integrals.       Example: Using the Jacobian   Compute , where is the triangle formed by , , and .    See the Desmos visual for Jacobians to visualize the original region and transformed region.  In , this requires two integrals. However, we can use the transformation , to make the region nicer.  See the Desmos visual for Jacobians to visualize the original region and transformed region.  So , where (note the Jacobian is not always a constant, it just happens to be here). Thus we can compute the integral as .     "
 },
 {
-  "id": "jacobian-2-1",
+  "id": "jacobian-complete-2-1",
   "level": "2",
-  "url": "jacobian.html#jacobian-2-1",
+  "url": "jacobian-complete.html#jacobian-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We have seen that it is possible to describe surfaces in different coordinates. When we do this, we must be careful to consider the impacts on computation.   "
 },
 {
-  "id": "jacobian-2-2",
+  "id": "jacobian-complete-2-2",
   "level": "2",
-  "url": "jacobian.html#jacobian-2-2",
+  "url": "jacobian-complete.html#jacobian-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Areas.",
-  "body": " Areas   How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian versus polar coordinates:   "
+  "body": " Areas   How are small changes in area measured in different coordinate systems? As an example, let's consider Cartesian versus polar coordinates:    In rectangular coordinates we have that (so in a double integral is some ordering of ). However, in polar coordinates, (so in a double integral is ).  We could analyze every change in coordinates like this, but luckily there is a general tool which describes how areas scale under coordinate transformation (the Jacobian ).   "
 },
 {
-  "id": "jacobian-3-1",
+  "id": "jacobian-complete-3-1",
   "level": "2",
-  "url": "jacobian.html#jacobian-3-1",
+  "url": "jacobian-complete.html#jacobian-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "The Jacobian.",
-  "body": " The Jacobian      For a transformation and , the Jacobian is the expression       For a transformation , , and the Jacobian is the expression         "
+  "body": " The Jacobian      For a transformation and , the Jacobian is the expression       For a transformation , , and the Jacobian is the expression          In 2D, the Jacobian is . In general, Jacobians are the result of computing a determinant , which are a tool used in Linear Algebra to describe how areas scale under linear transformations (more later).   "
 },
 {
-  "id": "jacobian-3-2",
+  "id": "jacobian-complete-3-2",
   "level": "2",
-  "url": "jacobian.html#jacobian-3-2",
+  "url": "jacobian-complete.html#jacobian-complete-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Integration Under General Coordinate Transformation.",
-  "body": " Integration Under General Coordinate Transformation   Under the transformation and , we have that    "
+  "body": " Integration Under General Coordinate Transformation   Under the transformation and , we have that      . The expression is analogous for triple integrals.   "
 },
 {
-  "id": "jacobian-4-1",
+  "id": "jacobian-complete-4-1",
   "level": "2",
-  "url": "jacobian.html#jacobian-4-1",
+  "url": "jacobian-complete.html#jacobian-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Using the Jacobian.",
-  "body": " Example: Using the Jacobian   Compute , where is the triangle formed by , , and .   "
+  "body": " Example: Using the Jacobian   Compute , where is the triangle formed by , , and .    See the Desmos visual for Jacobians to visualize the original region and transformed region.  In , this requires two integrals. However, we can use the transformation , to make the region nicer.  See the Desmos visual for Jacobians to visualize the original region and transformed region.  So , where (note the Jacobian is not always a constant, it just happens to be here). Thus we can compute the integral as .   "
 },
 {
   "id": "integration-cylindrical",
