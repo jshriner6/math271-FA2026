@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="vectors-complete">
+    <title>Vectors (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Vectors are useful tools when you need to specify both magnitude and direction. We'll develop 
+                        some basics of working with vectors.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>First Things</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Scalars specify magnitude only, while vectors specify both magnitude and direction. Vectors are 
+                        uniquely determined by their magnitude and direction, not their position in space!
+                    </p>
+                    <p>
+                        Sometimes we do want to place a vector somewhere particular in space. A <term>position vector</term> is a vector drawn from the origin.
+                    </p>
+                 
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Computations with Vectors</title>
+             
+                    <statement>
+                        <p>
+                        Let <m>\vvec_1 = \langle 2,3 \rangle</m> and <m>\vvec_2 = \langle -2,4 \rangle</m>.
+            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Computing magnitude in direction is the same process used in converting complex numbers to 
+                            polar coordinates.
+                        </p>
+                        <p>
+                            Reviewing what was done there, make sure you can compute that 
+                            <md>
+                                |\vvec_1| = \sqrt{13}, |\vvec_2| = \sqrt{20}
+                            </md>
+                            and the angles of <m>\vvec_1</m> and <m>\vvec_2</m> are <m>\arctan(3/2)</m> and <m>\arctan(-2) + \pi</m>, respectively.
+                            
+                        </p>
+                    </solution>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Combining Vectors</title>
+        <statement>
+            <p>
+              Let <m>\vvec_1 = \langle 2,3 \rangle</m> and <m>\vvec_2 = \langle -2,4 \rangle</m>
+            </p>
+           
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Addition.
+                            <md>
+                                <mrow>\vvec_1 + \vvec_2 \amp= \langle 2 +(-2), 3+4 \rangle </mrow>
+                                <mrow> \amp= \langle 0,7 \rangle </mrow>
+                            </md>
+                            Note addition is commutative. 
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Subtraction. 
+                            <md>
+                                <mrow>\vvec_1 - \vvec_2 \amp= \langle 4,-1 \rangle </mrow>
+                            </md>
+                            and 
+                            <md>
+                                <mrow>\vvec_2 - \vvec_1 \amp= \langle -4,1 \rangle </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            These are different vectors, and can be visualized as <term>displacement vectors</term>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Scalar Multiplication. 
+                            <md>
+                                <mrow>2 \cdot \vvec_1 \amp= \langle 4, 6\rangle </mrow>
+                                <mrow> -0.5 \cdot \vvec_2 \amp = \langle 1, -2 \rangle </mrow>
+                            </md>
+                            We'll discuss other notions of multiplication later this week.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                These operations can also be visualized, which we'll practice more in lab.
+            </p>
+        </solution>
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Unit Vectors</title>
+        <statement>
+            <p>
+                <term>Unit vectors</term> are vectors <m>\uvec</m> such that
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <m>|\uvec| = 1</m>. 
+            </p>
+            <p>
+                For example, <m>\mathbf{i}, \mathbf{j}, \mathbf{j}</m> are the unit vectors <m>\langle 1, 0, 0 \rangle, \langle 0, 1, 0 \rangle, \langle 0, 0, 1 \rangle</m>.
+            </p>
+            <p>
+                We can also <term>normalize</term> a non-zero vector <m>\vvec</m> by scalar multiplying the vector by <m>\frac{1}{|\vvec|}</m>. 
+            </p>
+        </solution>
+            
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="vectors">
+    <title>Vectors</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>First Things</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Computations with Vectors</title>
+             
+                    <statement>
+                        <p>
+                        Let <m>\vvec_1 = \langle 2,3 \rangle</m> and <m>\vvec_2 = \langle -2,4 \rangle</m>.
+            
+                        </p>
+                    </statement>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Combining Vectors</title>
+        <statement>
+            <p>
+              Let <m>\vvec_1 = \langle 2,3 \rangle</m> and <m>\vvec_2 = \langle -2,4 \rangle</m>
+            </p>
+           
+        </statement>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Unit Vectors</title>
+        <statement>
+            <p>
+                <term>Unit vectors</term> are vectors <m>\uvec</m> such that
+            </p>
+        </statement>
+        
+            
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

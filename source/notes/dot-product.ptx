@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="dot-product">
+    <title>Dot Product</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Two Perspectives</title>
+                <statement>
+                    <p>
+                We can compute a dot product in two different ways:
+                    </p>
+                </statement>
+            </exercise>
+</page>
+<page>
+            <exercise>
+                <title>Examples: Computations </title>
+             
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Let <m>\vvec = \langle -3,1 \rangle</m> and <m>\wvec = \langle 1,2 \rangle</m>. Find <m>\theta</m>.
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                          Find a unit vector perpendicular to <m>\vvec = \langle 1,5 \rangle</m>. 
+                        </p>
+                    </statement>
+                </task>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Vector Projections</title>
+        <statement>
+            <p>
+             What is the component of <m>\mathbf{F}</m> pointing in the direction of <m>\mathbf{D}</m>?
+            </p>
+           
+        </statement>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise>
+        <title>Examples: Projections</title>
+        
+         <task workspace="3in">
+                    <statement>
+                        <p>
+                         Project <m>\wvec = \langle 4,1 \rangle</m> onto <m>\vvec = \langle 3,5 \rangle</m>. 
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                         Project <m>\wvec = \langle -2,1 \rangle</m> onto <m>\vvec = \langle 2,-2 \rangle</m>. 
+                        </p>
+                    </statement>
+                </task>
+            
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

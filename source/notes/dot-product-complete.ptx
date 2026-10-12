@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="dot-product-complete">
+    <title>Dot Product (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We've seen natural ways to combine vectors. There are two ways we can make sense of 
+                        <q>vector multiplication</q>:
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>\vvec \cdot \wvec =</m> scalar (which is what we'll discuss here)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\vvec \times \wvec =</m> vector (next time)
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Two Perspectives</title>
+                <statement>
+                    <p>
+                We can compute a dot product in two different ways:
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    If <m>\vvec =\langle x_1 ,y_1 \rangle</m> and <m>\wvec =\langle x_2 ,y_2 \rangle</m>,
+                                    then
+                                    <md>
+                                        \vvec \cdot \wvec = x_1x_2 + y_1y_2
+                                    </md>.
+                                    
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\vvec \cdot \wvec = |\vvec| |\wvec| \cos(\theta)</m>, where <m>0 \leq \theta \leq \pi</m> is 
+                                    the (smallest) angle between the vectors.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        Some general remarks regarding these perspectives:
+                        <ol>
+                            <li>
+                                <p>
+                                    From the second perspective, we can think of <m>\vvec \cdot \wvec</m> as a measure of how close to parallel the two vectors are.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The dot product is commutative (taking the product in either order produces the same scalar).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\vvec \cdot \vvec = |\vvec|^2</m>, or <m>|\vvec| = \sqrt{\vvec \cdot \vvec}</m>. 
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise>
+                <title>Examples: Computations </title>
+             
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Let <m>\vvec = \langle -3,1 \rangle</m> and <m>\wvec = \langle 1,2 \rangle</m>. Find <m>\theta</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Use the first perspective, we can compute <m>\vvec \cdot \wvec = -1</m> (so we know <m>\theta \gt \pi/2</m>). 
+                        </p>
+                        <p>
+                            Using the second perspective, we can write <m>\cos(\theta) = -1/\sqrt{50}</m>. A good first attempt would be to
+                            solve <m>\theta = \arccos(-1/\sqrt{50})</m>, which after recalling the range of <m>\arccos</m> is 
+                            <m>[0,\pi]</m>, we realize does give the correct angle (which is approximately <m>1.713</m> radians).
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                          Find a unit vector perpendicular to <m>\vvec = \langle 1,5 \rangle</m>. 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Let <m>\uvec= \langle x, y\rangle</m>. Then <m>\vvec \cdot \uvec = 0</m> implies <m>x+5y =0</m>. 
+                            Since <m>\uvec</m> is a unit vector, <m>\uvec \cdot \uvec =1</m>, which implies <m>x^2 + y^2 = 1</m>.
+                            Solving this system of equations gives two solutions, <m>\uvec_1 = \langle -5 \sqrt{1/26}, \sqrt{1/26} \rangle </m>
+                            and <m>\uvec_2 = \langle 5 \sqrt{1/26}, -\sqrt{1/26} \rangle </m>.
+                        </p>
+                    </solution>
+                </task>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Vector Projections</title>
+        <statement>
+            <p>
+             What is the component of <m>\mathbf{F}</m> pointing in the direction of <m>\mathbf{D}</m>?
+            </p>
+           
+        </statement>
+        <solution>
+            <p>
+                We call this the projection (or shadow) of <m>\mathbf{F}</m> onto <m>\mathbf{D}</m>, written
+                <m>\text{proj}_{\mathbf{D}} \mathbf{F}</m>. 
+            </p>
+            <p>
+                For any two non-zero vectors <m>\vvec</m> and <m>\wvec</m>, we can project <m>\vvec</m> onto <m>\wvec</m>
+                using the definition
+                <md>
+                \text{proj}_{\mathbf{w}} \mathbf{v} = \frac{\vvec \cdot \wvec}{ \wvec \cdot \wvec} \cdot \wvec
+                    
+                </md>.
+                
+            </p>
+        </solution>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise>
+        <title>Examples: Projections</title>
+        
+         <task workspace="3in">
+                    <statement>
+                        <p>
+                         Project <m>\wvec = \langle 4,1 \rangle</m> onto <m>\vvec = \langle 3,5 \rangle</m>. 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\text{proj}_{\vvec} \wvec = \langle 1.5, 2.5 \rangle</m>
+                        </p>
+                        <p>
+                        See the <url href="https://www.desmos.com/calculator/h9ijrhiqlf">Desmos interactive for Vector basics</url>
+                        for a visual
+                        </p>
+                    </solution>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                         Project <m>\wvec = \langle -2,1 \rangle</m> onto <m>\vvec = \langle 2,-2 \rangle</m>. 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\text{proj}_{\wvec} \vvec = \langle -1.5, 1.5 \rangle</m>
+                        </p>
+                        <p>
+                        See the <url href="https://www.desmos.com/calculator/h9ijrhiqlf">Desmos interactive for Vector basics</url>
+                        for a visual
+                        </p>
+                    </solution>
+                </task>
+            
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="cross-product-complete">
+    <title>Cross Product (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        The dot product gave us a (geometrically meaningful) way to multiply to vectors to get a scalar. For 
+                        3D vectors, we can also multiply vectors to get another (geometrically meaningful) vector.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Cross Product</title>
+                <statement>
+                    <p>
+                If <m>\vvec = \langle x_1, y_1,z_1 \rangle</m> and <m>\wvec = \langle x_2, y_2,z_2 \rangle </m>, then 
+                <md>
+                    \vvec \times \wvec = 
+                </md>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\langle y_1z_2 - y_2z_1, x_2z_1 - x_1z_2, x_1y_2 - x_2y_1 \rangle</m>.
+                    </p>
+                    <p>
+                        This computation comes from a <term>determinant</term> (more later), and there is a trick for 
+                        remembering the pattern (see class notes).
+                    </p>
+                    <p>
+                        Note that <m>\vvec \times \wvec</m> has both magnitude and direction. The magnitude gives us a measure
+                        of how close to parallel/perpendicular the two vectors are.
+                    </p>
+                    <p>
+                        As long as <m>\vvec \times \wvec</m> is not the zero vector (ie., the two vectors are not parallel),
+                        the vector <m>\vvec \times \wvec</m> points in a direction which is perpendicular to both <m>\vvec</m> 
+                        and <m>\wvec</m>. There are two possibilities here; to determine the correct one, use 
+                        the <term>right-hand rule</term>.
+                    </p>
+                    <p>
+                        Note that <m>\vvec \times \wvec = - (\wvec \times \vvec)</m> (so this product does not commute!).
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Example: Cross Product </title>
+             
+                <statement>
+                    <p>
+                       Compute <m>\mathbf{i} \times \mathbf{j}</m>.
+                    </p>
+                </statement>
+            <solution>
+                <p>
+                    <m>\mathbf{i} \times \mathbf{j} = \langle 0,0,1 \rangle = \mathbf{k}</m>. This is why we must take care when drawing
+                    a 3D coordinate system.
+                </p>
+            </solution>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Geometric Applications</title>
+        <statement>
+            <p>
+            Given vectors <m>\uvec</m>, <m>\vvec</m>, <m>\wvec</m> in 3-dimensional space, the volume of the 
+        parallelepiped formed is:
+            </p>
+           
+        </statement>
+        <solution>
+            <p>
+                <m>|\uvec \cdot (\vvec \times \wvec)|</m>. In the future, we will see that the concept of <term>linear independence</term> between vectors
+                is an important one. In 3D, three vectors are linearly independent if they do not lie in the same plane.
+            </p>
+            <p>
+                We can use the geometric interpretation above to determine if a set of 3 vectors is linearly independent (non-zero volume)
+                or linearly dependent (zero volume).
+            </p>
+        </solution>
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Examples: Linear Independence</title>
+       <statement>
+        <p>
+            Show that <m>\vvec = \langle 1,4,-7  \rangle</m>, <m>\wvec = \langle 2,-1,4  \rangle</m>, and <m>\uvec = \langle 0,-9,18  \rangle</m>
+            are linearly dependent vectors.
+        </p>
+       </statement> 
+       <solution>
+        <p>
+            We can compute that <m>\vvec \cdot (\wvec \times \uvec) = 0</m>, which means that these vectors lie in the same plane, and 
+            are linearly dependent.
+        </p>
+       </solution>
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

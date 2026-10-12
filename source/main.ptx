@@ -102,6 +102,19 @@
  <xi:include href="./notes/integration-spherical.ptx"/> 
  <!--<xi:include href="./notes/integration-spherical-complete.ptx"/> -->
 
+  <!-- WEEK 9 -->
+
+ <xi:include href="./notes/vectors.ptx"/> 
+ <!-- <xi:include href="./notes/vectors-complete.ptx"/> -->
+
+
+ <xi:include href="./notes/dot-product.ptx"/> 
+ <!-- <xi:include href="./notes/dot-product-complete.ptx"/> -->
+
+
+ <xi:include href="./notes/cross-product.ptx"/> 
+ <!--<xi:include href="./notes/cross-product-complete.ptx"/> -->
+
 
 
       <!-- etc. -->
