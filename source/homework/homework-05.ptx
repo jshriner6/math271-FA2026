@@ -9,27 +9,36 @@
     <exercise>
         <introduction>
             <p>
-            For each wave function <m>f(\rho, \theta, \varphi)</m> below, set up the appropriate triple integral 
-            <m>\iiint_S f^2(\rho, \theta, \varphi) \quad dV</m> which would determine whether <m>f^2</m> is normalized.
-            Then compute each integral.
-            </p>
-            <p>
-                You will need to use the fact that <m>\int_0^\infty x^n e^{-bx} \quad dx = \frac{n!}{b^{n+1}}</m>.
+            Recall that if <m>f</m> is a wave function, then <m>f^2</m> is a probability distribution.
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{a_0^3\pi}}e^{-\rho/a_0}</m> (This is a wave function 
+                    For the wave function
+                    <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{a_0^3\pi}}e^{-\rho/a_0}</m>, set up the appropriate triple integral 
+            <m>\iiint_S f^2(\rho, \theta, \varphi) \quad dV</m> which would determine whether <m>f^2</m> is normalized.
+            Then compute the integral.
+                    (This is a wave function 
                     for a <m>1s</m> H orbital.)
                 </p>
+                <p>
+                You will need to use the fact that <m>\int_0^\infty x^n e^{-bx} \quad dx = \frac{n!}{b^{n+1}}</m>.
+            </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                  <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{32a_0^3\pi}}\frac{\rho}{a_0}e^{-\rho/(2a_0)}\sin(\varphi)\cos(\theta)</m> (This is a wave function 
+                    For the wave function 
+                  <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{32a_0^3\pi}}\frac{\rho}{a_0}e^{-\rho/(2a_0)}\sin(\varphi)\cos(\theta)</m>, 
+                  set up the appropriate triple integral 
+            <m>\iiint_S f^2(\rho, \theta, \varphi) \quad dV</m> which would determine whether <m>f^2</m> is normalized.
+                  (This is a wave function 
                     for a <m>2p_x</m> H orbital.)
+                </p>
+                <p>
+                 It is an optional challenge to compute the integral, but not required.
                 </p>
             </statement>
         </task>
@@ -55,7 +64,8 @@
             <statement>
                 <p>
                    Set up a double integral in spherical coordinates which would be used to determine whether 
-                   <m>\psi_1</m> and <m>\psi_2</m> are orthogonal functions over the surface of the unit sphere.
+                   <m>\psi_1</m> and <m>\psi_2</m> are orthogonal functions over the surface of the unit sphere. Use the standard 
+                   definition of an inner product of functions from class.
                 </p>
             </statement>
         </task>
@@ -73,9 +83,14 @@
         <introduction>
             <p>
                 Using the wave function from part 1(a), <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{a_0^3\pi}}e^{-\rho/a_0}</m>,
-                compute the probability that an electron is within a sphere of radius <m>r</m> centered at the nucleus. To do this,
-                first set up the appropriate integral, reduce it to a single integral with respect to <m>\rho</m> (a <q><m>d\rho</m></q> integral)
-                using the fundamental theorem of calculus, then use technology to evaluate that integral.
+                compute the probability that an electron is within a sphere of radius <m>r</m> centered at the nucleus. 
+            </p>
+            <p>To do this,
+                first set up the appropriate integral in the order <q><m>d\theta d\varphi d\rho</m></q>. Then reduce it to a single <q><m>d\rho</m></q> integral
+                using the fundamental theorem of calculus. Finally use technology to evaluate the <q><m>d\rho</m></q> integral. 
+            </p>
+            <p>
+                Note that <m>a_0</m> is the <term>Bohr radius</term>, <m>a_0 \approx 5.29 \times 10^{-11}</m> m.
             </p>
         </introduction>
         <task>
@@ -112,8 +127,9 @@
         <exercise>
       <statement>
         <p>
-             Using the wave function from part 1(a), <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{a_0^3\pi}}e^{-\rho/a_0}</m>,
-            compute the expected value of the radius. 
+             In the previous problem, the final function of <m>\rho</m> that you should have been integrating is 
+             <m>f(\rho) = \frac{4}{a_0^3} \rho^2 e^{-2\rho/a_0}</m>. This is known as the <term>radial probability distribution</term>.
+             Use it to compute the expected value of the radius (your answer can be left as an expression involving the constant <m>a_0</m>).
             
         </p>
         <p>
@@ -177,7 +193,7 @@
     <exercise>
         <statement>
             <p>
-                Let <m>\vvec_1 = \langle 1,5,2\rangle</m>. Find all unit vectors perpendicular to <m>\vvec_1</m> using the
+                Let <m>\vvec_1 = \langle 1,5\rangle</m>. Find all unit vectors perpendicular to <m>\vvec_1</m> using the
                 dot product.
             </p>
         </statement>
@@ -189,6 +205,9 @@
                 <m>\vvec \times \wvec</m> and <m>\wvec \times \vvec</m>, and write a short explanation. Vector magnitudes
                 need not be accurate, but the directions should be.
             </p>
+            <image source="cross.png">
+                <shortdescription>Two vectors in the x,y plane in 3 dimensions</shortdescription>
+            </image>
         </statement>
     </exercise>
     </page>
