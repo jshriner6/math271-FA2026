@@ -1790,6 +1790,78 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "  Set up (but do not solve) the integral where is the triangle with vertices , , and . Set up your integral in an order that requires only a single double integral.   "
+},
+{
+  "id": "homework-7",
+  "level": "1",
+  "url": "homework-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 5 (Weeks 8 and 9)",
+  "body": " Homework 5 (Weeks 8 and 9)     Recall that if is a wave function, then is a probability distribution.     For the wave function , set up the appropriate triple integral which would determine whether is normalized. Then compute the integral. (This is a wave function for a H orbital.)  You will need to use the fact that .      For the wave function , set up the appropriate triple integral which would determine whether is normalized. (This is a wave function for a H orbital.)  It is an optional challenge to compute the integral, but not required.       Let and .     Set up a double integral in spherical coordinates which would be used to determine whether and are orthogonal functions over the surface of the unit sphere. Use the standard definition of an inner product of functions from class.      Use Desmos to compute your integral from the previous part, and make a conclusion about whether or not these functions are orthogonal over the surface of the unit sphere.       Using the wave function from part 1(a), , compute the probability that an electron is within a sphere of radius centered at the nucleus.  To do this, first set up the appropriate integral in the order . Then reduce it to a single integral using the fundamental theorem of calculus. Finally use technology to evaluate the integral.  Note that is the Bohr radius , m.                          Between and        In the previous problem, the final function of that you should have been integrating is . This is known as the radial probability distribution . Use it to compute the expected value of the radius (your answer can be left as an expression involving the constant ).  You will need to use the fact that .      Let and .     Sketch each position vector.      Compute . This is called a linear combination of the vectors and . Sketch , illustrating how it is obtained from the original vectors and .      Compute and sketch the displacement vector from to .      Compute the angle ( ) which specifies the direction of the vector .      Compute .      Normalize .       Let . Find all unit vectors perpendicular to using the dot product.      Vectors and lie in the plane shown below. Sketch and label both and , and write a short explanation. Vector magnitudes need not be accurate, but the directions should be.   Two vectors in the x,y plane in 3 dimensions      "
+},
+{
+  "id": "homework-7-2-1",
+  "level": "2",
+  "url": "homework-7.html#homework-7-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Recall that if is a wave function, then is a probability distribution.     For the wave function , set up the appropriate triple integral which would determine whether is normalized. Then compute the integral. (This is a wave function for a H orbital.)  You will need to use the fact that .      For the wave function , set up the appropriate triple integral which would determine whether is normalized. (This is a wave function for a H orbital.)  It is an optional challenge to compute the integral, but not required.    "
+},
+{
+  "id": "homework-7-2-2",
+  "level": "2",
+  "url": "homework-7.html#homework-7-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let and .     Set up a double integral in spherical coordinates which would be used to determine whether and are orthogonal functions over the surface of the unit sphere. Use the standard definition of an inner product of functions from class.      Use Desmos to compute your integral from the previous part, and make a conclusion about whether or not these functions are orthogonal over the surface of the unit sphere.    "
+},
+{
+  "id": "homework-7-2-3",
+  "level": "2",
+  "url": "homework-7.html#homework-7-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Using the wave function from part 1(a), , compute the probability that an electron is within a sphere of radius centered at the nucleus.  To do this, first set up the appropriate integral in the order . Then reduce it to a single integral using the fundamental theorem of calculus. Finally use technology to evaluate the integral.  Note that is the Bohr radius , m.                          Between and     "
+},
+{
+  "id": "homework-7-2-4",
+  "level": "2",
+  "url": "homework-7.html#homework-7-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  In the previous problem, the final function of that you should have been integrating is . This is known as the radial probability distribution . Use it to compute the expected value of the radius (your answer can be left as an expression involving the constant ).  You will need to use the fact that .   "
+},
+{
+  "id": "homework-7-2-5",
+  "level": "2",
+  "url": "homework-7.html#homework-7-2-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Let and .     Sketch each position vector.      Compute . This is called a linear combination of the vectors and . Sketch , illustrating how it is obtained from the original vectors and .      Compute and sketch the displacement vector from to .      Compute the angle ( ) which specifies the direction of the vector .      Compute .      Normalize .    "
+},
+{
+  "id": "homework-7-2-6",
+  "level": "2",
+  "url": "homework-7.html#homework-7-2-6",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Let . Find all unit vectors perpendicular to using the dot product.   "
+},
+{
+  "id": "homework-7-2-7",
+  "level": "2",
+  "url": "homework-7.html#homework-7-2-7",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Vectors and lie in the plane shown below. Sketch and label both and , and write a short explanation. Vector magnitudes need not be accurate, but the directions should be.   Two vectors in the x,y plane in 3 dimensions    "
 }
 ]
 
