@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 5 (Weeks 8 and 9)</title>
+
+  <page>
+  
+
+    <exercise>
+        <introduction>
+            <p>
+            For each wave function <m>f(\rho, \theta, \varphi)</m> below, set up the appropriate triple integral 
+            <m>\iiint_S f^2(\rho, \theta, \varphi) \quad dV</m> which would determine whether <m>f^2</m> is normalized.
+            Then compute each integral.
+            </p>
+            <p>
+                You will need to use the fact that <m>\int_0^\infty x^n e^{-bx} \quad dx = \frac{n!}{b^{n+1}}</m>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{a_0^3\pi}}e^{-\rho/a_0}</m> (This is a wave function 
+                    for a <m>1s</m> H orbital.)
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                  <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{32a_0^3\pi}}\frac{\rho}{a_0}e^{-\rho/(2a_0)}\sin(\varphi)\cos(\theta)</m> (This is a wave function 
+                    for a <m>2p_x</m> H orbital.)
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+        Let 
+        <md>
+            \psi_1(\theta,\varphi) = \sqrt{\frac{3}{4\pi}}\cos(\varphi)
+        </md>
+        and 
+        <md>
+            \psi_2(\theta,\varphi) = \sqrt{\frac{5}{16\pi}}(3\cos^2(\varphi)-1)
+        </md>.
+
+        
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   Set up a double integral in spherical coordinates which would be used to determine whether 
+                   <m>\psi_1</m> and <m>\psi_2</m> are orthogonal functions over the surface of the unit sphere.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use Desmos to compute your integral from the previous part, and make a conclusion about whether 
+                    or not these functions are orthogonal over the surface of the unit sphere.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+    <exercise>
+        <introduction>
+            <p>
+                Using the wave function from part 1(a), <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{a_0^3\pi}}e^{-\rho/a_0}</m>,
+                compute the probability that an electron is within a sphere of radius <m>r</m> centered at the nucleus. To do this,
+                first set up the appropriate integral, reduce it to a single integral with respect to <m>\rho</m> (a <q><m>d\rho</m></q> integral)
+                using the fundamental theorem of calculus, then use technology to evaluate that integral.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>r= a_0/2</m>
+                </p>
+            </statement>
+        </task>
+         <task>
+            <statement>
+                <p>
+                    <m>r= a_0</m>
+                </p>
+            </statement>
+        </task>
+         <task>
+            <statement>
+                <p>
+                    <m>r= 2a_0</m>
+                </p>
+            </statement>
+        </task>
+         <task>
+            <statement>
+                <p>
+                    Between <m>r= 0.9a_0</m> and <m>r= 1.1a_0</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+   
+        <exercise>
+      <statement>
+        <p>
+             Using the wave function from part 1(a), <m>f(\rho, \theta, \varphi) = \frac{1}{\sqrt{a_0^3\pi}}e^{-\rho/a_0}</m>,
+            compute the expected value of the radius. 
+            
+        </p>
+        <p>
+                You will need to use the fact that <m>\int_0^\infty x^n e^{-bx} \quad dx = \frac{n!}{b^{n+1}}</m>.
+            </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>\vvec_1 = \langle 2, 4 \rangle</m> and <m>\vvec_2 = \langle -1,-4 \rangle</m>      .    
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Sketch each position vector.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compute <m>\wvec = -2\vvec_1 + 3\vvec_2</m>. This is called a <term>linear combination</term> of the 
+                    vectors <m>\vvec_1</m> and <m>\vvec_2</m>. Sketch <m>\wvec</m>, illustrating how it is obtained from
+                    the original vectors <m>\vvec_1</m> and <m>\vvec_2</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compute and sketch the displacement vector from <m>\vvec_1</m> to <m>\vvec_2</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compute the angle <m>\theta</m> (<m>-\pi \lt \theta \leq \pi</m>) which specifies the direction 
+                    of the vector <m>\vvec_2</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compute <m>|\vvec_2|</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Normalize <m>\vvec_1</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>\vvec_1 = \langle 1,5,2\rangle</m>. Find all unit vectors perpendicular to <m>\vvec_1</m> using the
+                dot product.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Vectors <m>\vvec</m> and <m>\wvec</m> lie in the <m>x-y</m> plane shown below. Sketch and label both
+                <m>\vvec \times \wvec</m> and <m>\wvec \times \vvec</m>, and write a short explanation. Vector magnitudes
+                need not be accurate, but the directions should be.
+            </p>
+        </statement>
+    </exercise>
+    </page>
+
+
+</worksheet>

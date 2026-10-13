@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab9">
+  <title>Lab 9</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to basic computations with vectors. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+      <p>
+       We've introduced some basic computations with vectors, but did not emphasize visualizing them. This lab will 
+       give you the opportunity to practice computation, and also introduce you to the important visuals that go along 
+       with each computation.
+      </p>
+      <p>
+        Access the <url href="https://student.amplify.com/join/BDB9KE">[271] Vectors Desmos Activity</url> and follow the directions. 
+      </p>
+    </statement>
+    
+</exercise>
+</page>
+
+
+</worksheet>

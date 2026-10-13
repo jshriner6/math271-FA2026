@@ -96,8 +96,8 @@
  <!--<xi:include href="./notes/jacobian.ptx"/> -->
  <xi:include href="./notes/jacobian-complete.ptx"/> 
 
-<xi:include href="./notes/integration-cylindrical.ptx"/> 
-<!-- <xi:include href="./notes/integration-cylindrical-complete.ptx"/> -->
+<!-- <xi:include href="./notes/integration-cylindrical.ptx"/> -->
+<xi:include href="./notes/integration-cylindrical-complete.ptx"/> 
 
  <xi:include href="./notes/integration-spherical.ptx"/> 
  <!--<xi:include href="./notes/integration-spherical-complete.ptx"/> -->
@@ -147,6 +147,8 @@
 
       <xi:include href="./labs/lab8.ptx"/>
 
+      <xi:include href="./labs/lab9.ptx"/>
+
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
@@ -171,6 +173,8 @@
       <xi:include href="./homework/homework-03.ptx"/>
 
       <xi:include href="./homework/homework-04.ptx"/>
+
+     <!--  <xi:include href="./homework/homework-05.ptx"/>-->
 
     </chapter>
 
