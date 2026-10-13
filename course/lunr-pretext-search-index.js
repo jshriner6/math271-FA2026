@@ -1009,67 +1009,67 @@ var ptx_lunr_docs = [
   "body": " Example: Using the Jacobian   Compute , where is the triangle formed by , , and .    See the Desmos visual for Jacobians to visualize the original region and transformed region.  In , this requires two integrals. However, we can use the transformation , to make the region nicer.  See the Desmos visual for Jacobians to visualize the original region and transformed region.  So , where (note the Jacobian is not always a constant, it just happens to be here). Thus we can compute the integral as .   "
 },
 {
-  "id": "integration-cylindrical",
+  "id": "integration-cylindrical-complete",
   "level": "1",
-  "url": "integration-cylindrical.html",
+  "url": "integration-cylindrical-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Integration in Polar\/Cylindrical Coordinates",
-  "body": " Integration in Polar\/Cylindrical Coordinates    Motivation        Jacobian for Polar Coordinates   We analyzed areas in polar coordinates to see that . Let's verify this expression using the Jacobian.       Examples: Jacobian for Polar Coordinates     , where is the circle of radius centered at the origin.      Verify .        Jacobian for Cylindrical Coordinates   Recall cylindrical coordinates result from the transformation , , . So the Jacobian for this transformation is        Integrals Over Surfaces   We'll practice setting up integrals over surfaces of the form       Example: Integrals Over Surfaces   Compute , where is the surface below , above , and inside with .     "
+  "title": "Integration in Polar\/Cylindrical Coordinates (Complete)",
+  "body": " Integration in Polar\/Cylindrical Coordinates (Complete)    Motivation       We've seen how integrating in different coordinates requires consideration of the Jacobian of the transformation. We'll look at this in the specific coordinate systems we've introduce so far in this course.     Jacobian for Polar Coordinates   We analyzed areas in polar coordinates to see that . Let's verify this expression using the Jacobian.    Using , compute the expression .       Examples: Jacobian for Polar Coordinates     , where is the circle of radius centered at the origin.       See the integration in Polar coordinates Desmos visual for how to compute these integrals using Desmos.      Verify .    Assuming we know this integral converges, we can write . Then , and , where the last equality is obtained using the substitution , .  Thus , so .        Jacobian for Cylindrical Coordinates   Recall cylindrical coordinates result from the transformation , , . So the Jacobian for this transformation is       which simplifies to . So .     Integrals Over Surfaces   We'll practice setting up integrals over surfaces of the form     . The basic form for these integrals is then .       Example: Integrals Over Surfaces   Compute , where is the surface below , above , and inside with .    The condition becomes , and becomes . Thus we can compute . Geometrically, this is the volume of the surface . See the integration in Cylindrical coordinates Desmos visual .     "
 },
 {
-  "id": "integration-cylindrical-2-1",
+  "id": "integration-cylindrical-complete-2-1",
   "level": "2",
-  "url": "integration-cylindrical.html#integration-cylindrical-2-1",
+  "url": "integration-cylindrical-complete.html#integration-cylindrical-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen how integrating in different coordinates requires consideration of the Jacobian of the transformation. We'll look at this in the specific coordinate systems we've introduce so far in this course.   "
 },
 {
-  "id": "integration-cylindrical-2-2",
+  "id": "integration-cylindrical-complete-2-2",
   "level": "2",
-  "url": "integration-cylindrical.html#integration-cylindrical-2-2",
+  "url": "integration-cylindrical-complete.html#integration-cylindrical-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Jacobian for Polar Coordinates.",
-  "body": " Jacobian for Polar Coordinates   We analyzed areas in polar coordinates to see that . Let's verify this expression using the Jacobian.   "
+  "body": " Jacobian for Polar Coordinates   We analyzed areas in polar coordinates to see that . Let's verify this expression using the Jacobian.    Using , compute the expression .   "
 },
 {
-  "id": "integration-cylindrical-3-1",
+  "id": "integration-cylindrical-complete-3-1",
   "level": "2",
-  "url": "integration-cylindrical.html#integration-cylindrical-3-1",
+  "url": "integration-cylindrical-complete.html#integration-cylindrical-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Jacobian for Polar Coordinates.",
-  "body": " Examples: Jacobian for Polar Coordinates     , where is the circle of radius centered at the origin.      Verify .    "
+  "body": " Examples: Jacobian for Polar Coordinates     , where is the circle of radius centered at the origin.       See the integration in Polar coordinates Desmos visual for how to compute these integrals using Desmos.      Verify .    Assuming we know this integral converges, we can write . Then , and , where the last equality is obtained using the substitution , .  Thus , so .    "
 },
 {
-  "id": "integration-cylindrical-4-1",
+  "id": "integration-cylindrical-complete-4-1",
   "level": "2",
-  "url": "integration-cylindrical.html#integration-cylindrical-4-1",
+  "url": "integration-cylindrical-complete.html#integration-cylindrical-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Jacobian for Cylindrical Coordinates.",
-  "body": " Jacobian for Cylindrical Coordinates   Recall cylindrical coordinates result from the transformation , , . So the Jacobian for this transformation is      "
+  "body": " Jacobian for Cylindrical Coordinates   Recall cylindrical coordinates result from the transformation , , . So the Jacobian for this transformation is       which simplifies to . So .   "
 },
 {
-  "id": "integration-cylindrical-4-2",
+  "id": "integration-cylindrical-complete-4-2",
   "level": "2",
-  "url": "integration-cylindrical.html#integration-cylindrical-4-2",
+  "url": "integration-cylindrical-complete.html#integration-cylindrical-complete-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Integrals Over Surfaces.",
-  "body": " Integrals Over Surfaces   We'll practice setting up integrals over surfaces of the form   "
+  "body": " Integrals Over Surfaces   We'll practice setting up integrals over surfaces of the form     . The basic form for these integrals is then .   "
 },
 {
-  "id": "integration-cylindrical-5-1",
+  "id": "integration-cylindrical-complete-5-1",
   "level": "2",
-  "url": "integration-cylindrical.html#integration-cylindrical-5-1",
+  "url": "integration-cylindrical-complete.html#integration-cylindrical-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Example: Integrals Over Surfaces.",
-  "body": " Example: Integrals Over Surfaces   Compute , where is the surface below , above , and inside with .   "
+  "body": " Example: Integrals Over Surfaces   Compute , where is the surface below , above , and inside with .    The condition becomes , and becomes . Thus we can compute . Geometrically, this is the volume of the surface . See the integration in Cylindrical coordinates Desmos visual .   "
 },
 {
   "id": "integration-spherical",
@@ -1124,6 +1124,168 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Integrals Over the Surface of a Sphere.",
   "body": " Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:   "
+},
+{
+  "id": "vectors",
+  "level": "1",
+  "url": "vectors.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Vectors",
+  "body": " Vectors    Motivation        First Things          Computations with Vectors   Let and .       Combining Vectors   Let and        Unit Vectors    Unit vectors are vectors such that     "
+},
+{
+  "id": "vectors-2-1",
+  "level": "2",
+  "url": "vectors.html#vectors-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "vectors-2-2",
+  "level": "2",
+  "url": "vectors.html#vectors-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "First Things.",
+  "body": " First Things      "
+},
+{
+  "id": "vectors-3-1",
+  "level": "2",
+  "url": "vectors.html#vectors-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Computations with Vectors.",
+  "body": " Computations with Vectors   Let and .   "
+},
+{
+  "id": "vectors-4-1",
+  "level": "2",
+  "url": "vectors.html#vectors-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Combining Vectors.",
+  "body": " Combining Vectors   Let and    "
+},
+{
+  "id": "vectors-5-1",
+  "level": "2",
+  "url": "vectors.html#vectors-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Unit Vectors.",
+  "body": " Unit Vectors    Unit vectors are vectors such that   "
+},
+{
+  "id": "dot-product",
+  "level": "1",
+  "url": "dot-product.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Dot Product",
+  "body": " Dot Product    Motivation        Two Perspectives   We can compute a dot product in two different ways:       Examples: Computations    Let and . Find .      Find a unit vector perpendicular to .        Vector Projections   What is the component of pointing in the direction of ?       Examples: Projections    Project onto .      Project onto .      "
+},
+{
+  "id": "dot-product-2-1",
+  "level": "2",
+  "url": "dot-product.html#dot-product-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "dot-product-2-2",
+  "level": "2",
+  "url": "dot-product.html#dot-product-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Two Perspectives.",
+  "body": " Two Perspectives   We can compute a dot product in two different ways:   "
+},
+{
+  "id": "dot-product-3-1",
+  "level": "2",
+  "url": "dot-product.html#dot-product-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Computations.",
+  "body": " Examples: Computations    Let and . Find .      Find a unit vector perpendicular to .    "
+},
+{
+  "id": "dot-product-4-1",
+  "level": "2",
+  "url": "dot-product.html#dot-product-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Vector Projections.",
+  "body": " Vector Projections   What is the component of pointing in the direction of ?   "
+},
+{
+  "id": "dot-product-5-1",
+  "level": "2",
+  "url": "dot-product.html#dot-product-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Examples: Projections.",
+  "body": " Examples: Projections    Project onto .      Project onto .    "
+},
+{
+  "id": "cross-product",
+  "level": "1",
+  "url": "cross-product.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Cross Product",
+  "body": " Cross Product    Motivation        Cross Product   If and , then        Example: Cross Product   Compute .       Geometric Applications   Given vectors , , in 3-dimensional space, the volume of the parallelepiped formed is:       Examples: Linear Independence   Show that , , and are linearly dependent vectors.     "
+},
+{
+  "id": "cross-product-2-1",
+  "level": "2",
+  "url": "cross-product.html#cross-product-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "cross-product-2-2",
+  "level": "2",
+  "url": "cross-product.html#cross-product-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Cross Product.",
+  "body": " Cross Product   If and , then    "
+},
+{
+  "id": "cross-product-3-1",
+  "level": "2",
+  "url": "cross-product.html#cross-product-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Cross Product.",
+  "body": " Example: Cross Product   Compute .   "
+},
+{
+  "id": "cross-product-4-1",
+  "level": "2",
+  "url": "cross-product.html#cross-product-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Geometric Applications.",
+  "body": " Geometric Applications   Given vectors , , in 3-dimensional space, the volume of the parallelepiped formed is:   "
+},
+{
+  "id": "cross-product-5-1",
+  "level": "2",
+  "url": "cross-product.html#cross-product-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Examples: Linear Independence.",
+  "body": " Examples: Linear Independence   Show that , , and are linearly dependent vectors.   "
 },
 {
   "id": "lab1",
@@ -1394,6 +1556,24 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": "  Set up (but do not solve) each integral over the region described in the specified coordinate system. Use technology to help you visualize the region of integration.     Set up in polar coordinates: where is the bottom half of .      Set up in cylindrical coordinates: where is the region between the planes and , and inside the cylinder .      Set up in spherical coordinates: where is the upper half of .    "
+},
+{
+  "id": "lab9",
+  "level": "1",
+  "url": "lab9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 9",
+  "body": " Lab 9    This lab is intended to practice ideas related to basic computations with vectors. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       We've introduced some basic computations with vectors, but did not emphasize visualizing them. This lab will give you the opportunity to practice computation, and also introduce you to the important visuals that go along with each computation.  Access the [271] Vectors Desmos Activity and follow the directions.     "
+},
+{
+  "id": "lab9-3-1",
+  "level": "2",
+  "url": "lab9.html#lab9-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  We've introduced some basic computations with vectors, but did not emphasize visualizing them. This lab will give you the opportunity to practice computation, and also introduce you to the important visuals that go along with each computation.  Access the [271] Vectors Desmos Activity and follow the directions.   "
 },
 {
   "id": "homework-3",
