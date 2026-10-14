@@ -1072,58 +1072,58 @@ var ptx_lunr_docs = [
   "body": " Example: Integrals Over Surfaces   Compute , where is the surface below , above , and inside with .    The condition becomes , and becomes . Thus we can compute . Geometrically, this is the volume of the surface . See the integration in Cylindrical coordinates Desmos visual .   "
 },
 {
-  "id": "integration-spherical",
+  "id": "integration-spherical-complete",
   "level": "1",
-  "url": "integration-spherical.html",
+  "url": "integration-spherical-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Integration in Spherical Coordinates",
-  "body": " Integration in Spherical Coordinates    Motivation        Jacobian for Spherical Coordinates   Recall spherical coordinates result from the transformation , , . So the Jacobian for this transformation is          Examples: Jacobian for Spherical Coordinates   Evaluate , where is the surface inside and .       Normalization   Suppose is the square of a wave function that needs to be normalized. What is the relevant triple integral?     Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:     "
+  "title": "Integration in Spherical Coordinates (Complete)",
+  "body": " Integration in Spherical Coordinates (Complete)    Motivation       Spherical coordinates are important in describing relationships in quantum mechanics (eg., orbitals). We'll use what we've learned about the Jacobian to practice integrating in spherical coordinates towards some applications we've seen previously (eg., normalizing the square of wave functions).     Jacobian for Spherical Coordinates   Recall spherical coordinates result from the transformation , , . So the Jacobian for this transformation is       which simplifies to . So , as long as .       Examples: Jacobian for Spherical Coordinates   Evaluate , where is the surface inside and .    Use the integration in spherical coordinates Desmos visual to visualize the surface.  We have the bounds , , and . The upper bound of comes from transforming to , which implies , which implies .  With these bounds, the integral becomes .       Normalization   Suppose is the square of a wave function that needs to be normalized. What is the relevant triple integral?          Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:     integrates over the surface of the unit sphere ( ).     "
 },
 {
-  "id": "integration-spherical-2-1",
+  "id": "integration-spherical-complete-2-1",
   "level": "2",
-  "url": "integration-spherical.html#integration-spherical-2-1",
+  "url": "integration-spherical-complete.html#integration-spherical-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Spherical coordinates are important in describing relationships in quantum mechanics (eg., orbitals). We'll use what we've learned about the Jacobian to practice integrating in spherical coordinates towards some applications we've seen previously (eg., normalizing the square of wave functions).   "
 },
 {
-  "id": "integration-spherical-2-2",
+  "id": "integration-spherical-complete-2-2",
   "level": "2",
-  "url": "integration-spherical.html#integration-spherical-2-2",
+  "url": "integration-spherical-complete.html#integration-spherical-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Jacobian for Spherical Coordinates.",
-  "body": " Jacobian for Spherical Coordinates   Recall spherical coordinates result from the transformation , , . So the Jacobian for this transformation is      "
+  "body": " Jacobian for Spherical Coordinates   Recall spherical coordinates result from the transformation , , . So the Jacobian for this transformation is       which simplifies to . So , as long as .   "
 },
 {
-  "id": "integration-spherical-3-1",
+  "id": "integration-spherical-complete-3-1",
   "level": "2",
-  "url": "integration-spherical.html#integration-spherical-3-1",
+  "url": "integration-spherical-complete.html#integration-spherical-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Jacobian for Spherical Coordinates.",
-  "body": " Examples: Jacobian for Spherical Coordinates   Evaluate , where is the surface inside and .   "
+  "body": " Examples: Jacobian for Spherical Coordinates   Evaluate , where is the surface inside and .    Use the integration in spherical coordinates Desmos visual to visualize the surface.  We have the bounds , , and . The upper bound of comes from transforming to , which implies , which implies .  With these bounds, the integral becomes .   "
 },
 {
-  "id": "integration-spherical-4-1",
+  "id": "integration-spherical-complete-4-1",
   "level": "2",
-  "url": "integration-spherical.html#integration-spherical-4-1",
+  "url": "integration-spherical-complete.html#integration-spherical-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Normalization.",
-  "body": " Normalization   Suppose is the square of a wave function that needs to be normalized. What is the relevant triple integral?   "
+  "body": " Normalization   Suppose is the square of a wave function that needs to be normalized. What is the relevant triple integral?        "
 },
 {
-  "id": "integration-spherical-4-2",
+  "id": "integration-spherical-complete-4-2",
   "level": "2",
-  "url": "integration-spherical.html#integration-spherical-4-2",
+  "url": "integration-spherical-complete.html#integration-spherical-complete-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Integrals Over the Surface of a Sphere.",
-  "body": " Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:   "
+  "body": " Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:     integrates over the surface of the unit sphere ( ).   "
 },
 {
   "id": "vectors",
