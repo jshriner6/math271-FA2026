@@ -99,8 +99,8 @@
 <!-- <xi:include href="./notes/integration-cylindrical.ptx"/> -->
 <xi:include href="./notes/integration-cylindrical-complete.ptx"/> 
 
- <xi:include href="./notes/integration-spherical.ptx"/> 
- <!--<xi:include href="./notes/integration-spherical-complete.ptx"/> -->
+ <!--<xi:include href="./notes/integration-spherical.ptx"/> -->
+ <xi:include href="./notes/integration-spherical-complete.ptx"/> 
 
   <!-- WEEK 9 -->
 
