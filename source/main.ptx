@@ -104,8 +104,8 @@
 
   <!-- WEEK 9 -->
 
- <xi:include href="./notes/vectors.ptx"/> 
- <!-- <xi:include href="./notes/vectors-complete.ptx"/> -->
+<!--  <xi:include href="./notes/vectors.ptx"/> -->
+ <xi:include href="./notes/vectors-complete.ptx"/> 
 
 
  <xi:include href="./notes/dot-product.ptx"/> 
