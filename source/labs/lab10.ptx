@@ -29,7 +29,7 @@
     <task workspace="2in">
         <statement>
             <p>
-                Considering the dimension of the space, what must the scalar field be?
+                Considering the dimension of the space, what must the scalar field be? What is the standard basis of this space?
             </p>
         </statement>
     </task>
@@ -37,7 +37,7 @@
         <statement>
             <p>
                 Write down two vectors from this space, and decompose them as a linear combination of standard basis
-                vectors.
+                vectors. At least one of your vectors should have coordinates with non-zero imaginary part.
             </p>
         </statement>
     </task>
@@ -58,7 +58,7 @@
                     <li>
                         <p>
                             A general vector has the form 
-                            <m>c_1 \mathbf{e}_1 + c_2\mathbf{e}_2</m>. Find a condition on <m>c_1,c_2</m> which guarantees the 
+                            <m>c_1 \mathbf{e}_1 + c_2\mathbf{e}_2</m>, <m>c_1,c_2 \in \C</m>. Find a condition on <m>c_1,c_2</m> which guarantees the 
                             vector will be normalized.
                         </p>
                     </li>
@@ -70,7 +70,7 @@
     <task workspace="2in">
         <statement>
             <p>
-               Normalize the vector <m>0.5 \mathbf{e}_1 + 0.5\mathbf{e}_2</m>.
+               Normalize the vector <m>\wvec = 0.5 \mathbf{e}_1 + 0.25i\mathbf{e}_2</m>.
             </p>
         </statement>
     </task>
