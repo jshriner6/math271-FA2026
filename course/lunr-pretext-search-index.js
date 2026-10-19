@@ -1126,58 +1126,58 @@ var ptx_lunr_docs = [
   "body": " Integrals Over the Surface of a Sphere   There will be applications when it is desired to integrate just over the surface of a sphere. This can be accomplished by holding constant:     integrates over the surface of the unit sphere ( ).   "
 },
 {
-  "id": "vectors",
+  "id": "vectors-complete",
   "level": "1",
-  "url": "vectors.html",
+  "url": "vectors-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Vectors",
-  "body": " Vectors    Motivation        First Things          Computations with Vectors   Let and .       Combining Vectors   Let and        Unit Vectors    Unit vectors are vectors such that     "
+  "title": "Vectors (Complete)",
+  "body": " Vectors (Complete)    Motivation       Vectors are useful tools when you need to specify both magnitude and direction. We'll develop some basics of working with vectors.     First Things       Scalars specify magnitude only, while vectors specify both magnitude and direction. Vectors are uniquely determined by their magnitude and direction, not their position in space!  Sometimes we do want to place a vector somewhere particular in space. A position vector is a vector drawn from the origin.       Computations with Vectors   Let and .    Computing magnitude in direction is the same process used in converting complex numbers to polar coordinates.  Reviewing what was done there, make sure you can compute that and the angles of and are and , respectively.       Combining Vectors   Let and        Addition. Note addition is commutative.    Subtraction. and   These are different vectors, and can be visualized as displacement vectors .    Scalar Multiplication. We'll discuss other notions of multiplication later this week.     These operations can also be visualized, which we'll practice more in lab.       Unit Vectors    Unit vectors are vectors such that     .  For example, are the unit vectors .  We can also normalize a non-zero vector by scalar multiplying the vector by .     "
 },
 {
-  "id": "vectors-2-1",
+  "id": "vectors-complete-2-1",
   "level": "2",
-  "url": "vectors.html#vectors-2-1",
+  "url": "vectors-complete.html#vectors-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Vectors are useful tools when you need to specify both magnitude and direction. We'll develop some basics of working with vectors.   "
 },
 {
-  "id": "vectors-2-2",
+  "id": "vectors-complete-2-2",
   "level": "2",
-  "url": "vectors.html#vectors-2-2",
+  "url": "vectors-complete.html#vectors-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "First Things.",
-  "body": " First Things      "
+  "body": " First Things       Scalars specify magnitude only, while vectors specify both magnitude and direction. Vectors are uniquely determined by their magnitude and direction, not their position in space!  Sometimes we do want to place a vector somewhere particular in space. A position vector is a vector drawn from the origin.   "
 },
 {
-  "id": "vectors-3-1",
+  "id": "vectors-complete-3-1",
   "level": "2",
-  "url": "vectors.html#vectors-3-1",
+  "url": "vectors-complete.html#vectors-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Computations with Vectors.",
-  "body": " Computations with Vectors   Let and .   "
+  "body": " Computations with Vectors   Let and .    Computing magnitude in direction is the same process used in converting complex numbers to polar coordinates.  Reviewing what was done there, make sure you can compute that and the angles of and are and , respectively.   "
 },
 {
-  "id": "vectors-4-1",
+  "id": "vectors-complete-4-1",
   "level": "2",
-  "url": "vectors.html#vectors-4-1",
+  "url": "vectors-complete.html#vectors-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Combining Vectors.",
-  "body": " Combining Vectors   Let and    "
+  "body": " Combining Vectors   Let and        Addition. Note addition is commutative.    Subtraction. and   These are different vectors, and can be visualized as displacement vectors .    Scalar Multiplication. We'll discuss other notions of multiplication later this week.     These operations can also be visualized, which we'll practice more in lab.   "
 },
 {
-  "id": "vectors-5-1",
+  "id": "vectors-complete-5-1",
   "level": "2",
-  "url": "vectors.html#vectors-5-1",
+  "url": "vectors-complete.html#vectors-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Unit Vectors.",
-  "body": " Unit Vectors    Unit vectors are vectors such that   "
+  "body": " Unit Vectors    Unit vectors are vectors such that     .  For example, are the unit vectors .  We can also normalize a non-zero vector by scalar multiplying the vector by .   "
 },
 {
   "id": "dot-product",
