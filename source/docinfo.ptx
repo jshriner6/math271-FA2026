@@ -21,6 +21,7 @@
     \newcommand{\wvec}{\mathbf{w}}
     \newcommand{\fvec}{\mathbf{f}}
     \newcommand{\rvec}{\mathbf{r}}
+    \newcommand{\zvec}{\mathbf{z}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
