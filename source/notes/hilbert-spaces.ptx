@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="hilbert-spaces">
+    <title>Hilbert Spaces</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Hilbert Space</title>
+                <introduction>
+                    <p>
+                Wave functions live within a <term>Hilbert Space</term>, which 
+                
+                    </p>
+                </introduction>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                           
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Inner Product for Wave Functions</title>
+             
+                <statement>
+                    <p>
+                       The inner product for wave functions is similar to what we've introduced earlier for general functions,
+                       but we need to take more care for spaces over <m>\C</m>.
+                    </p>
+                </statement>
+            
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Completeness</title>
+        <statement>
+            <p>
+         Convergent series of wave functions are again valid wave functions.
+            </p>
+           
+        </statement>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Summary</title>
+       <statement>
+        <p>
+          When working with a set of valid wave functions, we can
+        </p>
+       </statement> 
+       
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

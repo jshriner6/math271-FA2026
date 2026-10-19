@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="bases-complete">
+    <title>Bases (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We have some choice in how we identify vectors in a vector space, and in many cases, some choices 
+                        are better than others. Choosing how to represent vectors is equivalent to choosing a 
+                        <term>basis</term> for the vector space.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Bases in <m>\R^2</m></title>
+                <statement>
+                    <p>
+                When we write <m>\langle 1, 2 \rangle</m> for a vector in <m>\R^2</m>, there is little confusion.
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        These coordinates identify where to move in the horizontal and vertical directions, respectively. But
+                        we are utilizing a specific basis of <m>\R^2</m> to interpret the coordinates:
+                        <md>
+                            \langle 1, 2\rangle = 1\mathbf{i} + 2\mathbf{j} = 1\langle 1,0\rangle + 2 \langle 0,1\rangle
+                        </md>
+                        <m>\beta = \{\langle 1,0\rangle, \langle 0,1\rangle \}</m> is known as the <term>standard basis</term> 
+                        for <m>\R^2</m>, and <m>\langle 1, 2 \rangle</m> provides the scalar weights to be used on each basis 
+                        vector (in order) to specify our vector.
+                        
+                    </p>
+                    <p>
+                        There are many bases of <m>\R^2</m>! Another one is <m>\mathscr{C} = \{\langle 1, 1\rangle, \langle -1, 1\rangle \}</m>.
+                        In the <m>\mathscr{C}</m>-basis, <m>\langle 1,2\rangle</m> means
+                        <md>
+                            1\cdot \langle 1,1\rangle + 2 \cdot \langle -1,1\rangle = \langle -1, 3\rangle
+                        </md>
+                        in standard coordinates. 
+                    </p>
+                </solution>
+                
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>General Bases</title>
+             
+                <statement>
+                    <p>
+                      A set of vectors <m> \beta = \{\vvec_1, \vvec_2, \dots , \vvec_n\}</m> is a <term>basis</term> 
+                      for a vector space <m>V</m> if 
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>\beta</m> is a <term>linearly independent</term> set of vectors. This means that 
+                                    a linear combination of the vectors is <m>\mathbf{0}</m> exactly when all scaling 
+                                    factors are <m>0</m>.
+                                </p>
+                                <p>
+                                    This results in all vectors having unique coordinates with respect to the basis.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\beta</m> <term>spans</term> all of <m>V</m>. This means every vector in <m>V</m>
+                                    can be written as a linear combination of basis vectors.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Examples: Bases</title>
+        <statement>
+            <p>
+         The number of vectors in a basis defined the <term>dimension</term> of a vector space.
+            </p>
+           
+        </statement>
+        <solution>
+            <p>
+                Some examples of vector spaces and a basis (and thus the dimension) are
+                <ol>
+                    <li>
+                        <p>
+                            <m>\R^2</m> over <m>\R</m>, 
+                            <m>\beta = \{\langle 1,0 \rangle, \langle 0,1 \rangle \}</m>, 
+                            <m>\text{dim}(\R^2) = 2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\R^n</m> over <m>\R</m>, 
+                            <m>\beta = \{\mathbf{e}_1, \dots, \mathbf{e_n} \}</m>, 
+                            <m>\text{dim}(\R^n) = n</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\C</m> over <m>\R</m>, 
+                            <m>\beta = \{1,i \}</m>, 
+                            <m>\text{dim}(\C) = 2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\C^n</m> over <m>\R</m>, 
+                            <m>\beta = \{\mathbf{e}_1,i\mathbf{e}_1, \dots, \mathbf{e_n}, i\mathbf{e_n} \}</m>, 
+                            <m>\text{dim}(\C^n) = 2n</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\C^n</m> over <m>\C</m>, 
+                            <m>\beta = \{\mathbf{e}_1, \dots, \mathbf{e_n}\}</m>, 
+                            <m>\text{dim}(\C^n) = n</m>
+                        </p>
+                    </li>
+                     <li>
+                        <p>
+                            <m>\mathbb{P}^n</m> over <m>\R</m>, 
+                            <m>\beta = \{1, x, \dots, x^n\}</m>, 
+                            <m>\text{dim}(\mathbb{P}^n) = n+1</m>
+                        </p>
+                    </li>
+                     <li>
+                        <p>
+                            All polynomials over <m>\R</m>, 
+                            <m>\beta = \{1, x, \dots, x^n, \dots\}</m>, 
+                            infinite dimensional
+                        </p>
+                    </li>
+                     <li>
+                        <p>
+                            Hilbert space of wave functions over <m>\C</m>, 
+                            <m>\beta = \{\psi_1, \psi_2, \dots, \psi_n, \dots\}</m>, 
+                            infinite dimensional
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Choosing Bases</title>
+       <statement>
+        <p>
+          Not all bases are created equal for your application! You may wish to choose a basis based on 
+        </p>
+       </statement> 
+       <solution>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Geometry
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Basis properties (eg., orthogonal, normal)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Physics (eg., position space, momentum space)
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            We'll see the basics for changing bases soon once we have some more linear algebra tools.
+        </p>
+       </solution>
+       
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

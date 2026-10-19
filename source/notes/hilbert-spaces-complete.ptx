@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="hilbert-spaces-complete">
+    <title>Hilbert Spaces (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Vector spaces are important because these are the general spaces wave functions live in.
+                        However, we also need some additional structure for comparing wave functions and guaranteeing
+                        that we can combine wave functions in natural ways and still have a valid wave function.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Hilbert Space</title>
+                <introduction>
+                    <p>
+                Wave functions live within a <term>Hilbert Space</term>, which 
+                
+                    </p>
+                </introduction>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            is a vector space. So mathematically, wave functions are vectors.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            contains an inner product. So mathematically, we can determine whether or not 
+                            two wave functions are independent.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                           
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            is complete. So mathematically, we can combine wave functions in meaningful ways to get another
+                            wave function.
+                        </p>
+                    </solution>
+                </task>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Inner Product for Wave Functions</title>
+             
+                <statement>
+                    <p>
+                       The inner product for wave functions is similar to what we've introduced earlier for general functions,
+                       but we need to take more care for spaces over <m>\C</m>.
+                    </p>
+                </statement>
+            <solution>
+                <p>
+                    For two complex-valued functions <m>f</m> and <m>g</m>, we define 
+                    <md>
+                        \langle f, g \rangle := \int \overline{f} \cdot g \quad dx
+                    </md>
+                    This satisfies the necessary properties of an inner product. In particular, <m>\langle f, f\rangle \geq 0</m>, 
+                    which is the reason we need the conjugate of one of the functions in the definition.
+                </p>
+                <p>
+                    Note that computing <m>\langle f, f\rangle</m> is necessary for normalizing the square of a wave function, which
+                    is used as a probability distribution:
+                    <md>
+                        \langle f, f\rangle = \int_{-\infty}^\infty \overline{f} \cdot f \quad dx = \int_{-\infty}^\infty |f|^2 \quad dx
+                    </md>
+                    As long as the last integral converges, we can multiply by the necessary constant to normalize.
+                    
+                </p>
+            </solution>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Completeness</title>
+        <statement>
+            <p>
+         Convergent series of wave functions are again valid wave functions.
+            </p>
+           
+        </statement>
+        <solution>
+            <p>
+                If <m>\{\psi_n\}_{n=1}^\infty</m> is a set of valid wave functions and <m>\psi = \sum_{n=1}^\infty c_n\psi_n</m>
+                converges, then <m>\psi</m> is a valid wave function.
+            </p>
+            <p>
+                In contrast, there are examples of vector spaces which are not complete:
+                <ol>
+                    <li>
+                        <p>
+                            <m>\Q</m> (over <m>\Q</m>). We can sum infinitely many rational numbers to converge to <m>\pi</m> (an irrational number).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of all polynomials on the interval <m>[0,1]</m>. Recall that we built Taylor series
+                            to converge to non-polynomial functions. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Summary</title>
+       <statement>
+        <p>
+          When working with a set of valid wave functions, we can
+        </p>
+       </statement> 
+       <solution>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        determine whether two functions are orthogonal (independent) using the inner product
+                        <m>\langle f, g \rangle = \int_{-\infty}^\infty \overline{f} \cdot g \quad dx</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        form convergent series of wave functions and know the series is also a valid wave function.
+                    </p>
+                </li>
+            </ol>
+        </p>
+       </solution>
+       
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

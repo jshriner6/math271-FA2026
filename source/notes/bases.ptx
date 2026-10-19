@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="bases">
+    <title>Bases</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Bases in <m>\R^2</m></title>
+                <statement>
+                    <p>
+                When we write <m>\langle 1, 2 \rangle</m> for a vector in <m>\R^2</m>, there is little confusion.
+                
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>General Bases</title>
+             
+                <statement>
+                    <p>
+                      A set of vectors <m>\{\vvec_1, \vvec_2, \dots , \vvec_n\}</m> is a <term>basis</term> 
+                      for a vector space <m>V</m> if 
+                    </p>
+                </statement>
+            
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Examples: Bases</title>
+        <statement>
+            <p>
+         The number of vectors in a basis defined the <term>dimension</term> of a vector space.
+            </p>
+           
+        </statement>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Choosing Bases</title>
+       <statement>
+        <p>
+          Not all bases are created equal for your application! You may wish to choose a basis based on 
+        </p>
+       </statement> 
+       
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>

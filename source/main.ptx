@@ -102,7 +102,7 @@
  <!--<xi:include href="./notes/integration-spherical.ptx"/> -->
  <xi:include href="./notes/integration-spherical-complete.ptx"/> 
 
-  <!-- WEEK 9 -->
+  
 
 <!--  <xi:include href="./notes/vectors.ptx"/> -->
  <xi:include href="./notes/vectors-complete.ptx"/> 
@@ -115,7 +115,16 @@
  <xi:include href="./notes/cross-product.ptx"/> 
  <!--<xi:include href="./notes/cross-product-complete.ptx"/> -->
 
+<!-- WEEK 10 -->
 
+<xi:include href="./notes/vector-spaces.ptx"/> 
+<!-- <xi:include href="./notes/vector-spaces-complete.ptx"/>-->
+
+ <xi:include href="./notes/hilbert-spaces.ptx"/> 
+ <!--<xi:include href="./notes/hilbert-spaces-complete.ptx"/> -->
+
+ <xi:include href="./notes/bases.ptx"/> 
+ <!--<xi:include href="./notes/bases-complete.ptx"/> -->
 
       <!-- etc. -->
 

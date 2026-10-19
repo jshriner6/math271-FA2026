@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="vector-spaces-complete">
+    <title>Vector Spaces (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Wave functions live in a more general mathematical space which has a useful structure.
+                        We can draw intuition from how we've previously defined <q>vector</q>, but it is important
+                        to understand <q>vectors</q> in a more general sense.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Vector Space</title>
+                <introduction>
+                    <p>
+                A <term>vector space</term> is a set <m>V</m> (called <term>vectors</term>) over <m>\R</m> or <m>\C</m> (the <term>scalars</term>)
+                such that
+                
+                    </p>
+                </introduction>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <term>Addition</term>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            of vectors is defined. That is, we know how to take any two vectors in <m>V</m> and produce
+                            another vector in <m>V</m>.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <term>Scalar</term>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            multiplication is defined. That is, we know how to multiply and vector from <m>V</m> by a scalar
+                            to produce another vector in <m>V</m>.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            These operations behave <q>nicely</q>:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\uvec + \vvec = \vvec + \uvec</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>(\uvec + \vvec)+\wvec = \uvec + (\vvec + \wvec)</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        There exists a vector <m>\mathbf{0}</m> such that <m>\mathbf{0}+ \vvec = \vvec</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                       For every vector <m>\vvec</m>, there is another vector <m>\uvec</m> which is 
+                                       an additive inverse: <m>\vvec + \uvec = \mathbf{0}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                       For every vector <m>\vvec</m>, <m>1 \cdot \vvec = \vvec</m> 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>a(b\vvec ) = (ab)\vvec</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>a(\uvec + \vvec) = a\uvec + a\vvec</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>(a+b)\vvec= a\vvec + b\vvec</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Note that in quantum mechanics, you typically work in a <term>complex vector space</term> (a vector 
+                            space whose scalars are complex numbers).
+                        </p>
+                    </solution>
+                </task>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Examples: Vector Spaces </title>
+             
+                <statement>
+                    <p>
+                       
+                    </p>
+                </statement>
+                <solution>
+            
+                    
+  
+  <tabular halign="center">
+    <row header="yes" bottom="minor">
+      <cell><m>V</m></cell>
+      <cell>Scalar</cell>
+
+    </row>
+    <row>
+      <cell><m>\R^2</m></cell>
+      <cell><m>\R</m></cell>
+    </row>
+    <row>
+      <cell><m>\R^3</m></cell>
+      <cell><m>\R</m></cell>
+    </row>
+    <row>
+      <cell><m>\R^n</m></cell>
+      <cell><m>\R</m></cell>
+    </row>
+    <row>
+      <cell><m>\C^n</m></cell>
+      <cell><m>\C</m></cell>
+    </row>
+    <row>
+      <cell><m>\mathbb{P}^n</m> (polynomials of degree <m>\leq n</m>)</cell>
+      <cell><m>\R</m></cell>
+    </row>
+    <row>
+      <cell><m>C(X)</m> (continuous functions from <m>X \to \R</m>)</cell>
+      <cell><m>\R</m></cell>
+    </row>
+    <row>
+      <cell>Linear combinations of functions of complex-valued functions <m>\{\psi_n\}_{n=1}^\infty</m></cell>
+      <cell><m>\C</m></cell>
+    </row>
+  </tabular>
+<p>
+           The last three examples are known as <term>function spaces</term> because the vectors are functions.
+        </p>
+        <p>
+            Note that the last example is a typical vector space in quantum mechanics, where the <m>\psi_n</m> functions are
+            solutions to Schrödinger's equation.
+        </p>
+                    
+                </solution>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Vector Magnitude</title>
+        <statement>
+            <p>
+           The definition of a vector space has no requirement about defining the magnitude of a vector. This is additional
+           structure that must be defined, and that we can do in a natural way:
+            </p>
+           
+        </statement>
+        
+        <solution>
+            <p>
+                Recall that in <m>\R^n</m>, the dot product is used to compute magnitude:
+                <md>
+                    |\vvec| = \sqrt{\vvec \cdot \vvec}
+                </md>
+                This motivates a general way to define magnitude of a vector in any vector space <m>V</m>:
+                <ol>
+                    <li>
+                        <p>
+                            Define a valid <term>inner product</term> of vectors (a way to combine any two vectors 
+                            to produce a scalar).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Use the inner product to define magnitude as <m>|\vvec| := \sqrt{\langle \vvec, \vvec\rangle}</m>
+                        </p>
+                    </li>
+                </ol>
+                
+            </p>
+        </solution>
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>More on Inner Products</title>
+       <statement>
+        <p>
+           There are some necessary properties an inner product must satisfy to make it a valid 
+           inner product. For example, we must have that <m>\vvec \cdot \vvec \geq 0 </m>. But what makes a valid 
+           definition a <q>good</q> definition?
+        </p>
+       </statement> 
+       <solution>
+        <p>
+            Recall that with the dot product in <m>\R^2</m>, <m>\vvec \cdot \wvec =0</m> when <m>\vvec</m> and 
+            <m>\wvec</m> are perpendicular (orthogonal). In the sense of projections, such vectors are as dissimilar (indpendent)
+            as they could be. 
+        </p>
+        <p>
+            This is our intuition: for any vector space <m>V</m>, <m>\langle \vvec, \wvec \rangle = 0</m> should imply a notion
+            of independence between <m>\vvec</m> and <m>\wvec</m>.
+        </p>
+       </solution>
+       
+        </exercise>
+    
+    </page>
+
+
+       
+    </worksheet>
