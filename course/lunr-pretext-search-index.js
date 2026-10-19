@@ -1288,6 +1288,168 @@ var ptx_lunr_docs = [
   "body": " Examples: Linear Independence   Show that , , and are linearly dependent vectors.   "
 },
 {
+  "id": "vector-spaces",
+  "level": "1",
+  "url": "vector-spaces.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Vector Spaces",
+  "body": " Vector Spaces    Motivation        Vector Space   A vector space is a set (called vectors ) over or (the scalars ) such that      Addition        Scalar       These operations behave nicely :             There exists a vector such that     For every vector , there is another vector which is an additive inverse:     For every vector ,                           Examples: Vector Spaces          Vector Magnitude   The definition of a vector space has no requirement about defining the magnitude of a vector. This is additional structure that must be defined, and that we can do in a natural way:       More on Inner Products   There are some necessary properties an inner product must satisfy to make it a valid inner product. For example, we must have that . But what makes a valid definition a good definition?     "
+},
+{
+  "id": "vector-spaces-2-1",
+  "level": "2",
+  "url": "vector-spaces.html#vector-spaces-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "vector-spaces-2-2",
+  "level": "2",
+  "url": "vector-spaces.html#vector-spaces-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Vector Space.",
+  "body": " Vector Space   A vector space is a set (called vectors ) over or (the scalars ) such that      Addition        Scalar       These operations behave nicely :             There exists a vector such that     For every vector , there is another vector which is an additive inverse:     For every vector ,                       "
+},
+{
+  "id": "vector-spaces-3-1",
+  "level": "2",
+  "url": "vector-spaces.html#vector-spaces-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Vector Spaces.",
+  "body": " Examples: Vector Spaces      "
+},
+{
+  "id": "vector-spaces-4-1",
+  "level": "2",
+  "url": "vector-spaces.html#vector-spaces-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Vector Magnitude.",
+  "body": " Vector Magnitude   The definition of a vector space has no requirement about defining the magnitude of a vector. This is additional structure that must be defined, and that we can do in a natural way:   "
+},
+{
+  "id": "vector-spaces-5-1",
+  "level": "2",
+  "url": "vector-spaces.html#vector-spaces-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "More on Inner Products.",
+  "body": " More on Inner Products   There are some necessary properties an inner product must satisfy to make it a valid inner product. For example, we must have that . But what makes a valid definition a good definition?   "
+},
+{
+  "id": "hilbert-spaces",
+  "level": "1",
+  "url": "hilbert-spaces.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Hilbert Spaces",
+  "body": " Hilbert Spaces    Motivation        Hilbert Space   Wave functions live within a Hilbert Space , which                         Inner Product for Wave Functions   The inner product for wave functions is similar to what we've introduced earlier for general functions, but we need to take more care for spaces over .       Completeness   Convergent series of wave functions are again valid wave functions.       Summary   When working with a set of valid wave functions, we can     "
+},
+{
+  "id": "hilbert-spaces-2-1",
+  "level": "2",
+  "url": "hilbert-spaces.html#hilbert-spaces-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "hilbert-spaces-2-2",
+  "level": "2",
+  "url": "hilbert-spaces.html#hilbert-spaces-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Hilbert Space.",
+  "body": " Hilbert Space   Wave functions live within a Hilbert Space , which                     "
+},
+{
+  "id": "hilbert-spaces-3-1",
+  "level": "2",
+  "url": "hilbert-spaces.html#hilbert-spaces-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Inner Product for Wave Functions.",
+  "body": " Inner Product for Wave Functions   The inner product for wave functions is similar to what we've introduced earlier for general functions, but we need to take more care for spaces over .   "
+},
+{
+  "id": "hilbert-spaces-4-1",
+  "level": "2",
+  "url": "hilbert-spaces.html#hilbert-spaces-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Completeness.",
+  "body": " Completeness   Convergent series of wave functions are again valid wave functions.   "
+},
+{
+  "id": "hilbert-spaces-5-1",
+  "level": "2",
+  "url": "hilbert-spaces.html#hilbert-spaces-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Summary.",
+  "body": " Summary   When working with a set of valid wave functions, we can   "
+},
+{
+  "id": "bases",
+  "level": "1",
+  "url": "bases.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Bases",
+  "body": " Bases    Motivation        Bases in   When we write for a vector in , there is little confusion.       General Bases   A set of vectors is a basis for a vector space if       Examples: Bases   The number of vectors in a basis defined the dimension of a vector space.       Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on     "
+},
+{
+  "id": "bases-2-1",
+  "level": "2",
+  "url": "bases.html#bases-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "bases-2-2",
+  "level": "2",
+  "url": "bases.html#bases-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Bases in <span class=\"process-math\">\\(\\R^2\\)<\/span>.",
+  "body": " Bases in   When we write for a vector in , there is little confusion.   "
+},
+{
+  "id": "bases-3-1",
+  "level": "2",
+  "url": "bases.html#bases-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "General Bases.",
+  "body": " General Bases   A set of vectors is a basis for a vector space if   "
+},
+{
+  "id": "bases-4-1",
+  "level": "2",
+  "url": "bases.html#bases-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Examples: Bases.",
+  "body": " Examples: Bases   The number of vectors in a basis defined the dimension of a vector space.   "
+},
+{
+  "id": "bases-5-1",
+  "level": "2",
+  "url": "bases.html#bases-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Choosing Bases.",
+  "body": " Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on   "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
@@ -1574,6 +1736,24 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": "  We've introduced some basic computations with vectors, but did not emphasize visualizing them. This lab will give you the opportunity to practice computation, and also introduce you to the important visuals that go along with each computation.  Access the [271] Vectors Desmos Activity and follow the directions.   "
+},
+{
+  "id": "lab10",
+  "level": "1",
+  "url": "lab10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 10",
+  "body": " Lab 10    This lab is intended to practice ideas related to vector spaces and inner products. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Consider the -dimensional vector space .     Considering the dimension of the space, what must the scalar field be? What is the standard basis of this space?      Write down two vectors from this space, and decompose them as a linear combination of standard basis vectors. At least one of your vectors should have coordinates with non-zero imaginary part.      This is a Hilbert space when you include the inner product , where the above product is the dot product.   Verify the standard basis vectors are normalized.    A general vector has the form , . Find a condition on which guarantees the vector will be normalized.         Normalize the vector .      "
+},
+{
+  "id": "lab10-3-1",
+  "level": "2",
+  "url": "lab10.html#lab10-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the -dimensional vector space .     Considering the dimension of the space, what must the scalar field be? What is the standard basis of this space?      Write down two vectors from this space, and decompose them as a linear combination of standard basis vectors. At least one of your vectors should have coordinates with non-zero imaginary part.      This is a Hilbert space when you include the inner product , where the above product is the dot product.   Verify the standard basis vectors are normalized.    A general vector has the form , . Find a condition on which guarantees the vector will be normalized.         Normalize the vector .    "
 },
 {
   "id": "homework-3",
