@@ -180,7 +180,7 @@
                     </statement>
                     <solution>
                         <p>
-                            <m>\text{proj}_{\wvec} \vvec = \langle -1.5, 1.5 \rangle</m>
+                            <m>\text{proj}_{\vvec} \wvec = \langle -1.5, 1.5 \rangle</m>
                         </p>
                         <p>
                         See the <url href="https://www.desmos.com/calculator/h9ijrhiqlf">Desmos interactive for Vector basics</url>

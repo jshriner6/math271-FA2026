@@ -108,8 +108,8 @@
  <xi:include href="./notes/vectors-complete.ptx"/> 
 
 
- <xi:include href="./notes/dot-product.ptx"/> 
- <!-- <xi:include href="./notes/dot-product-complete.ptx"/> -->
+ <!--<xi:include href="./notes/dot-product.ptx"/> -->
+  <xi:include href="./notes/dot-product-complete.ptx"/> 
 
 
  <xi:include href="./notes/cross-product.ptx"/> 
