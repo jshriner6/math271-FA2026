@@ -1180,58 +1180,58 @@ var ptx_lunr_docs = [
   "body": " Unit Vectors    Unit vectors are vectors such that     .  For example, are the unit vectors .  We can also normalize a non-zero vector by scalar multiplying the vector by .   "
 },
 {
-  "id": "dot-product",
+  "id": "dot-product-complete",
   "level": "1",
-  "url": "dot-product.html",
+  "url": "dot-product-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Dot Product",
-  "body": " Dot Product    Motivation        Two Perspectives   We can compute a dot product in two different ways:       Examples: Computations    Let and . Find .      Find a unit vector perpendicular to .        Vector Projections   What is the component of pointing in the direction of ?       Examples: Projections    Project onto .      Project onto .      "
+  "title": "Dot Product (Complete)",
+  "body": " Dot Product (Complete)    Motivation       We've seen natural ways to combine vectors. There are two ways we can make sense of vector multiplication :    scalar (which is what we'll discuss here)     vector (next time)        Two Perspectives   We can compute a dot product in two different ways:       If and , then .     , where is the (smallest) angle between the vectors.     Some general remarks regarding these perspectives:   From the second perspective, we can think of as a measure of how close to parallel the two vectors are.    The dot product is commutative (taking the product in either order produces the same scalar).     , or .          Examples: Computations    Let and . Find .    Use the first perspective, we can compute (so we know ).  Using the second perspective, we can write . A good first attempt would be to solve , which after recalling the range of is , we realize does give the correct angle (which is approximately radians).      Find a unit vector perpendicular to .    Let . Then implies . Since is a unit vector, , which implies . Solving this system of equations gives two solutions, and .        Vector Projections   What is the component of pointing in the direction of ?    We call this the projection (or shadow) of onto , written .  For any two non-zero vectors and , we can project onto using the definition .       Examples: Projections    Project onto .       See the Desmos interactive for Vector basics for a visual      Project onto .       See the Desmos interactive for Vector basics for a visual      "
 },
 {
-  "id": "dot-product-2-1",
+  "id": "dot-product-complete-2-1",
   "level": "2",
-  "url": "dot-product.html#dot-product-2-1",
+  "url": "dot-product-complete.html#dot-product-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen natural ways to combine vectors. There are two ways we can make sense of vector multiplication :    scalar (which is what we'll discuss here)     vector (next time)      "
 },
 {
-  "id": "dot-product-2-2",
+  "id": "dot-product-complete-2-2",
   "level": "2",
-  "url": "dot-product.html#dot-product-2-2",
+  "url": "dot-product-complete.html#dot-product-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Two Perspectives.",
-  "body": " Two Perspectives   We can compute a dot product in two different ways:   "
+  "body": " Two Perspectives   We can compute a dot product in two different ways:       If and , then .     , where is the (smallest) angle between the vectors.     Some general remarks regarding these perspectives:   From the second perspective, we can think of as a measure of how close to parallel the two vectors are.    The dot product is commutative (taking the product in either order produces the same scalar).     , or .      "
 },
 {
-  "id": "dot-product-3-1",
+  "id": "dot-product-complete-3-1",
   "level": "2",
-  "url": "dot-product.html#dot-product-3-1",
+  "url": "dot-product-complete.html#dot-product-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Computations.",
-  "body": " Examples: Computations    Let and . Find .      Find a unit vector perpendicular to .    "
+  "body": " Examples: Computations    Let and . Find .    Use the first perspective, we can compute (so we know ).  Using the second perspective, we can write . A good first attempt would be to solve , which after recalling the range of is , we realize does give the correct angle (which is approximately radians).      Find a unit vector perpendicular to .    Let . Then implies . Since is a unit vector, , which implies . Solving this system of equations gives two solutions, and .    "
 },
 {
-  "id": "dot-product-4-1",
+  "id": "dot-product-complete-4-1",
   "level": "2",
-  "url": "dot-product.html#dot-product-4-1",
+  "url": "dot-product-complete.html#dot-product-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Vector Projections.",
-  "body": " Vector Projections   What is the component of pointing in the direction of ?   "
+  "body": " Vector Projections   What is the component of pointing in the direction of ?    We call this the projection (or shadow) of onto , written .  For any two non-zero vectors and , we can project onto using the definition .   "
 },
 {
-  "id": "dot-product-5-1",
+  "id": "dot-product-complete-5-1",
   "level": "2",
-  "url": "dot-product.html#dot-product-5-1",
+  "url": "dot-product-complete.html#dot-product-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Examples: Projections.",
-  "body": " Examples: Projections    Project onto .      Project onto .    "
+  "body": " Examples: Projections    Project onto .       See the Desmos interactive for Vector basics for a visual      Project onto .       See the Desmos interactive for Vector basics for a visual    "
 },
 {
   "id": "cross-product",
