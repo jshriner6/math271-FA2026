@@ -112,8 +112,8 @@
   <xi:include href="./notes/dot-product-complete.ptx"/> 
 
 
- <xi:include href="./notes/cross-product.ptx"/> 
- <!--<xi:include href="./notes/cross-product-complete.ptx"/> -->
+ <!--<xi:include href="./notes/cross-product.ptx"/>  -->
+ <xi:include href="./notes/cross-product-complete.ptx"/>
 
 <!-- WEEK 10 -->
 
