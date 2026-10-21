@@ -1234,58 +1234,58 @@ var ptx_lunr_docs = [
   "body": " Examples: Projections    Project onto .       See the Desmos interactive for Vector basics for a visual      Project onto .       See the Desmos interactive for Vector basics for a visual    "
 },
 {
-  "id": "cross-product",
+  "id": "cross-product-complete",
   "level": "1",
-  "url": "cross-product.html",
+  "url": "cross-product-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Cross Product",
-  "body": " Cross Product    Motivation        Cross Product   If and , then        Example: Cross Product   Compute .       Geometric Applications   Given vectors , , in 3-dimensional space, the volume of the parallelepiped formed is:       Examples: Linear Independence   Show that , , and are linearly dependent vectors.     "
+  "title": "Cross Product (Complete)",
+  "body": " Cross Product (Complete)    Motivation       The dot product gave us a (geometrically meaningful) way to multiply to vectors to get a scalar. For 3D vectors, we can also multiply vectors to get another (geometrically meaningful) vector.     Cross Product   If and , then      .  This computation comes from a determinant (more later), and there is a trick for remembering the pattern (see class notes).  Note that has both magnitude and direction. The magnitude gives us a measure of how close to parallel\/perpendicular the two vectors are.  As long as is not the zero vector (ie., the two vectors are not parallel), the vector points in a direction which is perpendicular to both and . There are two possibilities here; to determine the correct one, use the right-hand rule .  Note that (so this product does not commute!).       Example: Cross Product   Compute .     . This is why we must take care when drawing a 3D coordinate system.       Geometric Applications   Given vectors , , in 3-dimensional space, the volume of the parallelepiped formed is:     . In the future, we will see that the concept of linear independence between vectors is an important one. In 3D, three vectors are linearly independent if they do not lie in the same plane.  We can use the geometric interpretation above to determine if a set of 3 vectors is linearly independent (non-zero volume) or linearly dependent (zero volume).       Examples: Linear Independence   Show that , , and are linearly dependent vectors.    We can compute that , which means that these vectors lie in the same plane, and are linearly dependent.     "
 },
 {
-  "id": "cross-product-2-1",
+  "id": "cross-product-complete-2-1",
   "level": "2",
-  "url": "cross-product.html#cross-product-2-1",
+  "url": "cross-product-complete.html#cross-product-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       The dot product gave us a (geometrically meaningful) way to multiply to vectors to get a scalar. For 3D vectors, we can also multiply vectors to get another (geometrically meaningful) vector.   "
 },
 {
-  "id": "cross-product-2-2",
+  "id": "cross-product-complete-2-2",
   "level": "2",
-  "url": "cross-product.html#cross-product-2-2",
+  "url": "cross-product-complete.html#cross-product-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Cross Product.",
-  "body": " Cross Product   If and , then    "
+  "body": " Cross Product   If and , then      .  This computation comes from a determinant (more later), and there is a trick for remembering the pattern (see class notes).  Note that has both magnitude and direction. The magnitude gives us a measure of how close to parallel\/perpendicular the two vectors are.  As long as is not the zero vector (ie., the two vectors are not parallel), the vector points in a direction which is perpendicular to both and . There are two possibilities here; to determine the correct one, use the right-hand rule .  Note that (so this product does not commute!).   "
 },
 {
-  "id": "cross-product-3-1",
+  "id": "cross-product-complete-3-1",
   "level": "2",
-  "url": "cross-product.html#cross-product-3-1",
+  "url": "cross-product-complete.html#cross-product-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Cross Product.",
-  "body": " Example: Cross Product   Compute .   "
+  "body": " Example: Cross Product   Compute .     . This is why we must take care when drawing a 3D coordinate system.   "
 },
 {
-  "id": "cross-product-4-1",
+  "id": "cross-product-complete-4-1",
   "level": "2",
-  "url": "cross-product.html#cross-product-4-1",
+  "url": "cross-product-complete.html#cross-product-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Geometric Applications.",
-  "body": " Geometric Applications   Given vectors , , in 3-dimensional space, the volume of the parallelepiped formed is:   "
+  "body": " Geometric Applications   Given vectors , , in 3-dimensional space, the volume of the parallelepiped formed is:     . In the future, we will see that the concept of linear independence between vectors is an important one. In 3D, three vectors are linearly independent if they do not lie in the same plane.  We can use the geometric interpretation above to determine if a set of 3 vectors is linearly independent (non-zero volume) or linearly dependent (zero volume).   "
 },
 {
-  "id": "cross-product-5-1",
+  "id": "cross-product-complete-5-1",
   "level": "2",
-  "url": "cross-product.html#cross-product-5-1",
+  "url": "cross-product-complete.html#cross-product-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Examples: Linear Independence.",
-  "body": " Examples: Linear Independence   Show that , , and are linearly dependent vectors.   "
+  "body": " Examples: Linear Independence   Show that , , and are linearly dependent vectors.    We can compute that , which means that these vectors lie in the same plane, and are linearly dependent.   "
 },
 {
   "id": "vector-spaces",
