@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 6 (Weeks 10 and 11)</title>
+
+  <page>
+  
+
+    <exercise>
+        <introduction>
+            <p>
+           
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   Verify that the set of <m>2 \times 2</m> real matrices form a vector space over 
+                   <m>\R</m>. Identify a basis of this vector space, and use it to determine the dimension of the vector space.
+                </p>
+                
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Are the set of <m>2 \times 2</m> real matrices a vector space over <m>\C</m>? If so, determine a basis 
+                    and the dimension. If not, explain why.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                     Are the set of <m>m \times n</m> complex matrices a vector space over <m>\C</m>? If so, determine a basis 
+                    and the dimension. If not, explain why.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+        Let 
+        <md>
+            \begin{bmatrix}
+            1 \amp 1 \amp 1 \\
+            2 \amp 2 \amp 2
+            \end{bmatrix}
+        </md>.
+
+
+        
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   Find all solutions to <m>A\xvec = \mathbf{0}</m>. This is call the <term>null space</term> of <m>A</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The null space of a matrix is itself a vector space (it is closed under addition and scalar multiplication).
+                    Use your solution above to identify a basis for the null space of <m>A</m>.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+    <exercise>
+        <introduction>
+            <p>
+               
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    
+    </exercise>
+
+   
+     
+
+    <exercise>
+        <introduction>
+            <p>
+               
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   
+                </p>
+            </statement>
+        </task>
+       
+    </exercise>
+   
+    </page>
+
+
+</worksheet>
