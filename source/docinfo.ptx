@@ -22,6 +22,9 @@
     \newcommand{\fvec}{\mathbf{f}}
     \newcommand{\rvec}{\mathbf{r}}
     \newcommand{\zvec}{\mathbf{z}}
+    \newcommand{\xvec}{\mathbf{x}}
+    \newcommand{\bvec}{\mathbf{b}}
+    \newcommand{\cvec}{\mathbf{c}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->

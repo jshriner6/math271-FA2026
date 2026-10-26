@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="linear-systems-complete">
+    <title>Linear Systems (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Systems of linear equations are common in application. Matrices provide a standard way for representing 
+                        these systems, as well as efficiently solving them.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Example: Balancing A Chemical Reaction</title>
+                <statement>
+                    <p>
+               <md>
+                x_1 CH_4 + x_2O_2 \to x_3CO_2 + x_4H_2O
+               </md>
+               
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Balancing this reaction reduces to solving the linear system of equations
+                        <md>
+                            <mrow>4x_1 - 2x_4 \amp = 0 \text{ (balancing Hydrogen)} </mrow>
+                            <mrow>x_1 - x_3 \amp = 0 \text{ (balancing Carbon)} </mrow>
+                            <mrow>2x_2 - 2x_3 - x_4 \amp = 0 \text{ (balancing Oxygen)} </mrow>
+                        </md>
+                        We can encode this system in an <term>augmented matrix</term>, 
+                        <md>
+                         \left[ \begin{array}{rrrr|r}4 \amp 0 \amp 0 \amp -2 \amp 0 \\ 1 \amp 0 \amp -1  \amp 0 \amp 0 \\ 0 \amp 2 \amp -2  \amp -1 \amp 0 \\\end{array} \right].
+                        </md>
+                    </p>
+                    <p>
+                        We can also <url href="https://www.desmos.com/3d/6ia6xz9hrb">view this system geometrically</url>, which can help us intuit solution behavior.
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Example: Augmented Matrix as a Linear System</title>
+                <statement>
+                    <p>
+                        Write the matrix 
+
+                        <md>
+                         \left[ \begin{array}{rrr|r}1 \amp 2 \amp 4 \amp 2 \\ 1 \amp 0 \amp -2  \amp -1 \\ -2 \amp 2 \amp 8  \amp 2 \\\end{array} \right].
+                        </md>
+                        as a linear system of equations.
+                    </p>
+                </statement> 
+            <solution>
+                <p>
+                    This represents the system
+                    <md>
+                            <mrow>x_1 +2x_2 + 4x_3 \amp = 2  </mrow>
+                            <mrow>x_1 - 2x_3 \amp = -1  </mrow>
+                            <mrow>-2x_1 + 2x_2 +8x_3 \amp = 2  </mrow>
+                        </md>
+                </p>
+            </solution>
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="3in">
+        <title>Solutions to Linear Systems</title>
+        <statement>
+            <p>
+                A <term>solution</term> to a linear system <m>A\xvec = \bvec</m> is 
+            </p>
+        </statement>
+        <solution>
+            <p>
+                a vector <m>\cvec</m> such that <m>A\cvec = \bvec</m>. Geometrically, solutions are intersection points. 
+                We'll focus on the details of finding solutions in the next section, but general behavior should we expect for 
+                solutions linear systems?
+            </p>
+        </solution>
+            
+        </exercise>
+
+         <exercise>
+        <title>Thought Exercise: Solutions to Linear Systems</title>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your
+                    answer change?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>0,1,\infty</m>. It is the same for three lines.
+                </p>
+            </solution>
+        </task>
+
+         <task workspace="2in">
+            <statement>
+                <p>
+                    In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your
+                    answer change? 4 planes?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>0,\infty</m>. With 3 or more planes, <m>0,1,\infty</m>.
+                </p>
+            </solution>
+        </task>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Summary: Solutions to Linear Systems</title>
+       <statement>
+        <p>
+            
+        </p>
+       </statement>
+       <solution>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The solution space to a linear system has only three possibilities:
+                        <ol>
+                            <li>
+                                <p>
+                                    No solutions. This is called an <term>inconsistent system</term>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Exactly one solution.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Infinitely many solutions.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The general trends are that if there are many more rows than columns (a <q>tall</q> matrix), it is likely
+                        the system is inconsistent. If there are many more columns than rows (a <q>wide</q> matrix), it is likely
+                        there are many solutions. 
+                    </p>
+                    <p>
+                        These are just trends, and there are exceptions to both of these rules of thumb, as we've already reasoned 
+                        in this section.
+                    </p>
+                </li>
+            </ol>
+        </p>
+       </solution>
+    </exercise>
+    
+    </page>
+
+   
+
+       
+    </worksheet>

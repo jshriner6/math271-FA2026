@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="rref">
+    <title>Solving Linear Systems</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Review</title>
+                <statement>
+                    <p>
+               Recall, we can represent a linear system as an augmented matrix:
+                
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+    <exercise>
+        <title>RREF</title>
+       <task workspace="2in">
+        <statement>
+            <p>
+                 There is an efficient algorithm which takes a linear system and reduces it to a simpler system
+                <em>that has the same solution space</em>.
+            </p>
+        </statement>
+       </task>
+        <task workspace="3in">
+            <statement>
+                <p>
+                     Given an augmented matrix, technology can help us perform these <q>row operation</q> to obtain
+                     a simplest linear system that has the same solution space, called
+                </p>
+                <p>
+                    <md>
+                    \left[ \begin{array}{rrrrrr}1 \amp * \amp 0 \amp * \amp 0 \amp * \\ 0 \amp 0 \amp 1 \amp * \amp 0 \amp * \\ 0 \amp 0 \amp 0 \amp 0 \amp 1 \amp * \\ 0 \amp 0 \amp 0 \amp 0 \amp 0 \amp 0 \\ 0 \amp 0 \amp 0 \amp 0 \amp 0 \amp 0 \\\end{array} \right].
+                    </md>
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Consider the system
+                    <md>
+                        <mrow>x_1 + 2x_2 + 4x_3 \amp= 2 </mrow>
+                        <mrow>x_1 - 2x_3 \amp= -1 </mrow>
+                        <mrow>-2x_1 + 2x_2 +8x_3 \amp=2 </mrow>
+                    </md>
+                    
+                </p>
+            </statement>
+        </task>
+      
+    
+         
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Examples: Using RREF</title>
+        <introduction>
+            <p>
+                Solve <m>A\xvec = \bvec</m>.
+            </p>
+        </introduction>
+        <task workspace="6in">
+            <statement>
+                <p>
+                <md>
+                A =  \left[ \begin{array}{rrr}0 \amp 2 \amp 4\\ 1 \amp 0 \amp -2   \\ -2 \amp 2 \amp 8 \\\end{array} \right], 
+                \bvec = \left[\begin{array}{r} 2 \\ -1 \\ 2 \end{array}\right]
+                </md>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="6in">
+            <statement>
+                <p>
+                <md>
+                A =  \left[ \begin{array}{rrr}1 \amp 2 \amp 4\\ 1 \amp 0 \amp -2   \\ -1 \amp -2 \amp -4 \\\end{array} \right], 
+                \bvec = \left[\begin{array}{r} 2 \\ -1 \\ -2 \end{array}\right]
+                </md>
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Exercise: Solving Linear Systems</title>
+        <statement>
+            <p>
+               Solve
+               <md>
+                <mrow>2x_1 + 6x_2 + x_3 - x_4 \amp =1 </mrow>
+                <mrow>-x_1 -3x_2 + 3x_3 +2x_4 \amp =0 </mrow>
+                <mrow>3x_1 + 9x_2 - x_3 + x_4 \amp =19 </mrow>
+                <mrow>x_1 + 3x_2 + x_3 + x_4 \amp =7 </mrow>
+               </md>
+                
+            </p>
+        </statement>
+    </exercise>
+</page>
+
+
+
+       
+    </worksheet>

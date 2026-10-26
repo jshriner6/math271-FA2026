@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="rref-complete">
+    <title>Solving Linear Systems (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We've seen matrices provide a way to express a linear system of equations. We'll look at how to describe
+                        the solution spaces of systems (using technology).
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Review</title>
+                <statement>
+                    <p>
+               Recall, we can represent a linear system as an augmented matrix:
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        The system <m>C\xvec = \bvec</m> can be represented as <m>\left[ C | \bvec \right]</m>. A solution
+                        is a vector <m>\xvec</m> which has values satisfying every equation in the system simultaneously. Geometrically, 
+                        this is an intersection point. We know there are only 3 possibilities: there are no solutions, exactly one solution,
+                        or infinitely many solutions.
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+    <exercise>
+        <title>RREF</title>
+       <task workspace="2in">
+        <statement>
+            <p>
+                 There is an efficient algorithm which takes a linear system and reduces it to a simpler system
+                <em>that has the same solution space</em>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                For example, if you were given the system of two equations, <m>3x+y = 4</m> and <m>-3x-2y = 8</m>, you could perform
+                algebraic operations to reduce the system to <m>x=16/3</m> and <m>y=-12</m> (these operations are known as <term>row operations</term>).
+                These operations don't change the solution space, but the last system makes it much more clear what the solution is.
+            </p>
+        </solution>
+       </task>
+        <task workspace="3in">
+            <statement>
+                <p>
+                     Given an augmented matrix, technology can help us perform these <q>row operation</q> to obtain
+                     a simplest linear system that has the same solution space, called
+                </p>
+                <p>
+                    <md>
+                    \left[ \begin{array}{rrrrrr}1 \amp * \amp 0 \amp * \amp 0 \amp * \\ 0 \amp 0 \amp 1 \amp * \amp 0 \amp * \\ 0 \amp 0 \amp 0 \amp 0 \amp 1 \amp * \\ 0 \amp 0 \amp 0 \amp 0 \amp 0 \amp 0 \\ 0 \amp 0 \amp 0 \amp 0 \amp 0 \amp 0 \\\end{array} \right].
+                    </md>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <term>reduced row echelon form (RREF)</term>. RREF satisfies 
+                    <ol>
+                        <li>
+                            <p>
+                                All <m>0</m> rows are at the bottom.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The first non-zero entry in every row is a <m>1</m> (called the <term>leading entry</term>).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The leading entry in a row is to the right of the leading entries in all rows above it.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Leading entries are the only non-zero entries in their columns.
+                            </p>
+                        </li>
+                    </ol>
+                    We'll use technology to obtain RREF matrices, but we need to know how to interpret them.
+                </p>
+            </solution>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Consider the system
+                    <md>
+                        <mrow>x_1 + 2x_2 + 4x_3 \amp= 2 </mrow>
+                        <mrow>x_1 - 2x_3 \amp= -1 </mrow>
+                        <mrow>-2x_1 + 2x_2 +8x_3 \amp=2 </mrow>
+                    </md>
+                    
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Use the <url href="https://www.desmos.com/matrix">Desmos matrix calculator</url> to obtain RREF for the 
+                    associated augmented matrix. You should get 
+                    <md>
+                         \left[ \begin{array}{rrr|r}1 \amp 0 \amp 0 \amp 2\\ 0 \amp 1 \amp 0 \amp -3   \\ 0 \amp 0 \amp 1 \amp 1.5 \\\end{array} \right]
+                    </md>
+                    This corresponds to a unique solution, <m>\xvec = \left[\begin{array}{r} 2 \\ -3 \\ 1.5 \end{array}\right]</m>.
+                </p>
+                <p>
+                    Columns containing a pivot position correspond to variables called <term>basic variables</term>. In this example,
+                    every variable is basic.
+                </p>
+            </solution>
+        </task>
+      
+    
+         
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Examples: Using RREF</title>
+        <introduction>
+            <p>
+                Solve <m>A\xvec = \bvec</m>.
+            </p>
+        </introduction>
+        <task workspace="6in">
+            <statement>
+                <p>
+                <md>
+                A =  \left[ \begin{array}{rrr}0 \amp 2 \amp 4\\ 1 \amp 0 \amp -2   \\ -2 \amp 2 \amp 8 \\\end{array} \right], 
+                \bvec = \left[\begin{array}{r} 2 \\ -1 \\ 2 \end{array}\right]
+                </md>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Use the <url href="https://www.desmos.com/matrix">Desmos matrix calculator</url> to obtain RREF for the 
+                    associated augmented matrix. You should get 
+                    <md>
+                         \left[ \begin{array}{rrr|r}1 \amp 0 \amp -2 \amp 0\\ 0 \amp 1 \amp 2 \amp 0   \\ 0 \amp 0 \amp 0 \amp 1 \\\end{array} \right]
+                    </md>
+                    The last row corresponds to the equation <m>0=1</m>, which is a contradiction. This means this system has no solution.
+                </p>
+               
+            </solution>
+        </task>
+
+        <task workspace="6in">
+            <statement>
+                <p>
+                <md>
+                A =  \left[ \begin{array}{rrr}1 \amp 2 \amp 4\\ 1 \amp 0 \amp -2   \\ -1 \amp -2 \amp -4 \\\end{array} \right], 
+                \bvec = \left[\begin{array}{r} 2 \\ -1 \\ -2 \end{array}\right]
+                </md>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Use the <url href="https://www.desmos.com/matrix">Desmos matrix calculator</url> to obtain RREF for the 
+                    associated augmented matrix. You should get 
+                    <md>
+                         \left[ \begin{array}{rrr|r}1 \amp 0 \amp -2 \amp -1\\ 0 \amp 1 \amp 3 \amp 1.5   \\ 0 \amp 0 \amp 0 \amp 0 \\\end{array} \right]
+                    </md>
+                    
+                </p>
+                <p>
+                    Columns containing no pivot position correspond to variables called <term>free variables</term>. In this example,
+                    <m>x_3</m> is free, and indicates there are infinitely many solutions.
+                </p>
+                <p>
+                    The first two rows say that <m>x_1 = 2x_3 -1</m> and <m>x_2 = -3x_3 + 1.5</m>. Note that we wrote each basic variable 
+                    in terms of the free variable. So our solution space is 
+                    <md>
+                        \xvec = \left[\begin{array}{r} 2x_3 -1 \\ -3x_3 + 1.5 \\ x_3\end{array}\right]
+                    </md>,
+                    <m>x_3 \in \R</m>.
+                    
+                </p>
+               
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Exercise: Solving Linear Systems</title>
+        <statement>
+            <p>
+               Solve
+               <md>
+                <mrow>2x_1 + 6x_2 + x_3 - x_4 \amp =1 </mrow>
+                <mrow>-x_1 -3x_2 + 3x_3 +2x_4 \amp =0 </mrow>
+                <mrow>3x_1 + 9x_2 - x_3 + x_4 \amp =19 </mrow>
+                <mrow>x_1 + 3x_2 + x_3 + x_4 \amp =7 </mrow>
+               </md>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The solution space is 
+                <md>
+                    \xvec = \left[\begin{array}{r} 4-3x_2 \\ x_2 \\ -2 \\ 5 \end{array}\right]
+                </md>.
+                
+            </p>
+        </solution>
+    </exercise>
+</page>
+
+
+
+       
+    </worksheet>

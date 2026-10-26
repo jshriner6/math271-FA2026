@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="matrices">
+    <title>Matrices</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Matrix Structure</title>
+                <statement>
+                    <p>
+               An <m>m \times n</m> <term>matrix</term> has
+                
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+            <exercise>
+                <title>Matrix Arithmetic</title>
+             <task workspace="1in">
+                <statement>
+                    <p>
+                        The <em>sum</em> of two matrices, denoted <m>A + B</m>, is the matrix whose
+                                                entries are the sums of the corresponding entries of <m>A</m> and <m>B</m>.
+                                                Compute <m>A +B</m> for each pair of matrices below, when possible. If not possible, explain why.
+                        <ol>
+                                                    <li>
+                                                        <p>
+                                                            <m>A = \begin{bmatrix}1&amp;3&amp;-1 \\ -2&amp;2&amp;1 \\ 7&amp;8&amp;-10\end{bmatrix}</m>,
+                                                            <m>B = \begin{bmatrix}0&amp;2&amp;-5 \\1&amp;3&amp;-1 \\ -5&amp;2&amp;13\end{bmatrix}</m>
+                                                        </p>
+                                                    </li>
+                        
+                                                    <li>
+                                                        <p>
+                                                            <m>A = \begin{bmatrix}0&amp;5 \\ -2&amp;3 \\ 10&amp;4\end{bmatrix}</m>,
+                                                            <m>B = \begin{bmatrix}1 &amp; 3 \\ 3 &amp; 5 \\ 1 &amp; -1\end{bmatrix}</m>
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>
+                                                            <m>\displaystyle \begin{bmatrix}2&amp;1 \\ 1 &amp; 2\end{bmatrix} + \begin{bmatrix}2 \\ 3\end{bmatrix}</m>
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                    </p>
+                </statement>
+             </task>
+
+             <task workspace="2in">
+                <statement>
+                    <p>
+                        The number <m>0</m> is called an <em>additive identity</em> because
+                                                <m>a + 0 = 0 +a = a</m> for any number <m>a</m>.
+                                                Is there an additive identity for <m>2 \times 2</m> matrices?
+                                                If so, what is it?
+                    </p>
+                </statement>
+             </task>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                       For any number <m>a</m>, the number <m>-a</m> is called an
+                                               <em>additive inverse</em> of <m>a</m> because <m>a + (-a) = 0</m>.
+                                               Does the matrix
+                                               <m>\displaystyle \begin{bmatrix}2&amp;1 \\ 1 &amp; 2\end{bmatrix}</m> have an
+                                               additive inverse?
+                                               If so, what is it? 
+                    </p>
+                </statement>
+            </task>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        If <m>b</m> is any real number, the matrix <m>bA</m> is the matrix obtained by
+                                                multiplying every entry of <m>A</m> by the number <m>b</m>.
+                                                This is called <em>scalar multiplication</em>.
+                                                 Compute <m>bA</m> for each pair <m>b,A</m> below, if possible. If not possible,
+                                                explain why.
+                                                <ol>
+                                                    <li>
+                                                        <p>
+                                                            <m>A = \begin{bmatrix}1&amp;3&amp;-1 \\ -2&amp;2&amp;1 \\ 7&amp;8&amp;-10\end{bmatrix}, b= 3</m>
+                                                        </p>
+                                                    </li>
+                        
+                                                    <li>
+                                                        <p>
+                                                            <m>A = \begin{bmatrix}0&amp;5 \\ -2&amp;3 \\ 10&amp;4\end{bmatrix}, b = -5</m>
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                    Does the set of all real matrices form a vector space over <m>\R</m>? Explain why or why not.
+                    </p>
+                </statement>
+            </task>
+          
+            </exercise>
+</page>
+<page>
+        <exercise>
+        <title>Matrix Multiplication</title>
+        <task workspace="6in">
+            <statement>
+                <p>
+                    <em>Matrix/Vector:</em>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="6in">
+            <statement>
+                <p>
+                    <em>Matrix/Matrix:</em>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Find <m>A \cdot B</m> and <m>B \cdot A</m>, when possible, for each pair of
+                                        matrices below.
+                                        If the product is not possible, explain why.
+                                        <ol>
+                                            <li>
+                                                <p>
+                                                    <m>A = \begin{bmatrix}1 &amp; 3 &amp; -1 \\ -2 &amp; 2 &amp; 1 \\ 7 &amp; 8 &amp; 2\end{bmatrix}</m>,
+                                                    <m>B = \begin{bmatrix}0 &amp; 2 &amp; -5 \\1 &amp; 3 &amp; -1 \\ -5 &amp; 2 &amp; -3\end{bmatrix}</m>
+                                                </p>
+                                            </li>
+                    
+                                            <li>
+                                                <p>
+                                                    <m>A = \begin{bmatrix}0&amp;5 \\ -2&amp;3 \\ 10&amp;4\end{bmatrix}</m>,
+                                                    <m>B = \begin{bmatrix}1 &amp; 3 &amp; 3\\ 3 &amp; 5 &amp;1\end{bmatrix}</m>
+                                                </p>
+                                            </li>
+                    
+                                            <li>
+                                                <p>
+                                                    <m>A = \begin{bmatrix}0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0\end{bmatrix}</m>,
+                                                    <m>B = \begin{bmatrix}-1&amp;5 \\ 6&amp;10\end{bmatrix}</m>
+                                                </p>
+                                            </li>
+                                        </ol>
+                </p>
+            </statement>
+        </task>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Matrix Multiplication (continued)</title>
+       <task workspace="2in">
+        <statement>
+            <p>
+                Is matrix multiplication commutative?
+            </p>
+        </statement>
+       </task>
+
+       <task workspace="2in">
+        <statement>
+            <p>
+                <em>Zero Divisors:</em>
+            </p>
+        </statement>
+       </task>
+
+       <task workspace="2in">
+        <statement>
+            <p>
+                <em>Multiplicative Identity:</em>
+            </p>
+        </statement>
+       </task>
+       
+       
+        </exercise>
+    
+    </page>
+
+    <page>
+        <exercise>
+            <title>Other Operations on Matrices</title>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        <term>Matrix Transpose</term>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        <term>Trace</term> (square matrices)
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        <term>Inverse</term> (square matrices)
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        <term>Determinant</term> (square matrices)
+                    </p>
+                </statement>
+            </task>
+            
+        </exercise>
+    </page>
+
+
+       
+    </worksheet>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="linear-systems">
+    <title>Linear Systems</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Example: Balancing A Chemical Reaction</title>
+                <statement>
+                    <p>
+               <md>
+                x_1 CH_4 + x_2O_2 \to x_3CO_2 + x_4H_2O
+               </md>
+               
+                
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+            <exercise workspace="3in">
+                <title>Example: Augmented Matrix as a Linear System</title>
+                <statement>
+                    <p>
+                        Write the matrix 
+
+                        <md>
+                         \left[ \begin{array}{rrr|r}1 \amp 2 \amp 4 \amp 2 \\ 1 \amp 0 \amp -2  \amp -1 \\ -2 \amp 2 \amp 8  \amp 2 \\\end{array} \right].
+                        </md>
+                        as a linear system of equations.
+                    </p>
+                </statement> 
+           
+          
+            </exercise>
+</page>
+<page>
+        <exercise workspace="3in">
+        <title>Solutions to Linear Systems</title>
+        <statement>
+            <p>
+                A <term>solution</term> to a linear system <m>A\xvec = \bvec</m> is 
+            </p>
+        </statement>
+        
+            
+        </exercise>
+
+         <exercise workspace="3in">
+        <title>Thought Exercise: Solutions to Linear Systems</title>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your
+                    answer change?
+                </p>
+            </statement>
+        </task>
+
+         <task workspace="2in">
+            <statement>
+                <p>
+                    In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your
+                    answer change? 4 planes?
+                </p>
+            </statement>
+        </task>
+        
+            
+        </exercise>
+</page>
+<page>
+
+        <exercise workspace="5in">
+        <title>Summary: Solutions to Linear Systems</title>
+       <statement>
+        <p>
+            
+        </p>
+       </statement>
+    </exercise>
+    
+    </page>
+
+   
+
+       
+    </worksheet>

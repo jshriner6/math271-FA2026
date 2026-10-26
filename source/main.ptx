@@ -126,6 +126,19 @@
  <xi:include href="./notes/bases.ptx"/> 
  <!--<xi:include href="./notes/bases-complete.ptx"/> -->
 
+
+ <!-- WEEK 11 -->
+ <xi:include href="./notes/matrices.ptx"/> 
+ <!--<xi:include href="./notes/matrices-complete.ptx"/> -->
+
+ <xi:include href="./notes/linear-systems.ptx"/> 
+ <!--<xi:include href="./notes/linear-systems-complete.ptx"/> -->
+
+ <xi:include href="./notes/RREF.ptx"/> 
+ <!--<xi:include href="./notes/RREF-complete.ptx"/> -->
+
+ 
+
       <!-- etc. -->
 
     </chapter>
