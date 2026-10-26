@@ -1288,58 +1288,58 @@ var ptx_lunr_docs = [
   "body": " Examples: Linear Independence   Show that , , and are linearly dependent vectors.    We can compute that , which means that these vectors lie in the same plane, and are linearly dependent.   "
 },
 {
-  "id": "vector-spaces",
+  "id": "vector-spaces-complete",
   "level": "1",
-  "url": "vector-spaces.html",
+  "url": "vector-spaces-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Vector Spaces",
-  "body": " Vector Spaces    Motivation        Vector Space   A vector space is a set (called vectors ) over or (the scalars ) such that      Addition        Scalar       These operations behave nicely :             There exists a vector such that     For every vector , there is another vector which is an additive inverse:     For every vector ,                           Examples: Vector Spaces          Vector Magnitude   The definition of a vector space has no requirement about defining the magnitude of a vector. This is additional structure that must be defined, and that we can do in a natural way:       More on Inner Products   There are some necessary properties an inner product must satisfy to make it a valid inner product. For example, we must have that . But what makes a valid definition a good definition?     "
+  "title": "Vector Spaces (Complete)",
+  "body": " Vector Spaces (Complete)    Motivation       Wave functions live in a more general mathematical space which has a useful structure. We can draw intuition from how we've previously defined vector , but it is important to understand vectors in a more general sense.     Vector Space   A vector space is a set (called vectors ) over or (the scalars ) such that      Addition     of vectors is defined. That is, we know how to take any two vectors in and produce another vector in .       Scalar     multiplication is defined. That is, we know how to multiply and vector from by a scalar to produce another vector in .      These operations behave nicely :             There exists a vector such that     For every vector , there is another vector which is an additive inverse:     For every vector ,                       Note that in quantum mechanics, you typically work in a complex vector space (a vector space whose scalars are complex numbers).        Examples: Vector Spaces          Scalar                    (polynomials of degree )     (continuous functions from )     Solutions to Schrödinger's equation,     The last three examples are known as function spaces because the vectors are functions.       Vector Magnitude   The definition of a vector space has no requirement about defining the magnitude of a vector. This is additional structure that must be defined, and that we can do in a natural way:    Recall that in , the dot product is used to compute magnitude: This motivates a general way to define magnitude of a vector in any vector space :   Define a valid inner product of vectors (a way to combine any two vectors to produce a scalar).    Use the inner product to define magnitude as           More on Inner Products   There are some necessary properties an inner product must satisfy to make it a valid inner product. For example, we must have that . But what makes a valid definition a good definition?    Recall that with the dot product in , when and are perpendicular (orthogonal). In the sense of projections, such vectors are as dissimilar (indpendent) as they could be.  This is our intuition: for any vector space , should imply a notion of independence between and .     "
 },
 {
-  "id": "vector-spaces-2-1",
+  "id": "vector-spaces-complete-2-1",
   "level": "2",
-  "url": "vector-spaces.html#vector-spaces-2-1",
+  "url": "vector-spaces-complete.html#vector-spaces-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Wave functions live in a more general mathematical space which has a useful structure. We can draw intuition from how we've previously defined vector , but it is important to understand vectors in a more general sense.   "
 },
 {
-  "id": "vector-spaces-2-2",
+  "id": "vector-spaces-complete-2-2",
   "level": "2",
-  "url": "vector-spaces.html#vector-spaces-2-2",
+  "url": "vector-spaces-complete.html#vector-spaces-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Vector Space.",
-  "body": " Vector Space   A vector space is a set (called vectors ) over or (the scalars ) such that      Addition        Scalar       These operations behave nicely :             There exists a vector such that     For every vector , there is another vector which is an additive inverse:     For every vector ,                       "
+  "body": " Vector Space   A vector space is a set (called vectors ) over or (the scalars ) such that      Addition     of vectors is defined. That is, we know how to take any two vectors in and produce another vector in .       Scalar     multiplication is defined. That is, we know how to multiply and vector from by a scalar to produce another vector in .      These operations behave nicely :             There exists a vector such that     For every vector , there is another vector which is an additive inverse:     For every vector ,                       Note that in quantum mechanics, you typically work in a complex vector space (a vector space whose scalars are complex numbers).    "
 },
 {
-  "id": "vector-spaces-3-1",
+  "id": "vector-spaces-complete-3-1",
   "level": "2",
-  "url": "vector-spaces.html#vector-spaces-3-1",
+  "url": "vector-spaces-complete.html#vector-spaces-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Vector Spaces.",
-  "body": " Examples: Vector Spaces      "
+  "body": " Examples: Vector Spaces          Scalar                    (polynomials of degree )     (continuous functions from )     Solutions to Schrödinger's equation,     The last three examples are known as function spaces because the vectors are functions.   "
 },
 {
-  "id": "vector-spaces-4-1",
+  "id": "vector-spaces-complete-4-1",
   "level": "2",
-  "url": "vector-spaces.html#vector-spaces-4-1",
+  "url": "vector-spaces-complete.html#vector-spaces-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Vector Magnitude.",
-  "body": " Vector Magnitude   The definition of a vector space has no requirement about defining the magnitude of a vector. This is additional structure that must be defined, and that we can do in a natural way:   "
+  "body": " Vector Magnitude   The definition of a vector space has no requirement about defining the magnitude of a vector. This is additional structure that must be defined, and that we can do in a natural way:    Recall that in , the dot product is used to compute magnitude: This motivates a general way to define magnitude of a vector in any vector space :   Define a valid inner product of vectors (a way to combine any two vectors to produce a scalar).    Use the inner product to define magnitude as       "
 },
 {
-  "id": "vector-spaces-5-1",
+  "id": "vector-spaces-complete-5-1",
   "level": "2",
-  "url": "vector-spaces.html#vector-spaces-5-1",
+  "url": "vector-spaces-complete.html#vector-spaces-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "More on Inner Products.",
-  "body": " More on Inner Products   There are some necessary properties an inner product must satisfy to make it a valid inner product. For example, we must have that . But what makes a valid definition a good definition?   "
+  "body": " More on Inner Products   There are some necessary properties an inner product must satisfy to make it a valid inner product. For example, we must have that . But what makes a valid definition a good definition?    Recall that with the dot product in , when and are perpendicular (orthogonal). In the sense of projections, such vectors are as dissimilar (indpendent) as they could be.  This is our intuition: for any vector space , should imply a notion of independence between and .   "
 },
 {
   "id": "hilbert-spaces",
