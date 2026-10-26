@@ -157,17 +157,14 @@
       <cell><m>\R</m></cell>
     </row>
     <row>
-      <cell>Linear combinations of functions of complex-valued functions <m>\{\psi_n\}_{n=1}^\infty</m></cell>
+      <cell>Solutions to Schrödinger's equation, <m>\psi_n: \R \to \C</m></cell>
       <cell><m>\C</m></cell>
     </row>
   </tabular>
 <p>
            The last three examples are known as <term>function spaces</term> because the vectors are functions.
         </p>
-        <p>
-            Note that the last example is a typical vector space in quantum mechanics, where the <m>\psi_n</m> functions are
-            solutions to Schrödinger's equation.
-        </p>
+       
                     
                 </solution>
           
