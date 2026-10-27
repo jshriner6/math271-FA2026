@@ -76,7 +76,7 @@
                  \begin{bmatrix}
                     1 \amp 2 \amp 0 \amp -1 \\
                    2 \amp 4 \amp -3 \amp -2 \\
-                    -11  \amp -2 \amp 6 \amp 1
+                    -1  \amp -2 \amp 6 \amp 1
                 \end{bmatrix}, \quad
 
                 \bvec = \begin{bmatrix}
