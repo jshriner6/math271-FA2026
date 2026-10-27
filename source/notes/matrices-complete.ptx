@@ -81,7 +81,31 @@
                 </statement>
                 <solution>
                     <p>
-                        See notes from class for solutions.
+                       <ol>
+                        <li>
+                            <p>
+                                <m>A +B = \begin{bmatrix}
+                                            1 \amp 5 \amp -6 \\
+                                            -1 \amp 5 \amp 0 \\
+                                            2 \amp 10 \amp 3
+                                \end{bmatrix}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> A + B  =\begin{bmatrix}
+                                            1 \amp 8 \\
+                                            1 \amp 8 \\
+                                            11 \amp 3
+                                \end{bmatrix} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                This sum is not defined since <m>A</m> and <m>B</m> have different dimensions.
+                            </p>
+                        </li>
+                       </ol>
                     </p>
                 </solution>
              </task>
@@ -95,6 +119,16 @@
                                                 If so, what is it?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Yes, it is the matrix
+                        <m>\begin{bmatrix}
+                                            0 \amp 0 \\
+                                            0 \amp 0
+                                \end{bmatrix}</m>,
+                                called the <term>zero matrix</term>.
+                    </p>
+                </solution>
              </task>
             <task workspace="2in">
                 <statement>
@@ -109,7 +143,7 @@
                 </statement>
                 <solution>
                     <p>
-                        See notes from class for solutions.
+                        Yes, it is the matrix <m>\displaystyle \begin{bmatrix}-2&amp; -1 \\ -1 &amp; -2\end{bmatrix}</m>.
                     </p>
                 </solution>
             </task>
@@ -138,7 +172,29 @@
                 </statement>
                 <solution>
                     <p>
-                        See notes from class for solutions.
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>3A = 
+                                    \begin{bmatrix}
+                                    3 \amp 9 \amp -3 \\
+                                    -6 \amp 6 \amp 3 \\
+                                    21 \amp 24 \amp -30
+                                    \end{bmatrix}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-5A = 
+                                    \begin{bmatrix}
+                                    0 \amp -25 \\
+                                    10 \amp -15 \\
+                                    -50 \amp -20
+                                    \end{bmatrix}</m>
+                                </p>
+                            </li>
+                        </ol>
+                        We can always compute scalar multiples of matrices.
                     </p>
                 </solution>
             </task>
@@ -150,8 +206,8 @@
                 </statement>
                 <solution>
                     <p>
-                        No. This set is not closed under addition. However, the set of all <m>m \times n</m> matrices does form
-                        an <m>mn</m>-dimensional vector space.
+                        No. This set is not closed under addition. However, the set of all <m>m \times n</m> real matrices does form
+                        an <m>mn</m>-dimensional vector space over <m>\R</m>.
                     </p>
                 </solution>
             </task>
@@ -220,7 +276,57 @@
             </statement>
             <solution>
                 <p>
-                    See solutions from class.
+                    <ol>
+                        <li>
+                            <p>
+                                <md>
+                                    AB = \begin{bmatrix}
+                                    8 \amp 9 \amp -5 \\
+                                    -3 \amp 4 \amp 5 \\
+                                    -2 \amp 42 \amp -49
+                                    \end{bmatrix}
+                                </md>
+                                and
+                                <md>
+                                    BA = \begin{bmatrix}
+                                    -39 \amp -36 \amp -8 \\
+                                    -12 \amp 1 \amp 0 \\
+                                    -30 \amp -35 \amp 1
+                                    \end{bmatrix}
+                                </md>
+                                
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <md>
+                                    AB = \begin{bmatrix}
+                                    15 \amp 25 \amp 5 \\
+                                    7   \amp 9 \amp -3 \\
+                                    22 \amp 50 \amp 34
+                                    \end{bmatrix}
+                                </md>
+                                and
+                                <md>
+                                    BA = \begin{bmatrix}
+                                    24 \amp 26 \\
+                                    0 \amp 34
+                                    \end{bmatrix}
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p> <m>AB</m> is undefined, and
+                                <md>
+                                    BA = \begin{bmatrix}
+                                    0 \amp 0 \amp 0 \amp 0\\
+                                    0 \amp 0 \amp 0 \amp 0
+                                    \end{bmatrix}
+                                </md>.
+                                
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </solution>
         </task>
