@@ -1342,58 +1342,58 @@ var ptx_lunr_docs = [
   "body": " More on Inner Products   There are some necessary properties an inner product must satisfy to make it a valid inner product. For example, we must have that . But what makes a valid definition a good definition?    Recall that with the dot product in , when and are perpendicular (orthogonal). In the sense of projections, such vectors are as dissimilar (indpendent) as they could be.  This is our intuition: for any vector space , should imply a notion of independence between and .   "
 },
 {
-  "id": "hilbert-spaces",
+  "id": "hilbert-spaces-complete",
   "level": "1",
-  "url": "hilbert-spaces.html",
+  "url": "hilbert-spaces-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Hilbert Spaces",
-  "body": " Hilbert Spaces    Motivation        Hilbert Space   Wave functions live within a Hilbert Space , which                         Inner Product for Wave Functions   The inner product for wave functions is similar to what we've introduced earlier for general functions, but we need to take more care for spaces over .       Completeness   Convergent series of wave functions are again valid wave functions.       Summary   When working with a set of valid wave functions, we can     "
+  "title": "Hilbert Spaces (Complete)",
+  "body": " Hilbert Spaces (Complete)    Motivation       Vector spaces are important because these are the general spaces wave functions live in. However, we also need some additional structure for comparing wave functions and guaranteeing that we can combine wave functions in natural ways and still have a valid wave function.     Hilbert Space   Wave functions live within a Hilbert Space , which         is a vector space. So mathematically, wave functions are vectors.          contains an inner product. So mathematically, we can determine whether or not two wave functions are independent.          is complete. So mathematically, we can combine wave functions in meaningful ways to get another wave function.        Inner Product for Wave Functions   The inner product for wave functions is similar to what we've introduced earlier for general functions, but we need to take more care for spaces over .    For two complex-valued functions and , we define This satisfies the necessary properties of an inner product. In particular, , which is the reason we need the conjugate of one of the functions in the definition.  Note that computing is necessary for normalizing the square of a wave function, which is used as a probability distribution: As long as the last integral converges, we can multiply by the necessary constant to normalize.       Completeness   Convergent series of wave functions are again valid wave functions.    If is a set of valid wave functions and converges, then is a valid wave function.  In contrast, there are examples of vector spaces which are not complete:    (over ). We can sum infinitely many rational numbers to converge to (an irrational number).    The set of all polynomials on the interval . Recall that we built Taylor series to converge to non-polynomial functions.          Summary   When working with a set of valid wave functions, we can       determine whether two functions are orthogonal (independent) using the inner product .    form convergent series of wave functions and know the series is also a valid wave function.        "
 },
 {
-  "id": "hilbert-spaces-2-1",
+  "id": "hilbert-spaces-complete-2-1",
   "level": "2",
-  "url": "hilbert-spaces.html#hilbert-spaces-2-1",
+  "url": "hilbert-spaces-complete.html#hilbert-spaces-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Vector spaces are important because these are the general spaces wave functions live in. However, we also need some additional structure for comparing wave functions and guaranteeing that we can combine wave functions in natural ways and still have a valid wave function.   "
 },
 {
-  "id": "hilbert-spaces-2-2",
+  "id": "hilbert-spaces-complete-2-2",
   "level": "2",
-  "url": "hilbert-spaces.html#hilbert-spaces-2-2",
+  "url": "hilbert-spaces-complete.html#hilbert-spaces-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Hilbert Space.",
-  "body": " Hilbert Space   Wave functions live within a Hilbert Space , which                     "
+  "body": " Hilbert Space   Wave functions live within a Hilbert Space , which         is a vector space. So mathematically, wave functions are vectors.          contains an inner product. So mathematically, we can determine whether or not two wave functions are independent.          is complete. So mathematically, we can combine wave functions in meaningful ways to get another wave function.    "
 },
 {
-  "id": "hilbert-spaces-3-1",
+  "id": "hilbert-spaces-complete-3-1",
   "level": "2",
-  "url": "hilbert-spaces.html#hilbert-spaces-3-1",
+  "url": "hilbert-spaces-complete.html#hilbert-spaces-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Inner Product for Wave Functions.",
-  "body": " Inner Product for Wave Functions   The inner product for wave functions is similar to what we've introduced earlier for general functions, but we need to take more care for spaces over .   "
+  "body": " Inner Product for Wave Functions   The inner product for wave functions is similar to what we've introduced earlier for general functions, but we need to take more care for spaces over .    For two complex-valued functions and , we define This satisfies the necessary properties of an inner product. In particular, , which is the reason we need the conjugate of one of the functions in the definition.  Note that computing is necessary for normalizing the square of a wave function, which is used as a probability distribution: As long as the last integral converges, we can multiply by the necessary constant to normalize.   "
 },
 {
-  "id": "hilbert-spaces-4-1",
+  "id": "hilbert-spaces-complete-4-1",
   "level": "2",
-  "url": "hilbert-spaces.html#hilbert-spaces-4-1",
+  "url": "hilbert-spaces-complete.html#hilbert-spaces-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Completeness.",
-  "body": " Completeness   Convergent series of wave functions are again valid wave functions.   "
+  "body": " Completeness   Convergent series of wave functions are again valid wave functions.    If is a set of valid wave functions and converges, then is a valid wave function.  In contrast, there are examples of vector spaces which are not complete:    (over ). We can sum infinitely many rational numbers to converge to (an irrational number).    The set of all polynomials on the interval . Recall that we built Taylor series to converge to non-polynomial functions.      "
 },
 {
-  "id": "hilbert-spaces-5-1",
+  "id": "hilbert-spaces-complete-5-1",
   "level": "2",
-  "url": "hilbert-spaces.html#hilbert-spaces-5-1",
+  "url": "hilbert-spaces-complete.html#hilbert-spaces-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Summary.",
-  "body": " Summary   When working with a set of valid wave functions, we can   "
+  "body": " Summary   When working with a set of valid wave functions, we can       determine whether two functions are orthogonal (independent) using the inner product .    form convergent series of wave functions and know the series is also a valid wave function.      "
 },
 {
   "id": "bases",
@@ -1448,6 +1448,186 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Choosing Bases.",
   "body": " Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on   "
+},
+{
+  "id": "matrices",
+  "level": "1",
+  "url": "matrices.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Matrices",
+  "body": " Matrices    Motivation        Matrix Structure   An  matrix has       Matrix Arithmetic    The sum of two matrices, denoted , is the matrix whose entries are the sums of the corresponding entries of and . Compute for each pair of matrices below, when possible. If not possible, explain why.    ,      ,               The number is called an additive identity because for any number . Is there an additive identity for matrices? If so, what is it?      For any number , the number is called an additive inverse of because . Does the matrix have an additive inverse? If so, what is it?      If is any real number, the matrix is the matrix obtained by multiplying every entry of by the number . This is called scalar multiplication . Compute for each pair below, if possible. If not possible, explain why.                  Does the set of all real matrices form a vector space over ? Explain why or why not.        Matrix Multiplication     Matrix\/Vector:        Matrix\/Matrix:       Find and , when possible, for each pair of matrices below. If the product is not possible, explain why.    ,      ,      ,            Matrix Multiplication (continued)    Is matrix multiplication commutative?       Zero Divisors:        Multiplicative Identity:         Other Operations on Matrices     Matrix Transpose        Trace (square matrices)       Inverse (square matrices)       Determinant (square matrices)      "
+},
+{
+  "id": "matrices-2-1",
+  "level": "2",
+  "url": "matrices.html#matrices-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "matrices-2-2",
+  "level": "2",
+  "url": "matrices.html#matrices-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Matrix Structure.",
+  "body": " Matrix Structure   An  matrix has   "
+},
+{
+  "id": "matrices-3-1",
+  "level": "2",
+  "url": "matrices.html#matrices-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Matrix Arithmetic.",
+  "body": " Matrix Arithmetic    The sum of two matrices, denoted , is the matrix whose entries are the sums of the corresponding entries of and . Compute for each pair of matrices below, when possible. If not possible, explain why.    ,      ,               The number is called an additive identity because for any number . Is there an additive identity for matrices? If so, what is it?      For any number , the number is called an additive inverse of because . Does the matrix have an additive inverse? If so, what is it?      If is any real number, the matrix is the matrix obtained by multiplying every entry of by the number . This is called scalar multiplication . Compute for each pair below, if possible. If not possible, explain why.                  Does the set of all real matrices form a vector space over ? Explain why or why not.    "
+},
+{
+  "id": "matrices-4-1",
+  "level": "2",
+  "url": "matrices.html#matrices-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Matrix Multiplication.",
+  "body": " Matrix Multiplication     Matrix\/Vector:        Matrix\/Matrix:       Find and , when possible, for each pair of matrices below. If the product is not possible, explain why.    ,      ,      ,        "
+},
+{
+  "id": "matrices-5-1",
+  "level": "2",
+  "url": "matrices.html#matrices-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Matrix Multiplication (continued).",
+  "body": " Matrix Multiplication (continued)    Is matrix multiplication commutative?       Zero Divisors:        Multiplicative Identity:     "
+},
+{
+  "id": "matrices-6-1",
+  "level": "2",
+  "url": "matrices.html#matrices-6-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Other Operations on Matrices.",
+  "body": " Other Operations on Matrices     Matrix Transpose        Trace (square matrices)       Inverse (square matrices)       Determinant (square matrices)    "
+},
+{
+  "id": "linear-systems",
+  "level": "1",
+  "url": "linear-systems.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Systems",
+  "body": " Linear Systems    Motivation        Example: Balancing A Chemical Reaction           Example: Augmented Matrix as a Linear System   Write the matrix as a linear system of equations.       Solutions to Linear Systems   A solution to a linear system is     Thought Exercise: Solutions to Linear Systems    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your answer change?      In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your answer change? 4 planes?        Summary: Solutions to Linear Systems        "
+},
+{
+  "id": "linear-systems-2-1",
+  "level": "2",
+  "url": "linear-systems.html#linear-systems-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "linear-systems-2-2",
+  "level": "2",
+  "url": "linear-systems.html#linear-systems-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Example: Balancing A Chemical Reaction.",
+  "body": " Example: Balancing A Chemical Reaction       "
+},
+{
+  "id": "linear-systems-3-1",
+  "level": "2",
+  "url": "linear-systems.html#linear-systems-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Augmented Matrix as a Linear System.",
+  "body": " Example: Augmented Matrix as a Linear System   Write the matrix as a linear system of equations.   "
+},
+{
+  "id": "linear-systems-4-1",
+  "level": "2",
+  "url": "linear-systems.html#linear-systems-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Solutions to Linear Systems.",
+  "body": " Solutions to Linear Systems   A solution to a linear system is   "
+},
+{
+  "id": "linear-systems-4-2",
+  "level": "2",
+  "url": "linear-systems.html#linear-systems-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Thought Exercise: Solutions to Linear Systems.",
+  "body": " Thought Exercise: Solutions to Linear Systems    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your answer change?      In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your answer change? 4 planes?    "
+},
+{
+  "id": "linear-systems-5-1",
+  "level": "2",
+  "url": "linear-systems.html#linear-systems-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Summary: Solutions to Linear Systems.",
+  "body": " Summary: Solutions to Linear Systems      "
+},
+{
+  "id": "rref",
+  "level": "1",
+  "url": "rref.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Solving Linear Systems",
+  "body": " Solving Linear Systems    Motivation        Review   Recall, we can represent a linear system as an augmented matrix:       RREF    There is an efficient algorithm which takes a linear system and reduces it to a simpler system that has the same solution space .      Given an augmented matrix, technology can help us perform these row operation to obtain a simplest linear system that has the same solution space, called         Consider the system         Examples: Using RREF   Solve .                     Exercise: Solving Linear Systems   Solve      "
+},
+{
+  "id": "rref-2-1",
+  "level": "2",
+  "url": "rref.html#rref-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "rref-2-2",
+  "level": "2",
+  "url": "rref.html#rref-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Review.",
+  "body": " Review   Recall, we can represent a linear system as an augmented matrix:   "
+},
+{
+  "id": "rref-3-1",
+  "level": "2",
+  "url": "rref.html#rref-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "RREF.",
+  "body": " RREF    There is an efficient algorithm which takes a linear system and reduces it to a simpler system that has the same solution space .      Given an augmented matrix, technology can help us perform these row operation to obtain a simplest linear system that has the same solution space, called         Consider the system     "
+},
+{
+  "id": "rref-4-1",
+  "level": "2",
+  "url": "rref.html#rref-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Examples: Using RREF.",
+  "body": " Examples: Using RREF   Solve .                 "
+},
+{
+  "id": "rref-5-1",
+  "level": "2",
+  "url": "rref.html#rref-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Exercise: Solving Linear Systems.",
+  "body": " Exercise: Solving Linear Systems   Solve    "
 },
 {
   "id": "lab1",
@@ -1756,6 +1936,42 @@ var ptx_lunr_docs = [
   "body": "  Consider the -dimensional vector space .     Considering the dimension of the space, what must the scalar field be? What is the standard basis of this space?      Write down two vectors from this space, and decompose them as a linear combination of standard basis vectors. At least one of your vectors should have coordinates with non-zero imaginary part.      This is a Hilbert space when you include the inner product , where the above product is the dot product.   Verify the standard basis vectors are normalized.    A general vector has the form , . Find a condition on which guarantees the vector will be normalized.         Normalize the vector .    "
 },
 {
+  "id": "lab11",
+  "level": "1",
+  "url": "lab11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 11",
+  "body": " Lab 11    This lab is intended to practice ideas related to linear systems. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       For each matrix and vector below, write the matrix equation as a system of linear equations. Then solve the system using augmented matrices and the Desmos matrix calculator to compute RREF.                           Consider the reaction .     Model balancing this reaction using a linear system of equations.      Find the solution space of your system. Why would you expect infinitely many solutions when balancing a chemical reaction?      Find the solution for which are the smallest possible positive integers.         A set of vectors is linearly independent if implies that .     Write the above condition as a matrix equation.      Set up and solve a linear system to determine if the following sets of vectors are linearly independent.                  "
+},
+{
+  "id": "lab11-3-1",
+  "level": "2",
+  "url": "lab11.html#lab11-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each matrix and vector below, write the matrix equation as a system of linear equations. Then solve the system using augmented matrices and the Desmos matrix calculator to compute RREF.                        "
+},
+{
+  "id": "lab11-3-2",
+  "level": "2",
+  "url": "lab11.html#lab11-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the reaction .     Model balancing this reaction using a linear system of equations.      Find the solution space of your system. Why would you expect infinitely many solutions when balancing a chemical reaction?      Find the solution for which are the smallest possible positive integers.    "
+},
+{
+  "id": "lab11-4-1",
+  "level": "2",
+  "url": "lab11.html#lab11-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  A set of vectors is linearly independent if implies that .     Write the above condition as a matrix equation.      Set up and solve a linear system to determine if the following sets of vectors are linearly independent.                "
+},
+{
   "id": "homework-3",
   "level": "1",
   "url": "homework-3.html",
@@ -2042,6 +2258,51 @@ var ptx_lunr_docs = [
   "number": "7",
   "title": "",
   "body": "  Vectors and lie in the plane shown below. Sketch and label both and , and write a short explanation. Vector magnitudes need not be accurate, but the directions should be.   Two vectors in the x,y plane in 3 dimensions    "
+},
+{
+  "id": "homework-8",
+  "level": "1",
+  "url": "homework-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 6 (Weeks 10 and 11)",
+  "body": " Homework 6 (Weeks 10 and 11)          Verify that the set of real matrices form a vector space over . Identify a basis of this vector space, and use it to determine the dimension of the vector space.      Are the set of real matrices a vector space over ? If so, determine a basis and the dimension. If not, explain why.      Are the set of complex matrices a vector space over ? If so, determine a basis and the dimension. If not, explain why.       Let .     Find all solutions to . This is call the null space of .      The null space of a matrix is itself a vector space (it is closed under addition and scalar multiplication). Use your solution above to identify a basis for the null space of .       For each reaction below, write the balanced equation as a linear system of equations. Then determine the smallest positive integers that balance the reaction.                    Create a matrix in RREF for each set of criteria below, or explain why it is not possible.     A system of equations and variables with a unique solution.      A system of equations and variables with a unique solution.      A system of equations and variables for which is the only free variable.      A system of equations and variables with exactly two solutions.      "
+},
+{
+  "id": "homework-8-2-1",
+  "level": "2",
+  "url": "homework-8.html#homework-8-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "       Verify that the set of real matrices form a vector space over . Identify a basis of this vector space, and use it to determine the dimension of the vector space.      Are the set of real matrices a vector space over ? If so, determine a basis and the dimension. If not, explain why.      Are the set of complex matrices a vector space over ? If so, determine a basis and the dimension. If not, explain why.    "
+},
+{
+  "id": "homework-8-2-2",
+  "level": "2",
+  "url": "homework-8.html#homework-8-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let .     Find all solutions to . This is call the null space of .      The null space of a matrix is itself a vector space (it is closed under addition and scalar multiplication). Use your solution above to identify a basis for the null space of .    "
+},
+{
+  "id": "homework-8-2-3",
+  "level": "2",
+  "url": "homework-8.html#homework-8-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  For each reaction below, write the balanced equation as a linear system of equations. Then determine the smallest positive integers that balance the reaction.                 "
+},
+{
+  "id": "homework-8-2-4",
+  "level": "2",
+  "url": "homework-8.html#homework-8-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Create a matrix in RREF for each set of criteria below, or explain why it is not possible.     A system of equations and variables with a unique solution.      A system of equations and variables with a unique solution.      A system of equations and variables for which is the only free variable.      A system of equations and variables with exactly two solutions.    "
 }
 ]
 
