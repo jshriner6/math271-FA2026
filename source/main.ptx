@@ -120,8 +120,8 @@
 <!-- <xi:include href="./notes/vector-spaces.ptx"/> -->
 <xi:include href="./notes/vector-spaces-complete.ptx"/>
 
- <xi:include href="./notes/hilbert-spaces.ptx"/> 
- <!--<xi:include href="./notes/hilbert-spaces-complete.ptx"/> -->
+ <!--<xi:include href="./notes/hilbert-spaces.ptx"/> -->
+ <xi:include href="./notes/hilbert-spaces-complete.ptx"/> 
 
  <xi:include href="./notes/bases.ptx"/> 
  <!--<xi:include href="./notes/bases-complete.ptx"/> -->

@@ -44,7 +44,7 @@
         <introduction>
             <p>
         Let 
-        <md>
+        <md> A = 
             \begin{bmatrix}
             1 \amp 1 \amp 1 \\
             2 \amp 2 \amp 2
@@ -75,13 +75,22 @@
     <exercise>
         <introduction>
             <p>
-               
+               For each reaction below, write the balanced equation as a linear system of equations. Then determine the
+               smallest positive integers that balance the reaction.
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    <m>x_1Al +x_2HCl \to x_3AlCl_3 +x_4H_2</m>
+                </p>
+            </statement>
+        </task>
+
+         <task>
+            <statement>
+                <p>
+                    <m>x_1KMnO_4 +x_2MnSO_4 + x_3H_2O \to x_4MnO_2 +x_5K_2SO_4 + x_6H_2SO_4</m>
                 </p>
             </statement>
         </task>
@@ -94,13 +103,38 @@
     <exercise>
         <introduction>
             <p>
-               
+               Create a matrix in RREF for each set of criteria below, or explain why it is not possible.
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                   
+                   A system of <m>6</m> equations and <m>4</m> variables with a unique solution.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   A system of <m>4</m> equations and <m>6</m> variables with a unique solution.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   A system of <m>4</m> equations and <m>4</m> variables for which <m>x_3</m> is the only free 
+                   variable.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   A system of <m>10</m> equations and <m>10</m> variables with exactly two solutions.
                 </p>
             </statement>
         </task>
