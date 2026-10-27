@@ -82,7 +82,7 @@
         <task>
             <statement>
                 <p>
-                    <m>x_1Al +x_2HCl \to x_3AlCl_3 +x_4H_2</m>
+                    <m>x_1\text{Al} +x_2\text{HCl} \to x_3\text{AlCl}_3 +x_4\text{H}_2</m>
                 </p>
             </statement>
         </task>
@@ -90,7 +90,7 @@
          <task>
             <statement>
                 <p>
-                    <m>x_1KMnO_4 +x_2MnSO_4 + x_3H_2O \to x_4MnO_2 +x_5K_2SO_4 + x_6H_2SO_4</m>
+                    <m>x_1\text{KMnO}_4 +x_2\text{MnSO}_4 + x_3\text{H}_2\text{O} \to x_4\text{MnO}_2 +x_5\text{K}_2\text{SO}_4 + x_6\text{H}_2\text{SO}_4</m>
                 </p>
             </statement>
         </task>
