@@ -1396,58 +1396,58 @@ var ptx_lunr_docs = [
   "body": " Summary   When working with a set of valid wave functions, we can       determine whether two functions are orthogonal (independent) using the inner product .    form convergent series of wave functions and know the series is also a valid wave function.      "
 },
 {
-  "id": "bases",
+  "id": "bases-complete",
   "level": "1",
-  "url": "bases.html",
+  "url": "bases-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Bases",
-  "body": " Bases    Motivation        Bases in   When we write for a vector in , there is little confusion.       General Bases   A set of vectors is a basis for a vector space if       Examples: Bases   The number of vectors in a basis defined the dimension of a vector space.       Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on     "
+  "title": "Bases (Complete)",
+  "body": " Bases (Complete)    Motivation       We have some choice in how we identify vectors in a vector space, and in many cases, some choices are better than others. Choosing how to represent vectors is equivalent to choosing a basis for the vector space.     Bases in   When we write for a vector in , there is little confusion.    These coordinates identify where to move in the horizontal and vertical directions, respectively. But we are utilizing a specific basis of to interpret the coordinates:  is known as the standard basis for , and provides the scalar weights to be used on each basis vector (in order) to specify our vector.  There are many bases of ! Another one is . In the -basis, means in standard coordinates.       General Bases   A set of vectors is a basis for a vector space if        is a linearly independent set of vectors. This means that a linear combination of the vectors is exactly when all scaling factors are .  This results in all vectors having unique coordinates with respect to the basis.      spans all of . This means every vector in can be written as a linear combination of basis vectors.          Examples: Bases   The number of vectors in a basis defined the dimension of a vector space.    Some examples of vector spaces and a basis (and thus the dimension) are    over , ,      over , ,      over , ,      over , ,      over , ,      over , ,     All polynomials over , , infinite dimensional    Hilbert space of wave functions over , , infinite dimensional          Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on       Geometry    Basis properties (eg., orthogonal, normal)    Physics (eg., position space, momentum space)     We'll see the basics for changing bases soon once we have some more linear algebra tools.     "
 },
 {
-  "id": "bases-2-1",
+  "id": "bases-complete-2-1",
   "level": "2",
-  "url": "bases.html#bases-2-1",
+  "url": "bases-complete.html#bases-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We have some choice in how we identify vectors in a vector space, and in many cases, some choices are better than others. Choosing how to represent vectors is equivalent to choosing a basis for the vector space.   "
 },
 {
-  "id": "bases-2-2",
+  "id": "bases-complete-2-2",
   "level": "2",
-  "url": "bases.html#bases-2-2",
+  "url": "bases-complete.html#bases-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Bases in <span class=\"process-math\">\\(\\R^2\\)<\/span>.",
-  "body": " Bases in   When we write for a vector in , there is little confusion.   "
+  "body": " Bases in   When we write for a vector in , there is little confusion.    These coordinates identify where to move in the horizontal and vertical directions, respectively. But we are utilizing a specific basis of to interpret the coordinates:  is known as the standard basis for , and provides the scalar weights to be used on each basis vector (in order) to specify our vector.  There are many bases of ! Another one is . In the -basis, means in standard coordinates.   "
 },
 {
-  "id": "bases-3-1",
+  "id": "bases-complete-3-1",
   "level": "2",
-  "url": "bases.html#bases-3-1",
+  "url": "bases-complete.html#bases-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "General Bases.",
-  "body": " General Bases   A set of vectors is a basis for a vector space if   "
+  "body": " General Bases   A set of vectors is a basis for a vector space if        is a linearly independent set of vectors. This means that a linear combination of the vectors is exactly when all scaling factors are .  This results in all vectors having unique coordinates with respect to the basis.      spans all of . This means every vector in can be written as a linear combination of basis vectors.      "
 },
 {
-  "id": "bases-4-1",
+  "id": "bases-complete-4-1",
   "level": "2",
-  "url": "bases.html#bases-4-1",
+  "url": "bases-complete.html#bases-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Examples: Bases.",
-  "body": " Examples: Bases   The number of vectors in a basis defined the dimension of a vector space.   "
+  "body": " Examples: Bases   The number of vectors in a basis defined the dimension of a vector space.    Some examples of vector spaces and a basis (and thus the dimension) are    over , ,      over , ,      over , ,      over , ,      over , ,      over , ,     All polynomials over , , infinite dimensional    Hilbert space of wave functions over , , infinite dimensional      "
 },
 {
-  "id": "bases-5-1",
+  "id": "bases-complete-5-1",
   "level": "2",
-  "url": "bases.html#bases-5-1",
+  "url": "bases-complete.html#bases-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Choosing Bases.",
-  "body": " Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on   "
+  "body": " Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on       Geometry    Basis properties (eg., orthogonal, normal)    Physics (eg., position space, momentum space)     We'll see the basics for changing bases soon once we have some more linear algebra tools.   "
 },
 {
   "id": "matrices",
