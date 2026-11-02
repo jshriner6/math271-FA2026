@@ -128,8 +128,8 @@
 
 
  <!-- WEEK 11 -->
- <xi:include href="./notes/matrices.ptx"/> 
- <!--<xi:include href="./notes/matrices-complete.ptx"/> -->
+ <!--<xi:include href="./notes/matrices.ptx"/> -->
+ <xi:include href="./notes/matrices-complete.ptx"/> 
 
  <xi:include href="./notes/linear-systems.ptx"/> 
  <!--<xi:include href="./notes/linear-systems-complete.ptx"/> -->
