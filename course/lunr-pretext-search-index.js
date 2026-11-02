@@ -1450,67 +1450,67 @@ var ptx_lunr_docs = [
   "body": " Choosing Bases   Not all bases are created equal for your application! You may wish to choose a basis based on       Geometry    Basis properties (eg., orthogonal, normal)    Physics (eg., position space, momentum space)     We'll see the basics for changing bases soon once we have some more linear algebra tools.   "
 },
 {
-  "id": "matrices",
+  "id": "matrices-complete",
   "level": "1",
-  "url": "matrices.html",
+  "url": "matrices-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Matrices",
-  "body": " Matrices    Motivation        Matrix Structure   An  matrix has       Matrix Arithmetic    The sum of two matrices, denoted , is the matrix whose entries are the sums of the corresponding entries of and . Compute for each pair of matrices below, when possible. If not possible, explain why.    ,      ,               The number is called an additive identity because for any number . Is there an additive identity for matrices? If so, what is it?      For any number , the number is called an additive inverse of because . Does the matrix have an additive inverse? If so, what is it?      If is any real number, the matrix is the matrix obtained by multiplying every entry of by the number . This is called scalar multiplication . Compute for each pair below, if possible. If not possible, explain why.                  Does the set of all real matrices form a vector space over ? Explain why or why not.        Matrix Multiplication     Matrix\/Vector:        Matrix\/Matrix:       Find and , when possible, for each pair of matrices below. If the product is not possible, explain why.    ,      ,      ,            Matrix Multiplication (continued)    Is matrix multiplication commutative?       Zero Divisors:        Multiplicative Identity:         Other Operations on Matrices     Matrix Transpose        Trace (square matrices)       Inverse (square matrices)       Determinant (square matrices)      "
+  "title": "Matrices (Complete)",
+  "body": " Matrices (Complete)    Motivation       Matrices are a foundational tool in linear algebra, and used for representing observables (like energy, momentum) in quantum systems. We'll establish some necessary basics for working with and describing matrices, and then work towards understanding deeper uses and interpretations of matrices.     Matrix Structure   An  matrix has     rows and columns, in which each entry holds a scalar (either a real number or a complex number, depending on context).  Some special matrices are row vectors ( ), column vectors ( ), and square matrices ( ).  It is often convenient to view matrices as a collection of column vectors, written .       Matrix Arithmetic    The sum of two matrices, denoted , is the matrix whose entries are the sums of the corresponding entries of and . Compute for each pair of matrices below, when possible. If not possible, explain why.    ,      ,                          This sum is not defined since and have different dimensions.         The number is called an additive identity because for any number . Is there an additive identity for matrices? If so, what is it?    Yes, it is the matrix , called the zero matrix .      For any number , the number is called an additive inverse of because . Does the matrix have an additive inverse? If so, what is it?    Yes, it is the matrix .      If is any real number, the matrix is the matrix obtained by multiplying every entry of by the number . This is called scalar multiplication . Compute for each pair below, if possible. If not possible, explain why.                            We can always compute scalar multiples of matrices.      Does the set of all real matrices form a vector space over ? Explain why or why not.    No. This set is not closed under addition. However, the set of all real matrices does form an -dimensional vector space over .        Matrix Multiplication     Matrix\/Vector:             Matrix\/Matrix:     If and , then .      Find and , when possible, for each pair of matrices below. If the product is not possible, explain why.    ,      ,      ,            and      and      is undefined, and .           Matrix Multiplication (continued)    Is matrix multiplication commutative?    No! In fact, there are times when one ordering of matrix multiplication is defined and the other ordering is not.       Zero Divisors:     Unlike with real numbers, it is possible to multiply two non-zero matrices and get the zero matrix.       Multiplicative Identity:     The multiplicative identity for square matrices is the matrix with down the main diagonal, and everywhere else. For an matrix , it satisfies .        Other Operations on Matrices     Matrix Transpose     For an matrix , is the matrix whose columns are the rows of , and whose rows are the columns of .       Trace (square matrices)     is the sum of the diagonal entries of .       Inverse (square matrices)    The inverse matrix of is the matrix such that . Not every square matrix has an inverse matrix.       Determinant (square matrices)    The determinant of a matrix is a scalar whose computation depends on the dimension of . For matrices it is computed as . For matrices of higher dimension, you can use technology to compute it.  Among other things, the determinant tells us when a matrix is invertible: a square matrix is invertible exactly when .      "
 },
 {
-  "id": "matrices-2-1",
+  "id": "matrices-complete-2-1",
   "level": "2",
-  "url": "matrices.html#matrices-2-1",
+  "url": "matrices-complete.html#matrices-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Matrices are a foundational tool in linear algebra, and used for representing observables (like energy, momentum) in quantum systems. We'll establish some necessary basics for working with and describing matrices, and then work towards understanding deeper uses and interpretations of matrices.   "
 },
 {
-  "id": "matrices-2-2",
+  "id": "matrices-complete-2-2",
   "level": "2",
-  "url": "matrices.html#matrices-2-2",
+  "url": "matrices-complete.html#matrices-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Matrix Structure.",
-  "body": " Matrix Structure   An  matrix has   "
+  "body": " Matrix Structure   An  matrix has     rows and columns, in which each entry holds a scalar (either a real number or a complex number, depending on context).  Some special matrices are row vectors ( ), column vectors ( ), and square matrices ( ).  It is often convenient to view matrices as a collection of column vectors, written .   "
 },
 {
-  "id": "matrices-3-1",
+  "id": "matrices-complete-3-1",
   "level": "2",
-  "url": "matrices.html#matrices-3-1",
+  "url": "matrices-complete.html#matrices-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Matrix Arithmetic.",
-  "body": " Matrix Arithmetic    The sum of two matrices, denoted , is the matrix whose entries are the sums of the corresponding entries of and . Compute for each pair of matrices below, when possible. If not possible, explain why.    ,      ,               The number is called an additive identity because for any number . Is there an additive identity for matrices? If so, what is it?      For any number , the number is called an additive inverse of because . Does the matrix have an additive inverse? If so, what is it?      If is any real number, the matrix is the matrix obtained by multiplying every entry of by the number . This is called scalar multiplication . Compute for each pair below, if possible. If not possible, explain why.                  Does the set of all real matrices form a vector space over ? Explain why or why not.    "
+  "body": " Matrix Arithmetic    The sum of two matrices, denoted , is the matrix whose entries are the sums of the corresponding entries of and . Compute for each pair of matrices below, when possible. If not possible, explain why.    ,      ,                          This sum is not defined since and have different dimensions.         The number is called an additive identity because for any number . Is there an additive identity for matrices? If so, what is it?    Yes, it is the matrix , called the zero matrix .      For any number , the number is called an additive inverse of because . Does the matrix have an additive inverse? If so, what is it?    Yes, it is the matrix .      If is any real number, the matrix is the matrix obtained by multiplying every entry of by the number . This is called scalar multiplication . Compute for each pair below, if possible. If not possible, explain why.                            We can always compute scalar multiples of matrices.      Does the set of all real matrices form a vector space over ? Explain why or why not.    No. This set is not closed under addition. However, the set of all real matrices does form an -dimensional vector space over .    "
 },
 {
-  "id": "matrices-4-1",
+  "id": "matrices-complete-4-1",
   "level": "2",
-  "url": "matrices.html#matrices-4-1",
+  "url": "matrices-complete.html#matrices-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Matrix Multiplication.",
-  "body": " Matrix Multiplication     Matrix\/Vector:        Matrix\/Matrix:       Find and , when possible, for each pair of matrices below. If the product is not possible, explain why.    ,      ,      ,        "
+  "body": " Matrix Multiplication     Matrix\/Vector:             Matrix\/Matrix:     If and , then .      Find and , when possible, for each pair of matrices below. If the product is not possible, explain why.    ,      ,      ,            and      and      is undefined, and .       "
 },
 {
-  "id": "matrices-5-1",
+  "id": "matrices-complete-5-1",
   "level": "2",
-  "url": "matrices.html#matrices-5-1",
+  "url": "matrices-complete.html#matrices-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Matrix Multiplication (continued).",
-  "body": " Matrix Multiplication (continued)    Is matrix multiplication commutative?       Zero Divisors:        Multiplicative Identity:     "
+  "body": " Matrix Multiplication (continued)    Is matrix multiplication commutative?    No! In fact, there are times when one ordering of matrix multiplication is defined and the other ordering is not.       Zero Divisors:     Unlike with real numbers, it is possible to multiply two non-zero matrices and get the zero matrix.       Multiplicative Identity:     The multiplicative identity for square matrices is the matrix with down the main diagonal, and everywhere else. For an matrix , it satisfies .    "
 },
 {
-  "id": "matrices-6-1",
+  "id": "matrices-complete-6-1",
   "level": "2",
-  "url": "matrices.html#matrices-6-1",
+  "url": "matrices-complete.html#matrices-complete-6-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Other Operations on Matrices.",
-  "body": " Other Operations on Matrices     Matrix Transpose        Trace (square matrices)       Inverse (square matrices)       Determinant (square matrices)    "
+  "body": " Other Operations on Matrices     Matrix Transpose     For an matrix , is the matrix whose columns are the rows of , and whose rows are the columns of .       Trace (square matrices)     is the sum of the diagonal entries of .       Inverse (square matrices)    The inverse matrix of is the matrix such that . Not every square matrix has an inverse matrix.       Determinant (square matrices)    The determinant of a matrix is a scalar whose computation depends on the dimension of . For matrices it is computed as . For matrices of higher dimension, you can use technology to compute it.  Among other things, the determinant tells us when a matrix is invertible: a square matrix is invertible exactly when .    "
 },
 {
   "id": "linear-systems",
