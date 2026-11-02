@@ -128,6 +128,7 @@
 
 
  <!-- WEEK 11 -->
+
  <!--<xi:include href="./notes/matrices.ptx"/> -->
  <xi:include href="./notes/matrices-complete.ptx"/> 
 
@@ -137,7 +138,14 @@
  <xi:include href="./notes/RREF.ptx"/> 
  <!--<xi:include href="./notes/RREF-complete.ptx"/> -->
 
- 
+ <!-- WEEK 12 -->
+
+<xi:include href="./notes/linear-transformation.ptx"/> 
+<xi:include href="./notes/linear-transformation-complete.ptx"/>
+
+<xi:include href="./notes/linear-operators.ptx"/> 
+<!--<xi:include href="./notes/linear-operators-complete.ptx"/> -->
+
 
       <!-- etc. -->
 

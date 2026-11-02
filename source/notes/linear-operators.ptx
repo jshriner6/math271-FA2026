@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="linear-operators">
+    <title>Linear Operators</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Linear Operators</title>
+                <statement>
+                    <p>
+              The terms <term>linear transformation</term> and <term>linear operator</term> are often used interchangeably. However,
+              in quantum mechanics, <term>linear operator</term> is the most often used term and typically describes a 
+              linear transformation <m>T</m> such that
+                
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Observables</title>
+        <introduction>
+            <p>
+                The role of linear operators in quantum mechanics is to measure the physical properties of a system
+                (called <term>observables</term>). They are defined such that we can compute the expected value of
+                the given observable in state <m>\psi(x)</m> using the inner product:
+                <md>
+                    <mrow> \amp </mrow>
+                    <mrow> \amp </mrow>
+                    <mrow> \amp </mrow>
+                    <mrow> \amp </mrow>
+                </md>
+                
+            </p>
+        </introduction>
+        <task workspace="6in">
+            <statement>
+                <p>
+                   Position Operator.
+                </p>
+            </statement>
+        </task>
+        <task workspace="6in">
+            <statement>
+                <p>
+                   Momentum Operator.
+                </p>
+            </statement>
+        </task>
+        <task workspace="6in">
+            <statement>
+                <p>
+                   Entergy Operator.
+                </p>
+            </statement>
+        </task>
+
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+    <title>Self-Adjointness</title>
+    <introduction>
+        <p>
+            In order for linear operators to be useful for measuring observables, they must satisfy one important property.
+            A linear operator <m>A : V \to V</m> is <term>self-adjoint</term> if
+        </p>
+    </introduction>
+    <task workspace="6in">
+        <statement>
+            <p>
+               <m>\text{dim}(V) =n</m>.
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="6in">
+        <statement>
+            <p>
+               <m>\text{dim}(V)</m> infinite.
+            </p>
+        </statement>
+    </task>
+    
+        
+    </exercise>
+</page>
+
+
+
+       
+    </worksheet>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="linear-transformation-complete">
+    <title>Linear Transformations (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Another important perspective of matrices is that they represent functions between 
+                        vector spaces. We'll look at the important properties of such functions, and visualize
+                        specific cases.
+                    </p>
+                </solution>
+            </exercise>
+
+           <exercise workspace="6in">
+            <title>Linear Transformations</title>
+                <statement>
+                    <p>
+              A <term>linear transformation</term> is a function <m>T: V \to W</m> such that 
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>T(c_1\vvec_1 + c_2 \vvec_2) = c_1T(\vvec_1) + c_2T(\vvec_2)</m>. Intuitively, linear transformations
+                        behave nicely with linear combinations of vectors.
+                    </p>
+                </solution>
+            </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Examples: Linear Transformations</title>
+        <task workspace="6in">
+            <statement>
+                <p>
+                    Differentiation and Integration on a Function Space.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Properties you learned regarding derivatives and integrals from Calc 1 show that the derivative and integral
+                    can be considered linear transformations on function spaces:
+                    <md>
+                        <mrow>\frac{d}{dx}\left(c_1f(x) + c_2 g(x)\right) \amp= c_1\frac{d}{dx}\left(f(x)\right) + c_2\frac{d}{dx}\left(g(x)\right) </mrow>
+                        <mrow>\int (c_1 f(x) + c_2 g(x)) \quad dx \amp= c_1 \int f(x) \quad dx + c_2 \int g(x) \quad dx </mrow>
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+        <task workspace="6in">
+            <statement>
+                <p>
+                    Matrix Multiplication.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    If <m>A</m> is an <m>m \times n</m> matrix, then one can define a linear transformation <m>T: \R^n \to \R^m</m>
+                    by matrix multiplication with <m>A</m>:
+                    <md>
+                        T(\vvec) = A \cdot \vvec
+                    </md>
+                    The following properties of matrices confirm this is a linear transformation:
+                    <md>
+                        <mrow>T(c_1 \vvec_1 + c_2 \vvec_2) \amp= A(c_1\vvec_1 + c_2\vvec_2) </mrow>
+                        <mrow> \amp= c_1(A\vvec_1)+ c_2(A\vvec_2) </mrow>
+                        <mrow> \amp=c_1T(\vvec_1)+ c_2T(\vvec_2) </mrow>
+                    </md>
+                    
+                </p>
+                <p>
+                    Conversely, every linear transformation between finite-dimensional vector spaces can be 
+                    represented by a matrix! In particular, if <m>T: V \to W</m> and <m>V</m> has basis 
+                    <m>\{\vvec_1, \vvec_2, \dots, \vvec_n\}</m>, then
+                    <md>
+                        T(\vvec) = \left[T(\vvec_1) \,\, T(\vvec_2) \,\, \dots \m\m T(\vvec_n) \right] \cdot \vvec
+                    </md>.
+                    That is, <m>T</m> is the transformation defined by multiplication with the matrix whose columns are obtained 
+                    by <m>T</m> acting on each basis vector of <m>V</m>.
+                    
+                </p>
+                <p>
+                    You can use the <url href="https://understandinglinearalgebra.org/jsactivities/matrixmult.html">matrix multiplication interactive</url>
+                    to visualize some transformations from <m>\R^2 \to \R^2</m>.
+                </p>
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+    <title>Remarks: Linear Transformations</title>
+    <task workspace="6in">
+        <statement>
+            <p>
+                Linear transformations and Matrix Properties.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Viewing matrices as linear transformations can help us with otherwise abstract properties of matrices.
+                <ol>
+                    <li>
+                        <p>
+                            Inverses. We can recognize that the matrix
+                            <md> A = 
+                                \begin{bmatrix}
+                                0 \amp 1 \\
+                                -1 \amp 0
+                                \end{bmatrix}
+                            </md>
+                            is invertible with inverse matrix 
+                            <md> A^{-1} = 
+                                \begin{bmatrix}
+                                0 \amp -1 \\
+                                1 \amp 0
+                                \end{bmatrix}
+                            </md>
+                            by recognizing that <m>A</m> is the transformation that rotates all vectors <m>90</m> degrees in the 
+                            clockwise direction. This is an invertible transformation, which is rotation <m>90</m> degrees in the
+                            counter-clockwise direction.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determinants. <m>\text{det}(A)</m> is the scaling factor of areas under the transformation <m>A</m>. 
+                            In particular, transformations that collapse vectors to one dimension have determinant zero, and 
+                            transformations that reverses the orientation of space have negative determinant. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </task>
+
+    <task workspace="6in">
+        <statement>
+            <p>
+                Linear transformations and Changing Bases.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Doing a basis change for a vector space is a linear transformation.
+            </p>
+        </solution>
+    </task>
+    
+        
+    </exercise>
+</page>
+
+
+
+
+       
+    </worksheet>
