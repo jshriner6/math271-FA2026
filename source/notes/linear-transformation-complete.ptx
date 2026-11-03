@@ -83,7 +83,7 @@
                     represented by a matrix! In particular, if <m>T: V \to W</m> and <m>V</m> has basis 
                     <m>\{\vvec_1, \vvec_2, \dots, \vvec_n\}</m>, then
                     <md>
-                        T(\vvec) = \left[T(\vvec_1) \,\, T(\vvec_2) \,\, \dots \m\m T(\vvec_n) \right] \cdot \vvec
+                        T(\vvec) = \left[T(\vvec_1) \,\, T(\vvec_2) \,\, \dots \,\, T(\vvec_n) \right] \cdot \vvec
                     </md>.
                     That is, <m>T</m> is the transformation defined by multiplication with the matrix whose columns are obtained 
                     by <m>T</m> acting on each basis vector of <m>V</m>.
@@ -152,7 +152,19 @@
         </statement>
         <solution>
             <p>
-                Doing a basis change for a vector space is a linear transformation.
+                Doing a basis change for a vector space is a linear transformation. For example, if we'd like to do a basis 
+                change in <m>\R^2</m> from the basis <m>\mathcal{B} = \left\{ \begin{bmatrix}1 \\ 1 \end{bmatrix}, \begin{bmatrix}-1 \\ 1 \end{bmatrix} \right\}</m>
+                to the standard basis, we'd form the matrix (linear transformation)
+                <md>
+                    A = [T(\evec_1) \,\, T(\evec_2)] = \begin{bmatrix} 1 \amp -1 \\ 1 \amp 1 \end{bmatrix}
+                </md>,
+                which is restating that <m>\evec_1</m> in <m>\mathcal{B}</m>-coordinates means <m>1 \cdot \begin{bmatrix}1 \\ 1 \end{bmatrix} + 0 \cdot \begin{bmatrix}-1 \\ 1 \end{bmatrix}  </m>, and 
+                similar for <m>\evec_2</m>.
+                
+            </p>
+            <p>
+                If <m>A</m> is the change of basis matrix from <m>\mathcal{B}</m>-coordinates to standard coordinates, then <m>A^{-1}</m> 
+                is the change of basis matrix from standard coordinates to <m>\mathcal{B}</m>-coordinates.
             </p>
         </solution>
     </task>

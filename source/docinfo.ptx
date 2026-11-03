@@ -25,6 +25,7 @@
     \newcommand{\xvec}{\mathbf{x}}
     \newcommand{\bvec}{\mathbf{b}}
     \newcommand{\cvec}{\mathbf{c}}
+    \newcommand{\evec}{\mathbf{e}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
