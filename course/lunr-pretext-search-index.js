@@ -1513,67 +1513,67 @@ var ptx_lunr_docs = [
   "body": " Other Operations on Matrices     Matrix Transpose     For an matrix , is the matrix whose columns are the rows of , and whose rows are the columns of .       Trace (square matrices)     is the sum of the diagonal entries of .       Inverse (square matrices)    The inverse matrix of is the matrix such that . Not every square matrix has an inverse matrix.       Determinant (square matrices)    The determinant of a matrix is a scalar whose computation depends on the dimension of . For matrices it is computed as . For matrices of higher dimension, you can use technology to compute it.  Among other things, the determinant tells us when a matrix is invertible: a square matrix is invertible exactly when .    "
 },
 {
-  "id": "linear-systems",
+  "id": "linear-systems-complete",
   "level": "1",
-  "url": "linear-systems.html",
+  "url": "linear-systems-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Linear Systems",
-  "body": " Linear Systems    Motivation        Example: Balancing A Chemical Reaction           Example: Augmented Matrix as a Linear System   Write the matrix as a linear system of equations.       Solutions to Linear Systems   A solution to a linear system is     Thought Exercise: Solutions to Linear Systems    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your answer change?      In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your answer change? 4 planes?        Summary: Solutions to Linear Systems        "
+  "title": "Linear Systems (Complete)",
+  "body": " Linear Systems (Complete)    Motivation       Systems of linear equations are common in application. Matrices provide a standard way for representing these systems, as well as efficiently solving them.     Example: Balancing A Chemical Reaction        Balancing this reaction reduces to solving the linear system of equations We can encode this system in an augmented matrix ,   We can also view this system geometrically , which can help us intuit solution behavior.       Example: Augmented Matrix as a Linear System   Write the matrix as a linear system of equations.    This represents the system        Solutions to Linear Systems   A solution to a linear system is    a vector such that . Geometrically, solutions are intersection points. We'll focus on the details of finding solutions in the next section, but general behavior should we expect for solutions linear systems?     Thought Exercise: Solutions to Linear Systems    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your answer change?     . It is the same for three lines.      In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your answer change? 4 planes?     . With 3 or more planes, .        Summary: Solutions to Linear Systems          The solution space to a linear system has only three possibilities:   No solutions. This is called an inconsistent system .    Exactly one solution.    Infinitely many solutions.       The general trends are that if there are many more rows than columns (a tall matrix), it is likely the system is inconsistent. If there are many more columns than rows (a wide matrix), it is likely there are many solutions.  These are just trends, and there are exceptions to both of these rules of thumb, as we've already reasoned in this section.        "
 },
 {
-  "id": "linear-systems-2-1",
+  "id": "linear-systems-complete-2-1",
   "level": "2",
-  "url": "linear-systems.html#linear-systems-2-1",
+  "url": "linear-systems-complete.html#linear-systems-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Systems of linear equations are common in application. Matrices provide a standard way for representing these systems, as well as efficiently solving them.   "
 },
 {
-  "id": "linear-systems-2-2",
+  "id": "linear-systems-complete-2-2",
   "level": "2",
-  "url": "linear-systems.html#linear-systems-2-2",
+  "url": "linear-systems-complete.html#linear-systems-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Example: Balancing A Chemical Reaction.",
-  "body": " Example: Balancing A Chemical Reaction       "
+  "body": " Example: Balancing A Chemical Reaction        Balancing this reaction reduces to solving the linear system of equations We can encode this system in an augmented matrix ,   We can also view this system geometrically , which can help us intuit solution behavior.   "
 },
 {
-  "id": "linear-systems-3-1",
+  "id": "linear-systems-complete-3-1",
   "level": "2",
-  "url": "linear-systems.html#linear-systems-3-1",
+  "url": "linear-systems-complete.html#linear-systems-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Augmented Matrix as a Linear System.",
-  "body": " Example: Augmented Matrix as a Linear System   Write the matrix as a linear system of equations.   "
+  "body": " Example: Augmented Matrix as a Linear System   Write the matrix as a linear system of equations.    This represents the system    "
 },
 {
-  "id": "linear-systems-4-1",
+  "id": "linear-systems-complete-4-1",
   "level": "2",
-  "url": "linear-systems.html#linear-systems-4-1",
+  "url": "linear-systems-complete.html#linear-systems-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Solutions to Linear Systems.",
-  "body": " Solutions to Linear Systems   A solution to a linear system is   "
+  "body": " Solutions to Linear Systems   A solution to a linear system is    a vector such that . Geometrically, solutions are intersection points. We'll focus on the details of finding solutions in the next section, but general behavior should we expect for solutions linear systems?   "
 },
 {
-  "id": "linear-systems-4-2",
+  "id": "linear-systems-complete-4-2",
   "level": "2",
-  "url": "linear-systems.html#linear-systems-4-2",
+  "url": "linear-systems-complete.html#linear-systems-complete-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Thought Exercise: Solutions to Linear Systems.",
-  "body": " Thought Exercise: Solutions to Linear Systems    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your answer change?      In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your answer change? 4 planes?    "
+  "body": " Thought Exercise: Solutions to Linear Systems    In 2D, picture two lines. How many intersection points are possible? If you picture 3 lines, does your answer change?     . It is the same for three lines.      In 3D, picture two planes. How many intersection points are possible? If you picture 3 planes, does your answer change? 4 planes?     . With 3 or more planes, .    "
 },
 {
-  "id": "linear-systems-5-1",
+  "id": "linear-systems-complete-5-1",
   "level": "2",
-  "url": "linear-systems.html#linear-systems-5-1",
+  "url": "linear-systems-complete.html#linear-systems-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Summary: Solutions to Linear Systems.",
-  "body": " Summary: Solutions to Linear Systems      "
+  "body": " Summary: Solutions to Linear Systems          The solution space to a linear system has only three possibilities:   No solutions. This is called an inconsistent system .    Exactly one solution.    Infinitely many solutions.       The general trends are that if there are many more rows than columns (a tall matrix), it is likely the system is inconsistent. If there are many more columns than rows (a wide matrix), it is likely there are many solutions.  These are just trends, and there are exceptions to both of these rules of thumb, as we've already reasoned in this section.      "
 },
 {
   "id": "rref",
@@ -1628,6 +1628,96 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Exercise: Solving Linear Systems.",
   "body": " Exercise: Solving Linear Systems   Solve    "
+},
+{
+  "id": "linear-transformation",
+  "level": "1",
+  "url": "linear-transformation.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Transformations",
+  "body": " Linear Transformations    Motivation        Linear Transformations   A linear transformation is a function such that       Examples: Linear Transformations    Differentiation and Integration on a Function Space.      Matrix Multiplication.        Remarks: Linear Transformations    Linear transformations and Matrix Properties.      Linear transformations and Changing Bases.      "
+},
+{
+  "id": "linear-transformation-2-1",
+  "level": "2",
+  "url": "linear-transformation.html#linear-transformation-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "linear-transformation-2-2",
+  "level": "2",
+  "url": "linear-transformation.html#linear-transformation-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Linear Transformations.",
+  "body": " Linear Transformations   A linear transformation is a function such that   "
+},
+{
+  "id": "linear-transformation-3-1",
+  "level": "2",
+  "url": "linear-transformation.html#linear-transformation-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Linear Transformations.",
+  "body": " Examples: Linear Transformations    Differentiation and Integration on a Function Space.      Matrix Multiplication.    "
+},
+{
+  "id": "linear-transformation-4-1",
+  "level": "2",
+  "url": "linear-transformation.html#linear-transformation-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Remarks: Linear Transformations.",
+  "body": " Remarks: Linear Transformations    Linear transformations and Matrix Properties.      Linear transformations and Changing Bases.    "
+},
+{
+  "id": "linear-operators",
+  "level": "1",
+  "url": "linear-operators.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Operators",
+  "body": " Linear Operators    Motivation        Linear Operators   The terms linear transformation and linear operator are often used interchangeably. However, in quantum mechanics, linear operator is the most often used term and typically describes a linear transformation such that       Observables   The role of linear operators in quantum mechanics is to measure the physical properties of a system (called observables ). They are defined such that we can compute the expected value of the given observable in state using the inner product:      Position Operator.      Momentum Operator.      Entergy Operator.        Self-Adjointness   In order for linear operators to be useful for measuring observables, they must satisfy one important property. A linear operator is self-adjoint if      .       infinite.      "
+},
+{
+  "id": "linear-operators-2-1",
+  "level": "2",
+  "url": "linear-operators.html#linear-operators-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "linear-operators-2-2",
+  "level": "2",
+  "url": "linear-operators.html#linear-operators-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Linear Operators.",
+  "body": " Linear Operators   The terms linear transformation and linear operator are often used interchangeably. However, in quantum mechanics, linear operator is the most often used term and typically describes a linear transformation such that   "
+},
+{
+  "id": "linear-operators-3-1",
+  "level": "2",
+  "url": "linear-operators.html#linear-operators-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Observables.",
+  "body": " Observables   The role of linear operators in quantum mechanics is to measure the physical properties of a system (called observables ). They are defined such that we can compute the expected value of the given observable in state using the inner product:      Position Operator.      Momentum Operator.      Entergy Operator.    "
+},
+{
+  "id": "linear-operators-4-1",
+  "level": "2",
+  "url": "linear-operators.html#linear-operators-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Self-Adjointness.",
+  "body": " Self-Adjointness   In order for linear operators to be useful for measuring observables, they must satisfy one important property. A linear operator is self-adjoint if      .       infinite.    "
 },
 {
   "id": "lab1",
