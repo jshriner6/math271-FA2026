@@ -11,6 +11,13 @@
                 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        We've seen the defining properties of <q>linear</q>, and how linear transformations are 
+                        synonymous with matrix multiplication in finite dimensions. We'll look more specifically at 
+                        linear transformations in the context of quantum mechanics.
+                    </p>
+                </solution>
             </exercise>
 
             <exercise workspace="6in">
@@ -23,6 +30,22 @@
                 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>T: V \to V</m>; it is a function from a vector space to itself.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>V</m> is a function space (like the Hilbert space containing wave functions).
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
                 
             </exercise>
 </page>
@@ -34,13 +57,14 @@
                 The role of linear operators in quantum mechanics is to measure the physical properties of a system
                 (called <term>observables</term>). They are defined such that we can compute the expected value of
                 the given observable in state <m>\psi(x)</m> using the inner product:
-                <md>
-                    <mrow> \amp </mrow>
-                    <mrow> \amp </mrow>
-                    <mrow> \amp </mrow>
-                    <mrow> \amp </mrow>
-                </md>
                 
+                
+            </p>
+            <p>
+                The expected value of observable <m>A</m> in state <m>\psi(x)</m> is 
+                <md>
+                    \langle A \rangle := \langle \psi(x), \hat{A}[\psi(x)] \rangle = \int_{-\infty}^\infty \overline{\psi(x)}\cdot \hat{A}[\psi(x)] \quad dx
+                </md>
             </p>
         </introduction>
         <task workspace="6in">
@@ -49,6 +73,17 @@
                    Position Operator.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    The position operator is <m>\hat{x}: V \to V</m>, <m>\hat{x}[\psi(x)] = x \psi(x)</m>. See class notes to verify
+                    that this is a linear operator. Also, note that the expected value of position is consistent with what we 
+                    defined earlier in the <url href="https://jshriner6.github.io/math271-FA2026/course/normal-expectation-complete.html">Normalization and Expectation section</url>:
+                    <md>
+                        \langle x \rangle = \int_{-\infty}^\infty \overline{\psi(x)}x\psi(x) \quad dx = \int_{-\infty}^\infty x|\psi(x)|^2 \quad dx
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task workspace="6in">
             <statement>
@@ -56,6 +91,17 @@
                    Momentum Operator.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    The momentum operator is <m>\hat{p}: V \to V</m>, <m>\hat{p}[\psi(x)] = -i\overline{h}\frac{d\psi}{dx}</m>. See
+                    notes from class to verify that this is a linear operator. Also, we can compute the expected value of 
+                    momentum by
+                    <md>
+                        \langle p \rangle = \langle \psi(x), \hat{p}[\psi(x)] \rangle = \int_{-\infty}^\infty \overline{\psi(x)}\cdot(-i\overline{h}\frac{d\psi}{dx}) \quad dx
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task workspace="6in">
             <statement>
@@ -63,6 +109,19 @@
                    Entergy Operator.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    This operator is also known as the <term>Hamiltonian</term> operator, and is the operator
+                    <m>\hat{H}: V \to V</m>, <m>\hat{H}[\psi(x)]= \frac{-\overline{h}^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi(x)</m>.
+                    Physically, this is the sum of kinetic and potential energies. See notes from class to verify this is a linear operator.
+                    Also, we can compute the expected value of 
+                    energy by
+                    <md>
+                        \langle H \rangle = \langle \psi(x),\hat{H}[\psi(x)] \rangle = \int_{-\infty}^\infty \overline{\psi(x)} \cdot \left( \frac{-\overline{h}^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi(x)\right) \quad dx
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
 
         
@@ -83,6 +142,30 @@
                <m>\text{dim}(V) =n</m>.
             </p>
         </statement>
+        <solution>
+            <p>
+                <m>A = \overline{A}^T</m>. In this context, the <m>n\times n</m> matrix <m>A</m> is called <term>Hermitian</term>.
+            </p>
+            <p>
+                You can verify that the matrices 
+                <md> A = 
+                    \begin{bmatrix}
+                    1 \amp 0 \\
+                    0 \amp -1 
+                    \end{bmatrix}
+                </md>
+                and
+                <md>
+                    B=
+                    \begin{bmatrix}
+                    0 \amp -i \\
+                    i \amp 0 
+                    \end{bmatrix}
+                </md>
+                are Hermitian. These are Pauli-z and Pauli-y matrices, respectively, from quantum mechanics.
+                
+            </p>
+        </solution>
     </task>
 
     <task workspace="6in">
@@ -91,6 +174,17 @@
                <m>\text{dim}(V)</m> infinite.
             </p>
         </statement>
+        <solution>
+            <p>
+                In this case, self-adjoint means
+                <md>
+                    \langle A[\psi_1(x)], \psi_2(x) \rangle = \langle \psi_1(x), A[\psi_2(x)] \rangle
+                </md>.
+                This is the correct context for the position, momentum, and energy operators. See the notes from class to verify
+                that <m>\hat{x}</m>, <m>\hat{p}</m>, and <m>\hat{H}</m> are all self-adjoint operators.
+                
+            </p>
+        </solution>
     </task>
     
         

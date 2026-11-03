@@ -132,8 +132,8 @@
  <!--<xi:include href="./notes/matrices.ptx"/> -->
  <xi:include href="./notes/matrices-complete.ptx"/> 
 
- <xi:include href="./notes/linear-systems.ptx"/> 
- <!--<xi:include href="./notes/linear-systems-complete.ptx"/> -->
+ <!--<xi:include href="./notes/linear-systems.ptx"/> -->
+ <xi:include href="./notes/linear-systems-complete.ptx"/> 
 
  <xi:include href="./notes/RREF.ptx"/> 
  <!--<xi:include href="./notes/RREF-complete.ptx"/> -->
@@ -144,7 +144,7 @@
 <!-- <xi:include href="./notes/linear-transformation-complete.ptx"/>-->
 
 <xi:include href="./notes/linear-operators.ptx"/> 
-<xi:include href="./notes/linear-operators-complete.ptx"/> 
+<!--<xi:include href="./notes/linear-operators-complete.ptx"/> -->
 
 
       <!-- etc. -->
