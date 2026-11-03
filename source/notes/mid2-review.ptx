@@ -1,0 +1,131 @@
+
+        <worksheet xml:id="sec-mid2-rev">
+        <title>Midterm 2 Concept Check: Multi-variable Calculus and Vector Spaces</title>
+        <exercise workspace="10in">
+            <title>Midterm Review</title>
+            <statement>
+                <p>
+                    The following conceptual questions are intended to help you review important ideas covered on midterm 2 (<q>Partial Derivatives</q> through <q>Bases</q>).
+                    You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation
+                    of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so 
+                    that a calculator is not needed.
+                    <ol>
+                        <li>
+                            <p>
+                               How do you compute partial derivatives? In 3D, what does the value of a partial derivative at a 
+                               point tell you about the behavior of the surface at that point?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How do you compute the tangent plane to a 3D surface at a point? Why are tangent planes useful?
+                            </p>
+                        </li>
+                       <li>
+                        <p>
+                            What is a directional derivative? How are directional derivatives related to partial derivatives?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What is the gradient vector at a point, and what information does it hold?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What is the total differential of a multi-variable function at a point? What is it used for?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            How do you represent the multi-variable chain rule using tree diagrams?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What does a double integral represent geometrically?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What do the bounds of a double integral look like when integrating over a rectangular region? How
+                            does this change if your region of integration is non-rectangular?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            When is it possible to visualize a triple integral geometrically? What types of applications are 
+                            triple integrals commonly used for?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            We've discussed transforming from rectangular coordinates to
+                            <ul>
+                                <li>
+                                    <p>
+                                        polar coordinates
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        cylindrical coordinates
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        spherical coordinates
+                                    </p>
+                                </li>
+                            </ul>
+                            What is the Jacobian of each of these three transformations? When do you need to use the Jacobian
+                            for each of these three transformations, and why?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            Why are multi-variable integrals in non-rectangular coordinates common in quantum mechanics (review Homework 5 carefully).
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What is a vector space? What are examples of vector spaces, and how are they similar/dissimilar 
+                            to the most familiar vector space we've seen, <m>\R^2</m>?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What is a Hilbert space? Why might we want to add an inner product to a vector space?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What is the standard inner product used for complex function spaces (like the function 
+                            space of wave functions in quantum mechanics)?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What is a basis for a vector space?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What are examples of bases for vector spaces that we've seen? How do we use a basis to define
+                            the dimension of a vector space?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            Can changing the set of scalars for a vector space change its dimension? Why?
+                        </p>
+                       </li>
+                    </ol>
+                </p>
+
+            </statement>
+            
+        </exercise>
+      
+
+        </worksheet>
