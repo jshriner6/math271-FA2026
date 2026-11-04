@@ -1576,58 +1576,58 @@ var ptx_lunr_docs = [
   "body": " Summary: Solutions to Linear Systems          The solution space to a linear system has only three possibilities:   No solutions. This is called an inconsistent system .    Exactly one solution.    Infinitely many solutions.       The general trends are that if there are many more rows than columns (a tall matrix), it is likely the system is inconsistent. If there are many more columns than rows (a wide matrix), it is likely there are many solutions.  These are just trends, and there are exceptions to both of these rules of thumb, as we've already reasoned in this section.      "
 },
 {
-  "id": "rref",
+  "id": "rref-complete",
   "level": "1",
-  "url": "rref.html",
+  "url": "rref-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Solving Linear Systems",
-  "body": " Solving Linear Systems    Motivation        Review   Recall, we can represent a linear system as an augmented matrix:       RREF    There is an efficient algorithm which takes a linear system and reduces it to a simpler system that has the same solution space .      Given an augmented matrix, technology can help us perform these row operation to obtain a simplest linear system that has the same solution space, called         Consider the system         Examples: Using RREF   Solve .                     Exercise: Solving Linear Systems   Solve      "
+  "title": "Solving Linear Systems (Complete)",
+  "body": " Solving Linear Systems (Complete)    Motivation       We've seen matrices provide a way to express a linear system of equations. We'll look at how to describe the solution spaces of systems (using technology).     Review   Recall, we can represent a linear system as an augmented matrix:    The system can be represented as . A solution is a vector which has values satisfying every equation in the system simultaneously. Geometrically, this is an intersection point. We know there are only 3 possibilities: there are no solutions, exactly one solution, or infinitely many solutions.       RREF    There is an efficient algorithm which takes a linear system and reduces it to a simpler system that has the same solution space .    For example, if you were given the system of two equations, and , you could perform algebraic operations to reduce the system to and (these operations are known as row operations ). These operations don't change the solution space, but the last system makes it much more clear what the solution is.      Given an augmented matrix, technology can help us perform these row operation to obtain a simplest linear system that has the same solution space, called        reduced row echelon form (RREF) . RREF satisfies   All rows are at the bottom.    The first non-zero entry in every row is a (called the leading entry ).    The leading entry in a row is to the right of the leading entries in all rows above it.    Leading entries are the only non-zero entries in their columns.   We'll use technology to obtain RREF matrices, but we need to know how to interpret them.      Consider the system     Use the Desmos matrix calculator to obtain RREF for the associated augmented matrix. You should get This corresponds to a unique solution, .  Columns containing a pivot position correspond to variables called basic variables . In this example, every variable is basic.        Examples: Using RREF   Solve .          Use the Desmos matrix calculator to obtain RREF for the associated augmented matrix. You should get The last row corresponds to the equation , which is a contradiction. This means this system has no solution.           Use the Desmos matrix calculator to obtain RREF for the associated augmented matrix. You should get   Columns containing no pivot position correspond to variables called free variables . In this example, is free, and indicates there are infinitely many solutions.  The first two rows say that and . Note that we wrote each basic variable in terms of the free variable. So our solution space is , .        Exercise: Solving Linear Systems   Solve     The solution space is .     "
 },
 {
-  "id": "rref-2-1",
+  "id": "rref-complete-2-1",
   "level": "2",
-  "url": "rref.html#rref-2-1",
+  "url": "rref-complete.html#rref-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen matrices provide a way to express a linear system of equations. We'll look at how to describe the solution spaces of systems (using technology).   "
 },
 {
-  "id": "rref-2-2",
+  "id": "rref-complete-2-2",
   "level": "2",
-  "url": "rref.html#rref-2-2",
+  "url": "rref-complete.html#rref-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Review.",
-  "body": " Review   Recall, we can represent a linear system as an augmented matrix:   "
+  "body": " Review   Recall, we can represent a linear system as an augmented matrix:    The system can be represented as . A solution is a vector which has values satisfying every equation in the system simultaneously. Geometrically, this is an intersection point. We know there are only 3 possibilities: there are no solutions, exactly one solution, or infinitely many solutions.   "
 },
 {
-  "id": "rref-3-1",
+  "id": "rref-complete-3-1",
   "level": "2",
-  "url": "rref.html#rref-3-1",
+  "url": "rref-complete.html#rref-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "RREF.",
-  "body": " RREF    There is an efficient algorithm which takes a linear system and reduces it to a simpler system that has the same solution space .      Given an augmented matrix, technology can help us perform these row operation to obtain a simplest linear system that has the same solution space, called         Consider the system     "
+  "body": " RREF    There is an efficient algorithm which takes a linear system and reduces it to a simpler system that has the same solution space .    For example, if you were given the system of two equations, and , you could perform algebraic operations to reduce the system to and (these operations are known as row operations ). These operations don't change the solution space, but the last system makes it much more clear what the solution is.      Given an augmented matrix, technology can help us perform these row operation to obtain a simplest linear system that has the same solution space, called        reduced row echelon form (RREF) . RREF satisfies   All rows are at the bottom.    The first non-zero entry in every row is a (called the leading entry ).    The leading entry in a row is to the right of the leading entries in all rows above it.    Leading entries are the only non-zero entries in their columns.   We'll use technology to obtain RREF matrices, but we need to know how to interpret them.      Consider the system     Use the Desmos matrix calculator to obtain RREF for the associated augmented matrix. You should get This corresponds to a unique solution, .  Columns containing a pivot position correspond to variables called basic variables . In this example, every variable is basic.    "
 },
 {
-  "id": "rref-4-1",
+  "id": "rref-complete-4-1",
   "level": "2",
-  "url": "rref.html#rref-4-1",
+  "url": "rref-complete.html#rref-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Examples: Using RREF.",
-  "body": " Examples: Using RREF   Solve .                 "
+  "body": " Examples: Using RREF   Solve .          Use the Desmos matrix calculator to obtain RREF for the associated augmented matrix. You should get The last row corresponds to the equation , which is a contradiction. This means this system has no solution.           Use the Desmos matrix calculator to obtain RREF for the associated augmented matrix. You should get   Columns containing no pivot position correspond to variables called free variables . In this example, is free, and indicates there are infinitely many solutions.  The first two rows say that and . Note that we wrote each basic variable in terms of the free variable. So our solution space is , .    "
 },
 {
-  "id": "rref-5-1",
+  "id": "rref-complete-5-1",
   "level": "2",
-  "url": "rref.html#rref-5-1",
+  "url": "rref-complete.html#rref-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Exercise: Solving Linear Systems.",
-  "body": " Exercise: Solving Linear Systems   Solve    "
+  "body": " Exercise: Solving Linear Systems   Solve     The solution space is .   "
 },
 {
   "id": "linear-transformation",
@@ -1718,6 +1718,24 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "Self-Adjointness.",
   "body": " Self-Adjointness   In order for linear operators to be useful for measuring observables, they must satisfy one important property. A linear operator is self-adjoint if      .       infinite.    "
+},
+{
+  "id": "sec-mid2-rev",
+  "level": "1",
+  "url": "sec-mid2-rev.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Midterm 2 Concept Check: Multi-variable Calculus and Vector Spaces",
+  "body": " Midterm 2 Concept Check: Multi-variable Calculus and Vector Spaces   Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 2 ( Partial Derivatives through Bases ). You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so that a calculator is not needed.   How do you compute partial derivatives? In 3D, what does the value of a partial derivative at a point tell you about the behavior of the surface at that point?    How do you compute the tangent plane to a 3D surface at a point? Why are tangent planes useful?    What is a directional derivative? How are directional derivatives related to partial derivatives?    What is the gradient vector at a point, and what information does it hold?    What is the total differential of a multi-variable function at a point? What is it used for?    How do you represent the multi-variable chain rule using tree diagrams?    What does a double integral represent geometrically?    What do the bounds of a double integral look like when integrating over a rectangular region? How does this change if your region of integration is non-rectangular?    When is it possible to visualize a triple integral geometrically? What types of applications are triple integrals commonly used for?    We've discussed transforming from rectangular coordinates to   polar coordinates    cylindrical coordinates    spherical coordinates   What is the Jacobian of each of these three transformations? When do you need to use the Jacobian for each of these three transformations, and why?    Why are multi-variable integrals in non-rectangular coordinates common in quantum mechanics (review Homework 5 carefully).    What is a vector space? What are examples of vector spaces, and how are they similar\/dissimilar to the most familiar vector space we've seen, ?    What is a Hilbert space? Why might we want to add an inner product to a vector space?    What is the standard inner product used for complex function spaces (like the function space of wave functions in quantum mechanics)?    What is a basis for a vector space?    What are examples of bases for vector spaces that we've seen? How do we use a basis to define the dimension of a vector space?    Can changing the set of scalars for a vector space change its dimension? Why?       "
+},
+{
+  "id": "sec-mid2-rev-2",
+  "level": "2",
+  "url": "sec-mid2-rev.html#sec-mid2-rev-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Midterm Review.",
+  "body": " Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 2 ( Partial Derivatives through Bases ). You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so that a calculator is not needed.   How do you compute partial derivatives? In 3D, what does the value of a partial derivative at a point tell you about the behavior of the surface at that point?    How do you compute the tangent plane to a 3D surface at a point? Why are tangent planes useful?    What is a directional derivative? How are directional derivatives related to partial derivatives?    What is the gradient vector at a point, and what information does it hold?    What is the total differential of a multi-variable function at a point? What is it used for?    How do you represent the multi-variable chain rule using tree diagrams?    What does a double integral represent geometrically?    What do the bounds of a double integral look like when integrating over a rectangular region? How does this change if your region of integration is non-rectangular?    When is it possible to visualize a triple integral geometrically? What types of applications are triple integrals commonly used for?    We've discussed transforming from rectangular coordinates to   polar coordinates    cylindrical coordinates    spherical coordinates   What is the Jacobian of each of these three transformations? When do you need to use the Jacobian for each of these three transformations, and why?    Why are multi-variable integrals in non-rectangular coordinates common in quantum mechanics (review Homework 5 carefully).    What is a vector space? What are examples of vector spaces, and how are they similar\/dissimilar to the most familiar vector space we've seen, ?    What is a Hilbert space? Why might we want to add an inner product to a vector space?    What is the standard inner product used for complex function spaces (like the function space of wave functions in quantum mechanics)?    What is a basis for a vector space?    What are examples of bases for vector spaces that we've seen? How do we use a basis to define the dimension of a vector space?    Can changing the set of scalars for a vector space change its dimension? Why?      "
 },
 {
   "id": "lab1",
