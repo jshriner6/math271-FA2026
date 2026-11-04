@@ -185,7 +185,8 @@
                     The first two rows say that <m>x_1 = 2x_3 -1</m> and <m>x_2 = -3x_3 + 1.5</m>. Note that we wrote each basic variable 
                     in terms of the free variable. So our solution space is 
                     <md>
-                        \xvec = \left[\begin{array}{r} 2x_3 -1 \\ -3x_3 + 1.5 \\ x_3\end{array}\right]
+                       <mrow>  \xvec \amp = \left[\begin{array}{r} 2x_3 -1 \\ -3x_3 + 1.5 \\ x_3\end{array}\right]</mrow>
+                       <mrow> \amp= \left[\begin{array}{r} -1 \\ 1.5 \\ 0\end{array}\right] + \left[\begin{array}{r} 2 \\ -3 \\ 1\end{array}\right]x_3 </mrow>
                     </md>,
                     <m>x_3 \in \R</m>.
                     
@@ -215,7 +216,8 @@
             <p>
                 The solution space is 
                 <md>
-                    \xvec = \left[\begin{array}{r} 4-3x_2 \\ x_2 \\ -2 \\ 5 \end{array}\right]
+                    <mrow>  \xvec \amp= \left[\begin{array}{r} 4-3x_2 \\ x_2 \\ -2 \\ 5 \end{array}\right]</mrow>
+                    <mrow> \amp= \left[\begin{array}{r} 4 \\ 0 \\ -2 \\ 5 \end{array}\right] +\left[\begin{array}{r} -3 \\ 1 \\ 0 \\ 0 \end{array}\right]x_2 </mrow>
                 </md>.
                 
             </p>
