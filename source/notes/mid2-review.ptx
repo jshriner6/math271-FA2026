@@ -89,6 +89,16 @@
                        </li>
                        <li>
                         <p>
+                            In <m>\R^2</m>, what is the meaning of a <q>vector</q>? How do we visualize scalar multiplication of vectors and addition of vectors? What is a unit vector?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
+                            What notions do we have of multiplying vectors? What does each concept mean geometrically?
+                        </p>
+                       </li>
+                       <li>
+                        <p>
                             What is a vector space? What are examples of vector spaces, and how are they similar/dissimilar 
                             to the most familiar vector space we've seen, <m>\R^2</m>?
                         </p>
