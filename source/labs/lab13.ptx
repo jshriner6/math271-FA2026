@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab13">
+  <title>Lab 13</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to eigenspaces. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise>
+    <introduction>
+      <p>
+       Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial
+       of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.
+      </p>
+    </introduction>
+    <task workspace="2in">
+        <statement>
+            <p>
+               <m>\displaystyle A = 
+                 \begin{bmatrix}
+                    2 \amp 7  \\
+                    -1 \amp -6 
+                \end{bmatrix}
+
+               </m>
+               
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+               <m>\displaystyle A = 
+                 \begin{bmatrix}
+                    1 \amp -1  \\
+                    \frac{4}{9} \amp -\frac{1}{3}
+                \end{bmatrix}
+
+               </m>
+               
+            </p>
+        </statement>
+    </task>
+    <task workspace="2in">
+        <statement>
+            <p>
+               <m>\displaystyle A = 
+                 \begin{bmatrix}
+                    -4 \amp -17  \\
+                    2 \amp 2 
+                \end{bmatrix}
+
+               </m>
+               
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="2in">
+        <statement>
+            <p>
+               <m>\displaystyle A = 
+                 \begin{bmatrix}
+                    0 \amp 1 \amp 1  \\
+                    1 \amp 0 \amp 1 \\
+                    1 \amp 1 \amp 0 
+                \end{bmatrix}
+
+               </m>
+               
+            </p>
+        </statement>
+    </task>
+    
+    
+</exercise>
+
+
+</page>
+
+
+</worksheet>

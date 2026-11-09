@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 7 (Weeks 12 and 13)</title>
+
+  <page>
+  
+
+    <exercise>
+        <introduction>
+            <p>
+           Represent each geometric transformation of <m>\R^2</m> as a matrix. Write one sentence describing your strategy.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   Reflection over the diagonal <m>y=x</m>. Test vectors <m>\langle 3,3 \rangle</m> and <m>\langle 1, 5 \rangle</m>
+                   with matrix multiplication.
+                </p>
+                
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Rotation counter-clockwise by <m>\pi/4</m> radians (<m>45</m> degrees).
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+
+    <exercise>
+        <introduction>
+        <p>
+                Let <m>\mathcal{B}_1 = \{\langle 1,0 \rangle , \langle 0,1 \rangle \}</m> and <m>\mathcal{B}_2 = \{ \langle -1,1 \rangle , \langle 0,-1 \rangle\}</m>
+                be two bases of <m>\R^2</m> over <m>\R</m>.
+        
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p> 
+                   Write a matrix which converts vectors from basis <m>\mathcal{B}_2</m> to <m>\mathcal{B}_1</m>. 
+                   Illustrate how it works using the vector <m>\langle 2,3 \rangle</m>, which is in <m>\mathcal{B}_2</m> coordinates.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write a matrix which converts vectors from basis <m>\mathcal{B}_1</m> to <m>\mathcal{B}_2</m>. 
+                   Explain how this matrix relates to your matrix from the previous part, 
+                   and illustrate how it works using the vector <m>\langle 2,3 \rangle</m>, which is in <m>\mathcal{B}_1</m> coordinates.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+    <exercise>
+        <introduction>
+            <p>
+               For each reaction below, write the balanced equation as a linear system of equations. Then determine the
+               smallest positive integers that balance the reaction.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>x_1\text{Al} +x_2\text{HCl} \to x_3\text{AlCl}_3 +x_4\text{H}_2</m>
+                </p>
+            </statement>
+        </task>
+
+         <task>
+            <statement>
+                <p>
+                    <m>x_1\text{KMnO}_4 +x_2\text{MnSO}_4 + x_3\text{H}_2\text{O} \to x_4\text{MnO}_2 +x_5\text{K}_2\text{SO}_4 + x_6\text{H}_2\text{SO}_4</m>
+                </p>
+            </statement>
+        </task>
+    
+    </exercise>
+
+   
+     
+
+    <exercise>
+        <introduction>
+            <p>
+               Create a matrix in RREF for each set of criteria below, or explain why it is not possible.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   A system of <m>6</m> equations and <m>4</m> variables with a unique solution.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   A system of <m>4</m> equations and <m>6</m> variables with a unique solution.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   A system of <m>4</m> equations and <m>4</m> variables for which <m>x_3</m> is the only free 
+                   variable.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   A system of <m>10</m> equations and <m>10</m> variables with exactly two solutions.
+                </p>
+            </statement>
+        </task>
+       
+    </exercise>
+   
+    </page>
+
+
+</worksheet>
