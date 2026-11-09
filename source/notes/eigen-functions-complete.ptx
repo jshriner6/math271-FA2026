@@ -11,6 +11,12 @@
                 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Now that we have some basics of eigenvalues and eigenvectors, we'll look at some specific examples
+                        from quantum mechanics.
+                    </p>
+                </solution>
             </exercise>
 
             <exercise workspace="6in">
@@ -20,7 +26,31 @@
                 Recall, the position operator is <m>\hat{x}: V \to V</m>, <m>\hat{x}[\psi] \mapsto x \cdot \psi</m>.
                     </p>
                 </statement>
-                
+                <solution>
+                    <p>
+                        The eigen-problem is then
+                        <md>
+                            \hat{x}[\psi] = x_0 \psi
+                        </md>.
+                        Eigenvectors to problems in this context of function spaces are called <term>eigenfunctions</term>. 
+                        This seems like an issue: how can <m>x\psi(x)</m> be the same as a constant times <m>\psi(x)</m>
+                        for every <m>x \in \R</m>?
+                        
+                    </p>
+                    <p>
+                        The intuition here is that every <m>x_0 \in \R</m> should be a possible observed outcome for the position
+                        of a particle. So for <m>x_0\in \R</m>, we need eigenfunctions whose entire support is at <m>x_0</m>, 
+                        and <m>0</m> everywhere else. For example, if <m>x_0 =0</m>, the idea is something like
+                        <md>
+                        \psi(x) = \begin{cases}
+                            0 \amp \text{ if } x \neq 0 \\
+                            \infty \amp \text{ if } x =0
+                        \end{cases}
+                        </md>
+                        Such a <q>function</q> would capture <m>x \psi(x) = 0 \cdot \psi(x)</m>.
+
+                    </p>
+                </solution>
             </exercise>
 </page>
 <page>
@@ -31,6 +61,65 @@
                 Eigenfunctions of the position operator are <term>Dirac Delta <q>Functions</q></term>. We can construct them as follows.
             </p>
         </statement>
+        <solution>
+            <p>
+                Consider a collection of functions of the form <m>g_t(x) = \frac{1}{t\sqrt{\pi}}e^{-x^2/t^2}</m>.
+                See the <url href="https://www.desmos.com/calculator/poqo3g9l1o">Dirac Delta Desmos calculator</url> 
+                for a visual of these functions.
+                
+            </p>
+            <p>
+                The <term>Dirac Delta function</term> <m>\delta(x)</m> is defined as <m>\lim_{t \to 0} g_t(x)</m>, which as seen
+                in the visual satisfies the intuition
+                <md>
+                    \delta(x) = \begin{cases}
+                            0 \amp \text{ if } x \neq 0 \\
+                            \infty \amp \text{ if } x =0
+                        \end{cases}
+                </md>,
+                and more generally
+                <md>
+                    \delta(x-c) = \begin{cases}
+                            0 \amp \text{ if } x \neq c \\
+                            \infty \amp \text{ if } x =c
+                        \end{cases}
+                </md>
+                
+            </p>
+            <p>
+                The defining properties of the dirac delta are how it behaves under integration:
+                <ol>
+                    <li>
+                        <p>
+                            <m>\displaystyle \int_{-\infty}^\infty \delta (x) \,\, dx = 1</m> and <m>\displaystyle \int_{-\infty}^\infty \delta (x-c) \,\, dx = 1</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\displaystyle \int_{-\infty}^\infty f(x) \delta (x-c) \,\, dx = f(c)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of functions <m>\{\psi_{x_0}\}_{x_0 \in \R}</m>, where <m>\psi_{x_0} = \delta(x-x_0)</m> is 
+                            an orthogonal set in the following sense:
+                            <md>
+                                <mrow>\langle \psi_a, \psi _b \rangle \amp= \int_{-\infty}^\infty \overline{\psi}_a \cdot \psi_b \,\, dx </mrow>
+                                <mrow> \amp= \int_{-\infty}^\infty \delta(x-a) \cdot \delta(x-b) \,\, dx </mrow>
+                                <mrow> \amp= \delta(a-b) </mrow>
+                                <mrow> \amp=  \begin{cases}
+                            0 \amp \text{ if } a \neq b \\
+                            \infty \amp \text{ if } a =b
+                        \end{cases}</mrow>
+                            </md>.
+                            Note that this differs from our previous notion of orthogonality only in that the inner product of a function with itself is not finite.
+                            Obtaining functions satisfying this notion of orthogonality is called <term>delta function normalization</term>.
+                            
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
             
         </exercise>
 </page>
@@ -42,6 +131,33 @@
                 Recall, the momentum operator is <md>\hat{p}: V \to V, \,\, \hat{p}[\psi] \mapsto -i \overline{h}\cdot \frac{d}{dx}[ \psi ]</md>.
             </p>
         </statement>
+        <solution>
+            <p>
+                The eigen problem here is 
+                <md>
+                    -i\overline{h} \frac{d}{dx}[\psi] = p \psi
+                </md>,
+                which is an example of a <term>differential equation</term> (more soon). We can verify that the eigenfunctions are 
+                <m>\psi_p(x) = A e^{ipx/\overline{h}}</m>, with eigenvalue <m>p \in \R</m>.
+                
+            </p>
+            <p>
+                We can't normalize these functions in the traditional sense, but we can delta function normalize them:
+                <md>
+                    <mrow> \langle \psi_p, \psi_{p'}\rangle \amp= \int_{-\infty}^\infty \overline{\psi_p} \cdot \psi_{p'} \,\, dx </mrow>
+                    <mrow> \amp=|A|^2 \cdot 2\pi \overline{h}\delta(p'-p) </mrow>
+                </md>.
+                The last equality uses facts of dirac delta that are beyond the scope of our course, but we can use it delta function 
+                normalize the eigenfunctions of the momentum operator. That is,
+                <md>
+                    \langle A e^{ipx/\overline{h}}, A e^{ip'x/\overline{h}} \rangle = \delta(p'-p)
+                </md>
+                when <m>A = \frac{1}{\sqrt{2\pi \overline{h}}}</m>, so the delta function normalized eigenfunctions of <m>\hat{p}</m> are
+                <m>\psi_p(x) =\frac{1}{\sqrt{2\pi \overline{h}}} \cdot e^{ipx/\overline{h}} </m> for <m>p \in \R</m>.
+                
+                
+            </p>
+        </solution>
         
     </exercise>
 </page>

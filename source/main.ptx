@@ -156,7 +156,7 @@
 <!--<xi:include href="./notes/eigen-spaces-complete.ptx"/> -->
 
 <xi:include href="./notes/eigen-functions.ptx"/> 
-<xi:include href="./notes/eigen-functions-complete.ptx"/> 
+<!--<xi:include href="./notes/eigen-functions-complete.ptx"/>  -->
 
 
 <!-- WEEK 14 -->
