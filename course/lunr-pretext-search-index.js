@@ -1738,6 +1738,168 @@ var ptx_lunr_docs = [
   "body": " Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 2 ( Partial Derivatives through Bases ). You should use them, along with homework questions, lab questions, and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm. Midterm questions will be written so that a calculator is not needed.   How do you compute partial derivatives? In 3D, what does the value of a partial derivative at a point tell you about the behavior of the surface at that point?    How do you compute the tangent plane to a 3D surface at a point? Why are tangent planes useful?    What is a directional derivative? How are directional derivatives related to partial derivatives?    What is the gradient vector at a point, and what information does it hold?    What is the total differential of a multi-variable function at a point? What is it used for?    How do you represent the multi-variable chain rule using tree diagrams?    What does a double integral represent geometrically?    What do the bounds of a double integral look like when integrating over a rectangular region? How does this change if your region of integration is non-rectangular?    When is it possible to visualize a triple integral geometrically? What types of applications are triple integrals commonly used for?    We've discussed transforming from rectangular coordinates to   polar coordinates    cylindrical coordinates    spherical coordinates   What is the Jacobian of each of these three transformations? When do you need to use the Jacobian for each of these three transformations, and why?    Why are multi-variable integrals in non-rectangular coordinates common in quantum mechanics (review Homework 5 carefully).    In , what is the meaning of a vector ? How do we visualize scalar multiplication of vectors and addition of vectors? What is a unit vector?    What notions do we have of multiplying vectors? What does each concept mean geometrically?    What is a vector space? What are examples of vector spaces, and how are they similar\/dissimilar to the most familiar vector space we've seen, ?    What is a Hilbert space? Why might we want to add an inner product to a vector space?    What is the standard inner product used for complex function spaces (like the function space of wave functions in quantum mechanics)?    What is a basis for a vector space?    What are examples of bases for vector spaces that we've seen? How do we use a basis to define the dimension of a vector space?    Can changing the set of scalars for a vector space change its dimension? Why?      "
 },
 {
+  "id": "eigen-intro",
+  "level": "1",
+  "url": "eigen-intro.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Introduction to Eigenvalues and Eigenvectors",
+  "body": " Introduction to Eigenvalues and Eigenvectors    Motivation        Connection to Quantum Mechanics   Recall, Postulate 3 says  In any measurement of the observable associated with the operator , the only values that will every be observed are the eigenvalues , which satisfy the eigenvalue equation .       Visualizing Eigenvalues and Eigenvectors   Recalling we can view a linear operator as an matrix, what is the intuition behind ? What are the eigenvalues\/eigenvectors of                                   Eigenvectors and Bases   Eigenvalues and eigenvectors are useful computationally.     Example: Eigenvectors, Bases and Diagonalization   Let .       Exercise: Diagonalization   Use the interactive to diagonalize      "
+},
+{
+  "id": "eigen-intro-2-1",
+  "level": "2",
+  "url": "eigen-intro.html#eigen-intro-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "eigen-intro-2-2",
+  "level": "2",
+  "url": "eigen-intro.html#eigen-intro-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Connection to Quantum Mechanics.",
+  "body": " Connection to Quantum Mechanics   Recall, Postulate 3 says  In any measurement of the observable associated with the operator , the only values that will every be observed are the eigenvalues , which satisfy the eigenvalue equation .   "
+},
+{
+  "id": "eigen-intro-3-1",
+  "level": "2",
+  "url": "eigen-intro.html#eigen-intro-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Visualizing Eigenvalues and Eigenvectors.",
+  "body": " Visualizing Eigenvalues and Eigenvectors   Recalling we can view a linear operator as an matrix, what is the intuition behind ? What are the eigenvalues\/eigenvectors of                               "
+},
+{
+  "id": "eigen-intro-4-1",
+  "level": "2",
+  "url": "eigen-intro.html#eigen-intro-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Eigenvectors and Bases.",
+  "body": " Eigenvectors and Bases   Eigenvalues and eigenvectors are useful computationally.   "
+},
+{
+  "id": "eigen-intro-4-2",
+  "level": "2",
+  "url": "eigen-intro.html#eigen-intro-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Eigenvectors, Bases and Diagonalization.",
+  "body": " Example: Eigenvectors, Bases and Diagonalization   Let .   "
+},
+{
+  "id": "eigen-intro-5-1",
+  "level": "2",
+  "url": "eigen-intro.html#eigen-intro-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Exercise: Diagonalization.",
+  "body": " Exercise: Diagonalization   Use the interactive to diagonalize    "
+},
+{
+  "id": "eigen-spaces",
+  "level": "1",
+  "url": "eigen-spaces.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Eigenspaces",
+  "body": " Eigenspaces    Motivation        Finding Eigenvalues and Eigenvectors   Given an matrix , find non-zero and scalar such that       Example: Finding Eigenvalues and Eigenvectors   Let .       More Eigenvalue Examples    Let .      Let .      Let .        Summary        "
+},
+{
+  "id": "eigen-spaces-2-1",
+  "level": "2",
+  "url": "eigen-spaces.html#eigen-spaces-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "eigen-spaces-2-2",
+  "level": "2",
+  "url": "eigen-spaces.html#eigen-spaces-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Finding Eigenvalues and Eigenvectors.",
+  "body": " Finding Eigenvalues and Eigenvectors   Given an matrix , find non-zero and scalar such that   "
+},
+{
+  "id": "eigen-spaces-3-1",
+  "level": "2",
+  "url": "eigen-spaces.html#eigen-spaces-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Finding Eigenvalues and Eigenvectors.",
+  "body": " Example: Finding Eigenvalues and Eigenvectors   Let .   "
+},
+{
+  "id": "eigen-spaces-4-1",
+  "level": "2",
+  "url": "eigen-spaces.html#eigen-spaces-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "More Eigenvalue Examples.",
+  "body": " More Eigenvalue Examples    Let .      Let .      Let .    "
+},
+{
+  "id": "eigen-spaces-5-1",
+  "level": "2",
+  "url": "eigen-spaces.html#eigen-spaces-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Summary.",
+  "body": " Summary      "
+},
+{
+  "id": "eigen-functions",
+  "level": "1",
+  "url": "eigen-functions.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Eigenfunctions",
+  "body": " Eigenfunctions    Motivation        The Position Operator   Recall, the position operator is , .       The Dirac Delta Function   Eigenfunctions of the position operator are Dirac Delta Functions . We can construct them as follows.       The Momentum Operator   Recall, the momentum operator is .     "
+},
+{
+  "id": "eigen-functions-2-1",
+  "level": "2",
+  "url": "eigen-functions.html#eigen-functions-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "eigen-functions-2-2",
+  "level": "2",
+  "url": "eigen-functions.html#eigen-functions-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Position Operator.",
+  "body": " The Position Operator   Recall, the position operator is , .   "
+},
+{
+  "id": "eigen-functions-3-1",
+  "level": "2",
+  "url": "eigen-functions.html#eigen-functions-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "The Dirac Delta “Function”.",
+  "body": " The Dirac Delta Function   Eigenfunctions of the position operator are Dirac Delta Functions . We can construct them as follows.   "
+},
+{
+  "id": "eigen-functions-4-1",
+  "level": "2",
+  "url": "eigen-functions.html#eigen-functions-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "The Momentum Operator.",
+  "body": " The Momentum Operator   Recall, the momentum operator is .   "
+},
+{
   "id": "lab1",
   "level": "1",
   "url": "lab1.html",
