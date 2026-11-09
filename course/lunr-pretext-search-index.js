@@ -1630,49 +1630,49 @@ var ptx_lunr_docs = [
   "body": " Exercise: Solving Linear Systems   Solve     The solution space is .   "
 },
 {
-  "id": "linear-transformation",
+  "id": "linear-transformation-complete",
   "level": "1",
-  "url": "linear-transformation.html",
+  "url": "linear-transformation-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Linear Transformations",
-  "body": " Linear Transformations    Motivation        Linear Transformations   A linear transformation is a function such that       Examples: Linear Transformations    Differentiation and Integration on a Function Space.      Matrix Multiplication.        Remarks: Linear Transformations    Linear transformations and Matrix Properties.      Linear transformations and Changing Bases.      "
+  "title": "Linear Transformations (Complete)",
+  "body": " Linear Transformations (Complete)    Motivation       Another important perspective of matrices is that they represent functions between vector spaces. We'll look at the important properties of such functions, and visualize specific cases.     Linear Transformations   A linear transformation is a function such that     . Intuitively, linear transformations behave nicely with linear combinations of vectors.       Examples: Linear Transformations    Differentiation and Integration on a Function Space.    Properties you learned regarding derivatives and integrals from Calc 1 show that the derivative and integral can be considered linear transformations on function spaces:       Matrix Multiplication.    If is an matrix, then one can define a linear transformation by matrix multiplication with : The following properties of matrices confirm this is a linear transformation:   Conversely, every linear transformation between finite-dimensional vector spaces can be represented by a matrix! In particular, if and has basis , then . That is, is the transformation defined by multiplication with the matrix whose columns are obtained by acting on each basis vector of .  You can use the matrix multiplication interactive to visualize some transformations from .        Remarks: Linear Transformations    Linear transformations and Matrix Properties.    Viewing matrices as linear transformations can help us with otherwise abstract properties of matrices.   Inverses. We can recognize that the matrix is invertible with inverse matrix by recognizing that is the transformation that rotates all vectors degrees in the clockwise direction. This is an invertible transformation, which is rotation degrees in the counter-clockwise direction.    Determinants. is the scaling factor of areas under the transformation . In particular, transformations that collapse vectors to one dimension have determinant zero, and transformations that reverses the orientation of space have negative determinant.         Linear transformations and Changing Bases.    Doing a basis change for a vector space is a linear transformation. For example, if we'd like to do a basis change in from the basis to the standard basis, we'd form the matrix (linear transformation) , which is restating that in -coordinates means , and similar for .  If is the change of basis matrix from -coordinates to standard coordinates, then is the change of basis matrix from standard coordinates to -coordinates.      "
 },
 {
-  "id": "linear-transformation-2-1",
+  "id": "linear-transformation-complete-2-1",
   "level": "2",
-  "url": "linear-transformation.html#linear-transformation-2-1",
+  "url": "linear-transformation-complete.html#linear-transformation-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Another important perspective of matrices is that they represent functions between vector spaces. We'll look at the important properties of such functions, and visualize specific cases.   "
 },
 {
-  "id": "linear-transformation-2-2",
+  "id": "linear-transformation-complete-2-2",
   "level": "2",
-  "url": "linear-transformation.html#linear-transformation-2-2",
+  "url": "linear-transformation-complete.html#linear-transformation-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Linear Transformations.",
-  "body": " Linear Transformations   A linear transformation is a function such that   "
+  "body": " Linear Transformations   A linear transformation is a function such that     . Intuitively, linear transformations behave nicely with linear combinations of vectors.   "
 },
 {
-  "id": "linear-transformation-3-1",
+  "id": "linear-transformation-complete-3-1",
   "level": "2",
-  "url": "linear-transformation.html#linear-transformation-3-1",
+  "url": "linear-transformation-complete.html#linear-transformation-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Linear Transformations.",
-  "body": " Examples: Linear Transformations    Differentiation and Integration on a Function Space.      Matrix Multiplication.    "
+  "body": " Examples: Linear Transformations    Differentiation and Integration on a Function Space.    Properties you learned regarding derivatives and integrals from Calc 1 show that the derivative and integral can be considered linear transformations on function spaces:       Matrix Multiplication.    If is an matrix, then one can define a linear transformation by matrix multiplication with : The following properties of matrices confirm this is a linear transformation:   Conversely, every linear transformation between finite-dimensional vector spaces can be represented by a matrix! In particular, if and has basis , then . That is, is the transformation defined by multiplication with the matrix whose columns are obtained by acting on each basis vector of .  You can use the matrix multiplication interactive to visualize some transformations from .    "
 },
 {
-  "id": "linear-transformation-4-1",
+  "id": "linear-transformation-complete-4-1",
   "level": "2",
-  "url": "linear-transformation.html#linear-transformation-4-1",
+  "url": "linear-transformation-complete.html#linear-transformation-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Remarks: Linear Transformations.",
-  "body": " Remarks: Linear Transformations    Linear transformations and Matrix Properties.      Linear transformations and Changing Bases.    "
+  "body": " Remarks: Linear Transformations    Linear transformations and Matrix Properties.    Viewing matrices as linear transformations can help us with otherwise abstract properties of matrices.   Inverses. We can recognize that the matrix is invertible with inverse matrix by recognizing that is the transformation that rotates all vectors degrees in the clockwise direction. This is an invertible transformation, which is rotation degrees in the counter-clockwise direction.    Determinants. is the scaling factor of areas under the transformation . In particular, transformations that collapse vectors to one dimension have determinant zero, and transformations that reverses the orientation of space have negative determinant.         Linear transformations and Changing Bases.    Doing a basis change for a vector space is a linear transformation. For example, if we'd like to do a basis change in from the basis to the standard basis, we'd form the matrix (linear transformation) , which is restating that in -coordinates means , and similar for .  If is the change of basis matrix from -coordinates to standard coordinates, then is the change of basis matrix from standard coordinates to -coordinates.    "
 },
 {
   "id": "linear-operators",
