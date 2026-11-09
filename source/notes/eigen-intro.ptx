@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="eigen-intro">
+    <title>Introduction to Eigenvalues and Eigenvectors</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Connection to Quantum Mechanics</title>
+                <statement>
+                    <p>
+                Recall, Postulate 3 says
+                </p>
+                <p>
+                    In any measurement of the observable associated with the operator <m>\hat{A}</m>, the only values 
+                                    that will every be observed are the eigenvalues <m>a_n</m>, which satisfy the eigenvalue equation
+                                    <md>
+                                        \hat{A}\psi_n = a_n\psi_n
+                                    </md>.
+
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+        <exercise>
+        <title>Visualizing Eigenvalues and Eigenvectors</title>
+        <introduction>
+            <p>
+                Recalling we can view a linear operator <m>A</m> as an <m>n \times n</m> matrix, what is the intuition behind
+                <m>A \xvec = \lambda \xvec</m>? What are the eigenvalues/eigenvectors of 
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    2 \amp 0 \\
+                    0 \amp 1
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+        </task>
+
+         <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    2 \amp 0 \\
+                    0 \amp 2
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+        </task>
+        
+         <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    0 \amp -1 \\
+                    1 \amp 0
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+        </task>
+
+         <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    1 \amp 2 \\
+                    2 \amp 1
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+        </task>
+            
+        </exercise>
+</page>
+
+<page>
+    <exercise workspace="2in">
+        <title>Eigenvectors and Bases</title>
+        <statement>
+            <p>
+                Eigenvalues and eigenvectors are useful computationally.
+            </p>
+        </statement>
+        
+    </exercise>
+
+    <exercise workspace="8in">
+        <title>Example: Eigenvectors, Bases and Diagonalization</title>
+        <statement>
+            <p>
+                Let <m>A = \begin{bmatrix} 1 \amp 2 \\ 2 \amp 1 \end{bmatrix}</m>.
+            </p>
+        </statement>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Exercise: Diagonalization</title>
+        <statement>
+            <p>
+                Use the interactive to diagonalize 
+                <md>
+                    A = \begin{bmatrix} 2 \amp -2 \\ -2 \amp -1 \end{bmatrix}
+                </md>
+                
+            </p>
+        </statement>
+        
+    </exercise>
+</page>
+
+
+
+       
+    </worksheet>

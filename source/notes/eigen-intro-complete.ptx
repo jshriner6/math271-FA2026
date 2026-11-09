@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="eigen-intro-complete">
+    <title>Introduction to Eigenvalues and Eigenvectors (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Given a linear operator <m>A</m>, one can form the <term>eigen-problem</term> for <m>A</m>:
+                    </p>
+                    <p>
+                        for what non-zero vectors <m>\xvec</m> and scalars <m>\lambda</m> is it true that 
+                        <m>A \xvec = \lambda \xvec</m>?
+                    </p>
+                    <p>
+                        This problem is very relevant in quantum mechanics, among many other places.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Connection to Quantum Mechanics</title>
+                <statement>
+                    <p>
+                Recall, Postulate 3 says
+                </p>
+                <p>
+                    In any measurement of the observable associated with the operator <m>\hat{A}</m>, the only values 
+                                    that will every be observed are the eigenvalues <m>a_n</m>, which satisfy the eigenvalue equation
+                                    <md>
+                                        \hat{A}\psi_n = a_n\psi_n
+                                    </md>.
+
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Using the Hamiltonian operator, this yields,
+                        <md>
+                            \hat{H} [\psi] = E \psi
+                        </md>,
+                        which is exactly the time-independent version of Schrödinger's equation!
+                        
+                    </p>
+                    <p>
+                        We'll start with some examples from finite dimensional vector spaces, and eventually look at 
+                        examples of observables in quantum mechanics (position, momentum).
+                    </p>
+                </solution>
+                
+            </exercise>
+</page>
+<page>
+        <exercise>
+        <title>Visualizing Eigenvalues and Eigenvectors</title>
+        <introduction>
+            <p>
+                Recalling we can view a linear operator <m>A</m> as an <m>n \times n</m> matrix, what is the intuition behind
+                <m>A \xvec = \lambda \xvec</m>? What are the eigenvalues/eigenvectors of 
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    2 \amp 0 \\
+                    0 \amp 1
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    You can use the <url href="https://understandinglinearalgebra.org/jsactivities/eigenvectors.html">eigenvector interactive</url> 
+                    to visualize that the eigenvalues are <m>2</m> (with eigenvectors of the form <m>\begin{bmatrix} c \\ 0 \end{bmatrix}</m>) and 
+                    <m>1</m> (with eigenvectors of the form <m>\begin{bmatrix} 0 \\ c \end{bmatrix}</m>).
+                </p>
+            </solution>
+        </task>
+
+         <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    2 \amp 0 \\
+                    0 \amp 2
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    You can use the <url href="https://understandinglinearalgebra.org/jsactivities/eigenvectors.html">eigenvector interactive</url> 
+                    to visualize that the only eigenvalue is <m>2</m> (with eigenvectors all of <m>\R^2</m>).
+                </p>
+            </solution>
+        </task>
+        
+         <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    0 \amp -1 \\
+                    1 \amp 0
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    You can use the <url href="https://understandinglinearalgebra.org/jsactivities/eigenvectors.html">eigenvector interactive</url> 
+                    to visualize that there are no eigenvalues and eigenvectors of this transformation.
+                </p>
+            </solution>
+        </task>
+
+         <task workspace="2in">
+            <statement>
+                <p>
+                    <m>
+                    \begin{bmatrix}
+                    1 \amp 2 \\
+                    2 \amp 1
+                    \end{bmatrix}
+                    </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    You can use the <url href="https://understandinglinearalgebra.org/jsactivities/eigenvectors.html">eigenvector interactive</url> 
+                    to visualize that the eigenvalues are <m>3</m> (with eigenvectors of the form <m>\begin{bmatrix} c \\ c \end{bmatrix}</m>) and 
+                    <m>-1</m> (with eigenvectors of the form <m>\begin{bmatrix} -c \\ c \end{bmatrix}</m>).
+                </p>
+            </solution>
+        </task>
+            
+        </exercise>
+</page>
+
+<page>
+    <exercise workspace="2in">
+        <title>Eigenvectors and Bases</title>
+        <statement>
+            <p>
+                Eigenvalues and eigenvectors are useful computationally.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The big idea is that eigenvectors associated to distinct eigenvalues are linearly independent vectors.
+                If a matrix <m>A</m> has <m>n</m> linearly independent eigenvectors, we can use them to form a basis for the 
+                vector space, which can give a useful interpretation of multiplication by <m>A</m>.
+            </p>
+        </solution>
+    </exercise>
+
+    <exercise workspace="8in">
+        <title>Example: Eigenvectors, Bases and Diagonalization</title>
+        <statement>
+            <p>
+                Let <m>A = \begin{bmatrix} 1 \amp 2 \\ 2 \amp 1 \end{bmatrix}</m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                We've already seen that the eigenvalues are <m>3</m> (with eigenvectors of the form <m>\begin{bmatrix} c \\ c \end{bmatrix}</m>) and 
+                    <m>-1</m> (with eigenvectors of the form <m>\begin{bmatrix} -c \\ c \end{bmatrix}</m>). So we can take the 
+                    particular eigenvectors <m>\vvec_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}</m> and <m>\vvec_2 = \begin{bmatrix} -1 \\ 1 \end{bmatrix}</m> to 
+                    form a basis for <m>\R^2</m>.
+            </p>
+            <p>
+                Then if <m>\xvec \in \R^2</m>, we can write <m>\xvec = c_1\vvec_1 + c_2 \vvec_2</m> for some scalars <m>c_1, c_2</m>, and 
+                so
+                <md>
+                    <mrow>A \xvec \amp= A (c_1\vvec_1 + c_2 \vvec_2) </mrow>
+                    <mrow> \amp= c_1 (A\vvec_1) + c_2 (A\vvec_2)</mrow>
+                    <mrow> \amp= (3c_1)\vvec_1 - c_2 \vvec_2 </mrow>
+                </md>
+                That is, multiplication by <m>A</m> in this new basis is just scalar multiplication in the directions of
+                <m>\vvec_1</m> and <m>\vvec_2</m>!
+                
+            </p>
+            <p>
+                More formally, we can decompose <m>A</m> as 
+                <md>
+                    A = PDP^{-1}
+                </md>,
+                where <m>D = \begin{bmatrix} 3 \amp 0 \\ 0 \amp -1\end{bmatrix}</m> is the diagonal matrix of eigenvalues, and
+                <m>P = \begin{bmatrix} 1 \amp -1 \\ 1 \amp 1\end{bmatrix}</m> is the matrix whose columns are the associated eigenvectors.
+                
+
+            </p>
+        </solution>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Exercise: Diagonalization</title>
+        <statement>
+            <p>
+                Use the interactive to diagonalize 
+                <md>
+                    A = \begin{bmatrix} 2 \amp -2 \\ -2 \amp -1 \end{bmatrix}
+                </md>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <m>A =  \begin{bmatrix} 2 \amp 1 \\ -1 \amp 2 \end{bmatrix}\begin{bmatrix} 3 \amp 0 \\ 0 \amp -2 \end{bmatrix} \left(\begin{bmatrix} 2 \amp 1 \\ -1 \amp 2 \end{bmatrix}\right)^{-1}</m>
+            </p>
+        </solution>
+        
+    </exercise>
+</page>
+
+
+
+       
+    </worksheet>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="eigen-spaces">
+    <title>Eigenspaces</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Finding Eigenvalues and Eigenvectors</title>
+                <statement>
+                    <p>
+                Given an <m>n \times n</m> matrix <m>A</m>, find non-zero <m>\xvec</m> and scalar <m>\lambda</m> such that
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Example: Finding Eigenvalues and Eigenvectors</title>
+           <statement>
+            <p>
+                Let <m>A = \begin{bmatrix} 1 \amp 2 \\ 2 \amp 1\end{bmatrix}</m>.
+            </p>
+           </statement> 
+        </exercise>
+</page>
+<page>
+    <exercise>
+        <title> More Eigenvalue Examples</title>
+        <task workspace="3in">
+            <statement>
+                <p>
+                   Let  <m>A = \begin{bmatrix} 1 \amp 0 \\ 0 \amp -1\end{bmatrix}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                   Let  <m>B = \begin{bmatrix} 0 \amp -i \\ i \amp 0\end{bmatrix}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                   Let  <m>C = \begin{bmatrix} 0 \amp -1 \\ 1 \amp 0\end{bmatrix}</m>.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+
+<page>
+    <exercise workspace="8in">
+        <title>Summary</title>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        
+    </exercise>
+</page>
+
+
+       
+    </worksheet>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="eigen-functions-complete">
+    <title>Eigenfunctions (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>The Position Operator</title>
+                <statement>
+                    <p>
+                Recall, the position operator is <m>\hat{x}: V \to V</m>, <m>\hat{x}[\psi] \mapsto x \cdot \psi</m>.
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>The Dirac Delta <q>Function</q></title>
+        <statement>
+            <p>
+                Eigenfunctions of the position operator are <term>Dirac Delta <q>Functions</q></term>. We can construct them as follows.
+            </p>
+        </statement>
+            
+        </exercise>
+</page>
+<page>
+    <exercise>
+        <title>The Momentum Operator</title>
+        <statement>
+            <p>
+                Recall, the momentum operator is <md>\hat{p}: V \to V, \,\, \hat{p}[\psi] \mapsto -i \overline{h}\cdot \frac{d}{dx}[ \psi ]</md>.
+            </p>
+        </statement>
+        
+    </exercise>
+</page>
+
+
+       
+    </worksheet>

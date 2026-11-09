@@ -149,6 +149,17 @@
 <xi:include href="./notes/mid2-review.ptx"/> 
 
 <!-- WEEK 13 -->
+<xi:include href="./notes/eigen-intro.ptx"/> 
+<!--<xi:include href="./notes/eigen-intro-complete.ptx"/> -->
+
+<xi:include href="./notes/eigen-spaces.ptx"/> 
+<!--<xi:include href="./notes/eigen-spaces-complete.ptx"/> -->
+
+<xi:include href="./notes/eigen-functions.ptx"/> 
+<xi:include href="./notes/eigen-functions-complete.ptx"/> 
+
+
+<!-- WEEK 14 -->
 
 
       <!-- etc. -->

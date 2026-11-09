@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="eigen-spaces-complete">
+    <title>Eigenspaces (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        We have some understanding of what eigenvectors and eigenvalues are, and why they matter. Now we'll learn
+                        how to find them in the finite-dimensional case using what we know about solving linear systems of equations.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Finding Eigenvalues and Eigenvectors</title>
+                <statement>
+                    <p>
+                Given an <m>n \times n</m> matrix <m>A</m>, find non-zero <m>\xvec</m> and scalar <m>\lambda</m> such that
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>A\xvec = \lambda \xvec</m>. This simplifies as
+                        <md>
+                            <mrow>A\xvec - \lambda \xvec  \amp= \mathbf{0} </mrow>
+                            <mrow>(A - \lambda I_n)\xvec \amp=\mathbf{0} </mrow>
+                        </md>
+                        If <m>\text{det}(A-\lambda I_n) \neq 0</m>, then <m>A-\lambda I_n</m> is invertible, and there is 
+                        a unique solution (<m>\xvec = \mathbf{0}</m>). However, if <m>\text{det}(A-\lambda I_n) = 0</m>,
+                        then <m>A-\lambda I_n</m> is not invertible, and there are infinitely many solutions. 
+                    </p>
+                    <p>
+                        So given <m>A</m>, the problem reduces to finding <m>\lambda</m> such that <m>\text{det}(A-\lambda I_n) = 0</m>.
+                        This computation gives a polynomial of degree <m>n</m>, called the <term>characteristic polynomial of</term> <m>A</m>.
+                    </p>
+                </solution>
+                
+            </exercise>
+</page>
+<page>
+        <exercise workspace="8in">
+        <title>Example: Finding Eigenvalues and Eigenvectors</title>
+           <statement>
+            <p>
+                Let <m>A = \begin{bmatrix} 1 \amp 2 \\ 2 \amp 1\end{bmatrix}</m>.
+            </p>
+           </statement> 
+           <solution>
+            <p>
+                The matrix <m>A-\lambda I_2</m> is <m>\begin{bmatrix} 1 - \lambda \amp 2 \\ 2 \amp 1 - \lambda \end{bmatrix}</m>, which
+                has determinant <m>(1-\lambda)^2 - 4 = \lambda^2 - 2\lambda -3 = (\lambda-3)(\lambda + 1)</m>. So the eigenvalues of 
+                <m>A</m> are <m>3, -1</m>.
+            </p>
+            <p>
+                To find the associated eigenvectors, we take each eigenvalue one at a time. If <m>\lambda =3</m>, then the matrix
+                <m>A-3I_2</m> is <m>\begin{bmatrix} -2 \amp 2 \\ 2 \amp -2 \end{bmatrix}</m>, and we need to find all <m>\xvec</m>
+                such that
+                <md>
+                    \begin{bmatrix} -2 \amp 2 \\ 2 \amp -2 \end{bmatrix} \xvec  = \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                </md>.
+                This is a matrix equation representing a linear system, so we can use RREF of the associated augmented matrix 
+                to find the solution space:
+                <md>
+                     \left[ \begin{array}{rr|r} -2 \amp 2 \amp 0 \\ 2 \amp -2 \amp 0 \end{array} \right] \to \left[ \begin{array}{rr|r} 1 \amp -1 \amp 0 \\ 0 \amp 0 \amp 0  \end{array} \right]
+                    
+                </md>
+                This corresponds to the solution space
+                <md>
+                    E_3 = \left\{ c \begin{bmatrix} 1 \\ 1 \end{bmatrix} : c \in \R \right\}
+                </md>,
+                called the <term>eigenspace</term> associated with <m>\lambda =3</m>.
+                
+                
+            </p>
+            <p>
+                If <m>\lambda = -1</m>, we can follow work similar to the above to obtain
+                <md>
+                    E_{-1} =  \left\{ c \begin{bmatrix} 1 \\ -1 \end{bmatrix} : c \in \R \right\}
+                </md>
+                
+            </p>
+           </solution>
+        </exercise>
+</page>
+<page>
+    <exercise>
+        <title> More Eigenvalue Examples</title>
+        <task workspace="3in">
+            <statement>
+                <p>
+                   Let  <m>A = \begin{bmatrix} 1 \amp 0 \\ 0 \amp -1\end{bmatrix}</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Reasoning geometrically, we can see the eigenvalues are <m>\lambda = 1, -1</m>, with 
+                    eigenspaces 
+                    <md>
+                    E_{1} =  \left\{ c \begin{bmatrix} 1 \\ 0 \end{bmatrix} : c \in \R \right\}
+                    </md>
+                    and 
+                    <md>
+                    E_{-1} =  \left\{ c \begin{bmatrix} 0 \\ 1 \end{bmatrix} : c \in \R \right\}
+                    </md>.
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                   Let  <m>B = \begin{bmatrix} 0 \amp -i \\ i \amp 0\end{bmatrix}</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The characteristic polynomial is <m>\lambda^2 - 1</m>, so the eigenvalues are <m>1,-1</m>. The augmented
+                    matrices needed to find the eigenvectors are complex-valued, but we can still use technology to find RREF 
+                    and conclude that 
+                     <md>
+                    E_{1} =  \left\{ c \begin{bmatrix} -i \\ 1 \end{bmatrix} : c \in \C \right\}
+                    </md>
+                    and 
+                    <md>
+                    E_{-1} =  \left\{ c \begin{bmatrix} i \\ 1 \end{bmatrix} : c \in \C \right\}
+                    </md>.
+                    
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="3in">
+            <statement>
+                <p>
+                   Let  <m>C = \begin{bmatrix} 0 \amp -1 \\ 1 \amp 0\end{bmatrix}</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The eigenvalues are <m>\pm i</m>, and 
+                     <md>
+                    E_{i} =  \left\{ c \begin{bmatrix} i \\ 1 \end{bmatrix} : c \in \C \right\}
+                    </md>
+                    and 
+                    <md>
+                    E_{-i} =  \left\{ c \begin{bmatrix} -i \\ 1 \end{bmatrix} : c \in \C \right\}
+                    </md>.
+                </p>
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+
+<page>
+    <exercise workspace="8in">
+        <title>Summary</title>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Diagonal matrices show their eigenvalues on the diagonal (matrix <m>A</m>).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Some transformations on vector spaces over <m>\R</m> have no real eigenvalues (matrix <m>C</m>).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Some transformations on vector spaces over <m>\C</m> have <em>only</em> real eigenvalues, 
+                            and in quantum mechanics, this is good! More specifically, if <m>A: V \to V</m> 
+                            (<m>V</m> a vector space over <m>\C</m>)is Hermitian, then the eigenvalues of <m>A</m>
+                            are all real!
+                        </p>
+                        <p>
+                            This matters because a linear operator <m>A</m> represents observables, and eigenvalues of these
+                            operators are the possible observed measurements; physical measurements should be real-valued!
+                        </p>
+                        <p>
+                            This is why observables in quantum mechanics are represented by linear, Hermitian operators.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+        
+    </exercise>
+</page>
+
+
+       
+    </worksheet>
