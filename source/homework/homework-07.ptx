@@ -61,14 +61,18 @@
     <exercise>
         <introduction>
             <p>
-               For each reaction below, write the balanced equation as a linear system of equations. Then determine the
-               smallest positive integers that balance the reaction.
+               Let <m>A = \begin{bmatrix}z_1 \amp z_2 \\ z_3 \amp z_4 \end{bmatrix}</m> be a linear transformation, 
+               <m>A: \C^2 \to \C^2</m>. For <m>\uvec = \langle u_1, u_2 \rangle, \vvec=\langle v_1, v_2 \rangle \in \C^2</m>, use the inner product on <m>\C^2</m> defined by the dot product:
+               <md>
+                \langle \uvec ,\vvec \rangle = \overline{\uvec} \cdot \vvec = \overline{u_1}v_1 + \overline{u_2}v_2
+               </md>.
+               
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    <m>x_1\text{Al} +x_2\text{HCl} \to x_3\text{AlCl}_3 +x_4\text{H}_2</m>
+                    Compute <m>\langle A \uvec, \vvec\rangle</m>.
                 </p>
             </statement>
         </task>
@@ -76,10 +80,20 @@
          <task>
             <statement>
                 <p>
-                    <m>x_1\text{KMnO}_4 +x_2\text{MnSO}_4 + x_3\text{H}_2\text{O} \to x_4\text{MnO}_2 +x_5\text{K}_2\text{SO}_4 + x_6\text{H}_2\text{SO}_4</m>
+                    Compute <m>\langle  \uvec,A \vvec\rangle</m>.
                 </p>
             </statement>
         </task>
+        <task>
+            <statement>
+                <p>
+                    If <m>A</m> is self-adjoint (that is, the inner products from the previous parts are equal), show that
+                    this also implies that <m>A</m> is a Hermitian matrix.
+                </p>
+            </statement>
+        </task>
+
+
     
     </exercise>
 
@@ -89,38 +103,75 @@
     <exercise>
         <introduction>
             <p>
-               Create a matrix in RREF for each set of criteria below, or explain why it is not possible.
+               Find the eigenvalues and eigenvectors of each linear transformation below. Be sure you can show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                   A system of <m>6</m> equations and <m>4</m> variables with a unique solution.
+                    <m>
+                    \displaystyle
+                   \begin{bmatrix}
+                    1 \amp 2 \\
+                    3 \amp 2
+                   \end{bmatrix}
+                   </m>
                 </p>
             </statement>
         </task>
 
-        <task>
+         <task>
             <statement>
                 <p>
-                   A system of <m>4</m> equations and <m>6</m> variables with a unique solution.
+                    <m>
+                    \displaystyle
+                   \begin{bmatrix}
+                    -5 \amp 1 \\
+                    4 \amp -2
+                   \end{bmatrix}
+                   </m>
                 </p>
             </statement>
         </task>
 
-        <task>
+         <task>
             <statement>
                 <p>
-                   A system of <m>4</m> equations and <m>4</m> variables for which <m>x_3</m> is the only free 
-                   variable.
+                    <m>
+                    \displaystyle
+                   \begin{bmatrix}
+                    3 \amp 9 \\
+                    -4 \amp -3
+                   \end{bmatrix}
+                   </m>
                 </p>
             </statement>
         </task>
 
-        <task>
+         <task>
             <statement>
                 <p>
-                   A system of <m>10</m> equations and <m>10</m> variables with exactly two solutions.
+                    <m>
+                    \displaystyle
+                   \begin{bmatrix}
+                    3 \amp -13 \\
+                    5 \amp 1
+                   \end{bmatrix}
+                   </m>
+                </p>
+            </statement>
+        </task>
+
+         <task>
+            <statement>
+                <p>
+                    <m>
+                    \displaystyle
+                   \begin{bmatrix}
+                    7 \amp 1 \\
+                    -4 \amp 3
+                   \end{bmatrix}
+                   </m>
                 </p>
             </statement>
         </task>
