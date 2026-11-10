@@ -143,8 +143,8 @@
 <!-- <xi:include href="./notes/linear-transformation.ptx"/> -->
 <xi:include href="./notes/linear-transformation-complete.ptx"/>
 
-<xi:include href="./notes/linear-operators.ptx"/> 
-<!--<xi:include href="./notes/linear-operators-complete.ptx"/> -->
+<!--<xi:include href="./notes/linear-operators.ptx"/> -->
+<xi:include href="./notes/linear-operators-complete.ptx"/> 
 
 <xi:include href="./notes/mid2-review.ptx"/> 
 
