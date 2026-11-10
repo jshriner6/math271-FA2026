@@ -2248,7 +2248,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Lab 13",
-  "body": " Lab 13    This lab is intended to practice ideas related to eigenspaces. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                                 "
+  "body": " Lab 13    This lab is intended to practice ideas related to eigenspaces. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                          The following is a challenge problem (not required):       "
 },
 {
   "id": "lab13-3-1",
@@ -2257,7 +2257,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                               "
+  "body": "  Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                          The following is a challenge problem (not required):     "
 },
 {
   "id": "homework-3",
@@ -2591,51 +2591,6 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Create a matrix in RREF for each set of criteria below, or explain why it is not possible.     A system of equations and variables with a unique solution.      A system of equations and variables with a unique solution.      A system of equations and variables for which is the only free variable.      A system of equations and variables with exactly two solutions.    "
-},
-{
-  "id": "homework-9",
-  "level": "1",
-  "url": "homework-9.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "Homework 7 (Weeks 12 and 13)",
-  "body": " Homework 7 (Weeks 12 and 13)     Represent each geometric transformation of as a matrix. Write one sentence describing your strategy.     Reflection over the diagonal . Test vectors and with matrix multiplication.      Rotation counter-clockwise by radians ( degrees).       Let and be two bases of over .     Write a matrix which converts vectors from basis to . Illustrate how it works using the vector , which is in coordinates.      Write a matrix which converts vectors from basis to . Explain how this matrix relates to your matrix from the previous part, and illustrate how it works using the vector , which is in coordinates.       Let be a linear transformation, . For , use the inner product on defined by the dot product: .     Compute .      Compute .      If is self-adjoint (that is, the inner products from the previous parts are equal), show that this also implies that is a Hermitian matrix.       Find the eigenvalues and eigenvectors of each linear transformation below. Be sure you can show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                                        "
-},
-{
-  "id": "homework-9-2-1",
-  "level": "2",
-  "url": "homework-9.html#homework-9-2-1",
-  "type": "Worksheet Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Represent each geometric transformation of as a matrix. Write one sentence describing your strategy.     Reflection over the diagonal . Test vectors and with matrix multiplication.      Rotation counter-clockwise by radians ( degrees).    "
-},
-{
-  "id": "homework-9-2-2",
-  "level": "2",
-  "url": "homework-9.html#homework-9-2-2",
-  "type": "Worksheet Exercise",
-  "number": "2",
-  "title": "",
-  "body": "  Let and be two bases of over .     Write a matrix which converts vectors from basis to . Illustrate how it works using the vector , which is in coordinates.      Write a matrix which converts vectors from basis to . Explain how this matrix relates to your matrix from the previous part, and illustrate how it works using the vector , which is in coordinates.    "
-},
-{
-  "id": "homework-9-2-3",
-  "level": "2",
-  "url": "homework-9.html#homework-9-2-3",
-  "type": "Worksheet Exercise",
-  "number": "3",
-  "title": "",
-  "body": "  Let be a linear transformation, . For , use the inner product on defined by the dot product: .     Compute .      Compute .      If is self-adjoint (that is, the inner products from the previous parts are equal), show that this also implies that is a Hermitian matrix.    "
-},
-{
-  "id": "homework-9-2-4",
-  "level": "2",
-  "url": "homework-9.html#homework-9-2-4",
-  "type": "Worksheet Exercise",
-  "number": "4",
-  "title": "",
-  "body": "  Find the eigenvalues and eigenvectors of each linear transformation below. Be sure you can show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                                      "
 }
 ]
 
