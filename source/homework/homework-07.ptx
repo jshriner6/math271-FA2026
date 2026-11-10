@@ -87,7 +87,7 @@
         <task>
             <statement>
                 <p>
-                    If <m>A</m> is self-adjoint (that is, the inner products from the previous parts are equal), show that
+                    If <m>A</m> is self-adjoint (that is, the inner products from the previous parts are equal for every <m>\uvec,\vvec \in \C^2</m>), show that
                     this also implies that <m>A</m> is a Hermitian matrix.
                 </p>
             </statement>
@@ -128,20 +128,6 @@
                    \begin{bmatrix}
                     -5 \amp 1 \\
                     4 \amp -2
-                   \end{bmatrix}
-                   </m>
-                </p>
-            </statement>
-        </task>
-
-         <task>
-            <statement>
-                <p>
-                    <m>
-                    \displaystyle
-                   \begin{bmatrix}
-                    3 \amp 9 \\
-                    -4 \amp -3
                    \end{bmatrix}
                    </m>
                 </p>
