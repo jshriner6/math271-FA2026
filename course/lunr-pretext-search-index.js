@@ -1675,49 +1675,49 @@ var ptx_lunr_docs = [
   "body": " Remarks: Linear Transformations    Linear transformations and Matrix Properties.    Viewing matrices as linear transformations can help us with otherwise abstract properties of matrices.   Inverses. We can recognize that the matrix is invertible with inverse matrix by recognizing that is the transformation that rotates all vectors degrees in the clockwise direction. This is an invertible transformation, which is rotation degrees in the counter-clockwise direction.    Determinants. is the scaling factor of areas under the transformation . In particular, transformations that collapse vectors to one dimension have determinant zero, and transformations that reverses the orientation of space have negative determinant.         Linear transformations and Changing Bases.    Doing a basis change for a vector space is a linear transformation. For example, if we'd like to do a basis change in from the basis to the standard basis, we'd form the matrix (linear transformation) , which is restating that in -coordinates means , and similar for .  If is the change of basis matrix from -coordinates to standard coordinates, then is the change of basis matrix from standard coordinates to -coordinates.    "
 },
 {
-  "id": "linear-operators",
+  "id": "linear-operators-complete",
   "level": "1",
-  "url": "linear-operators.html",
+  "url": "linear-operators-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Linear Operators",
-  "body": " Linear Operators    Motivation        Linear Operators   The terms linear transformation and linear operator are often used interchangeably. However, in quantum mechanics, linear operator is the most often used term and typically describes a linear transformation such that       Observables   The role of linear operators in quantum mechanics is to measure the physical properties of a system (called observables ). They are defined such that we can compute the expected value of the given observable in state using the inner product:      Position Operator.      Momentum Operator.      Entergy Operator.        Self-Adjointness   In order for linear operators to be useful for measuring observables, they must satisfy one important property. A linear operator is self-adjoint if      .       infinite.      "
+  "title": "Linear Operators (Complete)",
+  "body": " Linear Operators (Complete)    Motivation       We've seen the defining properties of linear , and how linear transformations are synonymous with matrix multiplication in finite dimensions. We'll look more specifically at linear transformations in the context of quantum mechanics.     Linear Operators   The terms linear transformation and linear operator are often used interchangeably. However, in quantum mechanics, linear operator is the most often used term and typically describes a linear transformation such that        ; it is a function from a vector space to itself.     is a function space (like the Hilbert space containing wave functions).          Observables   The role of linear operators in quantum mechanics is to measure the physical properties of a system (called observables ). They are defined such that we can compute the expected value of the given observable in state using the inner product:  The expected value of observable in state is      Position Operator.    The position operator is , . See class notes to verify that this is a linear operator. Also, note that the expected value of position is consistent with what we defined earlier in the Normalization and Expectation section :       Momentum Operator.    The momentum operator is , . See notes from class to verify that this is a linear operator. Also, we can compute the expected value of momentum by       Entergy Operator.    This operator is also known as the Hamiltonian operator, and is the operator , . Physically, this is the sum of kinetic and potential energies. See notes from class to verify this is a linear operator. Also, we can compute the expected value of energy by         Self-Adjointness   In order for linear operators to be useful for measuring observables, they must satisfy one important property. A linear operator is self-adjoint if      .     . In this context, the matrix is called Hermitian .  You can verify that the matrices and are Hermitian. These are Pauli-z and Pauli-y matrices, respectively, from quantum mechanics.       infinite.    In this case, self-adjoint means . This is the correct context for the position, momentum, and energy operators. See the notes from class to verify that , , and are all self-adjoint operators.      "
 },
 {
-  "id": "linear-operators-2-1",
+  "id": "linear-operators-complete-2-1",
   "level": "2",
-  "url": "linear-operators.html#linear-operators-2-1",
+  "url": "linear-operators-complete.html#linear-operators-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We've seen the defining properties of linear , and how linear transformations are synonymous with matrix multiplication in finite dimensions. We'll look more specifically at linear transformations in the context of quantum mechanics.   "
 },
 {
-  "id": "linear-operators-2-2",
+  "id": "linear-operators-complete-2-2",
   "level": "2",
-  "url": "linear-operators.html#linear-operators-2-2",
+  "url": "linear-operators-complete.html#linear-operators-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Linear Operators.",
-  "body": " Linear Operators   The terms linear transformation and linear operator are often used interchangeably. However, in quantum mechanics, linear operator is the most often used term and typically describes a linear transformation such that   "
+  "body": " Linear Operators   The terms linear transformation and linear operator are often used interchangeably. However, in quantum mechanics, linear operator is the most often used term and typically describes a linear transformation such that        ; it is a function from a vector space to itself.     is a function space (like the Hilbert space containing wave functions).      "
 },
 {
-  "id": "linear-operators-3-1",
+  "id": "linear-operators-complete-3-1",
   "level": "2",
-  "url": "linear-operators.html#linear-operators-3-1",
+  "url": "linear-operators-complete.html#linear-operators-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Observables.",
-  "body": " Observables   The role of linear operators in quantum mechanics is to measure the physical properties of a system (called observables ). They are defined such that we can compute the expected value of the given observable in state using the inner product:      Position Operator.      Momentum Operator.      Entergy Operator.    "
+  "body": " Observables   The role of linear operators in quantum mechanics is to measure the physical properties of a system (called observables ). They are defined such that we can compute the expected value of the given observable in state using the inner product:  The expected value of observable in state is      Position Operator.    The position operator is , . See class notes to verify that this is a linear operator. Also, note that the expected value of position is consistent with what we defined earlier in the Normalization and Expectation section :       Momentum Operator.    The momentum operator is , . See notes from class to verify that this is a linear operator. Also, we can compute the expected value of momentum by       Entergy Operator.    This operator is also known as the Hamiltonian operator, and is the operator , . Physically, this is the sum of kinetic and potential energies. See notes from class to verify this is a linear operator. Also, we can compute the expected value of energy by     "
 },
 {
-  "id": "linear-operators-4-1",
+  "id": "linear-operators-complete-4-1",
   "level": "2",
-  "url": "linear-operators.html#linear-operators-4-1",
+  "url": "linear-operators-complete.html#linear-operators-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Self-Adjointness.",
-  "body": " Self-Adjointness   In order for linear operators to be useful for measuring observables, they must satisfy one important property. A linear operator is self-adjoint if      .       infinite.    "
+  "body": " Self-Adjointness   In order for linear operators to be useful for measuring observables, they must satisfy one important property. A linear operator is self-adjoint if      .     . In this context, the matrix is called Hermitian .  You can verify that the matrices and are Hermitian. These are Pauli-z and Pauli-y matrices, respectively, from quantum mechanics.       infinite.    In this case, self-adjoint means . This is the correct context for the position, momentum, and energy operators. See the notes from class to verify that , , and are all self-adjoint operators.    "
 },
 {
   "id": "sec-mid2-rev",
@@ -2242,6 +2242,24 @@ var ptx_lunr_docs = [
   "body": "  A set of vectors is linearly independent if implies that .     Write the above condition as a matrix equation.      Set up and solve a linear system to determine if the following sets of vectors are linearly independent.                "
 },
 {
+  "id": "lab13",
+  "level": "1",
+  "url": "lab13.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 13",
+  "body": " Lab 13    This lab is intended to practice ideas related to eigenspaces. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                                 "
+},
+{
+  "id": "lab13-3-1",
+  "level": "2",
+  "url": "lab13.html#lab13-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                               "
+},
+{
   "id": "homework-3",
   "level": "1",
   "url": "homework-3.html",
@@ -2573,6 +2591,51 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Create a matrix in RREF for each set of criteria below, or explain why it is not possible.     A system of equations and variables with a unique solution.      A system of equations and variables with a unique solution.      A system of equations and variables for which is the only free variable.      A system of equations and variables with exactly two solutions.    "
+},
+{
+  "id": "homework-9",
+  "level": "1",
+  "url": "homework-9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 7 (Weeks 12 and 13)",
+  "body": " Homework 7 (Weeks 12 and 13)     Represent each geometric transformation of as a matrix. Write one sentence describing your strategy.     Reflection over the diagonal . Test vectors and with matrix multiplication.      Rotation counter-clockwise by radians ( degrees).       Let and be two bases of over .     Write a matrix which converts vectors from basis to . Illustrate how it works using the vector , which is in coordinates.      Write a matrix which converts vectors from basis to . Explain how this matrix relates to your matrix from the previous part, and illustrate how it works using the vector , which is in coordinates.       Let be a linear transformation, . For , use the inner product on defined by the dot product: .     Compute .      Compute .      If is self-adjoint (that is, the inner products from the previous parts are equal), show that this also implies that is a Hermitian matrix.       Find the eigenvalues and eigenvectors of each linear transformation below. Be sure you can show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                                        "
+},
+{
+  "id": "homework-9-2-1",
+  "level": "2",
+  "url": "homework-9.html#homework-9-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Represent each geometric transformation of as a matrix. Write one sentence describing your strategy.     Reflection over the diagonal . Test vectors and with matrix multiplication.      Rotation counter-clockwise by radians ( degrees).    "
+},
+{
+  "id": "homework-9-2-2",
+  "level": "2",
+  "url": "homework-9.html#homework-9-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let and be two bases of over .     Write a matrix which converts vectors from basis to . Illustrate how it works using the vector , which is in coordinates.      Write a matrix which converts vectors from basis to . Explain how this matrix relates to your matrix from the previous part, and illustrate how it works using the vector , which is in coordinates.    "
+},
+{
+  "id": "homework-9-2-3",
+  "level": "2",
+  "url": "homework-9.html#homework-9-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let be a linear transformation, . For , use the inner product on defined by the dot product: .     Compute .      Compute .      If is self-adjoint (that is, the inner products from the previous parts are equal), show that this also implies that is a Hermitian matrix.    "
+},
+{
+  "id": "homework-9-2-4",
+  "level": "2",
+  "url": "homework-9.html#homework-9-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find the eigenvalues and eigenvectors of each linear transformation below. Be sure you can show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                                      "
 }
 ]
 
