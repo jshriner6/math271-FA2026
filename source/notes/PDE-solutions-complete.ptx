@@ -71,7 +71,7 @@
                         </p>
                         <p>
                             If we can solve each of the ODE's above, then we'll have a general product solution for the PDE 
-                            of the form <m>\u(x,t) = \varphi(x)\tau(t)</m>.
+                            of the form <m>u(x,t) = \varphi(x)\tau(t)</m>.
                         </p>
                     </solution>
                 </task>
@@ -125,7 +125,7 @@
         <title>Using Boundary/Initial Conditions</title>
         <statement>
             <p>
-                Consider the PDE <m>u_t = ku_{xx}</m> with
+                Consider the PDE <m>u_t =ku_{xx}</m> with
                 <md>
                     <mrow>u(0,t) \amp= u(L,t) = 0 </mrow>
                     <mrow>u(x,0) \amp=2\sin\left(\frac{3\pi}{L} x\right) </mrow>
@@ -139,10 +139,10 @@
                 <ol>
                                 <li>
                                     <p>
-                                        The time ODE <m>\tau'(t) = -k\lambda \tau(t)</m>.
+                                        The time ODE <m>\tau'(t) = -\lambda \tau(t)</m>.
                                     </p>
                                     <p>
-                                        This is separable, with solution <m>\tau(t) = ce^{-k\lambda t}</m>. But for what 
+                                        This is separable, with solution <m>\tau(t) = ce^{-\lambda t}</m>. But for what 
                                         values of <m>\lambda</m> is this a valid solution? We need the next ODE to find out.
                                     </p>
                                 </li>
@@ -169,11 +169,41 @@
                                         for the space equation (<m>\varphi(x) =0</m>; see in-class notes for details). 
                                     </p>
                                     <p>
-                                        If <m>\lambda \gt 0</m>, then 
+                                        If <m>\lambda \gt 0</m>, then the characteristic roots are <m>r=\pm \sqrt{\lambda}i</m>. For notational
+                                        convenience, define <m>\mu = \sqrt{\lambda}</m>, so <m>r=\pm \mu i</m>. Then the general solution is
+                                        <md>
+                                            \varphi(x) = A\cos(\mu x) + B \sin(\mu x)
+                                        </md>.
+                                        The boundary condition <m>\varphi(0)=0</m> forces <m>A=0</m>, and <m>\varphi(L)=0</m> forces
+                                        <m>B\sin(\mu L)=0</m>. This can be true for <m>B\neq 0</m>! In particular, <m>\sin(\mu L) =0</m> 
+                                        when <m>\mu L = n \pi</m>, for integers <m>n \geq 1</m>.
+                                        
+                                    </p>
+                                    <p>
+                                        So we get infinitely many solutions (eigenfunctions)
+                                        <md>
+                                            \varphi_n(x)= \sin\left(\frac{n \pi}{L} x\right) 
+                                        </md>
+                                        with associated eigenvalues <m>\lambda_n = \mu_n^2 = \left(\frac{n\pi}{L}\right)^2</m>. So our product
+                                        solutions to the PDE are
+                                        <md>
+                                            u_n(x,t) = c_n \tau(t) \cdot \varphi(x) = c_n e^{-\left(\frac{n \pi}{L}\right)^2t} \sin\left(\frac{n \pi}{L} x\right)
+                                        </md>,
+                                         
+                                         which satisfy the heat equation PDE and the boundary conditions. To get a specific 
+                                         solution, we must also satisfy the initial condition <m>u(x,0) =2\sin\left(\frac{3\pi}{L} x\right)</m>.
+                                         But notice our general solutions <m>u_n(x,0) = c_n\sin\left(\frac{n \pi}{L} x\right)</m>, so we can satisfy all
+                                         conditions by picking our particular solution to be <m>u_3(x,t) = 2e^{-\left(\frac{3 \pi}{L}\right)^2t} \sin\left(\frac{3 \pi}{L} x\right)</m>.
+                                         See <url href="https://www.desmos.com/3d/q30na0jias">Desmos</url> for a visual of our solution.
+                                        
+                                        
                                     </p>
                                 </li>
                             </ol>
-            </p>
+                We were somewhat lucky that the initial condition was easy to satisfy by picking just one of our 
+                product solutions. What if the initial condition <m>u(x,0)</m> is not so convenient? This is where Fourier series
+                become useful, which we'll see the basics of next time.
+                 </p>
         </solution>
         
     </exercise>

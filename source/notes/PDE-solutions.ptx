@@ -48,7 +48,7 @@
         <title>Using Boundary/Initial Conditions</title>
         <statement>
             <p>
-                Consider the PDE <m>u_t = ku_{xx}</m> with
+                Consider the PDE <m>u_t = u_{xx}</m> with
                 <md>
                     <mrow>u(0,t) \amp= u(L,t) = 0 </mrow>
                     <mrow>u(x,0) \amp=2\sin\left(\frac{3\pi}{L} x\right) </mrow>
