@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="DE-intro-complete">
+    <title>Introduction to Differential Equations (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Schrödinger's equation has motivated most of the topics in our course, and this equation is an example
+                        of a differential equation. This is a very broad topic, but we'll work to understand some basics that will 
+                        allow us to read and interpret several types of differential equations (DEs).
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise>
+            <title>First Examples</title>
+                <introduction>
+                    <p>
+                The following are all examples of differential equations.
+                    </p>
+                </introduction>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>x'(t) = 2t</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This could be a model for the velocity of an object at time <m>t</m>.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{dx^2}{dt^2} = -g</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is a model for an object in free fall.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>u_t+cu_x = 0</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This models advection (transport) of a scalar quantity.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{\partial u}{\partial t} = k\frac{\partial^2 u}{\partial x^2}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is the one-dimensional heat equation.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>u_t = k(u_{xx}+u_{yy})</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is the two-dimensional heat equation.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>u_{tt} = c^2u_{xx}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is the wave equation.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{-\overline{h}^2}{2m} \psi'' + V(x)\psi = E\psi</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is the time-independent Schrödinger equation.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{-\overline{h}^2}{2m} \psi_{xx} + V(x,t)\psi = i\overline{h} \psi_t</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is the time-dependent Schrödinger equation.
+                        </p>
+                    </solution>
+                </task>
+                
+            </exercise>
+</page>
+<page>
+        <exercise>
+        <title>Vocabulary</title>
+            <task workspace="2in">
+            <statement>
+                <p>
+                    Ordinary Differential Equation (ODE).
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    An ODE is a differential equation describing a function of a single variable.
+                </p>
+            </solution>
+            </task>
+            <task workspace="2in">
+            <statement>
+                <p>
+                    Partial Differential Equation (PDE).
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    An PDE is a differential equation describing a function of multiple variables.
+                </p>
+            </solution>
+            </task>
+            <task workspace="2in">
+            <statement>
+                <p>
+                    Order.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The order of a DE is the largest order derivative used in the DE.
+                </p>
+            </solution>
+            </task>
+             <task workspace="2in">
+            <statement>
+                <p>
+                   (Spatial) Dimension.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The spatial dimension is the number of variables used to describe space.
+                </p>
+            </solution>
+            </task>
+            
+        </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Solutions.</title>
+        <introduction>
+            <p>
+                A <term>solution</term> to a DE is any functions which satisfies the rules of the DE. 
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>y' = 2y</m> has solutions <m>y(x) = Ae^{2x}</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Verify that 
+                    <md>
+                        y'(x) = Ae^{2x} \cdot 2 = 2(Ae^{2x}) = 2y(x)
+                    </md>.
+                    
+                </p>
+            </solution>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>\frac{d^2u}{dt^2}+ u =0</m> has solutions <m>u(t) = A\sin(t) + B\cos(t)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Note that 
+                    <md>
+                        u'(t) = A \cos(t)- B\sin(t)
+                    </md>
+                    and 
+                    <md>
+                        u''(t) = -A\sin(t)-B\cos(t)
+                    </md>
+                    so that <m>u'' + u = 0</m>.
+                    
+                    
+                </p>
+            </solution>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>u_t + cu_x=0</m> has solutions <m>u(x,t) = f(x-ct)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Verify that 
+                    <md>
+                        u_t = -cf'(x-ct)
+                    </md>
+                    and
+                    <md>
+                        u_x = f'(x-ct)
+                    </md>
+                    so that <m>u_t + cu_x = 0</m>.
+                    
+                </p>
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>General vs. Specific Solutions</title>
+        <introduction>
+            <p>
+                The solutions in the previous examples are <term>general solutions</term>. Without more information, this is the 
+                best we can do. The information needed for a <term>specific solution</term> typically comes in one of two forms:
+            </p>
+        </introduction>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Boundary Conditions.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    These specify solution behavior at boundary values determined by a spatial domain. For example, consider
+                    the 1D Heat equation whose solution function <m>u(x,t)</m> describes the temperature of a rod at
+                    position <m>x</m> and time <m>t</m>, for <m>0 \leq x \leq 10</m>. Examples of boundary conditions would be
+                    <ol>
+                        <li>
+                            <p>
+                                <m>u(0,t) = u(10,t) = 0</m> (<term>Dirichlet conditions</term>)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>u'(0,t) = u'(10,t) = 0</m> (<term>Neumann conditions</term>)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>u(0,t) = u(10,t) </m> (<term>Periodic conditions</term>)
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </task>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Initial Conditions.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    These specify solution behavior at a specified time, usually <m>t=0</m>. For example, an initial condition
+                    for the 1D Heat equation might be <m>u(x,0) = x(x-10)</m>.
+                </p>
+            </solution>
+        </task>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    The number of conditions required is generally determined by
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    the order associated to each variable in the DE. For example, the 1D wave equation is second order in both
+                    time and space, and so requires two boundary conditions (for the spatial order) and two initial conditions
+                    (for the time order).
+                </p>
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Examples: Specific Solutions</title>
+        <introduction>
+            <p>
+                With boundary/initial conditions, we can determine a specific solution from the general solution.
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>y' = 2y</m>, <m>y(0) = 10</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Using the initial condition, we can take the general solution <m>y = A e^{2x}</m> and solve for <m>A=10</m>. 
+                    Then the specific solution is <m>y(x) = 10e^{2x}</m>.
+                </p>
+            </solution>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>\frac{d^2u}{dt^2}+ u =0</m>, <m>u(0) 3, u'(0) = -1</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    We can use the initial data to solve for the coefficients <m>A=-1</m> and <m>B=3</m> in the general solution.
+                    So the specific solution is <m>u(t) = -\sin(t) + 3\cos(t)</m>.
+                </p>
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+
+
+       
+    </worksheet>

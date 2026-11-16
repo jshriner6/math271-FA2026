@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="DE-intro">
+    <title>Introduction to Differential Equations</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+            <title>First Examples</title>
+                <introduction>
+                    <p>
+                The following are all examples of differential equations.
+                    </p>
+                </introduction>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>x'(t) = 2t</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{dx^2}{dt^2} = -g</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>u_t+cu_x = 0</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{\partial u}{\partial t} = k\frac{\partial^2 u}{\partial x^2}</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>u_t = k(u_{xx}+u_{yy})</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>u_{tt} = c^2u_{xx}</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{-\overline{h}^2}{2m} \psi'' + V(x)\psi = E\psi</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            <m>\frac{-\overline{h}^2}{2m} \psi_{xx} + V(x,t)\psi = i\overline{h} \psi_t</m>
+                        </p>
+                    </statement>
+                </task>
+                
+            </exercise>
+</page>
+<page>
+        <exercise>
+        <title>Vocabulary</title>
+            <task workspace="2in">
+            <statement>
+                <p>
+                    Ordinary Differential Equation (ODE).
+                </p>
+            </statement>
+            </task>
+            <task workspace="2in">
+            <statement>
+                <p>
+                    Partial Differential Equation (PDE).
+                </p>
+            </statement>
+            </task>
+            <task workspace="2in">
+            <statement>
+                <p>
+                    Order.
+                </p>
+            </statement>
+            </task>
+             <task workspace="2in">
+            <statement>
+                <p>
+                   (Spatial) Dimension.
+                </p>
+            </statement>
+            </task>
+            
+        </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Solutions.</title>
+        <introduction>
+            <p>
+                A <term>solution</term> to a DE is any functions which satisfies the rules of the DE. 
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>y' = 2y</m> has solutions <m>y(x) = Ae^{2x}</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>\frac{d^2u}{dt^2}+ u =0</m> has solutions <m>u(t) = A\sin(t) + B\cos(t)</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>u_t + cu_x=0</m> has solutions <m>u(x,t) = f(x-ct)</m>.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>General vs. Specific Solutions</title>
+        <introduction>
+            <p>
+                The solutions in the previous examples are <term>general solutions</term>. Without more information, this is the 
+                best we can do. The information needed for a <term>specific solution</term> typically comes in one of two forms:
+            </p>
+        </introduction>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Boundary Conditions.
+                </p>
+            </statement>
+        </task>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Initial Conditions.
+                </p>
+            </statement>
+        </task>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    The number of conditions required is generally determined by
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Examples: Specific Solutions</title>
+        <introduction>
+            <p>
+                With boundary/initial conditions, we can determine a specific solution from the general solution.
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>y' = 2y</m>, <m>y(0) = 10</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>\frac{d^2u}{dt^2}+ u =0</m>, <m>u(0) 3, u'(0) = -1</m>.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+
+
+       
+    </worksheet>

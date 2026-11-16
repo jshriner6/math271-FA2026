@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="ODE-solutions-complete">
+    <title>Solution Methods to ODEs (Complete)</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        While solving ODEs is a complex task, there are two classes of ODEs that are particularly important
+                        for us. We'll outline these specific cases and how to approach them so we can use their solutions
+                        in the near future.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Separable ODEs</title>
+                <statement>
+                    <p>
+                In calculus 1, you may have seen problems like
+                <md>
+                    \frac{dy}{dt} = \cos(t)
+                </md>.
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        This is an example of a <term>separable ODE</term>. The general form of a separable ODE is
+                        <md>
+                            \frac{dy}{dt} = f(t)g(y)
+                        </md>,
+                        and we can attempt to solve them by re-writing the equation as
+                        <md>
+                            \int \frac{1}{g(y)}dy = \int f(t) dt
+                        </md>.
+                        If we can solve both integrals, then we have an (implicit) description of the solution function <m>y</m>.
+                        
+                    </p>
+                </solution>
+                
+            </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Examples: Separable Equations</title>
+        <task workspace="6in">
+            <statement>
+                <p>
+                    <m>\psi'(t) = 6 \psi(t)</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>\int \frac{1}{\psi} d\psi \amp= \int 6 dt </mrow>
+                        <mrow>\ln|\psi| \amp= 6t + C  </mrow>
+                        <mrow>\psi(t)  \amp=Ae^{6t}, A \neq 0 </mrow>
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+        <task workspace="6in">
+            <statement>
+                <p>
+                    <m>x'(t) = \frac{t}{x}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>\int x dx \amp= \int t dt </mrow>
+                        <mrow>0.5x^2 \amp=0.5t^2 + C </mrow>
+                        <mrow>x^2 \amp= t^2 + 2C </mrow>
+                        <mrow>x(t)  \amp= \pm\sqrt{t^2 + 2C} </mrow>
+                    </md>
+                </p>
+                <p>
+                    Note that an initial condition is needed to determine <m>C</m>, as well as whether we use the positive 
+                    or negative version of the solution. See <url href="https://www.desmos.com/calculator/jeygatmoym">Desmos</url> for a visual.
+                </p>
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Second-Order Linear with Constant Coefficients</title>
+        <introduction>
+            <p>
+                A <term> homogeneous second-order linear equation with constant coeefficients</term> has the form
+                <md>
+                    y''(t) + by'(t) + cy(t) =0
+                </md>.
+                Solutions to this ODE are found by determining the roots of the <term>characteristic polynomial</term>:
+                <md>
+                    \lambda^2 + b\lambda + c = 0
+                </md>.
+                If <m>\lambda</m> is a root of this quadratic, then <m>y(t) = e^{\lambda t}</m> is a solution to 
+                the DE. There are 3 cases to form a general solution:
+                
+            </p>
+           
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Two distinc real roots <m>\lambda_1, \lambda_2</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>y(t) = A e^{\lambda_1 t} + B e^{\lambda_2 t}</m>
+                </p>
+            </solution>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Two complex conjugate roots, <m>\lambda_1=a +bi</m>, <m>\lambda_2 = a -bi</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>y(t) =A e^{(a+bi)t} + B e^{(a-bi) t} </m>. Euler's formula can be used to obtain a real-valued
+                    general solution 
+                    <md>
+                        y(t) = Ae^{at} \cos(bt) + B e^{at}\sin(bt)
+                    </md>.
+                    
+                </p>
+            </solution>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    One repeated real root <m>\lambda</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    In this case, <m>te^{\lambda t}</m> is also a solution, so the general solution is
+                    <md>
+                        y(t) Ae^{\lambda t} + Bte^{\lambda t}
+                    </md>.
+                    
+                </p>
+            </solution>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise workspace="10in">
+        <title>Example: Solving a Second Order Initial Value Problem</title>
+        <statement>
+            <p>
+                Solve <md>y'' + 16y=0, y(\pi/2)=-10, y'(\pi/2) = 3</md>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The associated characteristic polynomial is <m>\lambda^2 + 16=0</m>, which has roots <m>\lambda = \pm 4i</m>. 
+                So the general solution is 
+                <md>
+                    y(t) = A \cos(4t) + B\sin(4t)
+                </md>.
+                Using the initial data, we can solve for <m>A = -10</m>, <m>B = 0.75</m>.
+                
+            </p>
+        </solution>
+        
+    </exercise>
+</page>
+
+
+
+       
+    </worksheet>

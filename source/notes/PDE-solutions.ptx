@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="PDE-solutions">
+    <title>Solution Methods to PDEs</title>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+            <title>Separation of Variables</title>
+                <introduction>
+                    <p>
+                        A common theme for solving PDEs is to do something to reduce it to multiple ODEs. This is 
+                        what the method of separation of variables does, which we will illustrate with several examples.
+                    </p>
+                </introduction>
+                <task workspace="10in">
+                    <statement>
+                        <p>
+                            <m>u_t = ku_{xx}</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="10in">
+                    <statement>
+                        <p>
+                            <m>u_{tt} = c^2u_{xx}</m>
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="10in">
+                    <statement>
+                        <p>
+                            <m>i \overline{h}\psi_t = \frac{-\overline{h}}{2m}\psi_{xx}</m>
+                        </p>
+                    </statement>
+                </task>
+                
+            </exercise>
+
+    <exercise workspace="10in">
+        <title>Using Boundary/Initial Conditions</title>
+        <statement>
+            <p>
+                Consider the PDE <m>u_t = ku_{xx}</m> with
+                <md>
+                    <mrow>u(0,t) \amp= u(L,t) = 0 </mrow>
+                    <mrow>u(x,0) \amp=2\sin\left(\frac{3\pi}{L} x\right) </mrow>
+                </md>.
+                
+            </p>
+        </statement>
+        
+    </exercise>
+
+
+
+
+       
+    </worksheet>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="PDE-solutions-complete">
+    <title>Solution Methods to PDEs (Complete)</title>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Like ODEs, solving PDEs is a complicated task. However, there is one method that helps in many 
+                        cases, and is very relevant for the PDEs encountered in quantum mechanics.
+                    </p>
+                </solution>
+            </exercise>
+
+            <exercise>
+            <title>Separation of Variables</title>
+                <introduction>
+                    <p>
+                        A common theme for solving PDEs is to do something to reduce it to multiple ODEs. This is 
+                        what the method of separation of variables does, which we will illustrate with several examples.
+                    </p>
+                </introduction>
+                <task workspace="10in">
+                    <statement>
+                        <p>
+                            <m>u_t = ku_{xx}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We start by assuming a solution form of <m>u(x,t) = \varphi(x) \cdot \tau(t)</m>.
+                        </p>
+                        <p>
+                            With this assumption, we re-write the PDE as 
+                            <md>
+                               \varphi(x)\tau'(t) = k\varphi''\tau(t)
+                            </md>.
+                            
+                        </p>
+                        <p>
+                            Now we can separate time and space variables to get the equation
+                            <md>
+                                \frac{1}{k} \frac{\tau'(t)}{\tau(t)} =\frac{\varphi''(x)}{\varphi(x)}
+                            </md>.
+                            Since <m>x</m> and <m>t</m> are distinct variables, the only way these expressions can equal is 
+                            if they are both a constant. That is, 
+                            <md>
+                                \frac{1}{k} \frac{\tau'(t)}{\tau(t)} =\frac{\varphi''(x)}{\varphi(x)} = -\lambda
+                            </md>.
+                        </p>
+                        <p>
+                            Now we have to ODEs:
+                            <ol>
+                                <li>
+                                    <p>
+                                        The time ODE <m>\tau'(t) = -k\lambda \tau(t)</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The space ODE <m>\varphi''(x) + \lambda \varphi(x) =0</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            If we can solve each of the ODE's above, then we'll have a general product solution for the PDE 
+                            of the form <m>\u(x,t) = \varphi(x)\tau(t)</m>.
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="10in">
+                    <statement>
+                        <p>
+                            <m>u_{tt} = c^2u_{xx}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Assuming a product solution, this PDE becomes
+                            <md>
+                                \varphi(x)\tau''(t) = c^2 \varphi''(x) \tau(t)
+                            </md>.
+                            Separating variable and setting equal to <m>-\lambda</m> gives the two ODEs
+                            <md>
+                                <mrow>  \tau''(t) + c^2 \lambda \tau(t)\amp= 0</mrow>
+                                <mrow>\varphi''(x) + \lambda \varphi(x) \amp=0 </mrow>
+                            </md>.
+                            
+                            
+                        </p>
+                    </solution>
+                </task>
+                <task workspace="10in">
+                    <statement>
+                        <p>
+                            <m>i \overline{h}\psi_t = \frac{-\overline{h}}{2m}\psi_{xx}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Call <m>k_1=i \overline{h}</m> and <m>k_2=\frac{-\overline{h}}{2m}</m>. Then assuming a product solution
+                            we can re-write the PDE as
+                            <md>
+                                k_1\varphi(x)\tau'(t) = k_2 \varphi''(x) \tau(t)
+                            </md>.
+                            Separating variables and setting equal to <m>-\lambda</m> give the two ODEs
+                            <md>
+                                <mrow>  \tau'(t) \amp= \frac{-\lambda}{k_1}\tau(t)</mrow>
+                                <mrow>\varphi''(x) + \frac{\lambda}{k_2} \varphi(x) \amp=0 </mrow>
+                            </md>.
+                        </p>
+                    </solution>
+                </task>
+                
+            </exercise>
+
+    <exercise workspace="10in">
+        <title>Using Boundary/Initial Conditions</title>
+        <statement>
+            <p>
+                Consider the PDE <m>u_t = ku_{xx}</m> with
+                <md>
+                    <mrow>u(0,t) \amp= u(L,t) = 0 </mrow>
+                    <mrow>u(x,0) \amp=2\sin\left(\frac{3\pi}{L} x\right) </mrow>
+                </md>.
+                
+            </p>
+        </statement>
+        
+    </exercise>
+
+
+
+
+       
+    </worksheet>

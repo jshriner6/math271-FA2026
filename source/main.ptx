@@ -160,6 +160,14 @@
 
 
 <!-- WEEK 14 -->
+<xi:include href="./notes/DE-intro.ptx"/> 
+<!--<xi:include href="./notes/DE-intro-complete.ptx"/>  -->
+
+<xi:include href="./notes/ODE-solutions.ptx"/> 
+<!--<xi:include href="./notes/ODE-solutions-complete.ptx"/>  -->
+
+<xi:include href="./notes/PDE-solutions.ptx"/> 
+<xi:include href="./notes/PDE-solutions-complete.ptx"/>  
 
 
       <!-- etc. -->

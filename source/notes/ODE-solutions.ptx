@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <worksheet margin="1in" bottom="1.25cm" xml:id="ODE-solutions">
+    <title>Solution Methods to ODEs</title>
+        <page>
+        
+            <exercise workspace="2in">
+            <title>Motivation</title>
+                <statement>
+                    <p>
+                
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="6in">
+            <title>Separable ODEs</title>
+                <statement>
+                    <p>
+                In calculus 1, you may have seen problems like
+                <md>
+                    \frac{dy}{dt} = \cos(t)
+                </md>.
+                
+                    </p>
+                </statement>
+                
+            </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Examples: Separable Equations</title>
+        <task workspace="6in">
+            <statement>
+                <p>
+                    <m>\psi'(t) = 6 \psi(t)</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="6in">
+            <statement>
+                <p>
+                    <m>x'(t) = \frac{t}{x}</m>
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise>
+        <title>Second-Order Linear with Constant Coefficients</title>
+        <introduction>
+            <p>
+                A <term> homogeneous second-order linear equation with constant coeefficients</term> has the form
+                <md>
+                    y''(t) + by'(t) + cy(t) =0
+                </md>.
+                Solutions to this ODE are found by determining the roots of the <term>characteristic polynomial</term>:
+            </p>
+            <p>
+                <m>\begin{matrix} \\ \\ \\ \\ \\\end{matrix}</m>
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Two distinc real roots <m>\lambda_1, \lambda_2</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Two complex conjugate roots, <m>\lambda_1=a +bi</m>, <m>\lambda_2 = a -bi</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    One repeated real root <m>\lambda</m>.
+                </p>
+            </statement>
+        </task>
+        
+    </exercise>
+</page>
+<page>
+    <exercise workspace="10in">
+        <title>Example: Solving a Second Order Initial Value Problem</title>
+        <statement>
+            <p>
+                Solve <md>y'' + 16y=0, y(\pi/2)=-10, y'(\pi/2) = 3</md>.
+            </p>
+        </statement>
+        
+    </exercise>
+</page>
+
+
+
+       
+    </worksheet>
