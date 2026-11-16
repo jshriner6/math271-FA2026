@@ -133,6 +133,48 @@
                 
             </p>
         </statement>
+        <solution>
+            <p>
+                We saw that the separation of variables method for this PDE gave us two ODEs:
+                <ol>
+                                <li>
+                                    <p>
+                                        The time ODE <m>\tau'(t) = -k\lambda \tau(t)</m>.
+                                    </p>
+                                    <p>
+                                        This is separable, with solution <m>\tau(t) = ce^{-k\lambda t}</m>. But for what 
+                                        values of <m>\lambda</m> is this a valid solution? We need the next ODE to find out.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The space ODE <m>\varphi''(x) + \lambda \varphi(x) =0</m>.
+                                    </p>
+                                    <p>
+                                        Now that we have boundary conditions for the PDE, we can use them to get boundary 
+                                        conditions for this ODE:
+                                        <md>
+                                            <mrow>u(0,t) =0 \amp\rightarrow \varphi(0)\tau(t) =0 \amp\rightarrow \varphi(0) = 0</mrow>
+                                            <mrow>u(L,t) =0 \amp\rightarrow \varphi(L)\tau(t) =0 \amp\rightarrow \varphi(L) = 0</mrow>
+                                        </md>
+                                        
+                                    </p>
+                                    <p>
+                                        The characteristic equation for the second-order linear space ODE is <m>r^2 + \lambda =0</m>,
+                                        which means the characteristic roots are <m>r = \pm\sqrt{-\lambda}</m>. The solution form depends on 
+                                        whether <m>\lambda</m> is negative, zero, or positive.
+                                    </p>
+                                    <p>
+                                        If <m>\lambda \lt 0</m> or <m>\lambda =0</m>, the boundary conditions imply only a trivial solution 
+                                        for the space equation (<m>\varphi(x) =0</m>; see in-class notes for details). 
+                                    </p>
+                                    <p>
+                                        If <m>\lambda \gt 0</m>, then 
+                                    </p>
+                                </li>
+                            </ol>
+            </p>
+        </solution>
         
     </exercise>
 

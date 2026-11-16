@@ -65,21 +65,21 @@
         <task workspace="2in">
             <statement>
                 <p>
-                    Two distinc real roots <m>\lambda_1, \lambda_2</m>.
+                    Two distinct real roots <m>r_1, r_2</m>.
                 </p>
             </statement>
         </task>
         <task workspace="2in">
             <statement>
                 <p>
-                    Two complex conjugate roots, <m>\lambda_1=a +bi</m>, <m>\lambda_2 = a -bi</m>.
+                    Two complex conjugate roots, <m>r_1=a +bi</m>, <m>r_2 = a -bi</m>.
                 </p>
             </statement>
         </task>
         <task workspace="2in">
             <statement>
                 <p>
-                    One repeated real root <m>\lambda</m>.
+                    One repeated real root <m>r</m>.
                 </p>
             </statement>
         </task>

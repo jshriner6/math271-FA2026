@@ -103,9 +103,9 @@
                 </md>.
                 Solutions to this ODE are found by determining the roots of the <term>characteristic polynomial</term>:
                 <md>
-                    \lambda^2 + b\lambda + c = 0
+                    r^2 + br + c = 0
                 </md>.
-                If <m>\lambda</m> is a root of this quadratic, then <m>y(t) = e^{\lambda t}</m> is a solution to 
+                If <m>r</m> is a root of this quadratic, then <m>y(t) = e^{r t}</m> is a solution to 
                 the DE. There are 3 cases to form a general solution:
                 
             </p>
@@ -114,19 +114,19 @@
         <task workspace="2in">
             <statement>
                 <p>
-                    Two distinc real roots <m>\lambda_1, \lambda_2</m>.
+                    Two distinct real roots <m>r_1, r_2</m>.
                 </p>
             </statement>
             <solution>
                 <p>
-                    <m>y(t) = A e^{\lambda_1 t} + B e^{\lambda_2 t}</m>
+                    <m>y(t) = A e^{r_1 t} + B e^{r_2 t}</m>
                 </p>
             </solution>
         </task>
         <task workspace="2in">
             <statement>
                 <p>
-                    Two complex conjugate roots, <m>\lambda_1=a +bi</m>, <m>\lambda_2 = a -bi</m>.
+                    Two complex conjugate roots, <m>r_1=a +bi</m>, <m>r_2 = a -bi</m>.
                 </p>
             </statement>
             <solution>
@@ -143,14 +143,14 @@
         <task workspace="2in">
             <statement>
                 <p>
-                    One repeated real root <m>\lambda</m>.
+                    One repeated real root <m>r</m>.
                 </p>
             </statement>
             <solution>
                 <p>
-                    In this case, <m>te^{\lambda t}</m> is also a solution, so the general solution is
+                    In this case, <m>te^{r t}</m> is also a solution, so the general solution is
                     <md>
-                        y(t) Ae^{\lambda t} + Bte^{\lambda t}
+                        y(t) Ae^{r t} + Bte^{r t}
                     </md>.
                     
                 </p>
