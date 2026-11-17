@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab14">
+  <title>Lab 14</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to differential equations. It is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise>
+    <introduction>
+      <p>
+       Identify each differential equation as an ODE or a PDE, and state its order.
+      </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+               <m>
+                x^2u_x - 2u_{xy} + y^2u_y =0
+               </m>
+               
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+               <m>
+                \frac{\partial u}{\partial x} - \left(\frac{\partial u}{\partial y}\right)^2 = \sin(u)
+               </m>
+               
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+               <m>
+                \frac{du}{dt} - \frac{d^2u}{dt^2}+ u = 0
+               </m>
+               
+            </p>
+        </statement>
+    </task>
+    
+    
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Consider the initial value problem <m>x'' = \lambda x</m>, <m>x(0)=0</m>, <m>x'(5)=0</m>. Find all 
+            non-trivial solutions <m>x(t)</m>.
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <introduction>
+        <p>
+           Use the separation of variables method to transform each PDE below into two ODEs.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                <m>u_{xx} + u_{yy} = 0</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>k_1 \psi_t = k_2\psi_{xx} + V(x)\psi</m>
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+</page>
+
+
+</worksheet>
