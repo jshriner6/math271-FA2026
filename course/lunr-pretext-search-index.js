@@ -1801,58 +1801,58 @@ var ptx_lunr_docs = [
   "body": " Exercise: Diagonalization   Use the interactive to diagonalize         "
 },
 {
-  "id": "eigen-spaces",
+  "id": "eigen-spaces-complete",
   "level": "1",
-  "url": "eigen-spaces.html",
+  "url": "eigen-spaces-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Eigenspaces",
-  "body": " Eigenspaces    Motivation        Finding Eigenvalues and Eigenvectors   Given an matrix , find non-zero and scalar such that       Example: Finding Eigenvalues and Eigenvectors   Let .       More Eigenvalue Examples    Let .      Let .      Let .        Summary        "
+  "title": "Eigenspaces (Complete)",
+  "body": " Eigenspaces (Complete)    Motivation       We have some understanding of what eigenvectors and eigenvalues are, and why they matter. Now we'll learn how to find them in the finite-dimensional case using what we know about solving linear systems of equations.     Finding Eigenvalues and Eigenvectors   Given an matrix , find non-zero and scalar such that     . This simplifies as If , then is invertible, and there is a unique solution ( ). However, if , then is not invertible, and there are infinitely many solutions.  So given , the problem reduces to finding such that . This computation gives a polynomial of degree , called the characteristic polynomial of  .       Example: Finding Eigenvalues and Eigenvectors   Let .    The matrix is , which has determinant . So the eigenvalues of are .  To find the associated eigenvectors, we take each eigenvalue one at a time. If , then the matrix is , and we need to find all such that . This is a matrix equation representing a linear system, so we can use RREF of the associated augmented matrix to find the solution space: This corresponds to the solution space , called the eigenspace associated with .  If , we can follow work similar to the above to obtain        More Eigenvalue Examples    Let .    Reasoning geometrically, we can see the eigenvalues are , with eigenspaces and .      Let .    The characteristic polynomial is , so the eigenvalues are . The augmented matrices needed to find the eigenvectors are complex-valued, but we can still use technology to find RREF and conclude that and .      Let .    The eigenvalues are , and and .        Summary          Diagonal matrices show their eigenvalues on the diagonal (matrix ).    Some transformations on vector spaces over have no real eigenvalues (matrix ).    Some transformations on vector spaces over have only real eigenvalues, and in quantum mechanics, this is good! More specifically, if ( a vector space over )is Hermitian, then the eigenvalues of are all real!  This matters because a linear operator represents observables, and eigenvalues of these operators are the possible observed measurements; physical measurements should be real-valued!  This is why observables in quantum mechanics are represented by linear, Hermitian operators.        "
 },
 {
-  "id": "eigen-spaces-2-1",
+  "id": "eigen-spaces-complete-2-1",
   "level": "2",
-  "url": "eigen-spaces.html#eigen-spaces-2-1",
+  "url": "eigen-spaces-complete.html#eigen-spaces-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       We have some understanding of what eigenvectors and eigenvalues are, and why they matter. Now we'll learn how to find them in the finite-dimensional case using what we know about solving linear systems of equations.   "
 },
 {
-  "id": "eigen-spaces-2-2",
+  "id": "eigen-spaces-complete-2-2",
   "level": "2",
-  "url": "eigen-spaces.html#eigen-spaces-2-2",
+  "url": "eigen-spaces-complete.html#eigen-spaces-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Finding Eigenvalues and Eigenvectors.",
-  "body": " Finding Eigenvalues and Eigenvectors   Given an matrix , find non-zero and scalar such that   "
+  "body": " Finding Eigenvalues and Eigenvectors   Given an matrix , find non-zero and scalar such that     . This simplifies as If , then is invertible, and there is a unique solution ( ). However, if , then is not invertible, and there are infinitely many solutions.  So given , the problem reduces to finding such that . This computation gives a polynomial of degree , called the characteristic polynomial of  .   "
 },
 {
-  "id": "eigen-spaces-3-1",
+  "id": "eigen-spaces-complete-3-1",
   "level": "2",
-  "url": "eigen-spaces.html#eigen-spaces-3-1",
+  "url": "eigen-spaces-complete.html#eigen-spaces-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Finding Eigenvalues and Eigenvectors.",
-  "body": " Example: Finding Eigenvalues and Eigenvectors   Let .   "
+  "body": " Example: Finding Eigenvalues and Eigenvectors   Let .    The matrix is , which has determinant . So the eigenvalues of are .  To find the associated eigenvectors, we take each eigenvalue one at a time. If , then the matrix is , and we need to find all such that . This is a matrix equation representing a linear system, so we can use RREF of the associated augmented matrix to find the solution space: This corresponds to the solution space , called the eigenspace associated with .  If , we can follow work similar to the above to obtain    "
 },
 {
-  "id": "eigen-spaces-4-1",
+  "id": "eigen-spaces-complete-4-1",
   "level": "2",
-  "url": "eigen-spaces.html#eigen-spaces-4-1",
+  "url": "eigen-spaces-complete.html#eigen-spaces-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "More Eigenvalue Examples.",
-  "body": " More Eigenvalue Examples    Let .      Let .      Let .    "
+  "body": " More Eigenvalue Examples    Let .    Reasoning geometrically, we can see the eigenvalues are , with eigenspaces and .      Let .    The characteristic polynomial is , so the eigenvalues are . The augmented matrices needed to find the eigenvectors are complex-valued, but we can still use technology to find RREF and conclude that and .      Let .    The eigenvalues are , and and .    "
 },
 {
-  "id": "eigen-spaces-5-1",
+  "id": "eigen-spaces-complete-5-1",
   "level": "2",
-  "url": "eigen-spaces.html#eigen-spaces-5-1",
+  "url": "eigen-spaces-complete.html#eigen-spaces-complete-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Summary.",
-  "body": " Summary      "
+  "body": " Summary          Diagonal matrices show their eigenvalues on the diagonal (matrix ).    Some transformations on vector spaces over have no real eigenvalues (matrix ).    Some transformations on vector spaces over have only real eigenvalues, and in quantum mechanics, this is good! More specifically, if ( a vector space over )is Hermitian, then the eigenvalues of are all real!  This matters because a linear operator represents observables, and eigenvalues of these operators are the possible observed measurements; physical measurements should be real-valued!  This is why observables in quantum mechanics are represented by linear, Hermitian operators.      "
 },
 {
   "id": "eigen-functions",
@@ -1898,6 +1898,159 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "The Momentum Operator.",
   "body": " The Momentum Operator   Recall, the momentum operator is .   "
+},
+{
+  "id": "DE-intro",
+  "level": "1",
+  "url": "DE-intro.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Introduction to Differential Equations",
+  "body": " Introduction to Differential Equations    Motivation        First Examples   The following are all examples of differential equations.                                                               Vocabulary    Ordinary Differential Equation (ODE).      Partial Differential Equation (PDE).      Order.      (Spatial) Dimension.        Solutions.   A solution to a DE is any functions which satisfies the rules of the DE.      has solutions .       has solutions .       has solutions .        General vs. Specific Solutions   The solutions in the previous examples are general solutions . Without more information, this is the best we can do. The information needed for a specific solution typically comes in one of two forms:     Boundary Conditions.      Initial Conditions.      The number of conditions required is generally determined by        Examples: Specific Solutions   With boundary\/initial conditions, we can determine a specific solution from the general solution.      , .       , .      "
+},
+{
+  "id": "DE-intro-2-1",
+  "level": "2",
+  "url": "DE-intro.html#DE-intro-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "DE-intro-2-2",
+  "level": "2",
+  "url": "DE-intro.html#DE-intro-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "First Examples.",
+  "body": " First Examples   The following are all examples of differential equations.                                                           "
+},
+{
+  "id": "DE-intro-3-1",
+  "level": "2",
+  "url": "DE-intro.html#DE-intro-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Vocabulary.",
+  "body": " Vocabulary    Ordinary Differential Equation (ODE).      Partial Differential Equation (PDE).      Order.      (Spatial) Dimension.    "
+},
+{
+  "id": "DE-intro-4-1",
+  "level": "2",
+  "url": "DE-intro.html#DE-intro-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Solutions..",
+  "body": " Solutions.   A solution to a DE is any functions which satisfies the rules of the DE.      has solutions .       has solutions .       has solutions .    "
+},
+{
+  "id": "DE-intro-5-1",
+  "level": "2",
+  "url": "DE-intro.html#DE-intro-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "General vs. Specific Solutions.",
+  "body": " General vs. Specific Solutions   The solutions in the previous examples are general solutions . Without more information, this is the best we can do. The information needed for a specific solution typically comes in one of two forms:     Boundary Conditions.      Initial Conditions.      The number of conditions required is generally determined by    "
+},
+{
+  "id": "DE-intro-6-1",
+  "level": "2",
+  "url": "DE-intro.html#DE-intro-6-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Examples: Specific Solutions.",
+  "body": " Examples: Specific Solutions   With boundary\/initial conditions, we can determine a specific solution from the general solution.      , .       , .    "
+},
+{
+  "id": "ODE-solutions",
+  "level": "1",
+  "url": "ODE-solutions.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Solution Methods to ODEs",
+  "body": " Solution Methods to ODEs    Motivation        Separable ODEs   In calculus 1, you may have seen problems like .       Examples: Separable Equations                    Second-Order Linear with Constant Coefficients   A homogeneous second-order linear equation with constant coeefficients has the form . Solutions to this ODE are found by determining the roots of the characteristic polynomial :        Two distinct real roots .      Two complex conjugate roots, , .      One repeated real root .        Example: Solving a Second Order Initial Value Problem   Solve .     "
+},
+{
+  "id": "ODE-solutions-2-1",
+  "level": "2",
+  "url": "ODE-solutions.html#ODE-solutions-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "ODE-solutions-2-2",
+  "level": "2",
+  "url": "ODE-solutions.html#ODE-solutions-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Separable ODEs.",
+  "body": " Separable ODEs   In calculus 1, you may have seen problems like .   "
+},
+{
+  "id": "ODE-solutions-3-1",
+  "level": "2",
+  "url": "ODE-solutions.html#ODE-solutions-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Examples: Separable Equations.",
+  "body": " Examples: Separable Equations                "
+},
+{
+  "id": "ODE-solutions-4-1",
+  "level": "2",
+  "url": "ODE-solutions.html#ODE-solutions-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Second-Order Linear with Constant Coefficients.",
+  "body": " Second-Order Linear with Constant Coefficients   A homogeneous second-order linear equation with constant coeefficients has the form . Solutions to this ODE are found by determining the roots of the characteristic polynomial :        Two distinct real roots .      Two complex conjugate roots, , .      One repeated real root .    "
+},
+{
+  "id": "ODE-solutions-5-1",
+  "level": "2",
+  "url": "ODE-solutions.html#ODE-solutions-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Solving a Second Order Initial Value Problem.",
+  "body": " Example: Solving a Second Order Initial Value Problem   Solve .   "
+},
+{
+  "id": "PDE-solutions",
+  "level": "1",
+  "url": "PDE-solutions.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Solution Methods to PDEs",
+  "body": " Solution Methods to PDEs   Motivation        Separation of Variables   A common theme for solving PDEs is to do something to reduce it to multiple ODEs. This is what the method of separation of variables does, which we will illustrate with several examples.                          Using Boundary\/Initial Conditions   Consider the PDE with .    "
+},
+{
+  "id": "PDE-solutions-2",
+  "level": "2",
+  "url": "PDE-solutions.html#PDE-solutions-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation.",
+  "body": " Motivation      "
+},
+{
+  "id": "PDE-solutions-3",
+  "level": "2",
+  "url": "PDE-solutions.html#PDE-solutions-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Separation of Variables.",
+  "body": " Separation of Variables   A common theme for solving PDEs is to do something to reduce it to multiple ODEs. This is what the method of separation of variables does, which we will illustrate with several examples.                        "
+},
+{
+  "id": "PDE-solutions-4",
+  "level": "2",
+  "url": "PDE-solutions.html#PDE-solutions-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Using Boundary\/Initial Conditions.",
+  "body": " Using Boundary\/Initial Conditions   Consider the PDE with .   "
 },
 {
   "id": "lab1",
@@ -2258,6 +2411,42 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": "  Find the eigenvalues and eigenvectors for each linear transformation below. Show your work using the characteristic polynomial of each transformation to find eigenvalues, as well as the linear systems used to find eigenvectors.                          The following is a challenge problem (not required):     "
+},
+{
+  "id": "lab14",
+  "level": "1",
+  "url": "lab14.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Lab 14",
+  "body": " Lab 14    This lab is intended to practice ideas related to differential equations. It is an opportunity to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas if your interest is led somewhere else.  You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines for working together may be provided in class.       Identify each differential equation as an ODE or a PDE, and state its order.                           Consider the initial value problem , , . Find all non-trivial solutions .      Use the separation of variables method to transform each PDE below into two ODEs.                   "
+},
+{
+  "id": "lab14-3-1",
+  "level": "2",
+  "url": "lab14.html#lab14-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Identify each differential equation as an ODE or a PDE, and state its order.                        "
+},
+{
+  "id": "lab14-3-2",
+  "level": "2",
+  "url": "lab14.html#lab14-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the initial value problem , , . Find all non-trivial solutions .   "
+},
+{
+  "id": "lab14-3-3",
+  "level": "2",
+  "url": "lab14.html#lab14-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use the separation of variables method to transform each PDE below into two ODEs.                 "
 },
 {
   "id": "homework-3",
