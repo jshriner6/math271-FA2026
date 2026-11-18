@@ -210,6 +210,8 @@
 
       <xi:include href="./labs/lab14.ptx"/>
 
+     <!--  <xi:include href="./labs/lab15.ptx"/>-->
+
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="lab15">
+  <title>Lab 15</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This lab is intended to practice ideas related to solving partial differential equations. By the end, you'll have practiced
+      <ul>
+        <li>
+            <p>
+                Using the separation of variables method to reduce the PDE to ODEs,
+            </p>
+        </li>
+        <li>
+            <p>
+                Solving ODE boundary value problems, and
+            </p>
+        </li>
+        <li>
+            <p>
+              Determining Fourier coefficients to satisfy an initial condition. 
+            </p>
+        </li>
+      </ul>
+      In the first exercise, you'll also be able to visualize your final solution to verify it is reasonable.
+    </p>
+    <p>This is an opportunity
+      to explore important concepts with others, explain your understanding, and ask questions. As such, these exercises should
+      be thought of as a starting point for exploration, and you should feel free to ask related questions or explore related ideas
+      if your interest is led somewhere else.
+    </p>
+    <p>
+      You will be graded on effort and engagement during class time, not necessarily on completing every exercise. Guidelines
+      for working together may be provided in class.
+    </p>
+  </introduction>
+  
+<page>
+  <!-- Exercises start here. -->
+  <exercise>
+  <title>Heat Equation</title>
+    <introduction>
+      <p>
+			Follow the steps below to solve <m>u_t = u_{xx}</m> for <m>x \in [0,1]</m>, <m>t \gt 0</m>, and
+                    <md>
+                        u_x(0,t) = u_x(1,t)= 0
+                    </md>,
+                    <md>
+                        u(x,0) =  \begin{cases}
+                                    x \amp \text{if } x \in [0,0.5] \\
+                                    x - 0.5 \amp \text{if } x \in (0.5, 1]
+                                    \end{cases}
+                    </md>.
+      </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+        Use separation of variables to get two ODEs. 
+               
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+        Recognize the time ODE is separable, and write a general solution for it.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+             Use the boundary conditions for the PDE to establish boundary conditions
+             for the space ODE. Then find all solutions to the space ODE. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Identify the infinitely many product solutions we now have. Use superposition to 
+                write the general solution (it will be a series solution).
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the initial condition to determine the Fourier coefficients in your general solution (do not simplify them).
+                It will be useful to reference the <url href="https://jshriner6.github.io/math271-FA2026/course/orthogonal-functions-complete.html">important exmaples of orthogonal sets</url>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Enter your Fourier series solution into <url href="https://www.desmos.com/3d">Desmos</url> and verify your solution is reasonable.
+            </p>
+        </statement>
+    </task>
+
+    
+    
+</exercise>
+
+
+
+</page>
+
+<page>
+    <exercise>
+  <title>Schrödinger's Equation</title>
+    <introduction>
+      <p>
+			Follow the steps below to solve <m>i\overline{h}\psi_t = -\frac{\overline{h}^2}{2}\psi_{xx}</m> for <m>x \in [0,2]</m>, <m>t \gt 0</m>, and
+                    <md>
+                        \psi(0) = \psi(2)= 0
+                    </md>,
+                    <md>
+                        \psi(x,0)= \frac{1}{\sqrt{2}}
+                    </md>.
+      </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+        Use separation of variables to get two ODEs. 
+               
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+        Recognize the time ODE is separable, and write a general solution for it.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+             Use the boundary conditions for the PDE to establish boundary conditions
+             for the space ODE. Then find all (normalized) solutions to the space ODE. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Identify the infinitely many product solutions we now have. Use superposition to 
+                write the general solution (it will be a series solution).
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the initial condition to determine the Fourier coefficients in your general solution (do not simplify them).
+                It will be useful to reference the <url href="https://jshriner6.github.io/math271-FA2026/course/orthogonal-functions-complete.html">important exmaples of orthogonal sets</url>.
+                Then 
+                write your particular solution as a series solution.
+            </p>
+        </statement>
+    </task>
+
+    
+    
+</exercise>
+</page>
+
+
+</worksheet>
