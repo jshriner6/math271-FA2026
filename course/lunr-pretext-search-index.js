@@ -1855,49 +1855,49 @@ var ptx_lunr_docs = [
   "body": " Summary          Diagonal matrices show their eigenvalues on the diagonal (matrix ).    Some transformations on vector spaces over have no real eigenvalues (matrix ).    Some transformations on vector spaces over have only real eigenvalues, and in quantum mechanics, this is good! More specifically, if ( a vector space over )is Hermitian, then the eigenvalues of are all real!  This matters because a linear operator represents observables, and eigenvalues of these operators are the possible observed measurements; physical measurements should be real-valued!  This is why observables in quantum mechanics are represented by linear, Hermitian operators.      "
 },
 {
-  "id": "eigen-functions",
+  "id": "eigen-functions-complete",
   "level": "1",
-  "url": "eigen-functions.html",
+  "url": "eigen-functions-complete.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Eigenfunctions",
-  "body": " Eigenfunctions    Motivation        The Position Operator   Recall, the position operator is , .       The Dirac Delta Function   Eigenfunctions of the position operator are Dirac Delta Functions . We can construct them as follows.       The Momentum Operator   Recall, the momentum operator is .     "
+  "title": "Eigenfunctions (Complete)",
+  "body": " Eigenfunctions (Complete)    Motivation       Now that we have some basics of eigenvalues and eigenvectors, we'll look at some specific examples from quantum mechanics.     The Position Operator   Recall, the position operator is , .    The eigen-problem is then . Eigenvectors to problems in this context of function spaces are called eigenfunctions . This seems like an issue: how can be the same as a constant times for every ?  The intuition here is that every should be a possible observed outcome for the position of a particle. So for , we need eigenfunctions whose entire support is at , and everywhere else. For example, if , the idea is something like Such a function would capture .       The Dirac Delta Function   Eigenfunctions of the position operator are Dirac Delta Functions . We can construct them as follows.    Consider a collection of functions of the form . See the Dirac Delta Desmos calculator for a visual of these functions.  The Dirac Delta function  is defined as , which as seen in the visual satisfies the intuition , and more generally   The defining properties of the dirac delta are how it behaves under integration:    and          The set of functions , where is a normalized, orthogonal set in the following sense: . Note that this differs from our previous notion of normalized, orthogonal sets only in that the inner product of a function with itself is not finite. Obtaining functions satisfying is called delta function normalization .          The Momentum Operator   Recall, the momentum operator is .    The eigen problem here is , which is an example of a differential equation (more soon). We can verify that the eigenfunctions are , with eigenvalue .  We can't normalize these functions in the traditional sense, but we can delta function normalize them: . The last equality uses facts of dirac delta that are beyond the scope of our course, but we can use it to delta function normalize the eigenfunctions of the momentum operator. That is, when , so the delta function normalized eigenfunctions of are for .     "
 },
 {
-  "id": "eigen-functions-2-1",
+  "id": "eigen-functions-complete-2-1",
   "level": "2",
-  "url": "eigen-functions.html#eigen-functions-2-1",
+  "url": "eigen-functions-complete.html#eigen-functions-complete-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation.",
-  "body": " Motivation      "
+  "body": " Motivation       Now that we have some basics of eigenvalues and eigenvectors, we'll look at some specific examples from quantum mechanics.   "
 },
 {
-  "id": "eigen-functions-2-2",
+  "id": "eigen-functions-complete-2-2",
   "level": "2",
-  "url": "eigen-functions.html#eigen-functions-2-2",
+  "url": "eigen-functions-complete.html#eigen-functions-complete-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "The Position Operator.",
-  "body": " The Position Operator   Recall, the position operator is , .   "
+  "body": " The Position Operator   Recall, the position operator is , .    The eigen-problem is then . Eigenvectors to problems in this context of function spaces are called eigenfunctions . This seems like an issue: how can be the same as a constant times for every ?  The intuition here is that every should be a possible observed outcome for the position of a particle. So for , we need eigenfunctions whose entire support is at , and everywhere else. For example, if , the idea is something like Such a function would capture .   "
 },
 {
-  "id": "eigen-functions-3-1",
+  "id": "eigen-functions-complete-3-1",
   "level": "2",
-  "url": "eigen-functions.html#eigen-functions-3-1",
+  "url": "eigen-functions-complete.html#eigen-functions-complete-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "The Dirac Delta “Function”.",
-  "body": " The Dirac Delta Function   Eigenfunctions of the position operator are Dirac Delta Functions . We can construct them as follows.   "
+  "body": " The Dirac Delta Function   Eigenfunctions of the position operator are Dirac Delta Functions . We can construct them as follows.    Consider a collection of functions of the form . See the Dirac Delta Desmos calculator for a visual of these functions.  The Dirac Delta function  is defined as , which as seen in the visual satisfies the intuition , and more generally   The defining properties of the dirac delta are how it behaves under integration:    and          The set of functions , where is a normalized, orthogonal set in the following sense: . Note that this differs from our previous notion of normalized, orthogonal sets only in that the inner product of a function with itself is not finite. Obtaining functions satisfying is called delta function normalization .      "
 },
 {
-  "id": "eigen-functions-4-1",
+  "id": "eigen-functions-complete-4-1",
   "level": "2",
-  "url": "eigen-functions.html#eigen-functions-4-1",
+  "url": "eigen-functions-complete.html#eigen-functions-complete-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "The Momentum Operator.",
-  "body": " The Momentum Operator   Recall, the momentum operator is .   "
+  "body": " The Momentum Operator   Recall, the momentum operator is .    The eigen problem here is , which is an example of a differential equation (more soon). We can verify that the eigenfunctions are , with eigenvalue .  We can't normalize these functions in the traditional sense, but we can delta function normalize them: . The last equality uses facts of dirac delta that are beyond the scope of our course, but we can use it to delta function normalize the eigenfunctions of the momentum operator. That is, when , so the delta function normalized eigenfunctions of are for .   "
 },
 {
   "id": "DE-intro",
