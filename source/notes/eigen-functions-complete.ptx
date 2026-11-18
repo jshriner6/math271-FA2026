@@ -102,7 +102,7 @@
                     <li>
                         <p>
                             The set of functions <m>\{\psi_{x_0}\}_{x_0 \in \R}</m>, where <m>\psi_{x_0} = \delta(x-x_0)</m> is 
-                            an orthogonal set in the following sense:
+                            a normalized, orthogonal set in the following sense:
                             <md>
                                 <mrow>\langle \psi_a, \psi _b \rangle \amp= \int_{-\infty}^\infty \overline{\psi}_a \cdot \psi_b \,\, dx </mrow>
                                 <mrow> \amp= \int_{-\infty}^\infty \delta(x-a) \cdot \delta(x-b) \,\, dx </mrow>
@@ -112,8 +112,8 @@
                             \infty \amp \text{ if } a =b
                         \end{cases}</mrow>
                             </md>.
-                            Note that this differs from our previous notion of orthogonality only in that the inner product of a function with itself is not finite.
-                            Obtaining functions satisfying this notion of orthogonality is called <term>delta function normalization</term>.
+                            Note that this differs from our previous notion of normalized, orthogonal sets only in that the inner product of a function with itself is not finite.
+                            Obtaining functions satisfying <m>\langle \psi_a,\psi_b\rangle = \delta(a-b)</m> is called <term>delta function normalization</term>.
                             
                         </p>
                     </li>
@@ -147,7 +147,7 @@
                     <mrow> \langle \psi_p, \psi_{p'}\rangle \amp= \int_{-\infty}^\infty \overline{\psi_p} \cdot \psi_{p'} \,\, dx </mrow>
                     <mrow> \amp=|A|^2 \cdot 2\pi \overline{h}\delta(p'-p) </mrow>
                 </md>.
-                The last equality uses facts of dirac delta that are beyond the scope of our course, but we can use it delta function 
+                The last equality uses facts of dirac delta that are beyond the scope of our course, but we can use it to delta function 
                 normalize the eigenfunctions of the momentum operator. That is,
                 <md>
                     \langle A e^{ipx/\overline{h}}, A e^{ip'x/\overline{h}} \rangle = \delta(p'-p)
